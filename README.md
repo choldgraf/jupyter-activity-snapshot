@@ -7,6 +7,8 @@ as the [Jupyter Community Forum](https://discourse.jupyter.org).
 All analyses and visualizations are created with Jupyter Notebooks, and generated
 as "reports" using [the papermill library](https://github.com/nteract/papermill).
 
+## Viewing the reports
+
 The reports are [best viewed on nbviewer](https://nbviewer.jupyter.org/github/choldgraf/jupyter-activity-snapshot/blob/master/reports/). You'll see a few folders representing activity
 in different moments in time. Click on the folder and then on the report that
 you'd like to see.
