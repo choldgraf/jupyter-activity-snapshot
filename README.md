@@ -1,5 +1,9 @@
 # Jupyter Community Activity
 
+## NBViewer links
+
+**[Click here to view a list of reports](https://nbviewer.jupyter.org/github/choldgraf/jupyter-activity-snapshot/blob/master/reports/)**
+
 This repository is an experiment in collecting and visualizing recent activity
 in the Jupyter communities. It covers several different GitHub organizations, as well
 as the [Jupyter Community Forum](https://discourse.jupyter.org).
@@ -18,3 +22,5 @@ scraped from the GitHub and Discourse APIs. That means we are missing a lot of r
 important activity that is difficult to scrape automatically. Don't treat the numbers
 in these reports as the total truth - they are just one view on the complex web of
 activity that is the Jupyter community.
+
+Note, if the information on a page looks outdated, try flushing the nbviewer cache with `?flush_cache=true` in the URL.
