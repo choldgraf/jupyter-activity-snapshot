@@ -30,6 +30,13 @@ base_elements = """\
         createdAt
         updatedAt
         closedAt
+        labels(first: 10) {
+            edges {
+                node {
+                    name
+                }
+            }
+        }
         number
         authorAssociation
         author {
@@ -50,6 +57,9 @@ gql_template = """\
         {base_elements}
         mergedBy {{
           login
+        }}
+        mergeCommit {{
+          oid
         }}
         {comments}
       }}
