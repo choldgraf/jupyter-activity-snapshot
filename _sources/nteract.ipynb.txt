@@ -1,0 +1,2044 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.019926,
+     "end_time": "2020-05-08T05:13:58.758222",
+     "exception": false,
+     "start_time": "2020-05-08T05:13:58.738296",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# {glue:text}`nteract_github_org`\n",
+    "\n",
+    "**Activity from {glue:}`nteract_start` to {glue:}`nteract_stop`**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:13:58.805891Z",
+     "iopub.status.busy": "2020-05-08T05:13:58.805320Z",
+     "iopub.status.idle": "2020-05-08T05:14:00.248565Z",
+     "shell.execute_reply": "2020-05-08T05:14:00.247401Z"
+    },
+    "papermill": {
+     "duration": 1.46968,
+     "end_time": "2020-05-08T05:14:00.248694",
+     "exception": false,
+     "start_time": "2020-05-08T05:13:58.779014",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "import github_activity as ga\n",
+    "from datetime import date\n",
+    "from dateutil.relativedelta import relativedelta\n",
+    "from myst_nb import glue\n",
+    "import seaborn as sns\n",
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import altair as alt\n",
+    "from markdown import markdown\n",
+    "from IPython.display import Markdown\n",
+    "from ipywidgets.widgets import HTML, Tab\n",
+    "from ipywidgets import widgets\n",
+    "from datetime import timedelta\n",
+    "from matplotlib import pyplot as plt\n",
+    "import os.path as op\n",
+    "\n",
+    "from warnings import simplefilter\n",
+    "simplefilter('ignore')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:00.354879Z",
+     "iopub.status.busy": "2020-05-08T05:14:00.354253Z",
+     "iopub.status.idle": "2020-05-08T05:14:00.358803Z",
+     "shell.execute_reply": "2020-05-08T05:14:00.358208Z"
+    },
+    "papermill": {
+     "duration": 0.036019,
+     "end_time": "2020-05-08T05:14:00.358915",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:00.322896",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "# Altair config\n",
+    "def author_url(author):\n",
+    "    return f\"https://github.com/{author}\"\n",
+    "\n",
+    "def alt_theme():\n",
+    "    return {\n",
+    "        'config': {\n",
+    "            'axisLeft': {\n",
+    "                'labelFontSize': 15,\n",
+    "            },\n",
+    "            'axisBottom': {\n",
+    "                'labelFontSize': 15,\n",
+    "            },\n",
+    "        }\n",
+    "    }\n",
+    "\n",
+    "alt.themes.register('my_theme', alt_theme)\n",
+    "alt.themes.enable(\"my_theme\")\n",
+    "\n",
+    "\n",
+    "# Define colors we'll use for GitHub membership\n",
+    "author_types = ['MEMBER', 'CONTRIBUTOR', 'COLLABORATOR', \"NONE\"]\n",
+    "\n",
+    "author_palette = np.array(sns.palettes.blend_palette([\"lightgrey\", \"lightgreen\", \"darkgreen\"], 4)) * 256\n",
+    "author_colors = [\"rgb({}, {}, {})\".format(*color) for color in author_palette]\n",
+    "author_color_dict = {key: val for key, val in zip(author_types, author_palette)}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:00.401958Z",
+     "iopub.status.busy": "2020-05-08T05:14:00.401336Z",
+     "iopub.status.idle": "2020-05-08T05:14:00.402927Z",
+     "shell.execute_reply": "2020-05-08T05:14:00.403507Z"
+    },
+    "papermill": {
+     "duration": 0.025721,
+     "end_time": "2020-05-08T05:14:00.403651",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:00.377930",
+     "status": "completed"
+    },
+    "tags": [
+     "parameters",
+     "hide_input",
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "github_org = \"jupyterhub\"\n",
+    "top_n_repos = 10\n",
+    "n_days = 30"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:00.455323Z",
+     "iopub.status.busy": "2020-05-08T05:14:00.454302Z",
+     "iopub.status.idle": "2020-05-08T05:14:00.456338Z",
+     "shell.execute_reply": "2020-05-08T05:14:00.457219Z"
+    },
+    "papermill": {
+     "duration": 0.031559,
+     "end_time": "2020-05-08T05:14:00.457358",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:00.425799",
+     "status": "completed"
+    },
+    "tags": [
+     "injected-parameters",
+     "remove-cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "# Parameters\n",
+    "github_org = \"nteract\"\n",
+    "n_days = 30\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:00.505115Z",
+     "iopub.status.busy": "2020-05-08T05:14:00.504529Z",
+     "iopub.status.idle": "2020-05-08T05:14:00.510123Z",
+     "shell.execute_reply": "2020-05-08T05:14:00.509604Z"
+    },
+    "papermill": {
+     "duration": 0.033005,
+     "end_time": "2020-05-08T05:14:00.510230",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:00.477225",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/papermill.record/text/plain": "'nteract'"
+     },
+     "metadata": {
+      "scrapbook": {
+       "mime_prefix": "application/papermill.record/",
+       "name": "nteract_github_org"
+      }
+     },
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "application/papermill.record/text/plain": "'2020-04'"
+     },
+     "metadata": {
+      "scrapbook": {
+       "mime_prefix": "application/papermill.record/",
+       "name": "nteract_start"
+      }
+     },
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "application/papermill.record/text/plain": "'2020-05'"
+     },
+     "metadata": {
+      "scrapbook": {
+       "mime_prefix": "application/papermill.record/",
+       "name": "nteract_stop"
+      }
+     },
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "############################################################\n",
+    "# Variables\n",
+    "stop = date.today()\n",
+    "start = date.today() - relativedelta(days=n_days)\n",
+    "\n",
+    "# Strings for use in queries\n",
+    "start_date = f\"{start:%Y-%m}\"\n",
+    "stop_date = f\"{stop:%Y-%m}\"\n",
+    "\n",
+    "# Glue variables for use in markdown\n",
+    "glue(f\"{github_org}_github_org\", github_org, display=False)\n",
+    "glue(f\"{github_org}_start\", start_date, display=False)\n",
+    "glue(f\"{github_org}_stop\", stop_date, display=False)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:00.569888Z",
+     "iopub.status.busy": "2020-05-08T05:14:00.569249Z",
+     "iopub.status.idle": "2020-05-08T05:14:10.388618Z",
+     "shell.execute_reply": "2020-05-08T05:14:10.387608Z"
+    },
+    "papermill": {
+     "duration": 9.855575,
+     "end_time": "2020-05-08T05:14:10.388732",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:00.533157",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Running search query:\n",
+      "user:nteract\n",
+      "\n",
+      "\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Found 151 items, which will take 4 pages\n"
+     ]
+    },
+    {
+     "data": {
+      "application/vnd.jupyter.widget-view+json": {
+       "model_id": "11d93457220a4767b9fcfad10b40448e",
+       "version_major": 2,
+       "version_minor": 0
+      },
+      "text/plain": [
+       "IntProgress(value=0, description='Downloading:', max=4)"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Found 143 items, which will take 3 pages\n"
+     ]
+    },
+    {
+     "data": {
+      "application/vnd.jupyter.widget-view+json": {
+       "model_id": "7ed736e3afdc4c7c860c719833575663",
+       "version_major": 2,
+       "version_minor": 0
+      },
+      "text/plain": [
+       "IntProgress(value=0, description='Downloading:', max=3)"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "############################################################\n",
+    "# Fetch the raw data and load data we need\n",
+    "raw_data = ga.get_activity(github_org, start_date)\n",
+    "bot_names = pd.read_csv('../templates/bot_names.csv')['names'].tolist()\n",
+    "data = raw_data.copy()\n",
+    "\n",
+    "# Prepare our data\n",
+    "data[\"kind\"] = data[\"url\"].map(lambda a: \"issue\" if \"issues/\" in a else \"pr\")\n",
+    "data[\"mergedBy\"] = data[\"mergedBy\"].map(lambda a: a[\"login\"] if not isinstance(a, (float, type(None))) else None)\n",
+    "\n",
+    "prs = data.query(\"kind == 'pr'\")\n",
+    "issues = data.query(\"kind == 'issue'\")\n",
+    "\n",
+    "# Pull out the comments\n",
+    "comments = []\n",
+    "for _, irow in data.iterrows():\n",
+    "    for icomment in irow['comments']['edges']:\n",
+    "        icomment = icomment[\"node\"].copy()\n",
+    "        icomment[\"author\"] = icomment[\"author\"][\"login\"] if icomment[\"author\"] else None\n",
+    "        icomment[\"org\"] = irow[\"org\"]\n",
+    "        icomment[\"repo\"] = irow[\"repo\"]\n",
+    "        icomment[\"id\"] = irow[\"id\"]\n",
+    "        comments.append(pd.Series(icomment))\n",
+    "comments = pd.DataFrame(comments)\n",
+    "\n",
+    "# Clean up\n",
+    "for idata in [prs, comments, issues]:\n",
+    "    idata.query(\"author not in @bot_names\", inplace=True)\n",
+    "    idata.drop_duplicates(subset=[\"url\"], inplace=True)\n",
+    "\n",
+    "# What are the top N repos, we will only plot these in the full data plots\n",
+    "top_commented_repos = comments.groupby(\"repo\").count().sort_values(\"createdAt\", ascending=False)['createdAt']\n",
+    "use_repos = top_commented_repos.head(top_n_repos).index.tolist()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.022977,
+     "end_time": "2020-05-08T05:14:10.436594",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.413617",
+     "status": "completed"
+    },
+    "tags": [],
+    "toc-hr-collapsed": false
+   },
+   "source": [
+    "## Merged Pull requests\n",
+    "\n",
+    "Here's an analysis of **merged pull requests** across each of the repositories in the Jupyter\n",
+    "ecosystem."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:10.491050Z",
+     "iopub.status.busy": "2020-05-08T05:14:10.490462Z",
+     "iopub.status.idle": "2020-05-08T05:14:10.492767Z",
+     "shell.execute_reply": "2020-05-08T05:14:10.493317Z"
+    },
+    "papermill": {
+     "duration": 0.034217,
+     "end_time": "2020-05-08T05:14:10.493446",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.459229",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "merged = prs.query('state == \"MERGED\" and closedAt > @start_date and closedAt < @stop_date')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:10.568422Z",
+     "iopub.status.busy": "2020-05-08T05:14:10.562032Z",
+     "iopub.status.idle": "2020-05-08T05:14:10.585639Z",
+     "shell.execute_reply": "2020-05-08T05:14:10.585038Z"
+    },
+    "papermill": {
+     "duration": 0.068249,
+     "end_time": "2020-05-08T05:14:10.585793",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.517544",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-dbf6f60ac6a84f35bb55a3bedc9fb7b4\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-dbf6f60ac6a84f35bb55a3bedc9fb7b4\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-dbf6f60ac6a84f35bb55a3bedc9fb7b4\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-f47eb2d98c7b41ad64241775b5b834a7\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"org\"}, \"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"nteract\", \"pick\", \"papermill\", \"commuter\", \"hydrogen\", \"testbook\", \"data-explorer\", \"jupyter-paths\", \"markdown\", \"outputs\", \"scrapbook\", \"semiotic\", \"spawnteract\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"author\"}}, \"title\": \"Merged PRs in the last 30 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-f47eb2d98c7b41ad64241775b5b834a7\": [{\"org\": \"nteract\", \"repo\": \"nteract\", \"author\": 16}, {\"org\": \"nteract\", \"repo\": \"pick\", \"author\": 12}, {\"org\": \"nteract\", \"repo\": \"papermill\", \"author\": 3}, {\"org\": \"nteract\", \"repo\": \"commuter\", \"author\": 2}, {\"org\": \"nteract\", \"repo\": \"hydrogen\", \"author\": 2}, {\"org\": \"nteract\", \"repo\": \"testbook\", \"author\": 2}, {\"org\": \"nteract\", \"repo\": \"data-explorer\", \"author\": 1}, {\"org\": \"nteract\", \"repo\": \"jupyter-paths\", \"author\": 1}, {\"org\": \"nteract\", \"repo\": \"markdown\", \"author\": 1}, {\"org\": \"nteract\", \"repo\": \"outputs\", \"author\": 1}, {\"org\": \"nteract\", \"repo\": \"scrapbook\", \"author\": 1}, {\"org\": \"nteract\", \"repo\": \"semiotic\", \"author\": 1}, {\"org\": \"nteract\", \"repo\": \"spawnteract\", \"author\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.Chart(...)"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "prs_by_repo = merged.groupby(['org', 'repo']).count()['author'].reset_index().sort_values(['org', 'author'], ascending=False)\n",
+    "alt.Chart(data=prs_by_repo, title=f\"Merged PRs in the last {n_days} days\").mark_bar().encode(\n",
+    "    x=alt.X('repo', sort=prs_by_repo['repo'].values.tolist()),\n",
+    "    y='author',\n",
+    "    color='org'\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.022707,
+     "end_time": "2020-05-08T05:14:10.631779",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.609072",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Authoring and merging stats by repository\n",
+    "\n",
+    "Let's see who has been doing most of the PR authoring and merging. The PR author is generally the\n",
+    "person that implemented a change in the repository (code, documentation, etc). The PR merger is\n",
+    "the person that \"pressed the green button\" and got the change into the main codebase."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:10.696730Z",
+     "iopub.status.busy": "2020-05-08T05:14:10.687408Z",
+     "iopub.status.idle": "2020-05-08T05:14:10.708421Z",
+     "shell.execute_reply": "2020-05-08T05:14:10.707899Z"
+    },
+    "papermill": {
+     "duration": 0.051817,
+     "end_time": "2020-05-08T05:14:10.708526",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.656709",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "# Prep our merging DF\n",
+    "merged_by_repo = merged.groupby(['repo', 'author'], as_index=False).agg({'id': 'count', 'authorAssociation': 'first'}).rename(columns={'id': \"authored\", 'author': 'username'})\n",
+    "closed_by_repo = merged.groupby(['repo', 'mergedBy']).count()['id'].reset_index().rename(columns={'id': \"closed\", \"mergedBy\": \"username\"})"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:10.786759Z",
+     "iopub.status.busy": "2020-05-08T05:14:10.785562Z",
+     "iopub.status.idle": "2020-05-08T05:14:10.788617Z",
+     "shell.execute_reply": "2020-05-08T05:14:10.789165Z"
+    },
+    "papermill": {
+     "duration": 0.0576,
+     "end_time": "2020-05-08T05:14:10.789296",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.731696",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-420e11251fa1496b84fc5a11f93baa61\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-420e11251fa1496b84fc5a11f93baa61\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-420e11251fa1496b84fc5a11f93baa61\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-bfd9e624ea2064887b9424b9a08ce150\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"authored\"}}, \"title\": \"PR authors for nteract in the last 30 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-bfd9e624ea2064887b9424b9a08ce150\": [{\"username\": \"rgbkrk\", \"authored\": 10, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"captainsafia\", \"authored\": 7, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"jarmokivekas\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"rohitsanj\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"dependabot\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"gitanuj\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"BenRussert\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"nikolasvargas\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"vijayupadya\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"torioLuz\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"tirkarthi\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"sasan-j\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ramantehlan\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"nils-werner\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"huonw\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"CindyPotvin\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"haraldschilly\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"emeeks\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"daxian-dbw\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"blink1073\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"bastiandavid\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"aviatesk\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"Gozala\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"willingc\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.Chart(...)"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "charts = []\n",
+    "title = f\"PR authors for {github_org} in the last {n_days} days\"\n",
+    "this_data = merged_by_repo.replace(np.nan, 0).groupby('username', as_index=False).agg({'authored': 'sum', 'authorAssociation': 'first'})\n",
+    "this_data = this_data.sort_values('authored', ascending=False)\n",
+    "ch = alt.Chart(data=this_data, title=title).mark_bar().encode(\n",
+    "    x='username',\n",
+    "    y='authored',\n",
+    "    color=alt.Color('authorAssociation', scale=alt.Scale(domain=author_types, range=author_colors))\n",
+    ")\n",
+    "ch"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:10.861107Z",
+     "iopub.status.busy": "2020-05-08T05:14:10.850141Z",
+     "iopub.status.idle": "2020-05-08T05:14:10.864162Z",
+     "shell.execute_reply": "2020-05-08T05:14:10.863639Z"
+    },
+    "papermill": {
+     "duration": 0.049679,
+     "end_time": "2020-05-08T05:14:10.864267",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.814588",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-9ed215f7321640baaf1099043c248401\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-9ed215f7321640baaf1099043c248401\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-9ed215f7321640baaf1099043c248401\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-6154e57df65a53aaf37a1c0bf2498cb5\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"closed\"}}, \"title\": \"Merges for nteract in the last 30 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-6154e57df65a53aaf37a1c0bf2498cb5\": [{\"repo\": \"commuter\", \"username\": \"captainsafia\", \"closed\": 2}, {\"repo\": \"data-explorer\", \"username\": \"emeeks\", \"closed\": 1}, {\"repo\": \"hydrogen\", \"username\": \"aviatesk\", \"closed\": 1}, {\"repo\": \"hydrogen\", \"username\": \"wadethestealth\", \"closed\": 1}, {\"repo\": \"jupyter-paths\", \"username\": \"rgbkrk\", \"closed\": 1}, {\"repo\": \"markdown\", \"username\": \"captainsafia\", \"closed\": 1}, {\"repo\": \"nteract\", \"username\": \"captainsafia\", \"closed\": 12}, {\"repo\": \"nteract\", \"username\": \"jdetle\", \"closed\": 3}, {\"repo\": \"nteract\", \"username\": \"ramantehlan\", \"closed\": 1}, {\"repo\": \"outputs\", \"username\": \"captainsafia\", \"closed\": 1}, {\"repo\": \"papermill\", \"username\": \"MSeal\", \"closed\": 3}, {\"repo\": \"pick\", \"username\": \"rgbkrk\", \"closed\": 12}, {\"repo\": \"scrapbook\", \"username\": \"MSeal\", \"closed\": 1}, {\"repo\": \"semiotic\", \"username\": \"emeeks\", \"closed\": 1}, {\"repo\": \"spawnteract\", \"username\": \"rgbkrk\", \"closed\": 1}, {\"repo\": \"testbook\", \"username\": \"MSeal\", \"closed\": 2}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.Chart(...)"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "charts = []\n",
+    "title = f\"Merges for {github_org} in the last {n_days} days\"\n",
+    "ch = alt.Chart(data=closed_by_repo.replace(np.nan, 0), title=title).mark_bar().encode(\n",
+    "    x='username',\n",
+    "    y='closed',\n",
+    ")\n",
+    "ch"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.023551,
+     "end_time": "2020-05-08T05:14:10.911300",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.887749",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Issues\n",
+    "\n",
+    "Issues are **conversations** that happen on our GitHub repositories. Here's an\n",
+    "analysis of issues across the Jupyter organizations."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:10.975229Z",
+     "iopub.status.busy": "2020-05-08T05:14:10.974672Z",
+     "iopub.status.idle": "2020-05-08T05:14:10.976372Z",
+     "shell.execute_reply": "2020-05-08T05:14:10.976901Z"
+    },
+    "papermill": {
+     "duration": 0.040457,
+     "end_time": "2020-05-08T05:14:10.977030",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:10.936573",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "created = issues.query('state == \"OPEN\" and createdAt > @start_date and createdAt < @stop_date')\n",
+    "closed = issues.query('state == \"CLOSED\" and closedAt > @start_date and closedAt < @stop_date')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.032998Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.032434Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.058798Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.059577Z"
+    },
+    "papermill": {
+     "duration": 0.058933,
+     "end_time": "2020-05-08T05:14:11.059755",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.000822",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-5e175f2e9f604b58b3a60e13a94a5291\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-5e175f2e9f604b58b3a60e13a94a5291\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-5e175f2e9f604b58b3a60e13a94a5291\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-7046dde00732440bde1e4c4ccfb57bb9\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"hydrogen\", \"nteract\", \"papermill\", \"jupyter-paths\", \"testbook\", \"ansi-to-react\", \"commuter\", \"data-explorer\", \"outputs\", \"pick\", \"scrapbook\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 30 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-7046dde00732440bde1e4c4ccfb57bb9\": [{\"org\": \"nteract\", \"repo\": \"ansi-to-react\", \"number\": 1, \"org/repo\": \"nteract/ansi-to-react\"}, {\"org\": \"nteract\", \"repo\": \"commuter\", \"number\": 1, \"org/repo\": \"nteract/commuter\"}, {\"org\": \"nteract\", \"repo\": \"data-explorer\", \"number\": 1, \"org/repo\": \"nteract/data-explorer\"}, {\"org\": \"nteract\", \"repo\": \"hydrogen\", \"number\": 6, \"org/repo\": \"nteract/hydrogen\"}, {\"org\": \"nteract\", \"repo\": \"jupyter-paths\", \"number\": 2, \"org/repo\": \"nteract/jupyter-paths\"}, {\"org\": \"nteract\", \"repo\": \"nteract\", \"number\": 6, \"org/repo\": \"nteract/nteract\"}, {\"org\": \"nteract\", \"repo\": \"outputs\", \"number\": 1, \"org/repo\": \"nteract/outputs\"}, {\"org\": \"nteract\", \"repo\": \"papermill\", \"number\": 5, \"org/repo\": \"nteract/papermill\"}, {\"org\": \"nteract\", \"repo\": \"pick\", \"number\": 1, \"org/repo\": \"nteract/pick\"}, {\"org\": \"nteract\", \"repo\": \"scrapbook\", \"number\": 1, \"org/repo\": \"nteract/scrapbook\"}, {\"org\": \"nteract\", \"repo\": \"testbook\", \"number\": 2, \"org/repo\": \"nteract/testbook\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.Chart(...)"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "created_counts = created.groupby(['org', 'repo']).count()['number'].reset_index()\n",
+    "created_counts['org/repo'] = created_counts.apply(lambda a: a['org'] + '/' + a['repo'], axis=1)\n",
+    "sorted_vals = created_counts.sort_values(['org', 'number'], ascending=False)['repo'].values\n",
+    "alt.Chart(data=created_counts, title=f\"Issues created in the last {n_days} days\").mark_bar().encode(\n",
+    "    x=alt.X('repo', sort=alt.Sort(sorted_vals.tolist())),\n",
+    "    y='number',\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.126945Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.126357Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.145321Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.145873Z"
+    },
+    "papermill": {
+     "duration": 0.058505,
+     "end_time": "2020-05-08T05:14:11.146005",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.087500",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-766a500d56594e11b1a05631f8a8f7eb\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-766a500d56594e11b1a05631f8a8f7eb\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-766a500d56594e11b1a05631f8a8f7eb\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-24f58eaf227ef2eb51e28aa7bfadfe99\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"nteract\", \"pick\", \"data-explorer\", \"hydrogen\", \"scrapbook\", \"papermill\", \"commuter\", \"markdown\", \"semiotic\", \"testbook\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues closed in the last 30 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-24f58eaf227ef2eb51e28aa7bfadfe99\": [{\"org\": \"nteract\", \"repo\": \"commuter\", \"number\": 1, \"org/repo\": \"nteract/commuter\"}, {\"org\": \"nteract\", \"repo\": \"data-explorer\", \"number\": 3, \"org/repo\": \"nteract/data-explorer\"}, {\"org\": \"nteract\", \"repo\": \"hydrogen\", \"number\": 3, \"org/repo\": \"nteract/hydrogen\"}, {\"org\": \"nteract\", \"repo\": \"markdown\", \"number\": 1, \"org/repo\": \"nteract/markdown\"}, {\"org\": \"nteract\", \"repo\": \"nteract\", \"number\": 12, \"org/repo\": \"nteract/nteract\"}, {\"org\": \"nteract\", \"repo\": \"papermill\", \"number\": 2, \"org/repo\": \"nteract/papermill\"}, {\"org\": \"nteract\", \"repo\": \"pick\", \"number\": 4, \"org/repo\": \"nteract/pick\"}, {\"org\": \"nteract\", \"repo\": \"scrapbook\", \"number\": 3, \"org/repo\": \"nteract/scrapbook\"}, {\"org\": \"nteract\", \"repo\": \"semiotic\", \"number\": 1, \"org/repo\": \"nteract/semiotic\"}, {\"org\": \"nteract\", \"repo\": \"testbook\", \"number\": 1, \"org/repo\": \"nteract/testbook\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.Chart(...)"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "closed_counts = closed.groupby(['org', 'repo']).count()['number'].reset_index()\n",
+    "closed_counts['org/repo'] = closed_counts.apply(lambda a: a['org'] + '/' + a['repo'], axis=1)\n",
+    "sorted_vals = closed_counts.sort_values(['number'], ascending=False)['repo'].values\n",
+    "alt.Chart(data=closed_counts, title=f\"Issues closed in the last {n_days} days\").mark_bar().encode(\n",
+    "    x=alt.X('repo', sort=alt.Sort(sorted_vals.tolist())),\n",
+    "    y='number',\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.215741Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.215129Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.216621Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.217461Z"
+    },
+    "papermill": {
+     "duration": 0.044854,
+     "end_time": "2020-05-08T05:14:11.217606",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.172752",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "created_closed = pd.merge(created_counts.rename(columns={'number': 'created'}).drop(columns='org/repo'),\n",
+    "                          closed_counts.rename(columns={'number': 'closed'}).drop(columns='org/repo'),\n",
+    "                          on=['org', 'repo'], how='outer')\n",
+    "\n",
+    "created_closed = pd.melt(created_closed, id_vars=['org', 'repo'], var_name=\"kind\", value_name=\"count\").replace(np.nan, 0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.304013Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.303366Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.305561Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.306116Z"
+    },
+    "papermill": {
+     "duration": 0.060638,
+     "end_time": "2020-05-08T05:14:11.306251",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.245613",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-bd0c0b04d091409887e6d5dc09b5d483\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-bd0c0b04d091409887e6d5dc09b5d483\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-bd0c0b04d091409887e6d5dc09b5d483\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-886b9069a7683350b7cca8898ab0bba7\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 30 days for nteract\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-886b9069a7683350b7cca8898ab0bba7\": [{\"org\": \"nteract\", \"repo\": \"ansi-to-react\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"nteract\", \"repo\": \"commuter\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"nteract\", \"repo\": \"data-explorer\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"nteract\", \"repo\": \"hydrogen\", \"kind\": \"created\", \"count\": 6.0}, {\"org\": \"nteract\", \"repo\": \"jupyter-paths\", \"kind\": \"created\", \"count\": 2.0}, {\"org\": \"nteract\", \"repo\": \"nteract\", \"kind\": \"created\", \"count\": 6.0}, {\"org\": \"nteract\", \"repo\": \"papermill\", \"kind\": \"created\", \"count\": 5.0}, {\"org\": \"nteract\", \"repo\": \"pick\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"nteract\", \"repo\": \"scrapbook\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"nteract\", \"repo\": \"testbook\", \"kind\": \"created\", \"count\": 2.0}, {\"org\": \"nteract\", \"repo\": \"ansi-to-react\", \"kind\": \"closed\", \"count\": 0.0}, {\"org\": \"nteract\", \"repo\": \"commuter\", \"kind\": \"closed\", \"count\": 1.0}, {\"org\": \"nteract\", \"repo\": \"data-explorer\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"nteract\", \"repo\": \"hydrogen\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"nteract\", \"repo\": \"jupyter-paths\", \"kind\": \"closed\", \"count\": 0.0}, {\"org\": \"nteract\", \"repo\": \"nteract\", \"kind\": \"closed\", \"count\": 12.0}, {\"org\": \"nteract\", \"repo\": \"papermill\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"nteract\", \"repo\": \"pick\", \"kind\": \"closed\", \"count\": 4.0}, {\"org\": \"nteract\", \"repo\": \"scrapbook\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"nteract\", \"repo\": \"testbook\", \"kind\": \"closed\", \"count\": 1.0}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.Chart(...)"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "charts = []\n",
+    "# Pick the top 10 repositories\n",
+    "top_repos = created_closed.groupby(['repo']).sum().sort_values(by='count', ascending=False).head(10).index\n",
+    "ch = alt.Chart(created_closed.query('repo in @top_repos'), width=120).mark_bar().encode(\n",
+    "    x=alt.X(\"kind\", axis=alt.Axis(labelFontSize=15, title=\"\")), \n",
+    "    y=alt.Y('count', axis=alt.Axis(titleFontSize=15, labelFontSize=12)),\n",
+    "    color='kind',\n",
+    "    column=alt.Column(\"repo\", header=alt.Header(title=f\"Issue activity, last {n_days} days for {github_org}\", titleFontSize=15, labelFontSize=12))\n",
+    ")\n",
+    "ch"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.372962Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.372390Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.374586Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.374007Z"
+    },
+    "papermill": {
+     "duration": 0.041665,
+     "end_time": "2020-05-08T05:14:11.374681",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.333016",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "# Set to datetime\n",
+    "for kind in ['createdAt', 'closedAt']:\n",
+    "    closed.loc[:, kind] = pd.to_datetime(closed[kind])\n",
+    "    \n",
+    "closed.loc[:, 'time_open'] = closed['closedAt'] - closed['createdAt']\n",
+    "closed.loc[:, 'time_open'] = closed['time_open'].dt.total_seconds()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.444132Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.443520Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.459633Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.460188Z"
+    },
+    "papermill": {
+     "duration": 0.058344,
+     "end_time": "2020-05-08T05:14:11.460338",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.401994",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-900a1838d8bc429283fabf89f1a9103a\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-900a1838d8bc429283fabf89f1a9103a\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-900a1838d8bc429283fabf89f1a9103a\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-1b6671c6ddcd92a4c2081e34a04f5a0f\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"semiotic\", \"data-explorer\", \"papermill\", \"testbook\", \"nteract\", \"scrapbook\", \"commuter\", \"pick\", \"hydrogen\", \"markdown\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"time_open\", \"title\": \"Median Days Open\"}}, \"title\": \"Time to close for issues closed in the last 30 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-1b6671c6ddcd92a4c2081e34a04f5a0f\": [{\"org\": \"nteract\", \"repo\": \"commuter\", \"time_open\": 0.8108101851851852, \"org/repo\": \"nteract/commuter\"}, {\"org\": \"nteract\", \"repo\": \"data-explorer\", \"time_open\": 359.11512731481486, \"org/repo\": \"nteract/data-explorer\"}, {\"org\": \"nteract\", \"repo\": \"hydrogen\", \"time_open\": 0.3283101851851852, \"org/repo\": \"nteract/hydrogen\"}, {\"org\": \"nteract\", \"repo\": \"markdown\", \"time_open\": 0.0019212962962962964, \"org/repo\": \"nteract/markdown\"}, {\"org\": \"nteract\", \"repo\": \"nteract\", \"time_open\": 8.36125, \"org/repo\": \"nteract/nteract\"}, {\"org\": \"nteract\", \"repo\": \"papermill\", \"time_open\": 12.92144675925926, \"org/repo\": \"nteract/papermill\"}, {\"org\": \"nteract\", \"repo\": \"pick\", \"time_open\": 0.39033564814814814, \"org/repo\": \"nteract/pick\"}, {\"org\": \"nteract\", \"repo\": \"scrapbook\", \"time_open\": 4.956493055555556, \"org/repo\": \"nteract/scrapbook\"}, {\"org\": \"nteract\", \"repo\": \"semiotic\", \"time_open\": 521.1736689814815, \"org/repo\": \"nteract/semiotic\"}, {\"org\": \"nteract\", \"repo\": \"testbook\", \"time_open\": 9.43636574074074, \"org/repo\": \"nteract/testbook\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.Chart(...)"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "time_open = closed.groupby(['org', 'repo']).agg({'time_open': 'median'}).reset_index()\n",
+    "time_open['time_open'] = time_open['time_open'] / (60 * 60 * 24)\n",
+    "time_open['org/repo'] = time_open.apply(lambda a: a['org'] + '/' + a['repo'], axis=1)\n",
+    "sorted_vals = time_open.sort_values(['org', 'time_open'], ascending=False)['repo'].values\n",
+    "alt.Chart(data=time_open, title=f\"Time to close for issues closed in the last {n_days} days\").mark_bar().encode(\n",
+    "    x=alt.X('repo', sort=alt.Sort(sorted_vals.tolist())),\n",
+    "    y=alt.Y('time_open', title=\"Median Days Open\"),\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.026261,
+     "end_time": "2020-05-08T05:14:11.515397",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.489136",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Commenters across repositories\n",
+    "\n",
+    "These are commenters across all issues and pull requests in the last several days.\n",
+    "These are colored by the commenter's association with the organization. For information\n",
+    "about what these associations mean, [see this StackOverflow post](https://stackoverflow.com/a/28866914/1927102)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.580637Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.580064Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.591429Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.590835Z"
+    },
+    "papermill": {
+     "duration": 0.047622,
+     "end_time": "2020-05-08T05:14:11.591529",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.543907",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "commentors = (\n",
+    "    comments\n",
+    "    .query(\"createdAt > @start_date and createdAt < @stop_date\")\n",
+    "    .groupby(['org', 'repo', 'author', 'authorAssociation'])\n",
+    "    .count().rename(columns={'id': 'count'})['count']\n",
+    "    .reset_index()\n",
+    "    .sort_values(['org', 'count'], ascending=False)\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.679817Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.666498Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.683017Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.682431Z"
+    },
+    "papermill": {
+     "duration": 0.065023,
+     "end_time": "2020-05-08T05:14:11.683114",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.618091",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-b139e970682b433a9a7f9f98fff48d6d\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-b139e970682b433a9a7f9f98fff48d6d\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-b139e970682b433a9a7f9f98fff48d6d\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for nteract in the last 30 days\"}], \"data\": {\"name\": \"data-81dadaf6c10a6c4125f9a3667a4425de\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-81dadaf6c10a6c4125f9a3667a4425de\": [{\"author\": \"captainsafia\", \"count\": 37, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"MSeal\", \"count\": 24, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jarmokivekas\", \"count\": 18, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rgbkrk\", \"count\": 17, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"aviatesk\", \"count\": 6, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"lgtm-com\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"willingc\", \"count\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jdetle\", \"count\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"BenRussert\", \"count\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"dgwyer\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"rohitsanj\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ramantehlan\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"nils-werner\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"huonw\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"haraldschilly\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"emeeks\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"choldgraf\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"CrystallineCat\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ErinMulkey\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"dependabot\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Gozala\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"wadethestealth\", \"count\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"tirkarthi\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"shotarok\", \"count\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"DC-98\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"review-notebook-app\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"puetsch\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"matthew-brett\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"daxian-dbw\", \"count\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"lwasser\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"PyMap\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Qwaz\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"aminya\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"bolariin\", \"count\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"bryanchen-d\", \"count\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"gogasca\", \"count\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"Arullaldivakar\", \"count\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.HConcatChart(...)"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "n_plot = 50\n",
+    "charts = []\n",
+    "for ii, (iorg, idata) in enumerate(commentors.groupby(['org'])):\n",
+    "    title = f\"Top {n_plot} commentors for {iorg} in the last {n_days} days\"\n",
+    "    idata = idata.groupby('author', as_index=False).agg({'count': 'sum', 'authorAssociation': 'first'})\n",
+    "    idata = idata.sort_values('count', ascending=False).head(n_plot)\n",
+    "    ch = alt.Chart(data=idata.head(n_plot), title=title).mark_bar().encode(\n",
+    "        x='author',\n",
+    "        y='count',\n",
+    "        color=alt.Color('authorAssociation', scale=alt.Scale(domain=author_types, range=author_colors))\n",
+    "    )\n",
+    "    charts.append(ch)\n",
+    "alt.hconcat(*charts)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.027761,
+     "end_time": "2020-05-08T05:14:11.739314",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.711553",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## First responders\n",
+    "\n",
+    "First responders are the first people to respond to a new issue in one of the repositories.\n",
+    "The following plots show first responders for recently-created issues."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.806294Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.805724Z",
+     "iopub.status.idle": "2020-05-08T05:14:11.916800Z",
+     "shell.execute_reply": "2020-05-08T05:14:11.916096Z"
+    },
+    "papermill": {
+     "duration": 0.150602,
+     "end_time": "2020-05-08T05:14:11.916906",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.766304",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "first_comments = []\n",
+    "for (org, repo, issue_id), i_comments in comments.groupby(['org', 'repo', 'id']):\n",
+    "    ix_min = pd.to_datetime(i_comments['createdAt']).idxmin()\n",
+    "    first_comment = i_comments.loc[ix_min]\n",
+    "    if isinstance(first_comment, pd.DataFrame):\n",
+    "        first_comment = first_comment.iloc[0]\n",
+    "    first_comments.append(first_comment)\n",
+    "first_comments = pd.concat(first_comments, axis=1).T\n",
+    "\n",
+    "# Make up counts for viz\n",
+    "first_responder_counts = first_comments.groupby(['org', 'author', 'authorAssociation'], as_index=False).\\\n",
+    "    count().rename(columns={'id': 'n_first_responses'}).sort_values(['org', 'n_first_responses'], ascending=False)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:11.996024Z",
+     "iopub.status.busy": "2020-05-08T05:14:11.995331Z",
+     "iopub.status.idle": "2020-05-08T05:14:12.012079Z",
+     "shell.execute_reply": "2020-05-08T05:14:12.011543Z"
+    },
+    "papermill": {
+     "duration": 0.0624,
+     "end_time": "2020-05-08T05:14:12.012185",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:11.949785",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input"
+    ]
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<div id=\"altair-viz-fd4f5b9650644d2290b341f9b80fa2b0\"></div>\n",
+       "<script type=\"text/javascript\">\n",
+       "  (function(spec, embedOpt){\n",
+       "    let outputDiv = document.currentScript.previousElementSibling;\n",
+       "    if (outputDiv.id !== \"altair-viz-fd4f5b9650644d2290b341f9b80fa2b0\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-fd4f5b9650644d2290b341f9b80fa2b0\");\n",
+       "    }\n",
+       "    const paths = {\n",
+       "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
+       "      \"vega-lib\": \"https://cdn.jsdelivr.net/npm//vega-lib?noext\",\n",
+       "      \"vega-lite\": \"https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext\",\n",
+       "      \"vega-embed\": \"https://cdn.jsdelivr.net/npm//vega-embed@6?noext\",\n",
+       "    };\n",
+       "\n",
+       "    function loadScript(lib) {\n",
+       "      return new Promise(function(resolve, reject) {\n",
+       "        var s = document.createElement('script');\n",
+       "        s.src = paths[lib];\n",
+       "        s.async = true;\n",
+       "        s.onload = () => resolve(paths[lib]);\n",
+       "        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);\n",
+       "        document.getElementsByTagName(\"head\")[0].appendChild(s);\n",
+       "      });\n",
+       "    }\n",
+       "\n",
+       "    function showError(err) {\n",
+       "      outputDiv.innerHTML = `<div class=\"error\" style=\"color:red;\">${err}</div>`;\n",
+       "      throw err;\n",
+       "    }\n",
+       "\n",
+       "    function displayChart(vegaEmbed) {\n",
+       "      vegaEmbed(outputDiv, spec, embedOpt)\n",
+       "        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));\n",
+       "    }\n",
+       "\n",
+       "    if(typeof define === \"function\" && define.amd) {\n",
+       "      requirejs.config({paths});\n",
+       "      require([\"vega-embed\"], displayChart, err => showError(`Error loading script: ${err.message}`));\n",
+       "    } else if (typeof vegaEmbed === \"function\") {\n",
+       "      displayChart(vegaEmbed);\n",
+       "    } else {\n",
+       "      loadScript(\"vega\")\n",
+       "        .then(() => loadScript(\"vega-lite\"))\n",
+       "        .then(() => loadScript(\"vega-embed\"))\n",
+       "        .catch(showError)\n",
+       "        .then(() => displayChart(vegaEmbed));\n",
+       "    }\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-12dea2f09683ada625e74c0dfcaf434c\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for nteract in the last 30 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-12dea2f09683ada625e74c0dfcaf434c\": [{\"author\": \"captainsafia\", \"n_first_responses\": 24, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"MSeal\", \"n_first_responses\": 13, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rgbkrk\", \"n_first_responses\": 11, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"emeeks\", \"n_first_responses\": 6, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"aviatesk\", \"n_first_responses\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"lgtm-com\", \"n_first_responses\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"jarmokivekas\", \"n_first_responses\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ramantehlan\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"review-notebook-app\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"wadethestealth\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rohitsanj\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"greenkeeper\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"BenRussert\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"nils-werner\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"sammdu\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"tirkarthi\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"puetsch\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"jackiekazil\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"matthew-brett\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"CrystallineCat\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"huonw\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"haraldschilly\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"gitanuj\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"dependabot\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"bryanchen-d\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"Qwaz\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"willingc\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "</script>"
+      ],
+      "text/plain": [
+       "alt.Chart(...)"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "n_plot = 50\n",
+    "\n",
+    "title = f\"Top {n_plot} first responders for {github_org} in the last {n_days} days\"\n",
+    "idata = first_responder_counts.groupby('author', as_index=False).agg({'n_first_responses': 'sum', 'authorAssociation': 'first'})\n",
+    "idata = idata.sort_values('n_first_responses', ascending=False).head(n_plot)\n",
+    "ch = alt.Chart(data=idata.head(n_plot), title=title).mark_bar().encode(\n",
+    "    x='author',\n",
+    "    y='n_first_responses',\n",
+    "    color=alt.Color('authorAssociation', scale=alt.Scale(domain=author_types, range=author_colors))\n",
+    ")\n",
+    "ch"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.028136,
+     "end_time": "2020-05-08T05:14:12.068587",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:12.040451",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "source": [
+    "(not yet implemented)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.028889,
+     "end_time": "2020-05-08T05:14:12.126630",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:12.097741",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "source": [
+    "### A list of merged PRs by project\n",
+    "\n",
+    "Below is a tabbed readout of recently-merged PRs. Check out the title to get an idea for what they\n",
+    "implemented, and be sure to thank the PR author for their hard work!"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:12.186506Z",
+     "iopub.status.busy": "2020-05-08T05:14:12.185929Z",
+     "iopub.status.idle": "2020-05-08T05:14:12.188732Z",
+     "shell.execute_reply": "2020-05-08T05:14:12.188158Z"
+    },
+    "papermill": {
+     "duration": 0.034622,
+     "end_time": "2020-05-08T05:14:12.188826",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:12.154204",
+     "status": "completed"
+    },
+    "tags": [
+     "hide_input",
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "# tabs = widgets.Tab(children=[])\n",
+    "\n",
+    "# for ii, ((org, repo), imerged) in enumerate(merged.query(\"repo in @use_repos\").groupby(['org', 'repo'])):\n",
+    "#     merged_by = {}\n",
+    "#     pr_by = {}\n",
+    "#     issue_md = []\n",
+    "#     issue_md.append(f\"#### Closed PRs for repo: [{org}/{repo}](https://github.com/{github_org}/{repo})\")\n",
+    "#     issue_md.append(\"\")\n",
+    "#     issue_md.append(f\"##### \")\n",
+    "\n",
+    "#     for _, ipr in imerged.iterrows():\n",
+    "#         user_name = ipr['author']\n",
+    "#         user_url = author_url(user_name)\n",
+    "#         pr_number = ipr['number']\n",
+    "#         pr_html = ipr['url']\n",
+    "#         pr_title = ipr['title']\n",
+    "#         pr_closedby = ipr['mergedBy']\n",
+    "#         pr_closedby_url = f\"https://github.com/{pr_closedby}\"\n",
+    "#         if user_name not in pr_by:\n",
+    "#             pr_by[user_name] = 1\n",
+    "#         else:\n",
+    "#             pr_by[user_name] += 1\n",
+    "\n",
+    "#         if pr_closedby not in merged_by:\n",
+    "#             merged_by[pr_closedby] = 1\n",
+    "#         else:\n",
+    "#             merged_by[pr_closedby] += 1\n",
+    "#         text = f\"* [(#{pr_number})]({pr_html}): _{pr_title}_ by **[@{user_name}]({user_url})** merged by **[@{pr_closedby}]({pr_closedby_url})**\"\n",
+    "#         issue_md.append(text)\n",
+    "    \n",
+    "#     issue_md.append('')\n",
+    "#     markdown_html = markdown('\\n'.join(issue_md))\n",
+    "\n",
+    "#     children = list(tabs.children)\n",
+    "#     children.append(HTML(markdown_html))\n",
+    "#     tabs.children = tuple(children)\n",
+    "#     tabs.set_title(ii, repo)\n",
+    "# tabs"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.028296,
+     "end_time": "2020-05-08T05:14:12.245999",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:12.217703",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "source": [
+    "## List of all contributors per organization\n",
+    "\n",
+    "First, we'll list each contributor that has contributed to each organization in the last several days.\n",
+    "Contributions to open source projects are diverse, and involve much more than just contributing code and\n",
+    "code review. Thanks to everybody in the Jupyter communities for all that they do."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:12.312065Z",
+     "iopub.status.busy": "2020-05-08T05:14:12.311472Z",
+     "iopub.status.idle": "2020-05-08T05:14:12.313963Z",
+     "shell.execute_reply": "2020-05-08T05:14:12.313490Z"
+    },
+    "papermill": {
+     "duration": 0.039807,
+     "end_time": "2020-05-08T05:14:12.314061",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:12.274254",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "# n_plot = 5\n",
+    "# tabs = widgets.Tab(children=[])\n",
+    "# authors_comments = comments.query('org == @github_org')['author']\n",
+    "# authors_prs = prs.query('org == @github_org')['author']\n",
+    "# unique_participants = np.unique(np.hstack([authors_comments.values, authors_prs.values]).astype(str)).tolist()\n",
+    "# unique_participants.sort(key=lambda a: a.lower())\n",
+    "\n",
+    "# all_participants = [f\"[{participant}](https://github.com/{participant})\" for participant in unique_participants]\n",
+    "# participants_md = \" | \".join(all_participants)\n",
+    "# md_html = HTML(\"<center>{}</center>\".format(markdown(participants_md)))\n",
+    "\n",
+    "# display(Markdown(f\"All participants across issues and pull requests in {github_org} in the last {n_days} days\"))\n",
+    "# display(md_html)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.028161,
+     "end_time": "2020-05-08T05:14:12.372032",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:12.343871",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "source": [
+    "### A list of recent issues\n",
+    "\n",
+    "Below is a list of issues with recent activity in each repository. If they seem of interest\n",
+    "to you, click on their links and jump in to participate!"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:12.432770Z",
+     "iopub.status.busy": "2020-05-08T05:14:12.432131Z",
+     "iopub.status.idle": "2020-05-08T05:14:12.434332Z",
+     "shell.execute_reply": "2020-05-08T05:14:12.433757Z"
+    },
+    "papermill": {
+     "duration": 0.034676,
+     "end_time": "2020-05-08T05:14:12.434426",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:12.399750",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "# # Add comment count data to issues and PRs\n",
+    "# comment_counts = (\n",
+    "#     comments\n",
+    "#     .query(\"createdAt > @start_date and createdAt < @stop_date\")\n",
+    "#     .groupby(['org', 'repo', 'id'])\n",
+    "#     .count().iloc[:, 0].to_frame()\n",
+    "# )\n",
+    "# comment_counts.columns = ['n_comments']\n",
+    "# comment_counts = comment_counts.reset_index()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2020-05-08T05:14:12.498656Z",
+     "iopub.status.busy": "2020-05-08T05:14:12.498076Z",
+     "iopub.status.idle": "2020-05-08T05:14:12.499891Z",
+     "shell.execute_reply": "2020-05-08T05:14:12.500331Z"
+    },
+    "papermill": {
+     "duration": 0.03605,
+     "end_time": "2020-05-08T05:14:12.500458",
+     "exception": false,
+     "start_time": "2020-05-08T05:14:12.464408",
+     "status": "completed"
+    },
+    "tags": [
+     "remove_cell"
+    ],
+    "toc-hr-collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# n_plot = 5\n",
+    "# tabs = widgets.Tab(children=[])\n",
+    "\n",
+    "# for ii, (repo, i_issues) in enumerate(comment_counts.query(\"repo in @use_repos\").groupby('repo')):\n",
+    "    \n",
+    "#     issue_md = []\n",
+    "#     issue_md.append(\"\")\n",
+    "#     issue_md.append(f\"##### [{github_org}/{repo}](https://github.com/{github_org}/{repo})\")\n",
+    "\n",
+    "#     top_issues = i_issues.sort_values('n_comments', ascending=False).head(n_plot)\n",
+    "#     top_issue_list = pd.merge(issues, top_issues, left_on=['org', 'repo', 'id'], right_on=['org', 'repo', 'id'])\n",
+    "#     for _, issue in top_issue_list.sort_values('n_comments', ascending=False).head(n_plot).iterrows():\n",
+    "#         user_name = issue['author']\n",
+    "#         user_url = author_url(user_name)\n",
+    "#         issue_number = issue['number']\n",
+    "#         issue_html = issue['url']\n",
+    "#         issue_title = issue['title']\n",
+    "\n",
+    "#         text = f\"* [(#{issue_number})]({issue_html}): _{issue_title}_ by **[@{user_name}]({user_url})**\"\n",
+    "#         issue_md.append(text)\n",
+    "\n",
+    "#     issue_md.append('')\n",
+    "#     md_html = HTML(markdown('\\n'.join(issue_md)))\n",
+    "\n",
+    "#     children = list(tabs.children)\n",
+    "#     children.append(HTML(markdown('\\n'.join(issue_md))))\n",
+    "#     tabs.children = tuple(children)\n",
+    "#     tabs.set_title(ii, repo)\n",
+    "    \n",
+    "# display(Markdown(f\"Here are the top {n_plot} active issues in each repository in the last {n_days} days\"))\n",
+    "# display(tabs)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  },
+  "papermill": {
+   "duration": 14.593119,
+   "end_time": "2020-05-08T05:14:12.642958",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "./template.ipynb",
+   "output_path": "book/nteract.ipynb",
+   "parameters": {
+    "github_org": "nteract",
+    "n_days": 30
+   },
+   "start_time": "2020-05-08T05:13:58.049839",
+   "version": "2.1.1"
+  },
+  "widgets": {
+   "application/vnd.jupyter.widget-state+json": {
+    "state": {
+     "115299a0fe954027b8ace662c2414746": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "1.2.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "overflow_x": null,
+       "overflow_y": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "11d93457220a4767b9fcfad10b40448e": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "IntProgressModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "IntProgressModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "1.5.0",
+       "_view_name": "ProgressView",
+       "bar_style": "success",
+       "description": "Downloading:",
+       "description_tooltip": null,
+       "layout": "IPY_MODEL_115299a0fe954027b8ace662c2414746",
+       "max": 4,
+       "min": 0,
+       "orientation": "horizontal",
+       "style": "IPY_MODEL_e374dafcc3854a35847861091c1661ad",
+       "value": 4
+      }
+     },
+     "2d94777a940048a28f6df09e960cb10a": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "1.2.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "overflow_x": null,
+       "overflow_y": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "4c5fc709ce8e4aae8736aacf98a75a46": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "ProgressStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "ProgressStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
+      }
+     },
+     "7ed736e3afdc4c7c860c719833575663": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "IntProgressModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "IntProgressModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "1.5.0",
+       "_view_name": "ProgressView",
+       "bar_style": "success",
+       "description": "Downloading:",
+       "description_tooltip": null,
+       "layout": "IPY_MODEL_2d94777a940048a28f6df09e960cb10a",
+       "max": 3,
+       "min": 0,
+       "orientation": "horizontal",
+       "style": "IPY_MODEL_4c5fc709ce8e4aae8736aacf98a75a46",
+       "value": 3
+      }
+     },
+     "e374dafcc3854a35847861091c1661ad": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "ProgressStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "ProgressStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
+      }
+     }
+    },
+    "version_major": 2,
+    "version_minor": 0
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
