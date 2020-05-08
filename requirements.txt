@@ -1,6 +1,8 @@
 git+git://github.com/choldgraf/github-activity.git
 python-dateutil
 jupyter-book>=0.7.0b
+git+git://github.com/executablebooks/myst-parser.git
+git+git://github.com/executablebooks/myst-nb.git
 seaborn
 pandas
 numpy
