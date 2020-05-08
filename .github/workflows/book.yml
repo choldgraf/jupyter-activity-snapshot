@@ -26,6 +26,8 @@ jobs:
     - name: Generate book pages with latest data
       run: |
         papermill --cwd monthly_update monthly_update/run_template.ipynb -
+      env:
+        GITHUB_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
     # Build the book
     - name: Build the book
