@@ -126,9 +126,16 @@
         
     </div>
     <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
     <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#how-this-works" class="nav-link">How this works</a>
+        </li>
     
     </ul>
 </nav>
@@ -143,10 +150,20 @@
                 
   <div class="section" id="jupyter-activity-update">
 <h1>Jupyter Activity Update<a class="headerlink" href="#jupyter-activity-update" title="Permalink to this headline">¶</a></h1>
-<p>This book shows recent activity in the Jupyter ecosystem. Each page to the
-left has a report for one Jupyter GitHub organization. Browse the content
-to see what Jovyans have been up to!</p>
+<p>This book shows <strong>recent activity in the Jupyter ecosystem on GitHub</strong>.</p>
+<p>Each page to the left has a report for one Jupyter GitHub organization.
+Browse the content to see what Jovyans have been up to!</p>
+<div class="section" id="how-this-works">
+<h2>How this works<a class="headerlink" href="#how-this-works" title="Permalink to this headline">¶</a></h2>
+<p>The data is updated roughly periodically and contains information about the
+last 60 days of activity, using the <a class="reference external" href="https://github.com/choldgraf/github-activity">github-activity package</a>
+to scrap the data, <a class="reference external" href="https://jupyterbook.org">Jupyter Book</a> to build a book out of
+the analyses, and <a class="reference external" href="https://github.com/choldgraf/jupyter-activity-snapshot/blob/master/.github/workflows/book.yml">this GitHub Action</a>
+to scrape the data and build the book before pushing to GitHub Pages.</p>
+<p>See <a class="reference external" href="https://github.com/choldgraf/jupyter-activity-snapshot">the GitHub repository</a> for
+more code and data!</p>
 <div class="toctree-wrapper compound">
+</div>
 </div>
 </div>
 
