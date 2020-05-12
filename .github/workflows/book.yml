@@ -5,6 +5,8 @@ on:
   push:
     branches:
     - master
+  schedule:
+    - cron:  '0 1 * * *'
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
