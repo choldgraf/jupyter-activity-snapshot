@@ -4,10 +4,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.021408,
-     "end_time": "2020-05-26T01:10:40.256295",
+     "duration": 0.021565,
+     "end_time": "2020-05-27T01:10:00.858339",
      "exception": false,
-     "start_time": "2020-05-26T01:10:40.234887",
+     "start_time": "2020-05-27T01:10:00.836774",
      "status": "completed"
     },
     "tags": []
@@ -23,16 +23,16 @@
    "execution_count": 1,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:10:40.309749Z",
-     "iopub.status.busy": "2020-05-26T01:10:40.308651Z",
-     "iopub.status.idle": "2020-05-26T01:10:41.801649Z",
-     "shell.execute_reply": "2020-05-26T01:10:41.801003Z"
+     "iopub.execute_input": "2020-05-27T01:10:00.910132Z",
+     "iopub.status.busy": "2020-05-27T01:10:00.909515Z",
+     "iopub.status.idle": "2020-05-27T01:10:02.398738Z",
+     "shell.execute_reply": "2020-05-27T01:10:02.399201Z"
     },
     "papermill": {
-     "duration": 1.521802,
-     "end_time": "2020-05-26T01:10:41.801764",
+     "duration": 1.520352,
+     "end_time": "2020-05-27T01:10:02.399359",
      "exception": false,
-     "start_time": "2020-05-26T01:10:40.279962",
+     "start_time": "2020-05-27T01:10:00.879007",
      "status": "completed"
     },
     "tags": [
@@ -66,16 +66,16 @@
    "execution_count": 2,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:10:41.858129Z",
-     "iopub.status.busy": "2020-05-26T01:10:41.852930Z",
-     "iopub.status.idle": "2020-05-26T01:10:41.860857Z",
-     "shell.execute_reply": "2020-05-26T01:10:41.860277Z"
+     "iopub.execute_input": "2020-05-27T01:10:02.458919Z",
+     "iopub.status.busy": "2020-05-27T01:10:02.453335Z",
+     "iopub.status.idle": "2020-05-27T01:10:02.461358Z",
+     "shell.execute_reply": "2020-05-27T01:10:02.460805Z"
     },
     "papermill": {
-     "duration": 0.036984,
-     "end_time": "2020-05-26T01:10:41.860967",
+     "duration": 0.040012,
+     "end_time": "2020-05-27T01:10:02.461446",
      "exception": false,
-     "start_time": "2020-05-26T01:10:41.823983",
+     "start_time": "2020-05-27T01:10:02.421434",
      "status": "completed"
     },
     "tags": [
@@ -117,16 +117,16 @@
    "execution_count": 3,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:10:41.910367Z",
-     "iopub.status.busy": "2020-05-26T01:10:41.909652Z",
-     "iopub.status.idle": "2020-05-26T01:10:41.912036Z",
-     "shell.execute_reply": "2020-05-26T01:10:41.912743Z"
+     "iopub.execute_input": "2020-05-27T01:10:02.505770Z",
+     "iopub.status.busy": "2020-05-27T01:10:02.505122Z",
+     "iopub.status.idle": "2020-05-27T01:10:02.507710Z",
+     "shell.execute_reply": "2020-05-27T01:10:02.507207Z"
     },
     "papermill": {
-     "duration": 0.029566,
-     "end_time": "2020-05-26T01:10:41.912883",
+     "duration": 0.025398,
+     "end_time": "2020-05-27T01:10:02.507802",
      "exception": false,
-     "start_time": "2020-05-26T01:10:41.883317",
+     "start_time": "2020-05-27T01:10:02.482404",
      "status": "completed"
     },
     "tags": [
@@ -147,16 +147,16 @@
    "execution_count": 4,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:10:41.963831Z",
-     "iopub.status.busy": "2020-05-26T01:10:41.963185Z",
-     "iopub.status.idle": "2020-05-26T01:10:41.966098Z",
-     "shell.execute_reply": "2020-05-26T01:10:41.965493Z"
+     "iopub.execute_input": "2020-05-27T01:10:02.555037Z",
+     "iopub.status.busy": "2020-05-27T01:10:02.554453Z",
+     "iopub.status.idle": "2020-05-27T01:10:02.558898Z",
+     "shell.execute_reply": "2020-05-27T01:10:02.558222Z"
     },
     "papermill": {
-     "duration": 0.028569,
-     "end_time": "2020-05-26T01:10:41.966193",
+     "duration": 0.029951,
+     "end_time": "2020-05-27T01:10:02.558988",
      "exception": false,
-     "start_time": "2020-05-26T01:10:41.937624",
+     "start_time": "2020-05-27T01:10:02.529037",
      "status": "completed"
     },
     "tags": [
@@ -176,16 +176,16 @@
    "execution_count": 5,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:10:42.018337Z",
-     "iopub.status.busy": "2020-05-26T01:10:42.017739Z",
-     "iopub.status.idle": "2020-05-26T01:10:42.024075Z",
-     "shell.execute_reply": "2020-05-26T01:10:42.023442Z"
+     "iopub.execute_input": "2020-05-27T01:10:02.606168Z",
+     "iopub.status.busy": "2020-05-27T01:10:02.605574Z",
+     "iopub.status.idle": "2020-05-27T01:10:02.611600Z",
+     "shell.execute_reply": "2020-05-27T01:10:02.610905Z"
     },
     "papermill": {
-     "duration": 0.037403,
-     "end_time": "2020-05-26T01:10:42.024176",
+     "duration": 0.033088,
+     "end_time": "2020-05-27T01:10:02.611690",
      "exception": false,
-     "start_time": "2020-05-26T01:10:41.986773",
+     "start_time": "2020-05-27T01:10:02.578602",
      "status": "completed"
     },
     "tags": [
@@ -207,7 +207,7 @@
     },
     {
      "data": {
-      "application/papermill.record/text/plain": "'2020-03-27'"
+      "application/papermill.record/text/plain": "'2020-03-28'"
      },
      "metadata": {
       "scrapbook": {
@@ -219,7 +219,7 @@
     },
     {
      "data": {
-      "application/papermill.record/text/plain": "'2020-05-26'"
+      "application/papermill.record/text/plain": "'2020-05-27'"
      },
      "metadata": {
       "scrapbook": {
@@ -251,16 +251,16 @@
    "execution_count": 6,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:10:42.088292Z",
-     "iopub.status.busy": "2020-05-26T01:10:42.084389Z",
-     "iopub.status.idle": "2020-05-26T01:11:38.475831Z",
-     "shell.execute_reply": "2020-05-26T01:11:38.475110Z"
+     "iopub.execute_input": "2020-05-27T01:10:02.672766Z",
+     "iopub.status.busy": "2020-05-27T01:10:02.666872Z",
+     "iopub.status.idle": "2020-05-27T01:10:58.749427Z",
+     "shell.execute_reply": "2020-05-27T01:10:58.749887Z"
     },
     "papermill": {
-     "duration": 56.426777,
-     "end_time": "2020-05-26T01:11:38.475962",
+     "duration": 56.11545,
+     "end_time": "2020-05-27T01:10:58.750021",
      "exception": false,
-     "start_time": "2020-05-26T01:10:42.049185",
+     "start_time": "2020-05-27T01:10:02.634571",
      "status": "completed"
     },
     "tags": [
@@ -282,13 +282,13 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Found 623 items, which will take 13 pages\n"
+      "Found 616 items, which will take 13 pages\n"
      ]
     },
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "3ab8a13b6ea143ce9ee4b9984fa17425",
+       "model_id": "fd4c2cd75a9e4b74ad21f338923cd5f5",
        "version_major": 2,
        "version_minor": 0
       },
@@ -303,13 +303,13 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Found 502 items, which will take 11 pages\n"
+      "Found 505 items, which will take 11 pages\n"
      ]
     },
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "1b041588b0ec4e4c95fae71dff8225b0",
+       "model_id": "57376903a6c34bc58aba6b55ba643489",
        "version_major": 2,
        "version_minor": 0
       },
@@ -361,10 +361,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.03325,
-     "end_time": "2020-05-26T01:11:38.536750",
+     "duration": 0.026387,
+     "end_time": "2020-05-27T01:10:58.802214",
      "exception": false,
-     "start_time": "2020-05-26T01:11:38.503500",
+     "start_time": "2020-05-27T01:10:58.775827",
      "status": "completed"
     },
     "tags": [],
@@ -382,16 +382,16 @@
    "execution_count": 7,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:38.599915Z",
-     "iopub.status.busy": "2020-05-26T01:11:38.599272Z",
-     "iopub.status.idle": "2020-05-26T01:11:38.603414Z",
-     "shell.execute_reply": "2020-05-26T01:11:38.602752Z"
+     "iopub.execute_input": "2020-05-27T01:10:58.857456Z",
+     "iopub.status.busy": "2020-05-27T01:10:58.856720Z",
+     "iopub.status.idle": "2020-05-27T01:10:58.861565Z",
+     "shell.execute_reply": "2020-05-27T01:10:58.860915Z"
     },
     "papermill": {
-     "duration": 0.039669,
-     "end_time": "2020-05-26T01:11:38.603523",
+     "duration": 0.036613,
+     "end_time": "2020-05-27T01:10:58.861739",
      "exception": false,
-     "start_time": "2020-05-26T01:11:38.563854",
+     "start_time": "2020-05-27T01:10:58.825126",
      "status": "completed"
     },
     "tags": [
@@ -408,16 +408,16 @@
    "execution_count": 8,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:38.665377Z",
-     "iopub.status.busy": "2020-05-26T01:11:38.664714Z",
-     "iopub.status.idle": "2020-05-26T01:11:38.700106Z",
-     "shell.execute_reply": "2020-05-26T01:11:38.700750Z"
+     "iopub.execute_input": "2020-05-27T01:10:58.927191Z",
+     "iopub.status.busy": "2020-05-27T01:10:58.922818Z",
+     "iopub.status.idle": "2020-05-27T01:10:58.957304Z",
+     "shell.execute_reply": "2020-05-27T01:10:58.957941Z"
     },
     "papermill": {
-     "duration": 0.070097,
-     "end_time": "2020-05-26T01:11:38.700901",
+     "duration": 0.070998,
+     "end_time": "2020-05-27T01:10:58.958083",
      "exception": false,
-     "start_time": "2020-05-26T01:11:38.630804",
+     "start_time": "2020-05-27T01:10:58.887085",
      "status": "completed"
     },
     "tags": [
@@ -429,12 +429,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-94130c6281fa473c8ecbf9c002dd79af\"></div>\n",
+       "<div id=\"altair-viz-a8a6e3e165bc483e8bb07496e098bed6\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-94130c6281fa473c8ecbf9c002dd79af\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-94130c6281fa473c8ecbf9c002dd79af\");\n",
+       "    if (outputDiv.id !== \"altair-viz-a8a6e3e165bc483e8bb07496e098bed6\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-a8a6e3e165bc483e8bb07496e098bed6\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -476,7 +476,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-21849e44870814ced90a46a988d6a391\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"org\"}, \"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyterlab\", \"jupyterlab-git\", \"debugger\", \"lumino\", \"pytest-check-links\", \"jupyterlab_server\", \"rtc\", \"extension-cookiecutter-ts\", \"extension-examples\", \"jupyterlab-data-explorer\", \"jupyterlab_pygments\", \"jupyter-renderers\", \"jupyterlab-commenting\", \"jupyterlab-demo\", \"jupyterlab-toc\", \"team-compass\", \"jupyterlab-google-drive\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"author\"}}, \"title\": \"Merged PRs in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-21849e44870814ced90a46a988d6a391\": [{\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"author\": 149}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"author\": 22}, {\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"author\": 12}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"author\": 10}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"author\": 10}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_server\", \"author\": 8}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"author\": 7}, {\"org\": \"jupyterlab\", \"repo\": \"extension-cookiecutter-ts\", \"author\": 6}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"author\": 5}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"author\": 3}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_pygments\", \"author\": 3}, {\"org\": \"jupyterlab\", \"repo\": \"jupyter-renderers\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-commenting\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-demo\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-google-drive\", \"author\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-53bf8ab2abb4cb4c5dc5106f107f570b\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"org\"}, \"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyterlab\", \"jupyterlab-git\", \"debugger\", \"lumino\", \"pytest-check-links\", \"jupyterlab_server\", \"rtc\", \"extension-cookiecutter-ts\", \"extension-examples\", \"jupyterlab-data-explorer\", \"jupyterlab_pygments\", \"jupyter-renderers\", \"jupyterlab-commenting\", \"jupyterlab-demo\", \"jupyterlab-toc\", \"team-compass\", \"jupyterlab-google-drive\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"author\"}}, \"title\": \"Merged PRs in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-53bf8ab2abb4cb4c5dc5106f107f570b\": [{\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"author\": 147}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"author\": 23}, {\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"author\": 12}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"author\": 10}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"author\": 10}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_server\", \"author\": 8}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"author\": 7}, {\"org\": \"jupyterlab\", \"repo\": \"extension-cookiecutter-ts\", \"author\": 6}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"author\": 6}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"author\": 3}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_pygments\", \"author\": 3}, {\"org\": \"jupyterlab\", \"repo\": \"jupyter-renderers\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-commenting\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-demo\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"author\": 2}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-google-drive\", \"author\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -501,10 +501,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.026101,
-     "end_time": "2020-05-26T01:11:38.753027",
+     "duration": 0.023161,
+     "end_time": "2020-05-27T01:10:59.005022",
      "exception": false,
-     "start_time": "2020-05-26T01:11:38.726926",
+     "start_time": "2020-05-27T01:10:58.981861",
      "status": "completed"
     },
     "tags": []
@@ -522,16 +522,16 @@
    "execution_count": 9,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:38.816948Z",
-     "iopub.status.busy": "2020-05-26T01:11:38.815598Z",
-     "iopub.status.idle": "2020-05-26T01:11:38.833148Z",
-     "shell.execute_reply": "2020-05-26T01:11:38.832602Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.064099Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.063543Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.079654Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.079158Z"
     },
     "papermill": {
-     "duration": 0.051652,
-     "end_time": "2020-05-26T01:11:38.833374",
+     "duration": 0.050065,
+     "end_time": "2020-05-27T01:10:59.079745",
      "exception": false,
-     "start_time": "2020-05-26T01:11:38.781722",
+     "start_time": "2020-05-27T01:10:59.029680",
      "status": "completed"
     },
     "tags": [
@@ -550,16 +550,16 @@
    "execution_count": 10,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:38.900897Z",
-     "iopub.status.busy": "2020-05-26T01:11:38.900202Z",
-     "iopub.status.idle": "2020-05-26T01:11:38.922124Z",
-     "shell.execute_reply": "2020-05-26T01:11:38.922763Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.156164Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.155513Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.161192Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.160661Z"
     },
     "papermill": {
-     "duration": 0.06267,
-     "end_time": "2020-05-26T01:11:38.922898",
+     "duration": 0.05936,
+     "end_time": "2020-05-27T01:10:59.161301",
      "exception": false,
-     "start_time": "2020-05-26T01:11:38.860228",
+     "start_time": "2020-05-27T01:10:59.101941",
      "status": "completed"
     },
     "tags": [
@@ -571,12 +571,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-a119c0abcba24b169c15ef03fabff1e0\"></div>\n",
+       "<div id=\"altair-viz-086fa106055b4419b0904c6ee5193d62\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-a119c0abcba24b169c15ef03fabff1e0\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-a119c0abcba24b169c15ef03fabff1e0\");\n",
+       "    if (outputDiv.id !== \"altair-viz-086fa106055b4419b0904c6ee5193d62\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-086fa106055b4419b0904c6ee5193d62\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -618,7 +618,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-d43db6f8eb309496af1123b7a7dcdc48\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"authored\"}}, \"title\": \"PR authors for jupyterlab in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-d43db6f8eb309496af1123b7a7dcdc48\": [{\"username\": \"blink1073\", \"authored\": 86, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"saulshanabrook\", \"authored\": 22, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"fcollonval\", \"authored\": 20, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"jasongrout\", \"authored\": 16, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"jtpio\", \"authored\": 13, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"echarles\", \"authored\": 11, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ianhi\", \"authored\": 10, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"telamonian\", \"authored\": 4, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"nmichaud\", \"authored\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"bollwyvl\", \"authored\": 4, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"afshin\", \"authored\": 4, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"SylvainCorlay\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"nathanrpage97\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ryantberg\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"woswos\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"quangIO\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"markellekelly\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"btel\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"marthacryan\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"dependabot\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"KrzysztofSikoraCodete\", \"authored\": 2, \"authorAssociation\": \"COLLABORATOR\"}, {\"username\": \"mbektasbbg\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"GordonSmith\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mlucool\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"AlbertHilb\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"tacaswell\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"tgrout\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"tibdex\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"vabarbosa\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"vidartf\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"sebacea\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"hexinchen\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"jseabold\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ggbhat\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"eljefedelrodeodeljefe\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"edzkite\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"dLamSlo8\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"consideRatio\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ajbozarth\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"OneRaynyDay\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"MrQubo\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"KsavinN\", \"authored\": 1, \"authorAssociation\": \"COLLABORATOR\"}, {\"username\": \"Konvergenzradius\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"Gsbreddy\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"yuvipanda\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-1f10c84f7ca2bdc770236fbf1d7f8019\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"authored\"}}, \"title\": \"PR authors for jupyterlab in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-1f10c84f7ca2bdc770236fbf1d7f8019\": [{\"username\": \"blink1073\", \"authored\": 85, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"saulshanabrook\", \"authored\": 22, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"fcollonval\", \"authored\": 20, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"jasongrout\", \"authored\": 15, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"jtpio\", \"authored\": 14, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"echarles\", \"authored\": 10, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ianhi\", \"authored\": 10, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"nmichaud\", \"authored\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"afshin\", \"authored\": 4, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"bollwyvl\", \"authored\": 4, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"telamonian\", \"authored\": 4, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"SylvainCorlay\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"quangIO\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ryantberg\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"woswos\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"nathanrpage97\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"GordonSmith\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mlucool\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mbektasbbg\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"marthacryan\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"markellekelly\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"yuvipanda\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"dependabot\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"btel\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"KrzysztofSikoraCodete\", \"authored\": 2, \"authorAssociation\": \"COLLABORATOR\"}, {\"username\": \"hexinchen\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"KsavinN\", \"authored\": 1, \"authorAssociation\": \"COLLABORATOR\"}, {\"username\": \"Gsbreddy\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"vidartf\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"vabarbosa\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"tibdex\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"tgrout\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"Konvergenzradius\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"tacaswell\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"sebacea\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"MrQubo\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"ggbhat\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"pgrimaud\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"OneRaynyDay\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"ajbozarth\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"consideRatio\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"dLamSlo8\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"edzkite\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"jseabold\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"eljefedelrodeodeljefe\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"AlbertHilb\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -648,16 +648,16 @@
    "execution_count": 11,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.001915Z",
-     "iopub.status.busy": "2020-05-26T01:11:38.992868Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.009266Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.008616Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.228372Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.221764Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.235561Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.235004Z"
     },
     "papermill": {
-     "duration": 0.05521,
-     "end_time": "2020-05-26T01:11:39.009389",
+     "duration": 0.047471,
+     "end_time": "2020-05-27T01:10:59.235643",
      "exception": false,
-     "start_time": "2020-05-26T01:11:38.954179",
+     "start_time": "2020-05-27T01:10:59.188172",
      "status": "completed"
     },
     "tags": [
@@ -669,12 +669,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-223096fa1cfa475abfde7dd9894ab373\"></div>\n",
+       "<div id=\"altair-viz-765def4502414e8baca77d6757b781b6\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-223096fa1cfa475abfde7dd9894ab373\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-223096fa1cfa475abfde7dd9894ab373\");\n",
+       "    if (outputDiv.id !== \"altair-viz-765def4502414e8baca77d6757b781b6\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-765def4502414e8baca77d6757b781b6\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -716,7 +716,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-6d80b84733931e60cfe0a075184a3557\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"closed\"}}, \"title\": \"Merges for jupyterlab in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-6d80b84733931e60cfe0a075184a3557\": [{\"repo\": \"debugger\", \"username\": \"afshin\", \"closed\": 8}, {\"repo\": \"debugger\", \"username\": \"jtpio\", \"closed\": 4}, {\"repo\": \"extension-cookiecutter-ts\", \"username\": \"blink1073\", \"closed\": 4}, {\"repo\": \"extension-cookiecutter-ts\", \"username\": \"fcollonval\", \"closed\": 2}, {\"repo\": \"extension-examples\", \"username\": \"blink1073\", \"closed\": 2}, {\"repo\": \"extension-examples\", \"username\": \"fcollonval\", \"closed\": 2}, {\"repo\": \"extension-examples\", \"username\": \"jtpio\", \"closed\": 1}, {\"repo\": \"jupyter-renderers\", \"username\": \"blink1073\", \"closed\": 2}, {\"repo\": \"jupyterlab\", \"username\": \"afshin\", \"closed\": 8}, {\"repo\": \"jupyterlab\", \"username\": \"blink1073\", \"closed\": 99}, {\"repo\": \"jupyterlab\", \"username\": \"jasongrout\", \"closed\": 13}, {\"repo\": \"jupyterlab\", \"username\": \"saulshanabrook\", \"closed\": 27}, {\"repo\": \"jupyterlab\", \"username\": \"telamonian\", \"closed\": 2}, {\"repo\": \"jupyterlab-commenting\", \"username\": \"saulshanabrook\", \"closed\": 2}, {\"repo\": \"jupyterlab-data-explorer\", \"username\": \"saulshanabrook\", \"closed\": 3}, {\"repo\": \"jupyterlab-demo\", \"username\": \"blink1073\", \"closed\": 1}, {\"repo\": \"jupyterlab-demo\", \"username\": \"jasongrout\", \"closed\": 1}, {\"repo\": \"jupyterlab-git\", \"username\": \"fcollonval\", \"closed\": 19}, {\"repo\": \"jupyterlab-git\", \"username\": \"kgryte\", \"closed\": 1}, {\"repo\": \"jupyterlab-git\", \"username\": \"lresende\", \"closed\": 1}, {\"repo\": \"jupyterlab-git\", \"username\": \"telamonian\", \"closed\": 1}, {\"repo\": \"jupyterlab-google-drive\", \"username\": \"bmshouse\", \"closed\": 1}, {\"repo\": \"jupyterlab-toc\", \"username\": \"lresende\", \"closed\": 2}, {\"repo\": \"jupyterlab_pygments\", \"username\": \"SylvainCorlay\", \"closed\": 3}, {\"repo\": \"jupyterlab_server\", \"username\": \"afshin\", \"closed\": 2}, {\"repo\": \"jupyterlab_server\", \"username\": \"blink1073\", \"closed\": 4}, {\"repo\": \"jupyterlab_server\", \"username\": \"jasongrout\", \"closed\": 1}, {\"repo\": \"jupyterlab_server\", \"username\": \"saulshanabrook\", \"closed\": 1}, {\"repo\": \"lumino\", \"username\": \"afshin\", \"closed\": 1}, {\"repo\": \"lumino\", \"username\": \"blink1073\", \"closed\": 9}, {\"repo\": \"pytest-check-links\", \"username\": \"blink1073\", \"closed\": 9}, {\"repo\": \"pytest-check-links\", \"username\": \"minrk\", \"closed\": 1}, {\"repo\": \"rtc\", \"username\": \"saulshanabrook\", \"closed\": 7}, {\"repo\": \"team-compass\", \"username\": \"afshin\", \"closed\": 1}, {\"repo\": \"team-compass\", \"username\": \"saulshanabrook\", \"closed\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-46991d2cac162654a4a86a6a6311d12a\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"closed\"}}, \"title\": \"Merges for jupyterlab in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-46991d2cac162654a4a86a6a6311d12a\": [{\"repo\": \"debugger\", \"username\": \"afshin\", \"closed\": 8}, {\"repo\": \"debugger\", \"username\": \"jtpio\", \"closed\": 4}, {\"repo\": \"extension-cookiecutter-ts\", \"username\": \"blink1073\", \"closed\": 4}, {\"repo\": \"extension-cookiecutter-ts\", \"username\": \"fcollonval\", \"closed\": 2}, {\"repo\": \"extension-examples\", \"username\": \"blink1073\", \"closed\": 2}, {\"repo\": \"extension-examples\", \"username\": \"fcollonval\", \"closed\": 2}, {\"repo\": \"extension-examples\", \"username\": \"jtpio\", \"closed\": 2}, {\"repo\": \"jupyter-renderers\", \"username\": \"blink1073\", \"closed\": 2}, {\"repo\": \"jupyterlab\", \"username\": \"afshin\", \"closed\": 8}, {\"repo\": \"jupyterlab\", \"username\": \"blink1073\", \"closed\": 99}, {\"repo\": \"jupyterlab\", \"username\": \"jasongrout\", \"closed\": 13}, {\"repo\": \"jupyterlab\", \"username\": \"saulshanabrook\", \"closed\": 25}, {\"repo\": \"jupyterlab\", \"username\": \"telamonian\", \"closed\": 2}, {\"repo\": \"jupyterlab-commenting\", \"username\": \"saulshanabrook\", \"closed\": 2}, {\"repo\": \"jupyterlab-data-explorer\", \"username\": \"saulshanabrook\", \"closed\": 3}, {\"repo\": \"jupyterlab-demo\", \"username\": \"blink1073\", \"closed\": 1}, {\"repo\": \"jupyterlab-demo\", \"username\": \"jasongrout\", \"closed\": 1}, {\"repo\": \"jupyterlab-git\", \"username\": \"fcollonval\", \"closed\": 20}, {\"repo\": \"jupyterlab-git\", \"username\": \"kgryte\", \"closed\": 1}, {\"repo\": \"jupyterlab-git\", \"username\": \"lresende\", \"closed\": 1}, {\"repo\": \"jupyterlab-git\", \"username\": \"telamonian\", \"closed\": 1}, {\"repo\": \"jupyterlab-google-drive\", \"username\": \"bmshouse\", \"closed\": 1}, {\"repo\": \"jupyterlab-toc\", \"username\": \"lresende\", \"closed\": 2}, {\"repo\": \"jupyterlab_pygments\", \"username\": \"SylvainCorlay\", \"closed\": 3}, {\"repo\": \"jupyterlab_server\", \"username\": \"afshin\", \"closed\": 2}, {\"repo\": \"jupyterlab_server\", \"username\": \"blink1073\", \"closed\": 4}, {\"repo\": \"jupyterlab_server\", \"username\": \"jasongrout\", \"closed\": 1}, {\"repo\": \"jupyterlab_server\", \"username\": \"saulshanabrook\", \"closed\": 1}, {\"repo\": \"lumino\", \"username\": \"afshin\", \"closed\": 1}, {\"repo\": \"lumino\", \"username\": \"blink1073\", \"closed\": 9}, {\"repo\": \"pytest-check-links\", \"username\": \"blink1073\", \"closed\": 9}, {\"repo\": \"pytest-check-links\", \"username\": \"minrk\", \"closed\": 1}, {\"repo\": \"rtc\", \"username\": \"saulshanabrook\", \"closed\": 7}, {\"repo\": \"team-compass\", \"username\": \"afshin\", \"closed\": 1}, {\"repo\": \"team-compass\", \"username\": \"saulshanabrook\", \"closed\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -742,10 +742,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.025752,
-     "end_time": "2020-05-26T01:11:39.060561",
+     "duration": 0.026535,
+     "end_time": "2020-05-27T01:10:59.286293",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.034809",
+     "start_time": "2020-05-27T01:10:59.259758",
      "status": "completed"
     },
     "tags": []
@@ -762,16 +762,16 @@
    "execution_count": 12,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.129083Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.128446Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.131167Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.130532Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.352332Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.351694Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.354918Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.354430Z"
     },
     "papermill": {
-     "duration": 0.042815,
-     "end_time": "2020-05-26T01:11:39.131284",
+     "duration": 0.041098,
+     "end_time": "2020-05-27T01:10:59.355010",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.088469",
+     "start_time": "2020-05-27T01:10:59.313912",
      "status": "completed"
     },
     "tags": [
@@ -789,16 +789,16 @@
    "execution_count": 13,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.193593Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.192974Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.221821Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.222456Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.420597Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.420019Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.447793Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.448232Z"
     },
     "papermill": {
-     "duration": 0.065123,
-     "end_time": "2020-05-26T01:11:39.222615",
+     "duration": 0.063669,
+     "end_time": "2020-05-27T01:10:59.448351",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.157492",
+     "start_time": "2020-05-27T01:10:59.384682",
      "status": "completed"
     },
     "tags": [
@@ -810,12 +810,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-e1e37ba983e34951be12f863f16a9595\"></div>\n",
+       "<div id=\"altair-viz-803b4dfb2c4949efb0752b3f1bcfc250\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-e1e37ba983e34951be12f863f16a9595\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-e1e37ba983e34951be12f863f16a9595\");\n",
+       "    if (outputDiv.id !== \"altair-viz-803b4dfb2c4949efb0752b3f1bcfc250\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-803b4dfb2c4949efb0752b3f1bcfc250\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -857,7 +857,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-ea4e431367ec7c044b38c72a6a92a8fc\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyterlab\", \"jupyterlab-git\", \"debugger\", \"team-compass\", \"lumino\", \"jupyterlab-toc\", \"extension-examples\", \"jupyterlab-github\", \"jupyterlab-latex\", \"jupyterlab-data-explorer\", \"jupyterlab_apod\", \"extension-cookiecutter-ts\", \"jupyter-renderers\", \"jupyterlab-celltags\", \"jupyterlab-google-drive\", \"jupyterlab-hdf5\", \"jupyterlab-shortcutui\", \"jupyterlab_app\", \"pytest-check-links\", \"rtc\", \"theme-cookiecutter\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-ea4e431367ec7c044b38c72a6a92a8fc\": [{\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"number\": 13, \"org/repo\": \"jupyterlab/debugger\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-cookiecutter-ts\", \"number\": 1, \"org/repo\": \"jupyterlab/extension-cookiecutter-ts\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"number\": 3, \"org/repo\": \"jupyterlab/extension-examples\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyter-renderers\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyter-renderers\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"number\": 110, \"org/repo\": \"jupyterlab/jupyterlab\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-celltags\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-celltags\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"number\": 2, \"org/repo\": \"jupyterlab/jupyterlab-data-explorer\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"number\": 17, \"org/repo\": \"jupyterlab/jupyterlab-git\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-github\", \"number\": 3, \"org/repo\": \"jupyterlab/jupyterlab-github\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-google-drive\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-google-drive\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-hdf5\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-hdf5\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-latex\", \"number\": 3, \"org/repo\": \"jupyterlab/jupyterlab-latex\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-shortcutui\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-shortcutui\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"number\": 4, \"org/repo\": \"jupyterlab/jupyterlab-toc\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_apod\", \"number\": 2, \"org/repo\": \"jupyterlab/jupyterlab_apod\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_app\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab_app\"}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"number\": 5, \"org/repo\": \"jupyterlab/lumino\"}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"number\": 1, \"org/repo\": \"jupyterlab/pytest-check-links\"}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"number\": 1, \"org/repo\": \"jupyterlab/rtc\"}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"number\": 10, \"org/repo\": \"jupyterlab/team-compass\"}, {\"org\": \"jupyterlab\", \"repo\": \"theme-cookiecutter\", \"number\": 1, \"org/repo\": \"jupyterlab/theme-cookiecutter\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-59f9d72e2ec00eebac120309a351fa73\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyterlab\", \"jupyterlab-git\", \"debugger\", \"team-compass\", \"lumino\", \"jupyterlab-toc\", \"extension-examples\", \"jupyterlab-latex\", \"jupyterlab-data-explorer\", \"jupyterlab-github\", \"jupyterlab_apod\", \"extension-cookiecutter-ts\", \"jupyter-renderers\", \"jupyterlab-celltags\", \"jupyterlab-google-drive\", \"jupyterlab-hdf5\", \"jupyterlab-shortcutui\", \"jupyterlab_app\", \"pytest-check-links\", \"rtc\", \"theme-cookiecutter\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-59f9d72e2ec00eebac120309a351fa73\": [{\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"number\": 14, \"org/repo\": \"jupyterlab/debugger\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-cookiecutter-ts\", \"number\": 1, \"org/repo\": \"jupyterlab/extension-cookiecutter-ts\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"number\": 3, \"org/repo\": \"jupyterlab/extension-examples\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyter-renderers\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyter-renderers\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"number\": 113, \"org/repo\": \"jupyterlab/jupyterlab\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-celltags\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-celltags\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"number\": 2, \"org/repo\": \"jupyterlab/jupyterlab-data-explorer\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"number\": 17, \"org/repo\": \"jupyterlab/jupyterlab-git\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-github\", \"number\": 2, \"org/repo\": \"jupyterlab/jupyterlab-github\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-google-drive\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-google-drive\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-hdf5\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-hdf5\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-latex\", \"number\": 3, \"org/repo\": \"jupyterlab/jupyterlab-latex\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-shortcutui\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-shortcutui\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"number\": 4, \"org/repo\": \"jupyterlab/jupyterlab-toc\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_apod\", \"number\": 2, \"org/repo\": \"jupyterlab/jupyterlab_apod\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_app\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab_app\"}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"number\": 5, \"org/repo\": \"jupyterlab/lumino\"}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"number\": 1, \"org/repo\": \"jupyterlab/pytest-check-links\"}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"number\": 1, \"org/repo\": \"jupyterlab/rtc\"}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"number\": 10, \"org/repo\": \"jupyterlab/team-compass\"}, {\"org\": \"jupyterlab\", \"repo\": \"theme-cookiecutter\", \"number\": 1, \"org/repo\": \"jupyterlab/theme-cookiecutter\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -884,16 +884,16 @@
    "execution_count": 14,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.304439Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.303839Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.317257Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.318146Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.513000Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.512442Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.536846Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.537497Z"
     },
     "papermill": {
-     "duration": 0.066702,
-     "end_time": "2020-05-26T01:11:39.318299",
+     "duration": 0.062202,
+     "end_time": "2020-05-27T01:10:59.537664",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.251597",
+     "start_time": "2020-05-27T01:10:59.475462",
      "status": "completed"
     },
     "tags": [
@@ -905,12 +905,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-2560d477aa584c619d4547fa95e213e9\"></div>\n",
+       "<div id=\"altair-viz-b84408fce66c44d893555c225bb83df5\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-2560d477aa584c619d4547fa95e213e9\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-2560d477aa584c619d4547fa95e213e9\");\n",
+       "    if (outputDiv.id !== \"altair-viz-b84408fce66c44d893555c225bb83df5\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-b84408fce66c44d893555c225bb83df5\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -952,7 +952,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-64ebb0eb7dab0bdf12264a2992ec6520\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyterlab\", \"debugger\", \"jupyterlab-git\", \"team-compass\", \"jupyterlab-toc\", \"extension-examples\", \"pytest-check-links\", \"lumino\", \"jupyterlab-demo\", \"rtc\", \"jupyter-renderers\", \"jupyterlab-commenting\", \"jupyterlab-data-explorer\", \"extension-cookiecutter-ts\", \"jupyterlab-github\", \"jupyterlab-shortcutui\", \"jupyterlab_server\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-64ebb0eb7dab0bdf12264a2992ec6520\": [{\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"number\": 23, \"org/repo\": \"jupyterlab/debugger\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-cookiecutter-ts\", \"number\": 1, \"org/repo\": \"jupyterlab/extension-cookiecutter-ts\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"number\": 4, \"org/repo\": \"jupyterlab/extension-examples\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyter-renderers\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyter-renderers\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"number\": 136, \"org/repo\": \"jupyterlab/jupyterlab\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-commenting\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-commenting\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-data-explorer\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-demo\", \"number\": 2, \"org/repo\": \"jupyterlab/jupyterlab-demo\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"number\": 20, \"org/repo\": \"jupyterlab/jupyterlab-git\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-github\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-github\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-shortcutui\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-shortcutui\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"number\": 5, \"org/repo\": \"jupyterlab/jupyterlab-toc\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_server\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab_server\"}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"number\": 3, \"org/repo\": \"jupyterlab/lumino\"}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"number\": 4, \"org/repo\": \"jupyterlab/pytest-check-links\"}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"number\": 2, \"org/repo\": \"jupyterlab/rtc\"}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"number\": 9, \"org/repo\": \"jupyterlab/team-compass\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-ed1dd3471efa14a7cc47781081831138\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyterlab\", \"debugger\", \"jupyterlab-git\", \"team-compass\", \"jupyterlab-toc\", \"extension-examples\", \"pytest-check-links\", \"lumino\", \"jupyterlab-demo\", \"rtc\", \"jupyter-renderers\", \"jupyterlab-commenting\", \"jupyterlab-data-explorer\", \"extension-cookiecutter-ts\", \"jupyterlab-github\", \"jupyterlab-shortcutui\", \"jupyterlab_server\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-ed1dd3471efa14a7cc47781081831138\": [{\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"number\": 23, \"org/repo\": \"jupyterlab/debugger\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-cookiecutter-ts\", \"number\": 1, \"org/repo\": \"jupyterlab/extension-cookiecutter-ts\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"number\": 4, \"org/repo\": \"jupyterlab/extension-examples\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyter-renderers\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyter-renderers\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"number\": 131, \"org/repo\": \"jupyterlab/jupyterlab\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-commenting\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-commenting\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-data-explorer\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-demo\", \"number\": 2, \"org/repo\": \"jupyterlab/jupyterlab-demo\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"number\": 22, \"org/repo\": \"jupyterlab/jupyterlab-git\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-github\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-github\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-shortcutui\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab-shortcutui\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"number\": 5, \"org/repo\": \"jupyterlab/jupyterlab-toc\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_server\", \"number\": 1, \"org/repo\": \"jupyterlab/jupyterlab_server\"}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"number\": 3, \"org/repo\": \"jupyterlab/lumino\"}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"number\": 4, \"org/repo\": \"jupyterlab/pytest-check-links\"}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"number\": 2, \"org/repo\": \"jupyterlab/rtc\"}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"number\": 9, \"org/repo\": \"jupyterlab/team-compass\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -979,16 +979,16 @@
    "execution_count": 15,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.390451Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.389827Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.395972Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.395306Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.599857Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.599262Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.609276Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.609867Z"
     },
     "papermill": {
-     "duration": 0.049898,
-     "end_time": "2020-05-26T01:11:39.396083",
+     "duration": 0.046791,
+     "end_time": "2020-05-27T01:10:59.609995",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.346185",
+     "start_time": "2020-05-27T01:10:59.563204",
      "status": "completed"
     },
     "tags": [
@@ -1009,16 +1009,16 @@
    "execution_count": 16,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.468391Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.467804Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.490489Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.491127Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.687076Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.686493Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.699847Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.699269Z"
     },
     "papermill": {
-     "duration": 0.066902,
-     "end_time": "2020-05-26T01:11:39.491269",
+     "duration": 0.061701,
+     "end_time": "2020-05-27T01:10:59.699942",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.424367",
+     "start_time": "2020-05-27T01:10:59.638241",
      "status": "completed"
     },
     "tags": [
@@ -1030,12 +1030,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-3fc091cb403a42db885f3a0690c822b5\"></div>\n",
+       "<div id=\"altair-viz-05c98ac1282c4c6e8dedcf97218e8220\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-3fc091cb403a42db885f3a0690c822b5\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-3fc091cb403a42db885f3a0690c822b5\");\n",
+       "    if (outputDiv.id !== \"altair-viz-05c98ac1282c4c6e8dedcf97218e8220\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-05c98ac1282c4c6e8dedcf97218e8220\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1077,7 +1077,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-a9f36554574837fb84f894132480ebb6\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 60 days for jupyterlab\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-a9f36554574837fb84f894132480ebb6\": [{\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"kind\": \"created\", \"count\": 13.0}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"kind\": \"created\", \"count\": 110.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"kind\": \"created\", \"count\": 17.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-github\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"kind\": \"created\", \"count\": 4.0}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"kind\": \"created\", \"count\": 5.0}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"kind\": \"created\", \"count\": 10.0}, {\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"kind\": \"closed\", \"count\": 23.0}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"kind\": \"closed\", \"count\": 4.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"kind\": \"closed\", \"count\": 136.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"kind\": \"closed\", \"count\": 20.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-github\", \"kind\": \"closed\", \"count\": 1.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"kind\": \"closed\", \"count\": 5.0}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"kind\": \"closed\", \"count\": 4.0}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"kind\": \"closed\", \"count\": 9.0}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-fc594f80bd9eee9298cb1d596fa65712\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 60 days for jupyterlab\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-fc594f80bd9eee9298cb1d596fa65712\": [{\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"kind\": \"created\", \"count\": 14.0}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"kind\": \"created\", \"count\": 113.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"kind\": \"created\", \"count\": 2.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"kind\": \"created\", \"count\": 17.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"kind\": \"created\", \"count\": 4.0}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"kind\": \"created\", \"count\": 5.0}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"kind\": \"created\", \"count\": 10.0}, {\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"kind\": \"closed\", \"count\": 23.0}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"kind\": \"closed\", \"count\": 4.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"kind\": \"closed\", \"count\": 131.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"kind\": \"closed\", \"count\": 1.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"kind\": \"closed\", \"count\": 22.0}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"kind\": \"closed\", \"count\": 5.0}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"kind\": \"closed\", \"count\": 4.0}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"kind\": \"closed\", \"count\": 9.0}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1107,16 +1107,16 @@
    "execution_count": 17,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.562611Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.561917Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.566051Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.565573Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.772645Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.772028Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.775764Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.775217Z"
     },
     "papermill": {
-     "duration": 0.045233,
-     "end_time": "2020-05-26T01:11:39.566168",
+     "duration": 0.04274,
+     "end_time": "2020-05-27T01:10:59.775852",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.520935",
+     "start_time": "2020-05-27T01:10:59.733112",
      "status": "completed"
     },
     "tags": [
@@ -1138,16 +1138,16 @@
    "execution_count": 18,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.632085Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.631552Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.656536Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.657116Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.840632Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.839964Z",
+     "iopub.status.idle": "2020-05-27T01:10:59.865461Z",
+     "shell.execute_reply": "2020-05-27T01:10:59.866206Z"
     },
     "papermill": {
-     "duration": 0.0626,
-     "end_time": "2020-05-26T01:11:39.657243",
+     "duration": 0.062443,
+     "end_time": "2020-05-27T01:10:59.866321",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.594643",
+     "start_time": "2020-05-27T01:10:59.803878",
      "status": "completed"
     },
     "tags": [
@@ -1159,12 +1159,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-ac58b89b432b48aa8880d47825330fd7\"></div>\n",
+       "<div id=\"altair-viz-1df18e6cbdf84996953279239165fe3d\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-ac58b89b432b48aa8880d47825330fd7\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-ac58b89b432b48aa8880d47825330fd7\");\n",
+       "    if (outputDiv.id !== \"altair-viz-1df18e6cbdf84996953279239165fe3d\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-1df18e6cbdf84996953279239165fe3d\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1206,7 +1206,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-390aa7b7c7d3e32d02a3f996331dcd98\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"rtc\", \"jupyterlab-toc\", \"debugger\", \"team-compass\", \"extension-examples\", \"jupyterlab-git\", \"jupyter-renderers\", \"jupyterlab\", \"jupyterlab-commenting\", \"extension-cookiecutter-ts\", \"pytest-check-links\", \"jupyterlab-shortcutui\", \"lumino\", \"jupyterlab-demo\", \"jupyterlab_server\", \"jupyterlab-github\", \"jupyterlab-data-explorer\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"time_open\", \"title\": \"Median Days Open\"}}, \"title\": \"Time to close for issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-390aa7b7c7d3e32d02a3f996331dcd98\": [{\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"time_open\": 20.78741898148148, \"org/repo\": \"jupyterlab/debugger\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-cookiecutter-ts\", \"time_open\": 7.299444444444444, \"org/repo\": \"jupyterlab/extension-cookiecutter-ts\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"time_open\": 13.342465277777778, \"org/repo\": \"jupyterlab/extension-examples\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyter-renderers\", \"time_open\": 8.037407407407407, \"org/repo\": \"jupyterlab/jupyter-renderers\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"time_open\": 8.026909722222221, \"org/repo\": \"jupyterlab/jupyterlab\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-commenting\", \"time_open\": 7.681493055555555, \"org/repo\": \"jupyterlab/jupyterlab-commenting\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"time_open\": 0.013113425925925926, \"org/repo\": \"jupyterlab/jupyterlab-data-explorer\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-demo\", \"time_open\": 0.34748263888888886, \"org/repo\": \"jupyterlab/jupyterlab-demo\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"time_open\": 8.046788194444444, \"org/repo\": \"jupyterlab/jupyterlab-git\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-github\", \"time_open\": 0.07996527777777777, \"org/repo\": \"jupyterlab/jupyterlab-github\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-shortcutui\", \"time_open\": 3.146412037037037, \"org/repo\": \"jupyterlab/jupyterlab-shortcutui\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"time_open\": 25.78849537037037, \"org/repo\": \"jupyterlab/jupyterlab-toc\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_server\", \"time_open\": 0.27923611111111113, \"org/repo\": \"jupyterlab/jupyterlab_server\"}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"time_open\": 2.9820254629629632, \"org/repo\": \"jupyterlab/lumino\"}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"time_open\": 5.246203703703704, \"org/repo\": \"jupyterlab/pytest-check-links\"}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"time_open\": 81.3473900462963, \"org/repo\": \"jupyterlab/rtc\"}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"time_open\": 13.97574074074074, \"org/repo\": \"jupyterlab/team-compass\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-3f4d2e7be5c8d4b9bf81702a826899a8\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"rtc\", \"jupyterlab-toc\", \"debugger\", \"team-compass\", \"extension-examples\", \"jupyterlab-git\", \"jupyterlab\", \"jupyter-renderers\", \"jupyterlab-commenting\", \"extension-cookiecutter-ts\", \"pytest-check-links\", \"jupyterlab-shortcutui\", \"lumino\", \"jupyterlab-demo\", \"jupyterlab_server\", \"jupyterlab-github\", \"jupyterlab-data-explorer\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"time_open\", \"title\": \"Median Days Open\"}}, \"title\": \"Time to close for issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-3f4d2e7be5c8d4b9bf81702a826899a8\": [{\"org\": \"jupyterlab\", \"repo\": \"debugger\", \"time_open\": 20.78741898148148, \"org/repo\": \"jupyterlab/debugger\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-cookiecutter-ts\", \"time_open\": 7.299444444444444, \"org/repo\": \"jupyterlab/extension-cookiecutter-ts\"}, {\"org\": \"jupyterlab\", \"repo\": \"extension-examples\", \"time_open\": 13.342465277777778, \"org/repo\": \"jupyterlab/extension-examples\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyter-renderers\", \"time_open\": 8.037407407407407, \"org/repo\": \"jupyterlab/jupyter-renderers\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab\", \"time_open\": 8.279675925925925, \"org/repo\": \"jupyterlab/jupyterlab\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-commenting\", \"time_open\": 7.681493055555555, \"org/repo\": \"jupyterlab/jupyterlab-commenting\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-data-explorer\", \"time_open\": 0.013113425925925926, \"org/repo\": \"jupyterlab/jupyterlab-data-explorer\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-demo\", \"time_open\": 0.34748263888888886, \"org/repo\": \"jupyterlab/jupyterlab-demo\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-git\", \"time_open\": 11.356371527777778, \"org/repo\": \"jupyterlab/jupyterlab-git\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-github\", \"time_open\": 0.07996527777777777, \"org/repo\": \"jupyterlab/jupyterlab-github\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-shortcutui\", \"time_open\": 3.146412037037037, \"org/repo\": \"jupyterlab/jupyterlab-shortcutui\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab-toc\", \"time_open\": 25.78849537037037, \"org/repo\": \"jupyterlab/jupyterlab-toc\"}, {\"org\": \"jupyterlab\", \"repo\": \"jupyterlab_server\", \"time_open\": 0.27923611111111113, \"org/repo\": \"jupyterlab/jupyterlab_server\"}, {\"org\": \"jupyterlab\", \"repo\": \"lumino\", \"time_open\": 2.9820254629629632, \"org/repo\": \"jupyterlab/lumino\"}, {\"org\": \"jupyterlab\", \"repo\": \"pytest-check-links\", \"time_open\": 5.246203703703704, \"org/repo\": \"jupyterlab/pytest-check-links\"}, {\"org\": \"jupyterlab\", \"repo\": \"rtc\", \"time_open\": 81.3473900462963, \"org/repo\": \"jupyterlab/rtc\"}, {\"org\": \"jupyterlab\", \"repo\": \"team-compass\", \"time_open\": 13.97574074074074, \"org/repo\": \"jupyterlab/team-compass\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1233,10 +1233,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.02748,
-     "end_time": "2020-05-26T01:11:39.714262",
+     "duration": 0.026714,
+     "end_time": "2020-05-27T01:10:59.923463",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.686782",
+     "start_time": "2020-05-27T01:10:59.896749",
      "status": "completed"
     },
     "tags": []
@@ -1254,16 +1254,16 @@
    "execution_count": 19,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.779532Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.778955Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.794289Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.793573Z"
+     "iopub.execute_input": "2020-05-27T01:10:59.990052Z",
+     "iopub.status.busy": "2020-05-27T01:10:59.989481Z",
+     "iopub.status.idle": "2020-05-27T01:11:00.003800Z",
+     "shell.execute_reply": "2020-05-27T01:11:00.004353Z"
     },
     "papermill": {
-     "duration": 0.051314,
-     "end_time": "2020-05-26T01:11:39.794427",
+     "duration": 0.049852,
+     "end_time": "2020-05-27T01:11:00.004530",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.743113",
+     "start_time": "2020-05-27T01:10:59.954678",
      "status": "completed"
     },
     "tags": [
@@ -1287,16 +1287,16 @@
    "execution_count": 20,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:39.858015Z",
-     "iopub.status.busy": "2020-05-26T01:11:39.857458Z",
-     "iopub.status.idle": "2020-05-26T01:11:39.887079Z",
-     "shell.execute_reply": "2020-05-26T01:11:39.886004Z"
+     "iopub.execute_input": "2020-05-27T01:11:00.072297Z",
+     "iopub.status.busy": "2020-05-27T01:11:00.071780Z",
+     "iopub.status.idle": "2020-05-27T01:11:00.098021Z",
+     "shell.execute_reply": "2020-05-27T01:11:00.098747Z"
     },
     "papermill": {
-     "duration": 0.064461,
-     "end_time": "2020-05-26T01:11:39.887176",
+     "duration": 0.06524,
+     "end_time": "2020-05-27T01:11:00.098882",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.822715",
+     "start_time": "2020-05-27T01:11:00.033642",
      "status": "completed"
     },
     "tags": [
@@ -1308,12 +1308,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-3487b03d95aa44fb83a609ed5c9da423\"></div>\n",
+       "<div id=\"altair-viz-b09fb950e833472c97d812a8b59eddb0\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-3487b03d95aa44fb83a609ed5c9da423\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-3487b03d95aa44fb83a609ed5c9da423\");\n",
+       "    if (outputDiv.id !== \"altair-viz-b09fb950e833472c97d812a8b59eddb0\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-b09fb950e833472c97d812a8b59eddb0\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1355,7 +1355,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for jupyterlab in the last 60 days\"}], \"data\": {\"name\": \"data-35b25edd8daa88e24bf183d89cc2c11b\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-35b25edd8daa88e24bf183d89cc2c11b\": [{\"author\": \"jasongrout\", \"count\": 310, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"blink1073\", \"count\": 270, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jtpio\", \"count\": 94, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"fcollonval\", \"count\": 80, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"saulshanabrook\", \"count\": 77, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"telamonian\", \"count\": 71, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ianhi\", \"count\": 69, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"echarles\", \"count\": 48, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"vidartf\", \"count\": 41, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"kgryte\", \"count\": 26, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"afshin\", \"count\": 25, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"tgeorgeux\", \"count\": 23, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"krassowski\", \"count\": 21, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"lresende\", \"count\": 20, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"edzkite\", \"count\": 15, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"SylvainCorlay\", \"count\": 15, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"meeseeksdev\", \"count\": 14, \"authorAssociation\": \"NONE\"}, {\"author\": \"bollwyvl\", \"count\": 13, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"mlucool\", \"count\": 9, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"bjtho08\", \"count\": 9, \"authorAssociation\": \"NONE\"}, {\"author\": \"Gsbreddy\", \"count\": 9, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"woswos\", \"count\": 8, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"nathanrpage97\", \"count\": 8, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"VersBersh\", \"count\": 8, \"authorAssociation\": \"NONE\"}, {\"author\": \"jhgoebbert\", \"count\": 8, \"authorAssociation\": \"NONE\"}, {\"author\": \"btel\", \"count\": 7, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"AlbertHilb\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jaipreet-s\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"timkpaine\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"gioarma\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"Juan-132\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"pratikchhapolika\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"ggbhat\", \"count\": 6, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"KrzysztofSikoraCodete\", \"count\": 6, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"choldgraf\", \"count\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"greatvovan\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"quangIO\", \"count\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"dhirschfeld\", \"count\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"Jacques2101\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"soerendip\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"drhades\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"mbektasbbg\", \"count\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ajbozarth\", \"count\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"marthacryan\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"billgreenwald\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"enriqueartal\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"nscozzaro\", \"count\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rahulpshah\", \"count\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"chrisjohn2306\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"simonlindgren\", \"count\": 4, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for jupyterlab in the last 60 days\"}], \"data\": {\"name\": \"data-e66cd059746f8d8b3c4a00cba550f351\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-e66cd059746f8d8b3c4a00cba550f351\": [{\"author\": \"jasongrout\", \"count\": 297, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"blink1073\", \"count\": 270, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jtpio\", \"count\": 95, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"fcollonval\", \"count\": 84, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"saulshanabrook\", \"count\": 71, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"telamonian\", \"count\": 71, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ianhi\", \"count\": 64, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"vidartf\", \"count\": 41, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"echarles\", \"count\": 40, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"kgryte\", \"count\": 29, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"afshin\", \"count\": 25, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"tgeorgeux\", \"count\": 22, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"krassowski\", \"count\": 20, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"lresende\", \"count\": 18, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"edzkite\", \"count\": 15, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"SylvainCorlay\", \"count\": 15, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"meeseeksdev\", \"count\": 14, \"authorAssociation\": \"NONE\"}, {\"author\": \"bollwyvl\", \"count\": 13, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"mlucool\", \"count\": 9, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"bjtho08\", \"count\": 9, \"authorAssociation\": \"NONE\"}, {\"author\": \"Gsbreddy\", \"count\": 9, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"nathanrpage97\", \"count\": 8, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jhgoebbert\", \"count\": 8, \"authorAssociation\": \"NONE\"}, {\"author\": \"woswos\", \"count\": 8, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"VersBersh\", \"count\": 8, \"authorAssociation\": \"NONE\"}, {\"author\": \"btel\", \"count\": 7, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"timkpaine\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jaipreet-s\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"AlbertHilb\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"gioarma\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"KrzysztofSikoraCodete\", \"count\": 6, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"Juan-132\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"pratikchhapolika\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"ggbhat\", \"count\": 6, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"choldgraf\", \"count\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"dhirschfeld\", \"count\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"drhades\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"soerendip\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"greatvovan\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"quangIO\", \"count\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"Jacques2101\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"marthacryan\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"rahulpshah\", \"count\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"GordonSmith\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"billgreenwald\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"jtnath\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"weera-tech\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"chrisjohn2306\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"simonlindgren\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"ajbozarth\", \"count\": 4, \"authorAssociation\": \"MEMBER\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1387,10 +1387,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.032386,
-     "end_time": "2020-05-26T01:11:39.949603",
+     "duration": 0.029939,
+     "end_time": "2020-05-27T01:11:00.159882",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.917217",
+     "start_time": "2020-05-27T01:11:00.129943",
      "status": "completed"
     },
     "tags": []
@@ -1407,16 +1407,16 @@
    "execution_count": 21,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:40.023937Z",
-     "iopub.status.busy": "2020-05-26T01:11:40.023312Z",
-     "iopub.status.idle": "2020-05-26T01:11:40.567122Z",
-     "shell.execute_reply": "2020-05-26T01:11:40.566502Z"
+     "iopub.execute_input": "2020-05-27T01:11:00.223247Z",
+     "iopub.status.busy": "2020-05-27T01:11:00.222669Z",
+     "iopub.status.idle": "2020-05-27T01:11:00.782270Z",
+     "shell.execute_reply": "2020-05-27T01:11:00.781773Z"
     },
     "papermill": {
-     "duration": 0.584031,
-     "end_time": "2020-05-26T01:11:40.567229",
+     "duration": 0.594476,
+     "end_time": "2020-05-27T01:11:00.782388",
      "exception": false,
-     "start_time": "2020-05-26T01:11:39.983198",
+     "start_time": "2020-05-27T01:11:00.187912",
      "status": "completed"
     },
     "tags": [
@@ -1444,16 +1444,16 @@
    "execution_count": 22,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:40.637089Z",
-     "iopub.status.busy": "2020-05-26T01:11:40.636500Z",
-     "iopub.status.idle": "2020-05-26T01:11:40.661444Z",
-     "shell.execute_reply": "2020-05-26T01:11:40.662178Z"
+     "iopub.execute_input": "2020-05-27T01:11:00.871065Z",
+     "iopub.status.busy": "2020-05-27T01:11:00.870356Z",
+     "iopub.status.idle": "2020-05-27T01:11:00.877363Z",
+     "shell.execute_reply": "2020-05-27T01:11:00.877927Z"
     },
     "papermill": {
-     "duration": 0.064457,
-     "end_time": "2020-05-26T01:11:40.662325",
+     "duration": 0.063362,
+     "end_time": "2020-05-27T01:11:00.878113",
      "exception": false,
-     "start_time": "2020-05-26T01:11:40.597868",
+     "start_time": "2020-05-27T01:11:00.814751",
      "status": "completed"
     },
     "tags": [
@@ -1465,12 +1465,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-1237bc9acf6c47908cccbbca0f2b8879\"></div>\n",
+       "<div id=\"altair-viz-e697b11b44344f0e9274c5f2deaffb9c\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-1237bc9acf6c47908cccbbca0f2b8879\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-1237bc9acf6c47908cccbbca0f2b8879\");\n",
+       "    if (outputDiv.id !== \"altair-viz-e697b11b44344f0e9274c5f2deaffb9c\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-e697b11b44344f0e9274c5f2deaffb9c\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1512,7 +1512,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-77875674ae64b343023c3024904c2e46\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for jupyterlab in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-77875674ae64b343023c3024904c2e46\": [{\"author\": \"blink1073\", \"n_first_responses\": 95, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jasongrout\", \"n_first_responses\": 92, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jtpio\", \"n_first_responses\": 31, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"fcollonval\", \"n_first_responses\": 30, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"telamonian\", \"n_first_responses\": 20, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"saulshanabrook\", \"n_first_responses\": 19, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ianhi\", \"n_first_responses\": 16, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"vidartf\", \"n_first_responses\": 13, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"afshin\", \"n_first_responses\": 10, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"echarles\", \"n_first_responses\": 8, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"krassowski\", \"n_first_responses\": 8, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"kgryte\", \"n_first_responses\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"SylvainCorlay\", \"n_first_responses\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"lresende\", \"n_first_responses\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"tgeorgeux\", \"n_first_responses\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"choldgraf\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rahulpshah\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ian-r-rose\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"bollwyvl\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"timkpaine\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"FungluiKoo\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"Jacques2101\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"dhirschfeld\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"nathanrpage97\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"martinRenou\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"markellekelly\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"GordonSmith\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"KsavinN\", \"n_first_responses\": 2, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"quangIO\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"andrelfpinto\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"ajbozarth\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"edzkite\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"lykqnbz\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"stefansimik\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"madx\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"maegul\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"lemonad\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"marthacryan\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"krlng\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"westurner\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"marvinbernhardt\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"rragundez\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mbektasbbg\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"pablooriol2\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"rosgori\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"robnagler\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"scottwsides\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"qzchenwl\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"soerendip\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"phish108\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-f1a5458f127bb8a4b20ab29c678aabab\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for jupyterlab in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-f1a5458f127bb8a4b20ab29c678aabab\": [{\"author\": \"blink1073\", \"n_first_responses\": 93, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jasongrout\", \"n_first_responses\": 90, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jtpio\", \"n_first_responses\": 32, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"fcollonval\", \"n_first_responses\": 30, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"telamonian\", \"n_first_responses\": 20, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"saulshanabrook\", \"n_first_responses\": 19, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ianhi\", \"n_first_responses\": 16, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"vidartf\", \"n_first_responses\": 12, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"afshin\", \"n_first_responses\": 10, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"kgryte\", \"n_first_responses\": 9, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"krassowski\", \"n_first_responses\": 8, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"echarles\", \"n_first_responses\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ian-r-rose\", \"n_first_responses\": 6, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"SylvainCorlay\", \"n_first_responses\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"tgeorgeux\", \"n_first_responses\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"dependabot\", \"n_first_responses\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"lresende\", \"n_first_responses\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rahulpshah\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"bollwyvl\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"choldgraf\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"timkpaine\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"nathanrpage97\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"martinRenou\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"markellekelly\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"dhirschfeld\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"edzkite\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ajbozarth\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"quangIO\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"andrelfpinto\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"KsavinN\", \"n_first_responses\": 2, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"jaipreet-s\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"Jacques2101\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"GordonSmith\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"FungluiKoo\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"maegul\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"madx\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"lykqnbz\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mbektasbbg\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"lemonad\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"marthacryan\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"krlng\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"marvinbernhardt\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Bamieh\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"memeplex\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"rosgori\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"yuvipanda\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"westurner\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"stefansimik\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"song0304\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"soerendip\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1542,10 +1542,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.030962,
-     "end_time": "2020-05-26T01:11:40.722573",
+     "duration": 0.029288,
+     "end_time": "2020-05-27T01:11:00.939256",
      "exception": false,
-     "start_time": "2020-05-26T01:11:40.691611",
+     "start_time": "2020-05-27T01:11:00.909968",
      "status": "completed"
     },
     "tags": [
@@ -1560,10 +1560,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.030378,
-     "end_time": "2020-05-26T01:11:40.784664",
+     "duration": 0.03092,
+     "end_time": "2020-05-27T01:11:01.002908",
      "exception": false,
-     "start_time": "2020-05-26T01:11:40.754286",
+     "start_time": "2020-05-27T01:11:00.971988",
      "status": "completed"
     },
     "tags": [
@@ -1582,16 +1582,16 @@
    "execution_count": 23,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:40.850452Z",
-     "iopub.status.busy": "2020-05-26T01:11:40.849450Z",
-     "iopub.status.idle": "2020-05-26T01:11:40.852256Z",
-     "shell.execute_reply": "2020-05-26T01:11:40.851641Z"
+     "iopub.execute_input": "2020-05-27T01:11:01.069243Z",
+     "iopub.status.busy": "2020-05-27T01:11:01.068542Z",
+     "iopub.status.idle": "2020-05-27T01:11:01.071603Z",
+     "shell.execute_reply": "2020-05-27T01:11:01.071090Z"
     },
     "papermill": {
-     "duration": 0.037966,
-     "end_time": "2020-05-26T01:11:40.852350",
+     "duration": 0.037201,
+     "end_time": "2020-05-27T01:11:01.071706",
      "exception": false,
-     "start_time": "2020-05-26T01:11:40.814384",
+     "start_time": "2020-05-27T01:11:01.034505",
      "status": "completed"
     },
     "tags": [
@@ -1645,10 +1645,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.032054,
-     "end_time": "2020-05-26T01:11:40.916224",
+     "duration": 0.033595,
+     "end_time": "2020-05-27T01:11:01.138519",
      "exception": false,
-     "start_time": "2020-05-26T01:11:40.884170",
+     "start_time": "2020-05-27T01:11:01.104924",
      "status": "completed"
     },
     "tags": [
@@ -1668,16 +1668,16 @@
    "execution_count": 24,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:40.983208Z",
-     "iopub.status.busy": "2020-05-26T01:11:40.982595Z",
-     "iopub.status.idle": "2020-05-26T01:11:40.984923Z",
-     "shell.execute_reply": "2020-05-26T01:11:40.984305Z"
+     "iopub.execute_input": "2020-05-27T01:11:01.210880Z",
+     "iopub.status.busy": "2020-05-27T01:11:01.210226Z",
+     "iopub.status.idle": "2020-05-27T01:11:01.212745Z",
+     "shell.execute_reply": "2020-05-27T01:11:01.212011Z"
     },
     "papermill": {
-     "duration": 0.038763,
-     "end_time": "2020-05-26T01:11:40.985019",
+     "duration": 0.041442,
+     "end_time": "2020-05-27T01:11:01.212924",
      "exception": false,
-     "start_time": "2020-05-26T01:11:40.946256",
+     "start_time": "2020-05-27T01:11:01.171482",
      "status": "completed"
     },
     "tags": [
@@ -1705,10 +1705,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.031503,
-     "end_time": "2020-05-26T01:11:41.051121",
+     "duration": 0.033349,
+     "end_time": "2020-05-27T01:11:01.279825",
      "exception": false,
-     "start_time": "2020-05-26T01:11:41.019618",
+     "start_time": "2020-05-27T01:11:01.246476",
      "status": "completed"
     },
     "tags": [
@@ -1727,16 +1727,16 @@
    "execution_count": 25,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:41.121884Z",
-     "iopub.status.busy": "2020-05-26T01:11:41.121291Z",
-     "iopub.status.idle": "2020-05-26T01:11:41.123137Z",
-     "shell.execute_reply": "2020-05-26T01:11:41.123787Z"
+     "iopub.execute_input": "2020-05-27T01:11:01.346266Z",
+     "iopub.status.busy": "2020-05-27T01:11:01.345697Z",
+     "iopub.status.idle": "2020-05-27T01:11:01.348482Z",
+     "shell.execute_reply": "2020-05-27T01:11:01.347838Z"
     },
     "papermill": {
-     "duration": 0.03918,
-     "end_time": "2020-05-26T01:11:41.123920",
+     "duration": 0.037374,
+     "end_time": "2020-05-27T01:11:01.348578",
      "exception": false,
-     "start_time": "2020-05-26T01:11:41.084740",
+     "start_time": "2020-05-27T01:11:01.311204",
      "status": "completed"
     },
     "tags": [
@@ -1761,16 +1761,16 @@
    "execution_count": 26,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-05-26T01:11:41.194209Z",
-     "iopub.status.busy": "2020-05-26T01:11:41.193527Z",
-     "iopub.status.idle": "2020-05-26T01:11:41.195483Z",
-     "shell.execute_reply": "2020-05-26T01:11:41.196032Z"
+     "iopub.execute_input": "2020-05-27T01:11:01.420638Z",
+     "iopub.status.busy": "2020-05-27T01:11:01.420062Z",
+     "iopub.status.idle": "2020-05-27T01:11:01.422190Z",
+     "shell.execute_reply": "2020-05-27T01:11:01.422773Z"
     },
     "papermill": {
-     "duration": 0.039701,
-     "end_time": "2020-05-26T01:11:41.196164",
+     "duration": 0.041018,
+     "end_time": "2020-05-27T01:11:01.422894",
      "exception": false,
-     "start_time": "2020-05-26T01:11:41.156463",
+     "start_time": "2020-05-27T01:11:01.381876",
      "status": "completed"
     },
     "tags": [
@@ -1833,8 +1833,8 @@
    "version": "3.7.7"
   },
   "papermill": {
-   "duration": 61.791097,
-   "end_time": "2020-05-26T01:11:41.336914",
+   "duration": 61.493762,
+   "end_time": "2020-05-27T01:11:01.561849",
    "environment_variables": {},
    "exception": null,
    "input_path": "./template.ipynb",
@@ -1843,13 +1843,65 @@
     "github_org": "jupyterlab",
     "n_days": 60
    },
-   "start_time": "2020-05-26T01:10:39.545817",
+   "start_time": "2020-05-27T01:10:00.068087",
    "version": "2.1.1"
   },
   "widgets": {
    "application/vnd.jupyter.widget-state+json": {
     "state": {
-     "1b041588b0ec4e4c95fae71dff8225b0": {
+     "2461f79928c34ce6a0b847bc82fcfc87": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "1.2.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "overflow_x": null,
+       "overflow_y": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "57376903a6c34bc58aba6b55ba643489": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
       "model_name": "IntProgressModel",
@@ -1865,15 +1917,15 @@
        "bar_style": "success",
        "description": "Downloading:",
        "description_tooltip": null,
-       "layout": "IPY_MODEL_64d8f19f068648f29cad6ac74fe4c838",
+       "layout": "IPY_MODEL_d60d47fb76d44eeb88e6e8e4c55a71fb",
        "max": 11,
        "min": 0,
        "orientation": "horizontal",
-       "style": "IPY_MODEL_4bba3b7c75f34d8b8d5b01c1274d4e68",
+       "style": "IPY_MODEL_e7b062bba5da4b008f8855aced803bf6",
        "value": 11
       }
      },
-     "1f048e98851e42d18408efae23b3e604": {
+     "d2fea17b2e9d4a748139326c259b4fd4": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
       "model_name": "ProgressStyleModel",
@@ -1889,7 +1941,75 @@
        "description_width": ""
       }
      },
-     "3ab8a13b6ea143ce9ee4b9984fa17425": {
+     "d60d47fb76d44eeb88e6e8e4c55a71fb": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "1.2.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "overflow_x": null,
+       "overflow_y": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "e7b062bba5da4b008f8855aced803bf6": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "ProgressStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "ProgressStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
+      }
+     },
+     "fd4c2cd75a9e4b74ad21f338923cd5f5": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
       "model_name": "IntProgressModel",
@@ -1905,132 +2025,12 @@
        "bar_style": "success",
        "description": "Downloading:",
        "description_tooltip": null,
-       "layout": "IPY_MODEL_80372721aa0f4f38bd2a42b133a2d811",
+       "layout": "IPY_MODEL_2461f79928c34ce6a0b847bc82fcfc87",
        "max": 13,
        "min": 0,
        "orientation": "horizontal",
-       "style": "IPY_MODEL_1f048e98851e42d18408efae23b3e604",
+       "style": "IPY_MODEL_d2fea17b2e9d4a748139326c259b4fd4",
        "value": 13
-      }
-     },
-     "4bba3b7c75f34d8b8d5b01c1274d4e68": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "1.5.0",
-      "model_name": "ProgressStyleModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "1.5.0",
-       "_model_name": "ProgressStyleModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "1.2.0",
-       "_view_name": "StyleView",
-       "bar_color": null,
-       "description_width": ""
-      }
-     },
-     "64d8f19f068648f29cad6ac74fe4c838": {
-      "model_module": "@jupyter-widgets/base",
-      "model_module_version": "1.2.0",
-      "model_name": "LayoutModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/base",
-       "_model_module_version": "1.2.0",
-       "_model_name": "LayoutModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "1.2.0",
-       "_view_name": "LayoutView",
-       "align_content": null,
-       "align_items": null,
-       "align_self": null,
-       "border": null,
-       "bottom": null,
-       "display": null,
-       "flex": null,
-       "flex_flow": null,
-       "grid_area": null,
-       "grid_auto_columns": null,
-       "grid_auto_flow": null,
-       "grid_auto_rows": null,
-       "grid_column": null,
-       "grid_gap": null,
-       "grid_row": null,
-       "grid_template_areas": null,
-       "grid_template_columns": null,
-       "grid_template_rows": null,
-       "height": null,
-       "justify_content": null,
-       "justify_items": null,
-       "left": null,
-       "margin": null,
-       "max_height": null,
-       "max_width": null,
-       "min_height": null,
-       "min_width": null,
-       "object_fit": null,
-       "object_position": null,
-       "order": null,
-       "overflow": null,
-       "overflow_x": null,
-       "overflow_y": null,
-       "padding": null,
-       "right": null,
-       "top": null,
-       "visibility": null,
-       "width": null
-      }
-     },
-     "80372721aa0f4f38bd2a42b133a2d811": {
-      "model_module": "@jupyter-widgets/base",
-      "model_module_version": "1.2.0",
-      "model_name": "LayoutModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/base",
-       "_model_module_version": "1.2.0",
-       "_model_name": "LayoutModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "1.2.0",
-       "_view_name": "LayoutView",
-       "align_content": null,
-       "align_items": null,
-       "align_self": null,
-       "border": null,
-       "bottom": null,
-       "display": null,
-       "flex": null,
-       "flex_flow": null,
-       "grid_area": null,
-       "grid_auto_columns": null,
-       "grid_auto_flow": null,
-       "grid_auto_rows": null,
-       "grid_column": null,
-       "grid_gap": null,
-       "grid_row": null,
-       "grid_template_areas": null,
-       "grid_template_columns": null,
-       "grid_template_rows": null,
-       "height": null,
-       "justify_content": null,
-       "justify_items": null,
-       "left": null,
-       "margin": null,
-       "max_height": null,
-       "max_width": null,
-       "min_height": null,
-       "min_width": null,
-       "object_fit": null,
-       "object_position": null,
-       "order": null,
-       "overflow": null,
-       "overflow_x": null,
-       "overflow_y": null,
-       "padding": null,
-       "right": null,
-       "top": null,
-       "visibility": null,
-       "width": null
       }
      }
     },
