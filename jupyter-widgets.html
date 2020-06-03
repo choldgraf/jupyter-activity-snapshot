@@ -123,7 +123,16 @@
             
         </div>
 
-        <!-- Edit this page -->
+        <!-- Source interaction buttons -->
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+            <div class="dropdown-buttons sourcebuttons">
+                <a class="repository-button" href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left" title="Source repository"><i class="fab fa-github"></i>repository</button></a>
+                <a class="issues-button" href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fjupyter-widgets.html&body=Your%20issue%20content%20here."><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left" title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+                
+            </div>
+        </div>
         
 
         <!-- Full screen (wrap in <a> to have style consistency -->
@@ -175,7 +184,7 @@
                 
   <div class="section" id="id1">
 <h1><span class="pasted-text">jupyter-widgets</span><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p><strong>Activity from <span class="pasted-inline"><code class="output text_plain docutils literal notranslate"><span class="pre">'2020-04-03'</span></code></span> to <span class="pasted-inline"><code class="output text_plain docutils literal notranslate"><span class="pre">'2020-06-02'</span></code></span></strong></p>
+<p><strong>Activity from <span class="pasted-inline"><code class="output text_plain docutils literal notranslate"><span class="pre">'2020-04-04'</span></code></span> to <span class="pasted-inline"><code class="output text_plain docutils literal notranslate"><span class="pre">'2020-06-03'</span></code></span></strong></p>
 <div class="section" id="merged-pull-requests">
 <h2>Merged Pull requests<a class="headerlink" href="#merged-pull-requests" title="Permalink to this headline">¶</a></h2>
 <p>Here’s an analysis of <strong>merged pull requests</strong> across each of the repositories in the Jupyter
@@ -193,12 +202,12 @@ ecosystem.</p>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-099cd391478f4744a2cfeec36abcbd82"></div>
+<div id="altair-viz-7a6a3485d6a94ae4ad4e8e5780a12682"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-099cd391478f4744a2cfeec36abcbd82") {
-      outputDiv = document.getElementById("altair-viz-099cd391478f4744a2cfeec36abcbd82");
+    if (outputDiv.id !== "altair-viz-7a6a3485d6a94ae4ad4e8e5780a12682") {
+      outputDiv = document.getElementById("altair-viz-7a6a3485d6a94ae4ad4e8e5780a12682");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -240,7 +249,7 @@ ecosystem.</p>
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-66f6fd130aa7511552d0ba435de4e80e"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "org"}, "x": {"type": "nominal", "field": "repo", "sort": ["ipyleaflet", "ipywidgets", "tutorial", "jupyterlab-sidecar", "widget-cookiecutter", "widget-ts-cookiecutter"]}, "y": {"type": "quantitative", "field": "author"}}, "title": "Merged PRs in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-66f6fd130aa7511552d0ba435de4e80e": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "author": 30}, {"org": "jupyter-widgets", "repo": "ipywidgets", "author": 10}, {"org": "jupyter-widgets", "repo": "tutorial", "author": 2}, {"org": "jupyter-widgets", "repo": "jupyterlab-sidecar", "author": 1}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "author": 1}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "author": 1}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-f960973631d1d8869078076ec32fd9a1"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "org"}, "x": {"type": "nominal", "field": "repo", "sort": ["ipyleaflet", "ipywidgets", "tutorial", "jupyterlab-sidecar", "widget-cookiecutter", "widget-ts-cookiecutter"]}, "y": {"type": "quantitative", "field": "author"}}, "title": "Merged PRs in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-f960973631d1d8869078076ec32fd9a1": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "author": 29}, {"org": "jupyter-widgets", "repo": "ipywidgets", "author": 10}, {"org": "jupyter-widgets", "repo": "tutorial", "author": 2}, {"org": "jupyter-widgets", "repo": "jupyterlab-sidecar", "author": 1}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "author": 1}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "author": 1}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="section" id="authoring-and-merging-stats-by-repository">
@@ -265,12 +274,12 @@ the person that “pressed the green button” and got the change into the main 
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-2e57da2c067942668eef69795b2ba39b"></div>
+<div id="altair-viz-0b062b2ae6ea419bb2f4f4535093697c"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-2e57da2c067942668eef69795b2ba39b") {
-      outputDiv = document.getElementById("altair-viz-2e57da2c067942668eef69795b2ba39b");
+    if (outputDiv.id !== "altair-viz-0b062b2ae6ea419bb2f4f4535093697c") {
+      outputDiv = document.getElementById("altair-viz-0b062b2ae6ea419bb2f4f4535093697c");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -312,7 +321,7 @@ the person that “pressed the green button” and got the change into the main 
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-878ee7a6c96719f43ad4f290f67f94b7"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "username"}, "y": {"type": "quantitative", "field": "authored"}}, "title": "PR authors for jupyter-widgets in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-878ee7a6c96719f43ad4f290f67f94b7": [{"username": "martinRenou", "authored": 16, "authorAssociation": "MEMBER"}, {"username": "davidbrochart", "authored": 5, "authorAssociation": "MEMBER"}, {"username": "omanges", "authored": 4, "authorAssociation": "CONTRIBUTOR"}, {"username": "sackh", "authored": 3, "authorAssociation": "CONTRIBUTOR"}, {"username": "SylvainCorlay", "authored": 2, "authorAssociation": "MEMBER"}, {"username": "TomTom4", "authored": 2, "authorAssociation": "CONTRIBUTOR"}, {"username": "dependabot", "authored": 2, "authorAssociation": "CONTRIBUTOR"}, {"username": "giswqs", "authored": 2, "authorAssociation": "CONTRIBUTOR"}, {"username": "jasongrout", "authored": 2, "authorAssociation": "MEMBER"}, {"username": "betolink", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "consideRatio", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "fitoprincipe", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "stephaniegott", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "wangsijie", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "wendli01", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "zerline", "authored": 1, "authorAssociation": "CONTRIBUTOR"}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-4aa38a07ee15df2026e5135bb67d8b72"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "username"}, "y": {"type": "quantitative", "field": "authored"}}, "title": "PR authors for jupyter-widgets in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-4aa38a07ee15df2026e5135bb67d8b72": [{"username": "martinRenou", "authored": 16, "authorAssociation": "MEMBER"}, {"username": "davidbrochart", "authored": 5, "authorAssociation": "MEMBER"}, {"username": "omanges", "authored": 4, "authorAssociation": "CONTRIBUTOR"}, {"username": "sackh", "authored": 3, "authorAssociation": "CONTRIBUTOR"}, {"username": "SylvainCorlay", "authored": 2, "authorAssociation": "MEMBER"}, {"username": "TomTom4", "authored": 2, "authorAssociation": "CONTRIBUTOR"}, {"username": "dependabot", "authored": 2, "authorAssociation": "CONTRIBUTOR"}, {"username": "jasongrout", "authored": 2, "authorAssociation": "MEMBER"}, {"username": "betolink", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "consideRatio", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "fitoprincipe", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "giswqs", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "stephaniegott", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "wangsijie", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "wendli01", "authored": 1, "authorAssociation": "CONTRIBUTOR"}, {"username": "zerline", "authored": 1, "authorAssociation": "CONTRIBUTOR"}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="cell tag_hide_input docutils container">
@@ -329,12 +338,12 @@ the person that “pressed the green button” and got the change into the main 
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-bcd781afcdd54ddf827454975be0d5c2"></div>
+<div id="altair-viz-339f360db6944d4090501ee2e3682563"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-bcd781afcdd54ddf827454975be0d5c2") {
-      outputDiv = document.getElementById("altair-viz-bcd781afcdd54ddf827454975be0d5c2");
+    if (outputDiv.id !== "altair-viz-339f360db6944d4090501ee2e3682563") {
+      outputDiv = document.getElementById("altair-viz-339f360db6944d4090501ee2e3682563");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -376,7 +385,7 @@ the person that “pressed the green button” and got the change into the main 
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-48db37ebfbec89d086619b30964d1ca3"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "username"}, "y": {"type": "quantitative", "field": "closed"}}, "title": "Merges for jupyter-widgets in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-48db37ebfbec89d086619b30964d1ca3": [{"repo": "ipyleaflet", "username": "SylvainCorlay", "closed": 2}, {"repo": "ipyleaflet", "username": "davidbrochart", "closed": 1}, {"repo": "ipyleaflet", "username": "martinRenou", "closed": 27}, {"repo": "ipywidgets", "username": "SylvainCorlay", "closed": 7}, {"repo": "ipywidgets", "username": "jasongrout", "closed": 2}, {"repo": "ipywidgets", "username": "vidartf", "closed": 1}, {"repo": "jupyterlab-sidecar", "username": "jasongrout", "closed": 1}, {"repo": "tutorial", "username": "martinRenou", "closed": 1}, {"repo": "tutorial", "username": "mwcraig", "closed": 1}, {"repo": "widget-cookiecutter", "username": "martinRenou", "closed": 1}, {"repo": "widget-ts-cookiecutter", "username": "jasongrout", "closed": 1}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-5b581f1bd8cee1952b0a29a9586c3463"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "username"}, "y": {"type": "quantitative", "field": "closed"}}, "title": "Merges for jupyter-widgets in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-5b581f1bd8cee1952b0a29a9586c3463": [{"repo": "ipyleaflet", "username": "SylvainCorlay", "closed": 1}, {"repo": "ipyleaflet", "username": "davidbrochart", "closed": 1}, {"repo": "ipyleaflet", "username": "martinRenou", "closed": 27}, {"repo": "ipywidgets", "username": "SylvainCorlay", "closed": 7}, {"repo": "ipywidgets", "username": "jasongrout", "closed": 2}, {"repo": "ipywidgets", "username": "vidartf", "closed": 1}, {"repo": "jupyterlab-sidecar", "username": "jasongrout", "closed": 1}, {"repo": "tutorial", "username": "martinRenou", "closed": 1}, {"repo": "tutorial", "username": "mwcraig", "closed": 1}, {"repo": "widget-cookiecutter", "username": "martinRenou", "closed": 1}, {"repo": "widget-ts-cookiecutter", "username": "jasongrout", "closed": 1}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -399,12 +408,12 @@ analysis of issues across the Jupyter organizations.</p>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-dfe4600bc28c49149c1a45fce53928fe"></div>
+<div id="altair-viz-279a6f899ed74e6e979d2ac23aa98a1e"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-dfe4600bc28c49149c1a45fce53928fe") {
-      outputDiv = document.getElementById("altair-viz-dfe4600bc28c49149c1a45fce53928fe");
+    if (outputDiv.id !== "altair-viz-279a6f899ed74e6e979d2ac23aa98a1e") {
+      outputDiv = document.getElementById("altair-viz-279a6f899ed74e6e979d2ac23aa98a1e");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -446,7 +455,7 @@ analysis of issues across the Jupyter organizations.</p>
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-ccdcd3f081425e1132533bae337d9a93"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["ipywidgets", "ipyleaflet", "pythreejs", "widget-ts-cookiecutter", "jupyterlab-sidecar", "tutorial", "widget-cookiecutter"]}, "y": {"type": "quantitative", "field": "number"}}, "title": "Issues created in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-ccdcd3f081425e1132533bae337d9a93": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "number": 16, "org/repo": "jupyter-widgets/ipyleaflet"}, {"org": "jupyter-widgets", "repo": "ipywidgets", "number": 29, "org/repo": "jupyter-widgets/ipywidgets"}, {"org": "jupyter-widgets", "repo": "jupyterlab-sidecar", "number": 2, "org/repo": "jupyter-widgets/jupyterlab-sidecar"}, {"org": "jupyter-widgets", "repo": "pythreejs", "number": 3, "org/repo": "jupyter-widgets/pythreejs"}, {"org": "jupyter-widgets", "repo": "tutorial", "number": 1, "org/repo": "jupyter-widgets/tutorial"}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "number": 1, "org/repo": "jupyter-widgets/widget-cookiecutter"}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "number": 3, "org/repo": "jupyter-widgets/widget-ts-cookiecutter"}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-9fba2ab51a319c821b807c7d11c334e8"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["ipywidgets", "ipyleaflet", "pythreejs", "widget-ts-cookiecutter", "jupyterlab-sidecar", "tutorial", "widget-cookiecutter"]}, "y": {"type": "quantitative", "field": "number"}}, "title": "Issues created in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-9fba2ab51a319c821b807c7d11c334e8": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "number": 15, "org/repo": "jupyter-widgets/ipyleaflet"}, {"org": "jupyter-widgets", "repo": "ipywidgets", "number": 30, "org/repo": "jupyter-widgets/ipywidgets"}, {"org": "jupyter-widgets", "repo": "jupyterlab-sidecar", "number": 2, "org/repo": "jupyter-widgets/jupyterlab-sidecar"}, {"org": "jupyter-widgets", "repo": "pythreejs", "number": 3, "org/repo": "jupyter-widgets/pythreejs"}, {"org": "jupyter-widgets", "repo": "tutorial", "number": 1, "org/repo": "jupyter-widgets/tutorial"}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "number": 1, "org/repo": "jupyter-widgets/widget-cookiecutter"}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "number": 3, "org/repo": "jupyter-widgets/widget-ts-cookiecutter"}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="cell tag_hide_input docutils container">
@@ -463,12 +472,12 @@ analysis of issues across the Jupyter organizations.</p>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-7f28842b957d41808bdd531b9a3a4000"></div>
+<div id="altair-viz-fae8eec52138466fa8383115b9597de1"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-7f28842b957d41808bdd531b9a3a4000") {
-      outputDiv = document.getElementById("altair-viz-7f28842b957d41808bdd531b9a3a4000");
+    if (outputDiv.id !== "altair-viz-fae8eec52138466fa8383115b9597de1") {
+      outputDiv = document.getElementById("altair-viz-fae8eec52138466fa8383115b9597de1");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -510,7 +519,7 @@ analysis of issues across the Jupyter organizations.</p>
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-c0974c1a38a842fb33eff1b38da28bb5"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["ipyleaflet", "ipywidgets", "pythreejs", "tutorial", "widget-cookiecutter", "widget-ts-cookiecutter"]}, "y": {"type": "quantitative", "field": "number"}}, "title": "Issues closed in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-c0974c1a38a842fb33eff1b38da28bb5": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "number": 19, "org/repo": "jupyter-widgets/ipyleaflet"}, {"org": "jupyter-widgets", "repo": "ipywidgets", "number": 16, "org/repo": "jupyter-widgets/ipywidgets"}, {"org": "jupyter-widgets", "repo": "pythreejs", "number": 5, "org/repo": "jupyter-widgets/pythreejs"}, {"org": "jupyter-widgets", "repo": "tutorial", "number": 2, "org/repo": "jupyter-widgets/tutorial"}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "number": 2, "org/repo": "jupyter-widgets/widget-cookiecutter"}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "number": 1, "org/repo": "jupyter-widgets/widget-ts-cookiecutter"}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-81fbbbb8e40d0e56cc584b5fdc9a973f"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["ipyleaflet", "ipywidgets", "pythreejs", "tutorial", "widget-cookiecutter", "widget-ts-cookiecutter"]}, "y": {"type": "quantitative", "field": "number"}}, "title": "Issues closed in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-81fbbbb8e40d0e56cc584b5fdc9a973f": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "number": 19, "org/repo": "jupyter-widgets/ipyleaflet"}, {"org": "jupyter-widgets", "repo": "ipywidgets", "number": 16, "org/repo": "jupyter-widgets/ipywidgets"}, {"org": "jupyter-widgets", "repo": "pythreejs", "number": 3, "org/repo": "jupyter-widgets/pythreejs"}, {"org": "jupyter-widgets", "repo": "tutorial", "number": 2, "org/repo": "jupyter-widgets/tutorial"}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "number": 2, "org/repo": "jupyter-widgets/widget-cookiecutter"}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "number": 1, "org/repo": "jupyter-widgets/widget-ts-cookiecutter"}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="cell tag_hide_input docutils container">
@@ -530,12 +539,12 @@ analysis of issues across the Jupyter organizations.</p>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-d378b70edc624794bdc9b7cbb5e97479"></div>
+<div id="altair-viz-89106c7765e24a5b90488a855c275666"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-d378b70edc624794bdc9b7cbb5e97479") {
-      outputDiv = document.getElementById("altair-viz-d378b70edc624794bdc9b7cbb5e97479");
+    if (outputDiv.id !== "altair-viz-89106c7765e24a5b90488a855c275666") {
+      outputDiv = document.getElementById("altair-viz-89106c7765e24a5b90488a855c275666");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -577,7 +586,7 @@ analysis of issues across the Jupyter organizations.</p>
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-6684122ec31e37670935d116527be0ae"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "column": {"type": "nominal", "field": "repo", "header": {"labelFontSize": 12, "title": "Issue activity, last 60 days for jupyter-widgets", "titleFontSize": 15}}, "x": {"type": "nominal", "axis": {"labelFontSize": 15, "title": ""}, "field": "kind"}, "y": {"type": "quantitative", "axis": {"labelFontSize": 12, "titleFontSize": 15}, "field": "count"}}, "width": 120, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-6684122ec31e37670935d116527be0ae": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "kind": "created", "count": 16.0}, {"org": "jupyter-widgets", "repo": "ipywidgets", "kind": "created", "count": 29.0}, {"org": "jupyter-widgets", "repo": "jupyterlab-sidecar", "kind": "created", "count": 2.0}, {"org": "jupyter-widgets", "repo": "pythreejs", "kind": "created", "count": 3.0}, {"org": "jupyter-widgets", "repo": "tutorial", "kind": "created", "count": 1.0}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "kind": "created", "count": 1.0}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "kind": "created", "count": 3.0}, {"org": "jupyter-widgets", "repo": "ipyleaflet", "kind": "closed", "count": 19.0}, {"org": "jupyter-widgets", "repo": "ipywidgets", "kind": "closed", "count": 16.0}, {"org": "jupyter-widgets", "repo": "jupyterlab-sidecar", "kind": "closed", "count": 0.0}, {"org": "jupyter-widgets", "repo": "pythreejs", "kind": "closed", "count": 5.0}, {"org": "jupyter-widgets", "repo": "tutorial", "kind": "closed", "count": 2.0}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "kind": "closed", "count": 2.0}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "kind": "closed", "count": 1.0}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-29cfe9f272a72987b64c723e7124e6b5"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "column": {"type": "nominal", "field": "repo", "header": {"labelFontSize": 12, "title": "Issue activity, last 60 days for jupyter-widgets", "titleFontSize": 15}}, "x": {"type": "nominal", "axis": {"labelFontSize": 15, "title": ""}, "field": "kind"}, "y": {"type": "quantitative", "axis": {"labelFontSize": 12, "titleFontSize": 15}, "field": "count"}}, "width": 120, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-29cfe9f272a72987b64c723e7124e6b5": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "kind": "created", "count": 15.0}, {"org": "jupyter-widgets", "repo": "ipywidgets", "kind": "created", "count": 30.0}, {"org": "jupyter-widgets", "repo": "jupyterlab-sidecar", "kind": "created", "count": 2.0}, {"org": "jupyter-widgets", "repo": "pythreejs", "kind": "created", "count": 3.0}, {"org": "jupyter-widgets", "repo": "tutorial", "kind": "created", "count": 1.0}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "kind": "created", "count": 1.0}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "kind": "created", "count": 3.0}, {"org": "jupyter-widgets", "repo": "ipyleaflet", "kind": "closed", "count": 19.0}, {"org": "jupyter-widgets", "repo": "ipywidgets", "kind": "closed", "count": 16.0}, {"org": "jupyter-widgets", "repo": "jupyterlab-sidecar", "kind": "closed", "count": 0.0}, {"org": "jupyter-widgets", "repo": "pythreejs", "kind": "closed", "count": 3.0}, {"org": "jupyter-widgets", "repo": "tutorial", "kind": "closed", "count": 2.0}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "kind": "closed", "count": 2.0}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "kind": "closed", "count": 1.0}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="cell tag_hide_input docutils container">
@@ -595,12 +604,12 @@ analysis of issues across the Jupyter organizations.</p>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-ecbbdca4c154403290fa85a30bed4937"></div>
+<div id="altair-viz-c68290dfc0d249ed82aa5bb9cd07c9df"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-ecbbdca4c154403290fa85a30bed4937") {
-      outputDiv = document.getElementById("altair-viz-ecbbdca4c154403290fa85a30bed4937");
+    if (outputDiv.id !== "altair-viz-c68290dfc0d249ed82aa5bb9cd07c9df") {
+      outputDiv = document.getElementById("altair-viz-c68290dfc0d249ed82aa5bb9cd07c9df");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -642,7 +651,7 @@ analysis of issues across the Jupyter organizations.</p>
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-14a299ef291fa22ddba0e28fa12117bd"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["tutorial", "pythreejs", "widget-cookiecutter", "ipyleaflet", "ipywidgets", "widget-ts-cookiecutter"]}, "y": {"type": "quantitative", "field": "time_open", "title": "Median Days Open"}}, "title": "Time to close for issues closed in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-14a299ef291fa22ddba0e28fa12117bd": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "time_open": 3.023842592592593, "org/repo": "jupyter-widgets/ipyleaflet"}, {"org": "jupyter-widgets", "repo": "ipywidgets", "time_open": 0.63921875, "org/repo": "jupyter-widgets/ipywidgets"}, {"org": "jupyter-widgets", "repo": "pythreejs", "time_open": 52.91689814814815, "org/repo": "jupyter-widgets/pythreejs"}, {"org": "jupyter-widgets", "repo": "tutorial", "time_open": 171.29064814814814, "org/repo": "jupyter-widgets/tutorial"}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "time_open": 3.2046006944444443, "org/repo": "jupyter-widgets/widget-cookiecutter"}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "time_open": 0.01556712962962963, "org/repo": "jupyter-widgets/widget-ts-cookiecutter"}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-b1ee191d8a78d2667003be5a3ff7c907"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["tutorial", "pythreejs", "widget-cookiecutter", "ipyleaflet", "ipywidgets", "widget-ts-cookiecutter"]}, "y": {"type": "quantitative", "field": "time_open", "title": "Median Days Open"}}, "title": "Time to close for issues closed in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-b1ee191d8a78d2667003be5a3ff7c907": [{"org": "jupyter-widgets", "repo": "ipyleaflet", "time_open": 3.023842592592593, "org/repo": "jupyter-widgets/ipyleaflet"}, {"org": "jupyter-widgets", "repo": "ipywidgets", "time_open": 0.63921875, "org/repo": "jupyter-widgets/ipywidgets"}, {"org": "jupyter-widgets", "repo": "pythreejs", "time_open": 14.496157407407408, "org/repo": "jupyter-widgets/pythreejs"}, {"org": "jupyter-widgets", "repo": "tutorial", "time_open": 171.29064814814814, "org/repo": "jupyter-widgets/tutorial"}, {"org": "jupyter-widgets", "repo": "widget-cookiecutter", "time_open": 3.2046006944444443, "org/repo": "jupyter-widgets/widget-cookiecutter"}, {"org": "jupyter-widgets", "repo": "widget-ts-cookiecutter", "time_open": 0.01556712962962963, "org/repo": "jupyter-widgets/widget-ts-cookiecutter"}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -671,12 +680,12 @@ about what these associations mean, <a class="reference external" href="https://
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-4ad6487f8bee44ee9e550bd9a2354600"></div>
+<div id="altair-viz-a46c0f96877b40bea7cc87c503281139"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-4ad6487f8bee44ee9e550bd9a2354600") {
-      outputDiv = document.getElementById("altair-viz-4ad6487f8bee44ee9e550bd9a2354600");
+    if (outputDiv.id !== "altair-viz-a46c0f96877b40bea7cc87c503281139") {
+      outputDiv = document.getElementById("altair-viz-a46c0f96877b40bea7cc87c503281139");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -718,7 +727,7 @@ about what these associations mean, <a class="reference external" href="https://
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "hconcat": [{"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "author"}, "y": {"type": "quantitative", "field": "count"}}, "title": "Top 50 commentors for jupyter-widgets in the last 60 days"}], "data": {"name": "data-777928265f7b0e6392b619a5d5d6a583"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-777928265f7b0e6392b619a5d5d6a583": [{"author": "martinRenou", "count": 97, "authorAssociation": "MEMBER"}, {"author": "jasongrout", "count": 61, "authorAssociation": "MEMBER"}, {"author": "davidbrochart", "count": 27, "authorAssociation": "MEMBER"}, {"author": "vidartf", "count": 23, "authorAssociation": "MEMBER"}, {"author": "giswqs", "count": 14, "authorAssociation": "CONTRIBUTOR"}, {"author": "SylvainCorlay", "count": 14, "authorAssociation": "MEMBER"}, {"author": "wlievens", "count": 11, "authorAssociation": "NONE"}, {"author": "sackh", "count": 8, "authorAssociation": "CONTRIBUTOR"}, {"author": "bendichter", "count": 7, "authorAssociation": "NONE"}, {"author": "omanges", "count": 7, "authorAssociation": "CONTRIBUTOR"}, {"author": "betolink", "count": 6, "authorAssociation": "CONTRIBUTOR"}, {"author": "metasim", "count": 6, "authorAssociation": "NONE"}, {"author": "nvaytet", "count": 6, "authorAssociation": "NONE"}, {"author": "gioxc88", "count": 5, "authorAssociation": "NONE"}, {"author": "matburnham", "count": 5, "authorAssociation": "NONE"}, {"author": "bernhard-42", "count": 5, "authorAssociation": "NONE"}, {"author": "jvail", "count": 5, "authorAssociation": "NONE"}, {"author": "Alexboiboi", "count": 5, "authorAssociation": "NONE"}, {"author": "ae86208", "count": 4, "authorAssociation": "NONE"}, {"author": "maartenbreddels", "count": 4, "authorAssociation": "MEMBER"}, {"author": "SujPer", "count": 4, "authorAssociation": "NONE"}, {"author": "deeplook", "count": 3, "authorAssociation": "CONTRIBUTOR"}, {"author": "Boomer91", "count": 3, "authorAssociation": "NONE"}, {"author": "JamesMaxwellHarrison", "count": 3, "authorAssociation": "NONE"}, {"author": "unfassbarstephan", "count": 3, "authorAssociation": "NONE"}, {"author": "dependabot", "count": 3, "authorAssociation": "NONE"}, {"author": "TomTom4", "count": 3, "authorAssociation": "CONTRIBUTOR"}, {"author": "d1runberg", "count": 3, "authorAssociation": "NONE"}, {"author": "stephaniegott", "count": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "mewcamo", "count": 2, "authorAssociation": "NONE"}, {"author": "wendli01", "count": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "limj0825", "count": 2, "authorAssociation": "NONE"}, {"author": "kylebarron", "count": 2, "authorAssociation": "NONE"}, {"author": "stonebig", "count": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "rsheftel", "count": 2, "authorAssociation": "NONE"}, {"author": "19bcs2405", "count": 2, "authorAssociation": "NONE"}, {"author": "yrouimi", "count": 2, "authorAssociation": "NONE"}, {"author": "AlexanderJuestel", "count": 2, "authorAssociation": "NONE"}, {"author": "Nic30", "count": 2, "authorAssociation": "NONE"}, {"author": "doug-ol", "count": 2, "authorAssociation": "NONE"}, {"author": "dextersLabRat", "count": 2, "authorAssociation": "NONE"}, {"author": "dcabecinhas", "count": 2, "authorAssociation": "NONE"}, {"author": "danielfleischer", "count": 2, "authorAssociation": "NONE"}, {"author": "byouness", "count": 2, "authorAssociation": "NONE"}, {"author": "UGuntupalli", "count": 2, "authorAssociation": "NONE"}, {"author": "anne-Matri", "count": 2, "authorAssociation": "NONE"}, {"author": "ingdanielguerrero", "count": 1, "authorAssociation": "NONE"}, {"author": "shek2994", "count": 1, "authorAssociation": "NONE"}, {"author": "Dadatata-JZ", "count": 1, "authorAssociation": "NONE"}, {"author": "MitchellSmall", "count": 1, "authorAssociation": "NONE"}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "hconcat": [{"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "author"}, "y": {"type": "quantitative", "field": "count"}}, "title": "Top 50 commentors for jupyter-widgets in the last 60 days"}], "data": {"name": "data-21e07c1d726ee3ade3b9e807ad672c9b"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-21e07c1d726ee3ade3b9e807ad672c9b": [{"author": "martinRenou", "count": 96, "authorAssociation": "MEMBER"}, {"author": "jasongrout", "count": 62, "authorAssociation": "MEMBER"}, {"author": "davidbrochart", "count": 27, "authorAssociation": "MEMBER"}, {"author": "vidartf", "count": 22, "authorAssociation": "MEMBER"}, {"author": "giswqs", "count": 14, "authorAssociation": "CONTRIBUTOR"}, {"author": "SylvainCorlay", "count": 13, "authorAssociation": "MEMBER"}, {"author": "wlievens", "count": 11, "authorAssociation": "NONE"}, {"author": "sackh", "count": 8, "authorAssociation": "CONTRIBUTOR"}, {"author": "omanges", "count": 7, "authorAssociation": "CONTRIBUTOR"}, {"author": "bendichter", "count": 7, "authorAssociation": "NONE"}, {"author": "nvaytet", "count": 6, "authorAssociation": "NONE"}, {"author": "ianhi", "count": 6, "authorAssociation": "NONE"}, {"author": "betolink", "count": 6, "authorAssociation": "CONTRIBUTOR"}, {"author": "Alexboiboi", "count": 5, "authorAssociation": "NONE"}, {"author": "bernhard-42", "count": 5, "authorAssociation": "NONE"}, {"author": "gioxc88", "count": 5, "authorAssociation": "NONE"}, {"author": "matburnham", "count": 5, "authorAssociation": "NONE"}, {"author": "jvail", "count": 5, "authorAssociation": "NONE"}, {"author": "maartenbreddels", "count": 4, "authorAssociation": "MEMBER"}, {"author": "ae86208", "count": 4, "authorAssociation": "NONE"}, {"author": "SujPer", "count": 4, "authorAssociation": "NONE"}, {"author": "Boomer91", "count": 3, "authorAssociation": "NONE"}, {"author": "dependabot", "count": 3, "authorAssociation": "NONE"}, {"author": "deeplook", "count": 3, "authorAssociation": "CONTRIBUTOR"}, {"author": "d1runberg", "count": 3, "authorAssociation": "NONE"}, {"author": "JamesMaxwellHarrison", "count": 3, "authorAssociation": "NONE"}, {"author": "unfassbarstephan", "count": 3, "authorAssociation": "NONE"}, {"author": "TomTom4", "count": 3, "authorAssociation": "CONTRIBUTOR"}, {"author": "kylebarron", "count": 2, "authorAssociation": "NONE"}, {"author": "stephaniegott", "count": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "mewcamo", "count": 2, "authorAssociation": "NONE"}, {"author": "limj0825", "count": 2, "authorAssociation": "NONE"}, {"author": "wendli01", "count": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "rsheftel", "count": 2, "authorAssociation": "NONE"}, {"author": "stonebig", "count": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "19bcs2405", "count": 2, "authorAssociation": "NONE"}, {"author": "yrouimi", "count": 2, "authorAssociation": "NONE"}, {"author": "AlexanderJuestel", "count": 2, "authorAssociation": "NONE"}, {"author": "Nic30", "count": 2, "authorAssociation": "NONE"}, {"author": "doug-ol", "count": 2, "authorAssociation": "NONE"}, {"author": "dextersLabRat", "count": 2, "authorAssociation": "NONE"}, {"author": "dcabecinhas", "count": 2, "authorAssociation": "NONE"}, {"author": "danielfleischer", "count": 2, "authorAssociation": "NONE"}, {"author": "byouness", "count": 2, "authorAssociation": "NONE"}, {"author": "UGuntupalli", "count": 2, "authorAssociation": "NONE"}, {"author": "anne-Matri", "count": 2, "authorAssociation": "NONE"}, {"author": "ingdanielguerrero", "count": 1, "authorAssociation": "NONE"}, {"author": "shek2994", "count": 1, "authorAssociation": "NONE"}, {"author": "Dadatata-JZ", "count": 1, "authorAssociation": "NONE"}, {"author": "MitchellSmall", "count": 1, "authorAssociation": "NONE"}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -744,12 +753,12 @@ The following plots show first responders for recently-created issues.</p>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-3c4ec64db4d640e5b706e8f2db894004"></div>
+<div id="altair-viz-601bc6b4088547f1a8a2adfcade10cf1"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-3c4ec64db4d640e5b706e8f2db894004") {
-      outputDiv = document.getElementById("altair-viz-3c4ec64db4d640e5b706e8f2db894004");
+    if (outputDiv.id !== "altair-viz-601bc6b4088547f1a8a2adfcade10cf1") {
+      outputDiv = document.getElementById("altair-viz-601bc6b4088547f1a8a2adfcade10cf1");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -791,7 +800,7 @@ The following plots show first responders for recently-created issues.</p>
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-0ba207d6b1d5f8b7b54711baa8a31e8c"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "author"}, "y": {"type": "quantitative", "field": "n_first_responses"}}, "title": "Top 50 first responders for jupyter-widgets in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-0ba207d6b1d5f8b7b54711baa8a31e8c": [{"author": "martinRenou", "n_first_responses": 32, "authorAssociation": "MEMBER"}, {"author": "vidartf", "n_first_responses": 15, "authorAssociation": "MEMBER"}, {"author": "jasongrout", "n_first_responses": 13, "authorAssociation": "MEMBER"}, {"author": "davidbrochart", "n_first_responses": 10, "authorAssociation": "MEMBER"}, {"author": "SylvainCorlay", "n_first_responses": 8, "authorAssociation": "MEMBER"}, {"author": "pbugnion", "n_first_responses": 3, "authorAssociation": "MEMBER"}, {"author": "dependabot", "n_first_responses": 3, "authorAssociation": "NONE"}, {"author": "giswqs", "n_first_responses": 3, "authorAssociation": "CONTRIBUTOR"}, {"author": "gioxc88", "n_first_responses": 2, "authorAssociation": "NONE"}, {"author": "sackh", "n_first_responses": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "stonebig", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "omanges", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "mwcraig", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "metasim", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "matburnham", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "joseberlines", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "19bcs2405", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "gutama", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "8080labs", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "fabricebrito", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "e-dorigatti", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "consideRatio", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "WestXu", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "Nic30", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "MitchellSmall", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "JamesMaxwellHarrison", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "Dadatata-JZ", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "AlexanderJuestel", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "wendli01", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-1a7ade308a22af92549ecf0dfb008c66"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "author"}, "y": {"type": "quantitative", "field": "n_first_responses"}}, "title": "Top 50 first responders for jupyter-widgets in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1a7ade308a22af92549ecf0dfb008c66": [{"author": "martinRenou", "n_first_responses": 32, "authorAssociation": "MEMBER"}, {"author": "vidartf", "n_first_responses": 14, "authorAssociation": "MEMBER"}, {"author": "jasongrout", "n_first_responses": 14, "authorAssociation": "MEMBER"}, {"author": "davidbrochart", "n_first_responses": 10, "authorAssociation": "MEMBER"}, {"author": "SylvainCorlay", "n_first_responses": 7, "authorAssociation": "MEMBER"}, {"author": "pbugnion", "n_first_responses": 3, "authorAssociation": "MEMBER"}, {"author": "dependabot", "n_first_responses": 3, "authorAssociation": "NONE"}, {"author": "giswqs", "n_first_responses": 3, "authorAssociation": "CONTRIBUTOR"}, {"author": "gioxc88", "n_first_responses": 2, "authorAssociation": "NONE"}, {"author": "ianhi", "n_first_responses": 2, "authorAssociation": "NONE"}, {"author": "sackh", "n_first_responses": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "stonebig", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "omanges", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "mwcraig", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "matburnham", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "joseberlines", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "19bcs2405", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "gutama", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "8080labs", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "fabricebrito", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "e-dorigatti", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "consideRatio", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "WestXu", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "Nic30", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "MitchellSmall", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "JamesMaxwellHarrison", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "Dadatata-JZ", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "AlexanderJuestel", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "wendli01", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
