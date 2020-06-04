@@ -4,10 +4,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.023508,
-     "end_time": "2020-06-03T01:10:53.919002",
+     "duration": 0.02055,
+     "end_time": "2020-06-04T01:14:37.708106",
      "exception": false,
-     "start_time": "2020-06-03T01:10:53.895494",
+     "start_time": "2020-06-04T01:14:37.687556",
      "status": "completed"
     },
     "tags": []
@@ -23,16 +23,16 @@
    "execution_count": 1,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:10:53.974318Z",
-     "iopub.status.busy": "2020-06-03T01:10:53.973618Z",
-     "iopub.status.idle": "2020-06-03T01:10:55.500190Z",
-     "shell.execute_reply": "2020-06-03T01:10:55.499343Z"
+     "iopub.execute_input": "2020-06-04T01:14:37.755850Z",
+     "iopub.status.busy": "2020-06-04T01:14:37.755298Z",
+     "iopub.status.idle": "2020-06-04T01:14:39.094021Z",
+     "shell.execute_reply": "2020-06-04T01:14:39.092954Z"
     },
     "papermill": {
-     "duration": 1.556063,
-     "end_time": "2020-06-03T01:10:55.500311",
+     "duration": 1.365699,
+     "end_time": "2020-06-04T01:14:39.094147",
      "exception": false,
-     "start_time": "2020-06-03T01:10:53.944248",
+     "start_time": "2020-06-04T01:14:37.728448",
      "status": "completed"
     },
     "tags": [
@@ -66,16 +66,16 @@
    "execution_count": 2,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:10:55.553880Z",
-     "iopub.status.busy": "2020-06-03T01:10:55.553244Z",
-     "iopub.status.idle": "2020-06-03T01:10:55.558513Z",
-     "shell.execute_reply": "2020-06-03T01:10:55.557838Z"
+     "iopub.execute_input": "2020-06-04T01:14:39.143983Z",
+     "iopub.status.busy": "2020-06-04T01:14:39.143407Z",
+     "iopub.status.idle": "2020-06-04T01:14:39.146819Z",
+     "shell.execute_reply": "2020-06-04T01:14:39.146248Z"
     },
     "papermill": {
-     "duration": 0.034618,
-     "end_time": "2020-06-03T01:10:55.558619",
+     "duration": 0.032135,
+     "end_time": "2020-06-04T01:14:39.146914",
      "exception": false,
-     "start_time": "2020-06-03T01:10:55.524001",
+     "start_time": "2020-06-04T01:14:39.114779",
      "status": "completed"
     },
     "tags": [
@@ -117,16 +117,16 @@
    "execution_count": 3,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:10:55.604816Z",
-     "iopub.status.busy": "2020-06-03T01:10:55.603834Z",
-     "iopub.status.idle": "2020-06-03T01:10:55.605876Z",
-     "shell.execute_reply": "2020-06-03T01:10:55.606457Z"
+     "iopub.execute_input": "2020-06-04T01:14:39.190163Z",
+     "iopub.status.busy": "2020-06-04T01:14:39.189618Z",
+     "iopub.status.idle": "2020-06-04T01:14:39.193505Z",
+     "shell.execute_reply": "2020-06-04T01:14:39.193032Z"
     },
     "papermill": {
-     "duration": 0.027484,
-     "end_time": "2020-06-03T01:10:55.606578",
+     "duration": 0.027673,
+     "end_time": "2020-06-04T01:14:39.193604",
      "exception": false,
-     "start_time": "2020-06-03T01:10:55.579094",
+     "start_time": "2020-06-04T01:14:39.165931",
      "status": "completed"
     },
     "tags": [
@@ -147,16 +147,16 @@
    "execution_count": 4,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:10:55.657072Z",
-     "iopub.status.busy": "2020-06-03T01:10:55.656076Z",
-     "iopub.status.idle": "2020-06-03T01:10:55.657812Z",
-     "shell.execute_reply": "2020-06-03T01:10:55.658637Z"
+     "iopub.execute_input": "2020-06-04T01:14:39.236835Z",
+     "iopub.status.busy": "2020-06-04T01:14:39.235855Z",
+     "iopub.status.idle": "2020-06-04T01:14:39.237733Z",
+     "shell.execute_reply": "2020-06-04T01:14:39.238641Z"
     },
     "papermill": {
-     "duration": 0.028094,
-     "end_time": "2020-06-03T01:10:55.658859",
+     "duration": 0.026571,
+     "end_time": "2020-06-04T01:14:39.238836",
      "exception": false,
-     "start_time": "2020-06-03T01:10:55.630765",
+     "start_time": "2020-06-04T01:14:39.212265",
      "status": "completed"
     },
     "tags": [
@@ -176,16 +176,16 @@
    "execution_count": 5,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:10:55.709033Z",
-     "iopub.status.busy": "2020-06-03T01:10:55.708423Z",
-     "iopub.status.idle": "2020-06-03T01:10:55.713721Z",
-     "shell.execute_reply": "2020-06-03T01:10:55.714235Z"
+     "iopub.execute_input": "2020-06-04T01:14:39.282671Z",
+     "iopub.status.busy": "2020-06-04T01:14:39.282114Z",
+     "iopub.status.idle": "2020-06-04T01:14:39.291564Z",
+     "shell.execute_reply": "2020-06-04T01:14:39.290991Z"
     },
     "papermill": {
-     "duration": 0.033681,
-     "end_time": "2020-06-03T01:10:55.714357",
+     "duration": 0.032295,
+     "end_time": "2020-06-04T01:14:39.291659",
      "exception": false,
-     "start_time": "2020-06-03T01:10:55.680676",
+     "start_time": "2020-06-04T01:14:39.259364",
      "status": "completed"
     },
     "tags": [
@@ -207,7 +207,7 @@
     },
     {
      "data": {
-      "application/papermill.record/text/plain": "'2020-04-04'"
+      "application/papermill.record/text/plain": "'2020-04-05'"
      },
      "metadata": {
       "scrapbook": {
@@ -219,7 +219,7 @@
     },
     {
      "data": {
-      "application/papermill.record/text/plain": "'2020-06-03'"
+      "application/papermill.record/text/plain": "'2020-06-04'"
      },
      "metadata": {
       "scrapbook": {
@@ -251,16 +251,16 @@
    "execution_count": 6,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:10:55.778905Z",
-     "iopub.status.busy": "2020-06-03T01:10:55.778089Z",
-     "iopub.status.idle": "2020-06-03T01:11:13.507491Z",
-     "shell.execute_reply": "2020-06-03T01:11:13.506908Z"
+     "iopub.execute_input": "2020-06-04T01:14:39.346584Z",
+     "iopub.status.busy": "2020-06-04T01:14:39.345960Z",
+     "iopub.status.idle": "2020-06-04T01:14:54.681377Z",
+     "shell.execute_reply": "2020-06-04T01:14:54.680719Z"
     },
     "papermill": {
-     "duration": 17.768381,
-     "end_time": "2020-06-03T01:11:13.507610",
+     "duration": 15.369343,
+     "end_time": "2020-06-04T01:14:54.681480",
      "exception": false,
-     "start_time": "2020-06-03T01:10:55.739229",
+     "start_time": "2020-06-04T01:14:39.312137",
      "status": "completed"
     },
     "tags": [
@@ -282,13 +282,13 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Found 192 items, which will take 4 pages\n"
+      "Found 193 items, which will take 4 pages\n"
      ]
     },
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "475e8c9e36c9485aa842ad2a77f0266b",
+       "model_id": "bffc0c1c1f9c4173a585c406243c9f09",
        "version_major": 2,
        "version_minor": 0
       },
@@ -303,13 +303,13 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Found 179 items, which will take 4 pages\n"
+      "Found 183 items, which will take 4 pages\n"
      ]
     },
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "6439d0f979d84478993fae1eeabda8b3",
+       "model_id": "e7d704e4a40b4ec6972d8d732eee210a",
        "version_major": 2,
        "version_minor": 0
       },
@@ -361,10 +361,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.026633,
-     "end_time": "2020-06-03T01:11:13.563625",
+     "duration": 0.023011,
+     "end_time": "2020-06-04T01:14:54.729309",
      "exception": false,
-     "start_time": "2020-06-03T01:11:13.536992",
+     "start_time": "2020-06-04T01:14:54.706298",
      "status": "completed"
     },
     "tags": [],
@@ -382,16 +382,16 @@
    "execution_count": 7,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:13.628660Z",
-     "iopub.status.busy": "2020-06-03T01:11:13.627929Z",
-     "iopub.status.idle": "2020-06-03T01:11:13.631297Z",
-     "shell.execute_reply": "2020-06-03T01:11:13.630370Z"
+     "iopub.execute_input": "2020-06-04T01:14:54.784352Z",
+     "iopub.status.busy": "2020-06-04T01:14:54.783765Z",
+     "iopub.status.idle": "2020-06-04T01:14:54.786171Z",
+     "shell.execute_reply": "2020-06-04T01:14:54.785586Z"
     },
     "papermill": {
-     "duration": 0.039196,
-     "end_time": "2020-06-03T01:11:13.631412",
+     "duration": 0.03476,
+     "end_time": "2020-06-04T01:14:54.786271",
      "exception": false,
-     "start_time": "2020-06-03T01:11:13.592216",
+     "start_time": "2020-06-04T01:14:54.751511",
      "status": "completed"
     },
     "tags": [
@@ -408,16 +408,16 @@
    "execution_count": 8,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:13.705684Z",
-     "iopub.status.busy": "2020-06-03T01:11:13.699846Z",
-     "iopub.status.idle": "2020-06-03T01:11:13.737375Z",
-     "shell.execute_reply": "2020-06-03T01:11:13.738147Z"
+     "iopub.execute_input": "2020-06-04T01:14:54.859118Z",
+     "iopub.status.busy": "2020-06-04T01:14:54.846827Z",
+     "iopub.status.idle": "2020-06-04T01:14:54.874047Z",
+     "shell.execute_reply": "2020-06-04T01:14:54.874486Z"
     },
     "papermill": {
-     "duration": 0.075268,
-     "end_time": "2020-06-03T01:11:13.738283",
+     "duration": 0.064644,
+     "end_time": "2020-06-04T01:14:54.874621",
      "exception": false,
-     "start_time": "2020-06-03T01:11:13.663015",
+     "start_time": "2020-06-04T01:14:54.809977",
      "status": "completed"
     },
     "tags": [
@@ -429,12 +429,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-1713da7b855d4539a9eb6cb1ed5a89d3\"></div>\n",
+       "<div id=\"altair-viz-05474f8ffe88458795ad4655aa68824f\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-1713da7b855d4539a9eb6cb1ed5a89d3\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-1713da7b855d4539a9eb6cb1ed5a89d3\");\n",
+       "    if (outputDiv.id !== \"altair-viz-05474f8ffe88458795ad4655aa68824f\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-05474f8ffe88458795ad4655aa68824f\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -476,7 +476,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-5361e8b1db8fa6554a2948a8da2dbe28\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"org\"}, \"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"ipython\", \"traitlets\", \"ipykernel\", \"ipyparallel\", \"ipython-website\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"author\"}}, \"title\": \"Merged PRs in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-5361e8b1db8fa6554a2948a8da2dbe28\": [{\"org\": \"ipython\", \"repo\": \"ipython\", \"author\": 51}, {\"org\": \"ipython\", \"repo\": \"traitlets\", \"author\": 14}, {\"org\": \"ipython\", \"repo\": \"ipykernel\", \"author\": 8}, {\"org\": \"ipython\", \"repo\": \"ipyparallel\", \"author\": 8}, {\"org\": \"ipython\", \"repo\": \"ipython-website\", \"author\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-50c0819daa411fe9fa9cd944913ab793\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"org\"}, \"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"ipython\", \"traitlets\", \"ipykernel\", \"ipyparallel\", \"ipython-website\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"author\"}}, \"title\": \"Merged PRs in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-50c0819daa411fe9fa9cd944913ab793\": [{\"org\": \"ipython\", \"repo\": \"ipython\", \"author\": 53}, {\"org\": \"ipython\", \"repo\": \"traitlets\", \"author\": 14}, {\"org\": \"ipython\", \"repo\": \"ipykernel\", \"author\": 8}, {\"org\": \"ipython\", \"repo\": \"ipyparallel\", \"author\": 8}, {\"org\": \"ipython\", \"repo\": \"ipython-website\", \"author\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -501,10 +501,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.027059,
-     "end_time": "2020-06-03T01:11:13.793595",
+     "duration": 0.022482,
+     "end_time": "2020-06-04T01:14:54.919691",
      "exception": false,
-     "start_time": "2020-06-03T01:11:13.766536",
+     "start_time": "2020-06-04T01:14:54.897209",
      "status": "completed"
     },
     "tags": []
@@ -522,16 +522,16 @@
    "execution_count": 9,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:13.867634Z",
-     "iopub.status.busy": "2020-06-03T01:11:13.863048Z",
-     "iopub.status.idle": "2020-06-03T01:11:13.870425Z",
-     "shell.execute_reply": "2020-06-03T01:11:13.869662Z"
+     "iopub.execute_input": "2020-06-04T01:14:54.982834Z",
+     "iopub.status.busy": "2020-06-04T01:14:54.973509Z",
+     "iopub.status.idle": "2020-06-04T01:14:54.990097Z",
+     "shell.execute_reply": "2020-06-04T01:14:54.988937Z"
     },
     "papermill": {
-     "duration": 0.050945,
-     "end_time": "2020-06-03T01:11:13.870537",
+     "duration": 0.046411,
+     "end_time": "2020-06-04T01:14:54.990204",
      "exception": false,
-     "start_time": "2020-06-03T01:11:13.819592",
+     "start_time": "2020-06-04T01:14:54.943793",
      "status": "completed"
     },
     "tags": [
@@ -550,16 +550,16 @@
    "execution_count": 10,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:13.943779Z",
-     "iopub.status.busy": "2020-06-03T01:11:13.943140Z",
-     "iopub.status.idle": "2020-06-03T01:11:13.970649Z",
-     "shell.execute_reply": "2020-06-03T01:11:13.969948Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.065883Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.062199Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.069096Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.068613Z"
     },
     "papermill": {
-     "duration": 0.068143,
-     "end_time": "2020-06-03T01:11:13.970811",
+     "duration": 0.05625,
+     "end_time": "2020-06-04T01:14:55.069198",
      "exception": false,
-     "start_time": "2020-06-03T01:11:13.902668",
+     "start_time": "2020-06-04T01:14:55.012948",
      "status": "completed"
     },
     "tags": [
@@ -571,12 +571,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-da8d8df310f74fe386b4679f10411cc4\"></div>\n",
+       "<div id=\"altair-viz-6c1e7fffadf44f6292b4e5e3e7ddbad9\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-da8d8df310f74fe386b4679f10411cc4\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-da8d8df310f74fe386b4679f10411cc4\");\n",
+       "    if (outputDiv.id !== \"altair-viz-6c1e7fffadf44f6292b4e5e3e7ddbad9\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-6c1e7fffadf44f6292b4e5e3e7ddbad9\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -618,7 +618,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-49b240ba42e620adab86d1c85fc7fca5\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"authored\"}}, \"title\": \"PR authors for ipython in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-49b240ba42e620adab86d1c85fc7fca5\": [{\"username\": \"Carreau\", \"authored\": 30, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"minrk\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"eric-wieser\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"impact27\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"cclauss\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"itamarst\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"ssanderson\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"takluyver\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"dtrodrigues\", \"authored\": 2, \"authorAssociation\": \"NONE\"}, {\"username\": \"ellert\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"timkpaine\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"dalthviz\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"palewire\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mehaase\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"martinRenou\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"marciomazza\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mancellin\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"lim4349\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"kinow\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"jasongrout\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ivanov\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"frenzymadness\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"gorogoroumaru\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"godlygeek\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"Inception95\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"eaton-lab\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"eXaz\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"dgabriele\", \"authored\": 1, \"authorAssociation\": \"NONE\"}, {\"username\": \"davidbrochart\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"connerxyz\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"btel\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"blink1073\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"blakejgriffin\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"astromancer\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"arabidopsis\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"TheHubbit\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"tlambert03\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-8b57001c5b449b026ce7b7d6d0598713\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"authored\"}}, \"title\": \"PR authors for ipython in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-8b57001c5b449b026ce7b7d6d0598713\": [{\"username\": \"Carreau\", \"authored\": 32, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"minrk\", \"authored\": 3, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"eric-wieser\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"impact27\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"cclauss\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"itamarst\", \"authored\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"ssanderson\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"takluyver\", \"authored\": 2, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"dtrodrigues\", \"authored\": 2, \"authorAssociation\": \"NONE\"}, {\"username\": \"ellert\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"timkpaine\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"dalthviz\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"palewire\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mehaase\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"martinRenou\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"marciomazza\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mancellin\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"lim4349\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"kinow\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"jasongrout\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"ivanov\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"frenzymadness\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"gorogoroumaru\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"godlygeek\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"Inception95\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"eaton-lab\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"eXaz\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"dgabriele\", \"authored\": 1, \"authorAssociation\": \"NONE\"}, {\"username\": \"davidbrochart\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"connerxyz\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"btel\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"blink1073\", \"authored\": 1, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"blakejgriffin\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"astromancer\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"arabidopsis\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"TheHubbit\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"tlambert03\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -648,16 +648,16 @@
    "execution_count": 11,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.048589Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.047711Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.050730Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.051320Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.141864Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.131229Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.144853Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.144371Z"
     },
     "papermill": {
-     "duration": 0.053812,
-     "end_time": "2020-06-03T01:11:14.051450",
+     "duration": 0.050945,
+     "end_time": "2020-06-04T01:14:55.144951",
      "exception": false,
-     "start_time": "2020-06-03T01:11:13.997638",
+     "start_time": "2020-06-04T01:14:55.094006",
      "status": "completed"
     },
     "tags": [
@@ -669,12 +669,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-95933e5a0dcc4c568a022ee6ba718fe9\"></div>\n",
+       "<div id=\"altair-viz-3d5c81d205f142129d6e351f14cf41a9\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-95933e5a0dcc4c568a022ee6ba718fe9\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-95933e5a0dcc4c568a022ee6ba718fe9\");\n",
+       "    if (outputDiv.id !== \"altair-viz-3d5c81d205f142129d6e351f14cf41a9\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-3d5c81d205f142129d6e351f14cf41a9\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -716,7 +716,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-3aa0e63353dab6e5ad203a583ec8867a\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"closed\"}}, \"title\": \"Merges for ipython in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-3aa0e63353dab6e5ad203a583ec8867a\": [{\"repo\": \"ipykernel\", \"username\": \"blink1073\", \"closed\": 8}, {\"repo\": \"ipyparallel\", \"username\": \"minrk\", \"closed\": 8}, {\"repo\": \"ipython\", \"username\": \"Carreau\", \"closed\": 50}, {\"repo\": \"ipython\", \"username\": \"ivanov\", \"closed\": 1}, {\"repo\": \"ipython-website\", \"username\": \"Carreau\", \"closed\": 1}, {\"repo\": \"traitlets\", \"username\": \"Carreau\", \"closed\": 9}, {\"repo\": \"traitlets\", \"username\": \"rmorshea\", \"closed\": 5}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-301339f0c3b9602d3c2f6d2c52ee8725\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"closed\"}}, \"title\": \"Merges for ipython in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-301339f0c3b9602d3c2f6d2c52ee8725\": [{\"repo\": \"ipykernel\", \"username\": \"blink1073\", \"closed\": 8}, {\"repo\": \"ipyparallel\", \"username\": \"minrk\", \"closed\": 8}, {\"repo\": \"ipython\", \"username\": \"Carreau\", \"closed\": 52}, {\"repo\": \"ipython\", \"username\": \"ivanov\", \"closed\": 1}, {\"repo\": \"ipython-website\", \"username\": \"Carreau\", \"closed\": 1}, {\"repo\": \"traitlets\", \"username\": \"Carreau\", \"closed\": 9}, {\"repo\": \"traitlets\", \"username\": \"rmorshea\", \"closed\": 5}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -742,10 +742,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.03094,
-     "end_time": "2020-06-03T01:11:14.111821",
+     "duration": 0.029544,
+     "end_time": "2020-06-04T01:14:55.198312",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.080881",
+     "start_time": "2020-06-04T01:14:55.168768",
      "status": "completed"
     },
     "tags": []
@@ -762,16 +762,16 @@
    "execution_count": 12,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.183166Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.182348Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.184850Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.185371Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.265118Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.264558Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.267053Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.266484Z"
     },
     "papermill": {
-     "duration": 0.046196,
-     "end_time": "2020-06-03T01:11:14.185512",
+     "duration": 0.041141,
+     "end_time": "2020-06-04T01:14:55.267150",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.139316",
+     "start_time": "2020-06-04T01:14:55.226009",
      "status": "completed"
     },
     "tags": [
@@ -789,16 +789,16 @@
    "execution_count": 13,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.249918Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.249316Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.278037Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.278764Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.327082Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.326495Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.348312Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.347733Z"
     },
     "papermill": {
-     "duration": 0.06364,
-     "end_time": "2020-06-03T01:11:14.278987",
+     "duration": 0.057463,
+     "end_time": "2020-06-04T01:14:55.348444",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.215347",
+     "start_time": "2020-06-04T01:14:55.290981",
      "status": "completed"
     },
     "tags": [
@@ -810,12 +810,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-06890449c0b5499a884d11d3f82ade18\"></div>\n",
+       "<div id=\"altair-viz-d2bfd362222c48a98940a1c21d610239\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-06890449c0b5499a884d11d3f82ade18\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-06890449c0b5499a884d11d3f82ade18\");\n",
+       "    if (outputDiv.id !== \"altair-viz-d2bfd362222c48a98940a1c21d610239\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-d2bfd362222c48a98940a1c21d610239\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -857,7 +857,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-9ad90d4d17d6b8636d7e61755bb3d91e\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"ipython\", \"ipykernel\", \"ipyparallel\", \"traitlets\", \"ipynb\", \"ipython_genutils\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-9ad90d4d17d6b8636d7e61755bb3d91e\": [{\"org\": \"ipython\", \"repo\": \"ipykernel\", \"number\": 6, \"org/repo\": \"ipython/ipykernel\"}, {\"org\": \"ipython\", \"repo\": \"ipynb\", \"number\": 2, \"org/repo\": \"ipython/ipynb\"}, {\"org\": \"ipython\", \"repo\": \"ipyparallel\", \"number\": 4, \"org/repo\": \"ipython/ipyparallel\"}, {\"org\": \"ipython\", \"repo\": \"ipython\", \"number\": 38, \"org/repo\": \"ipython/ipython\"}, {\"org\": \"ipython\", \"repo\": \"ipython_genutils\", \"number\": 1, \"org/repo\": \"ipython/ipython_genutils\"}, {\"org\": \"ipython\", \"repo\": \"traitlets\", \"number\": 4, \"org/repo\": \"ipython/traitlets\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-cba70f84dc0b3644dbe0df36dcbfd561\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"ipython\", \"ipykernel\", \"ipyparallel\", \"traitlets\", \"ipynb\", \"ipython_genutils\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-cba70f84dc0b3644dbe0df36dcbfd561\": [{\"org\": \"ipython\", \"repo\": \"ipykernel\", \"number\": 6, \"org/repo\": \"ipython/ipykernel\"}, {\"org\": \"ipython\", \"repo\": \"ipynb\", \"number\": 2, \"org/repo\": \"ipython/ipynb\"}, {\"org\": \"ipython\", \"repo\": \"ipyparallel\", \"number\": 4, \"org/repo\": \"ipython/ipyparallel\"}, {\"org\": \"ipython\", \"repo\": \"ipython\", \"number\": 37, \"org/repo\": \"ipython/ipython\"}, {\"org\": \"ipython\", \"repo\": \"ipython_genutils\", \"number\": 1, \"org/repo\": \"ipython/ipython_genutils\"}, {\"org\": \"ipython\", \"repo\": \"traitlets\", \"number\": 4, \"org/repo\": \"ipython/traitlets\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -884,16 +884,16 @@
    "execution_count": 14,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.347026Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.346359Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.369969Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.369282Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.410516Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.409954Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.430572Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.431299Z"
     },
     "papermill": {
-     "duration": 0.062605,
-     "end_time": "2020-06-03T01:11:14.370081",
+     "duration": 0.056851,
+     "end_time": "2020-06-04T01:14:55.431466",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.307476",
+     "start_time": "2020-06-04T01:14:55.374615",
      "status": "completed"
     },
     "tags": [
@@ -905,12 +905,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-10e7601d808b45ae901cb26537cebc0f\"></div>\n",
+       "<div id=\"altair-viz-ad0f5bd7f28a46d2b1951344a136daaf\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-10e7601d808b45ae901cb26537cebc0f\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-10e7601d808b45ae901cb26537cebc0f\");\n",
+       "    if (outputDiv.id !== \"altair-viz-ad0f5bd7f28a46d2b1951344a136daaf\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-ad0f5bd7f28a46d2b1951344a136daaf\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -979,16 +979,16 @@
    "execution_count": 15,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.446719Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.446095Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.452515Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.453321Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.500300Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.496882Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.502701Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.502231Z"
     },
     "papermill": {
-     "duration": 0.051613,
-     "end_time": "2020-06-03T01:11:14.453453",
+     "duration": 0.045073,
+     "end_time": "2020-06-04T01:14:55.502797",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.401840",
+     "start_time": "2020-06-04T01:14:55.457724",
      "status": "completed"
     },
     "tags": [
@@ -1009,16 +1009,16 @@
    "execution_count": 16,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.549532Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.548592Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.552751Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.553302Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.559357Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.558817Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.585487Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.586228Z"
     },
     "papermill": {
-     "duration": 0.07152,
-     "end_time": "2020-06-03T01:11:14.553454",
+     "duration": 0.056616,
+     "end_time": "2020-06-04T01:14:55.586385",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.481934",
+     "start_time": "2020-06-04T01:14:55.529769",
      "status": "completed"
     },
     "tags": [
@@ -1030,12 +1030,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-3c9176770b454e119cf8746299178f8e\"></div>\n",
+       "<div id=\"altair-viz-b2c51e59c5634ee5a4c1b9a32180df73\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-3c9176770b454e119cf8746299178f8e\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-3c9176770b454e119cf8746299178f8e\");\n",
+       "    if (outputDiv.id !== \"altair-viz-b2c51e59c5634ee5a4c1b9a32180df73\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-b2c51e59c5634ee5a4c1b9a32180df73\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1077,7 +1077,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-7db595b792614926c8137f3c42347d46\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 60 days for ipython\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-7db595b792614926c8137f3c42347d46\": [{\"org\": \"ipython\", \"repo\": \"ipykernel\", \"kind\": \"created\", \"count\": 6.0}, {\"org\": \"ipython\", \"repo\": \"ipynb\", \"kind\": \"created\", \"count\": 2.0}, {\"org\": \"ipython\", \"repo\": \"ipyparallel\", \"kind\": \"created\", \"count\": 4.0}, {\"org\": \"ipython\", \"repo\": \"ipython\", \"kind\": \"created\", \"count\": 38.0}, {\"org\": \"ipython\", \"repo\": \"ipython_genutils\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"ipython\", \"repo\": \"traitlets\", \"kind\": \"created\", \"count\": 4.0}, {\"org\": \"ipython\", \"repo\": \"ipykernel\", \"kind\": \"closed\", \"count\": 4.0}, {\"org\": \"ipython\", \"repo\": \"ipynb\", \"kind\": \"closed\", \"count\": 0.0}, {\"org\": \"ipython\", \"repo\": \"ipyparallel\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"ipython\", \"repo\": \"ipython\", \"kind\": \"closed\", \"count\": 27.0}, {\"org\": \"ipython\", \"repo\": \"ipython_genutils\", \"kind\": \"closed\", \"count\": 0.0}, {\"org\": \"ipython\", \"repo\": \"traitlets\", \"kind\": \"closed\", \"count\": 1.0}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-f9f1fefc6502f23f623c1fd3c7d37179\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 60 days for ipython\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-f9f1fefc6502f23f623c1fd3c7d37179\": [{\"org\": \"ipython\", \"repo\": \"ipykernel\", \"kind\": \"created\", \"count\": 6.0}, {\"org\": \"ipython\", \"repo\": \"ipynb\", \"kind\": \"created\", \"count\": 2.0}, {\"org\": \"ipython\", \"repo\": \"ipyparallel\", \"kind\": \"created\", \"count\": 4.0}, {\"org\": \"ipython\", \"repo\": \"ipython\", \"kind\": \"created\", \"count\": 37.0}, {\"org\": \"ipython\", \"repo\": \"ipython_genutils\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"ipython\", \"repo\": \"traitlets\", \"kind\": \"created\", \"count\": 4.0}, {\"org\": \"ipython\", \"repo\": \"ipykernel\", \"kind\": \"closed\", \"count\": 4.0}, {\"org\": \"ipython\", \"repo\": \"ipynb\", \"kind\": \"closed\", \"count\": 0.0}, {\"org\": \"ipython\", \"repo\": \"ipyparallel\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"ipython\", \"repo\": \"ipython\", \"kind\": \"closed\", \"count\": 27.0}, {\"org\": \"ipython\", \"repo\": \"ipython_genutils\", \"kind\": \"closed\", \"count\": 0.0}, {\"org\": \"ipython\", \"repo\": \"traitlets\", \"kind\": \"closed\", \"count\": 1.0}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1107,16 +1107,16 @@
    "execution_count": 17,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.632977Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.632309Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.635504Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.634796Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.653050Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.652484Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.654694Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.654223Z"
     },
     "papermill": {
-     "duration": 0.049101,
-     "end_time": "2020-06-03T01:11:14.635610",
+     "duration": 0.043112,
+     "end_time": "2020-06-04T01:14:55.654791",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.586509",
+     "start_time": "2020-06-04T01:14:55.611679",
      "status": "completed"
     },
     "tags": [
@@ -1138,16 +1138,16 @@
    "execution_count": 18,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.705794Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.705020Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.733014Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.732141Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.722821Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.722275Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.736171Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.736736Z"
     },
     "papermill": {
-     "duration": 0.066128,
-     "end_time": "2020-06-03T01:11:14.733151",
+     "duration": 0.055322,
+     "end_time": "2020-06-04T01:14:55.736866",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.667023",
+     "start_time": "2020-06-04T01:14:55.681544",
      "status": "completed"
     },
     "tags": [
@@ -1159,12 +1159,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-404aea299ec34b939b4aa8f1d16e706c\"></div>\n",
+       "<div id=\"altair-viz-d2cabc962ede4891a48f5b04c944024a\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-404aea299ec34b939b4aa8f1d16e706c\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-404aea299ec34b939b4aa8f1d16e706c\");\n",
+       "    if (outputDiv.id !== \"altair-viz-d2cabc962ede4891a48f5b04c944024a\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-d2cabc962ede4891a48f5b04c944024a\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1233,10 +1233,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.032356,
-     "end_time": "2020-06-03T01:11:14.798184",
+     "duration": 0.025563,
+     "end_time": "2020-06-04T01:14:55.788215",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.765828",
+     "start_time": "2020-06-04T01:14:55.762652",
      "status": "completed"
     },
     "tags": []
@@ -1254,16 +1254,16 @@
    "execution_count": 19,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.873727Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.873090Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.886574Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.885740Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.857066Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.855183Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.867710Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.866712Z"
     },
     "papermill": {
-     "duration": 0.056649,
-     "end_time": "2020-06-03T01:11:14.886684",
+     "duration": 0.052312,
+     "end_time": "2020-06-04T01:14:55.867815",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.830035",
+     "start_time": "2020-06-04T01:14:55.815503",
      "status": "completed"
     },
     "tags": [
@@ -1287,16 +1287,16 @@
    "execution_count": 20,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:14.959998Z",
-     "iopub.status.busy": "2020-06-03T01:11:14.959223Z",
-     "iopub.status.idle": "2020-06-03T01:11:14.990090Z",
-     "shell.execute_reply": "2020-06-03T01:11:14.990681Z"
+     "iopub.execute_input": "2020-06-04T01:14:55.944978Z",
+     "iopub.status.busy": "2020-06-04T01:14:55.944254Z",
+     "iopub.status.idle": "2020-06-04T01:14:55.954294Z",
+     "shell.execute_reply": "2020-06-04T01:14:55.954824Z"
     },
     "papermill": {
-     "duration": 0.071197,
-     "end_time": "2020-06-03T01:11:14.990806",
+     "duration": 0.060964,
+     "end_time": "2020-06-04T01:14:55.954948",
      "exception": false,
-     "start_time": "2020-06-03T01:11:14.919609",
+     "start_time": "2020-06-04T01:14:55.893984",
      "status": "completed"
     },
     "tags": [
@@ -1308,12 +1308,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-5409c95c1e07469eb534f0ecaaac3f7a\"></div>\n",
+       "<div id=\"altair-viz-4dc43dcf6218418c9a6de2e832b60d16\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-5409c95c1e07469eb534f0ecaaac3f7a\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-5409c95c1e07469eb534f0ecaaac3f7a\");\n",
+       "    if (outputDiv.id !== \"altair-viz-4dc43dcf6218418c9a6de2e832b60d16\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-4dc43dcf6218418c9a6de2e832b60d16\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1355,7 +1355,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for ipython in the last 60 days\"}], \"data\": {\"name\": \"data-0e40a842b00bd685d2fb92b520bfef0c\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-0e40a842b00bd685d2fb92b520bfef0c\": [{\"author\": \"Carreau\", \"count\": 139, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"martinRenou\", \"count\": 10, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"blink1073\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"tlambert03\", \"count\": 7, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"meeseeksdev\", \"count\": 7, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ivanov\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ssanderson\", \"count\": 6, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"eric-wieser\", \"count\": 6, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"palewire\", \"count\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"frenzymadness\", \"count\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"MSeal\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"minrk\", \"count\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"basnijholt\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"itamarst\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"tacaswell\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"scottfurry\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"Eshan-Agarwal\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"mmcoello\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"jluttine\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"LucianaMarques\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ccordoba12\", \"count\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"TheHubbit\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"gsganden\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"gorogoroumaru\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"rmorshea\", \"count\": 2, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"SylvainCorlay\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"Phillip-M-Feldman\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"choldgraf\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"bollwyvl\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"arabidopsis\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"timkpaine\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"veprbl\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"shyuep\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"sedoris\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"sritelidevara\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Inception95\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"renefritze\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"takluyver\", \"count\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"terrdavis\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"slel\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"Vikram-kotharu\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"louiselumapas\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"bnavigator\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"aburrell\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"adilodha\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"antis81\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"antonio-rojas\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"bh2smith\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"blakejgriffin\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"TkRj\", \"count\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for ipython in the last 60 days\"}], \"data\": {\"name\": \"data-246a1e0905ccaddbac0b67ae660702ec\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-246a1e0905ccaddbac0b67ae660702ec\": [{\"author\": \"Carreau\", \"count\": 140, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"martinRenou\", \"count\": 10, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"tlambert03\", \"count\": 8, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"blink1073\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"meeseeksdev\", \"count\": 7, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ivanov\", \"count\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ssanderson\", \"count\": 6, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"eric-wieser\", \"count\": 6, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"palewire\", \"count\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"frenzymadness\", \"count\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"MSeal\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"minrk\", \"count\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"basnijholt\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"tacaswell\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"itamarst\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"scottfurry\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"Eshan-Agarwal\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"jluttine\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"mmcoello\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"LucianaMarques\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ccordoba12\", \"count\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rmorshea\", \"count\": 3, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"TheHubbit\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"kirankotari\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"gsganden\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"gorogoroumaru\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"SylvainCorlay\", \"count\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"Phillip-M-Feldman\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"choldgraf\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"bollwyvl\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"timkpaine\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"veprbl\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"sedoris\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"renefritze\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"slel\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"sritelidevara\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Inception95\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"takluyver\", \"count\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"terrdavis\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"shyuep\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Vikram-kotharu\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mail2chromium\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"louiselumapas\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"aburrell\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"adilodha\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"antis81\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"antonio-rojas\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"arabidopsis\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"bh2smith\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"blakejgriffin\", \"count\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1387,10 +1387,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.033207,
-     "end_time": "2020-06-03T01:11:15.055303",
+     "duration": 0.030933,
+     "end_time": "2020-06-04T01:14:56.014237",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.022096",
+     "start_time": "2020-06-04T01:14:55.983304",
      "status": "completed"
     },
     "tags": []
@@ -1407,16 +1407,16 @@
    "execution_count": 21,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:15.134315Z",
-     "iopub.status.busy": "2020-06-03T01:11:15.133535Z",
-     "iopub.status.idle": "2020-06-03T01:11:15.307724Z",
-     "shell.execute_reply": "2020-06-03T01:11:15.307108Z"
+     "iopub.execute_input": "2020-06-04T01:14:56.080849Z",
+     "iopub.status.busy": "2020-06-04T01:14:56.079708Z",
+     "iopub.status.idle": "2020-06-04T01:14:56.222302Z",
+     "shell.execute_reply": "2020-06-04T01:14:56.221271Z"
     },
     "papermill": {
-     "duration": 0.217861,
-     "end_time": "2020-06-03T01:11:15.307873",
+     "duration": 0.180115,
+     "end_time": "2020-06-04T01:14:56.222505",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.090012",
+     "start_time": "2020-06-04T01:14:56.042390",
      "status": "completed"
     },
     "tags": [
@@ -1444,16 +1444,16 @@
    "execution_count": 22,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:15.388514Z",
-     "iopub.status.busy": "2020-06-03T01:11:15.383395Z",
-     "iopub.status.idle": "2020-06-03T01:11:15.406396Z",
-     "shell.execute_reply": "2020-06-03T01:11:15.407020Z"
+     "iopub.execute_input": "2020-06-04T01:14:56.304735Z",
+     "iopub.status.busy": "2020-06-04T01:14:56.297708Z",
+     "iopub.status.idle": "2020-06-04T01:14:56.326923Z",
+     "shell.execute_reply": "2020-06-04T01:14:56.327358Z"
     },
     "papermill": {
-     "duration": 0.067141,
-     "end_time": "2020-06-03T01:11:15.407152",
+     "duration": 0.067652,
+     "end_time": "2020-06-04T01:14:56.327491",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.340011",
+     "start_time": "2020-06-04T01:14:56.259839",
      "status": "completed"
     },
     "tags": [
@@ -1465,12 +1465,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-ce293df788514551bca664b60b2e3047\"></div>\n",
+       "<div id=\"altair-viz-d672a9f1651b4b47ba16060e1c91b325\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-ce293df788514551bca664b60b2e3047\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-ce293df788514551bca664b60b2e3047\");\n",
+       "    if (outputDiv.id !== \"altair-viz-d672a9f1651b4b47ba16060e1c91b325\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-d672a9f1651b4b47ba16060e1c91b325\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1512,7 +1512,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-ae5f7a4d4fd22a1835961a4d676b58dd\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for ipython in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-ae5f7a4d4fd22a1835961a4d676b58dd\": [{\"author\": \"Carreau\", \"n_first_responses\": 61, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"minrk\", \"n_first_responses\": 9, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rmorshea\", \"n_first_responses\": 8, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"blink1073\", \"n_first_responses\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ssanderson\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"frenzymadness\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"itamarst\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"eric-wieser\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ankostis\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"takluyver\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"tacaswell\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"shyuep\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"matthewgdv\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"meeseeksdev\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"LucianaMarques\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"palewire\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"Eshan-Agarwal\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"arabidopsis\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"Erotemic\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"kirankotari\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"techtonik\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"timkpaine\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"tlambert03\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"uderani\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"martinRenou\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"jluttine\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"kinglionsz\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"basileMarchand\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"jf---\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"ivanov\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"DKMDebugin\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"gsganden\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"gorogoroumaru\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"Madhu94\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"erind31\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"dtrodrigues\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"dsblank\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"davidbrochart\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"choldgraf\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"ccordoba12\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"basnijholt\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"veprbl\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-f0c01b512388226fdf1c381ec988d6ce\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for ipython in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-f0c01b512388226fdf1c381ec988d6ce\": [{\"author\": \"Carreau\", \"n_first_responses\": 60, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rmorshea\", \"n_first_responses\": 9, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"minrk\", \"n_first_responses\": 9, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"blink1073\", \"n_first_responses\": 4, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"takluyver\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ssanderson\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"frenzymadness\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"itamarst\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ankostis\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"tacaswell\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"eric-wieser\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"basileMarchand\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"matthewgdv\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"meeseeksdev\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"Madhu94\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"palewire\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"LucianaMarques\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"shyuep\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Eshan-Agarwal\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mail2chromium\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Erotemic\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"techtonik\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"timkpaine\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"tlambert03\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"uderani\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"martinRenou\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"kinglionsz\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"kirankotari\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"basnijholt\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"jluttine\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"jf---\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"ivanov\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"DKMDebugin\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"gsganden\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"gorogoroumaru\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"erind31\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"dtrodrigues\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"dsblank\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"davidbrochart\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"choldgraf\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"ccordoba12\", \"n_first_responses\": 1, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"arabidopsis\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"veprbl\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1542,10 +1542,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.03319,
-     "end_time": "2020-06-03T01:11:15.472926",
+     "duration": 0.027483,
+     "end_time": "2020-06-04T01:14:56.382744",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.439736",
+     "start_time": "2020-06-04T01:14:56.355261",
      "status": "completed"
     },
     "tags": [
@@ -1560,10 +1560,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.031871,
-     "end_time": "2020-06-03T01:11:15.535721",
+     "duration": 0.028177,
+     "end_time": "2020-06-04T01:14:56.440203",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.503850",
+     "start_time": "2020-06-04T01:14:56.412026",
      "status": "completed"
     },
     "tags": [
@@ -1582,16 +1582,16 @@
    "execution_count": 23,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:15.607104Z",
-     "iopub.status.busy": "2020-06-03T01:11:15.606489Z",
-     "iopub.status.idle": "2020-06-03T01:11:15.608951Z",
-     "shell.execute_reply": "2020-06-03T01:11:15.609539Z"
+     "iopub.execute_input": "2020-06-04T01:14:56.500577Z",
+     "iopub.status.busy": "2020-06-04T01:14:56.499990Z",
+     "iopub.status.idle": "2020-06-04T01:14:56.502327Z",
+     "shell.execute_reply": "2020-06-04T01:14:56.502764Z"
     },
     "papermill": {
-     "duration": 0.041262,
-     "end_time": "2020-06-03T01:11:15.609670",
+     "duration": 0.035186,
+     "end_time": "2020-06-04T01:14:56.502894",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.568408",
+     "start_time": "2020-06-04T01:14:56.467708",
      "status": "completed"
     },
     "tags": [
@@ -1645,10 +1645,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.033039,
-     "end_time": "2020-06-03T01:11:15.676239",
+     "duration": 0.028554,
+     "end_time": "2020-06-04T01:14:56.560921",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.643200",
+     "start_time": "2020-06-04T01:14:56.532367",
      "status": "completed"
     },
     "tags": [
@@ -1668,16 +1668,16 @@
    "execution_count": 24,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:15.752801Z",
-     "iopub.status.busy": "2020-06-03T01:11:15.752011Z",
-     "iopub.status.idle": "2020-06-03T01:11:15.755043Z",
-     "shell.execute_reply": "2020-06-03T01:11:15.754455Z"
+     "iopub.execute_input": "2020-06-04T01:14:56.624557Z",
+     "iopub.status.busy": "2020-06-04T01:14:56.623975Z",
+     "iopub.status.idle": "2020-06-04T01:14:56.626345Z",
+     "shell.execute_reply": "2020-06-04T01:14:56.626880Z"
     },
     "papermill": {
-     "duration": 0.043189,
-     "end_time": "2020-06-03T01:11:15.755144",
+     "duration": 0.036495,
+     "end_time": "2020-06-04T01:14:56.627009",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.711955",
+     "start_time": "2020-06-04T01:14:56.590514",
      "status": "completed"
     },
     "tags": [
@@ -1705,10 +1705,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.03164,
-     "end_time": "2020-06-03T01:11:15.818662",
+     "duration": 0.028469,
+     "end_time": "2020-06-04T01:14:56.684535",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.787022",
+     "start_time": "2020-06-04T01:14:56.656066",
      "status": "completed"
     },
     "tags": [
@@ -1727,16 +1727,16 @@
    "execution_count": 25,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:15.888951Z",
-     "iopub.status.busy": "2020-06-03T01:11:15.888298Z",
-     "iopub.status.idle": "2020-06-03T01:11:15.890295Z",
-     "shell.execute_reply": "2020-06-03T01:11:15.890942Z"
+     "iopub.execute_input": "2020-06-04T01:14:56.748037Z",
+     "iopub.status.busy": "2020-06-04T01:14:56.747466Z",
+     "iopub.status.idle": "2020-06-04T01:14:56.759379Z",
+     "shell.execute_reply": "2020-06-04T01:14:56.760585Z"
     },
     "papermill": {
-     "duration": 0.040603,
-     "end_time": "2020-06-03T01:11:15.891086",
+     "duration": 0.048528,
+     "end_time": "2020-06-04T01:14:56.760726",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.850483",
+     "start_time": "2020-06-04T01:14:56.712198",
      "status": "completed"
     },
     "tags": [
@@ -1761,16 +1761,16 @@
    "execution_count": 26,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:15.962150Z",
-     "iopub.status.busy": "2020-06-03T01:11:15.961408Z",
-     "iopub.status.idle": "2020-06-03T01:11:15.964634Z",
-     "shell.execute_reply": "2020-06-03T01:11:15.963891Z"
+     "iopub.execute_input": "2020-06-04T01:14:56.828797Z",
+     "iopub.status.busy": "2020-06-04T01:14:56.827808Z",
+     "iopub.status.idle": "2020-06-04T01:14:56.829502Z",
+     "shell.execute_reply": "2020-06-04T01:14:56.830159Z"
     },
     "papermill": {
-     "duration": 0.038893,
-     "end_time": "2020-06-03T01:11:15.964743",
+     "duration": 0.039962,
+     "end_time": "2020-06-04T01:14:56.830358",
      "exception": false,
-     "start_time": "2020-06-03T01:11:15.925850",
+     "start_time": "2020-06-04T01:14:56.790396",
      "status": "completed"
     },
     "tags": [
@@ -1833,8 +1833,8 @@
    "version": "3.7.7"
   },
   "papermill": {
-   "duration": 24.063129,
-   "end_time": "2020-06-03T01:11:17.057979",
+   "duration": 20.163778,
+   "end_time": "2020-06-04T01:14:56.977119",
    "environment_variables": {},
    "exception": null,
    "input_path": "./template.ipynb",
@@ -1843,77 +1843,13 @@
     "github_org": "ipython",
     "n_days": 60
    },
-   "start_time": "2020-06-03T01:10:52.994850",
+   "start_time": "2020-06-04T01:14:36.813341",
    "version": "2.1.1"
   },
   "widgets": {
    "application/vnd.jupyter.widget-state+json": {
     "state": {
-     "475e8c9e36c9485aa842ad2a77f0266b": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "1.5.0",
-      "model_name": "IntProgressModel",
-      "state": {
-       "_dom_classes": [],
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "1.5.0",
-       "_model_name": "IntProgressModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/controls",
-       "_view_module_version": "1.5.0",
-       "_view_name": "ProgressView",
-       "bar_style": "success",
-       "description": "Downloading:",
-       "description_tooltip": null,
-       "layout": "IPY_MODEL_f3bc7c4c4cc14a7f80ab7244d326e9bd",
-       "max": 4,
-       "min": 0,
-       "orientation": "horizontal",
-       "style": "IPY_MODEL_6fad5f7eefcd41febb39e10a99ab3807",
-       "value": 4
-      }
-     },
-     "6439d0f979d84478993fae1eeabda8b3": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "1.5.0",
-      "model_name": "IntProgressModel",
-      "state": {
-       "_dom_classes": [],
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "1.5.0",
-       "_model_name": "IntProgressModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/controls",
-       "_view_module_version": "1.5.0",
-       "_view_name": "ProgressView",
-       "bar_style": "success",
-       "description": "Downloading:",
-       "description_tooltip": null,
-       "layout": "IPY_MODEL_73ae6636f8904a2fbf47c0625fb97aa9",
-       "max": 4,
-       "min": 0,
-       "orientation": "horizontal",
-       "style": "IPY_MODEL_e9266251ab96452abf6c30bd4168e567",
-       "value": 4
-      }
-     },
-     "6fad5f7eefcd41febb39e10a99ab3807": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "1.5.0",
-      "model_name": "ProgressStyleModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "1.5.0",
-       "_model_name": "ProgressStyleModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "1.2.0",
-       "_view_name": "StyleView",
-       "bar_color": null,
-       "description_width": ""
-      }
-     },
-     "73ae6636f8904a2fbf47c0625fb97aa9": {
+     "41623e851a4c445187f625f76f94d268": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "1.2.0",
       "model_name": "LayoutModel",
@@ -1965,7 +1901,7 @@
        "width": null
       }
      },
-     "e9266251ab96452abf6c30bd4168e567": {
+     "649606a355124bf59d3e689f43052ac3": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
       "model_name": "ProgressStyleModel",
@@ -1981,7 +1917,55 @@
        "description_width": ""
       }
      },
-     "f3bc7c4c4cc14a7f80ab7244d326e9bd": {
+     "bffc0c1c1f9c4173a585c406243c9f09": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "IntProgressModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "IntProgressModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "1.5.0",
+       "_view_name": "ProgressView",
+       "bar_style": "success",
+       "description": "Downloading:",
+       "description_tooltip": null,
+       "layout": "IPY_MODEL_41623e851a4c445187f625f76f94d268",
+       "max": 4,
+       "min": 0,
+       "orientation": "horizontal",
+       "style": "IPY_MODEL_fa23a20f389b45e5b8d33465d7c7f902",
+       "value": 4
+      }
+     },
+     "e7d704e4a40b4ec6972d8d732eee210a": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "IntProgressModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "IntProgressModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "1.5.0",
+       "_view_name": "ProgressView",
+       "bar_style": "success",
+       "description": "Downloading:",
+       "description_tooltip": null,
+       "layout": "IPY_MODEL_eadb72a59ed94a3880aecf669d1434bc",
+       "max": 4,
+       "min": 0,
+       "orientation": "horizontal",
+       "style": "IPY_MODEL_649606a355124bf59d3e689f43052ac3",
+       "value": 4
+      }
+     },
+     "eadb72a59ed94a3880aecf669d1434bc": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "1.2.0",
       "model_name": "LayoutModel",
@@ -2031,6 +2015,22 @@
        "top": null,
        "visibility": null,
        "width": null
+      }
+     },
+     "fa23a20f389b45e5b8d33465d7c7f902": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "ProgressStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "ProgressStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
       }
      }
     },

@@ -4,10 +4,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.023433,
-     "end_time": "2020-06-03T01:11:51.027471",
+     "duration": 0.022049,
+     "end_time": "2020-06-04T01:15:30.848826",
      "exception": false,
-     "start_time": "2020-06-03T01:11:51.004038",
+     "start_time": "2020-06-04T01:15:30.826777",
      "status": "completed"
     },
     "tags": []
@@ -23,16 +23,16 @@
    "execution_count": 1,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:51.082378Z",
-     "iopub.status.busy": "2020-06-03T01:11:51.081739Z",
-     "iopub.status.idle": "2020-06-03T01:11:52.595750Z",
-     "shell.execute_reply": "2020-06-03T01:11:52.595027Z"
+     "iopub.execute_input": "2020-06-04T01:15:30.894698Z",
+     "iopub.status.busy": "2020-06-04T01:15:30.894140Z",
+     "iopub.status.idle": "2020-06-04T01:15:32.209167Z",
+     "shell.execute_reply": "2020-06-04T01:15:32.208220Z"
     },
     "papermill": {
-     "duration": 1.544391,
-     "end_time": "2020-06-03T01:11:52.595882",
+     "duration": 1.339332,
+     "end_time": "2020-06-04T01:15:32.209347",
      "exception": false,
-     "start_time": "2020-06-03T01:11:51.051491",
+     "start_time": "2020-06-04T01:15:30.870015",
      "status": "completed"
     },
     "tags": [
@@ -66,16 +66,16 @@
    "execution_count": 2,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:52.654658Z",
-     "iopub.status.busy": "2020-06-03T01:11:52.653846Z",
-     "iopub.status.idle": "2020-06-03T01:11:52.657212Z",
-     "shell.execute_reply": "2020-06-03T01:11:52.656112Z"
+     "iopub.execute_input": "2020-06-04T01:15:32.261167Z",
+     "iopub.status.busy": "2020-06-04T01:15:32.260602Z",
+     "iopub.status.idle": "2020-06-04T01:15:32.262797Z",
+     "shell.execute_reply": "2020-06-04T01:15:32.262324Z"
     },
     "papermill": {
-     "duration": 0.03703,
-     "end_time": "2020-06-03T01:11:52.657325",
+     "duration": 0.031657,
+     "end_time": "2020-06-04T01:15:32.262895",
      "exception": false,
-     "start_time": "2020-06-03T01:11:52.620295",
+     "start_time": "2020-06-04T01:15:32.231238",
      "status": "completed"
     },
     "tags": [
@@ -117,16 +117,16 @@
    "execution_count": 3,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:52.705286Z",
-     "iopub.status.busy": "2020-06-03T01:11:52.704584Z",
-     "iopub.status.idle": "2020-06-03T01:11:52.707236Z",
-     "shell.execute_reply": "2020-06-03T01:11:52.706629Z"
+     "iopub.execute_input": "2020-06-04T01:15:32.305200Z",
+     "iopub.status.busy": "2020-06-04T01:15:32.304638Z",
+     "iopub.status.idle": "2020-06-04T01:15:32.305865Z",
+     "shell.execute_reply": "2020-06-04T01:15:32.306390Z"
     },
     "papermill": {
-     "duration": 0.028275,
-     "end_time": "2020-06-03T01:11:52.707473",
+     "duration": 0.025028,
+     "end_time": "2020-06-04T01:15:32.306511",
      "exception": false,
-     "start_time": "2020-06-03T01:11:52.679198",
+     "start_time": "2020-06-04T01:15:32.281483",
      "status": "completed"
     },
     "tags": [
@@ -147,16 +147,16 @@
    "execution_count": 4,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:52.757219Z",
-     "iopub.status.busy": "2020-06-03T01:11:52.756561Z",
-     "iopub.status.idle": "2020-06-03T01:11:52.760290Z",
-     "shell.execute_reply": "2020-06-03T01:11:52.761040Z"
+     "iopub.execute_input": "2020-06-04T01:15:32.348636Z",
+     "iopub.status.busy": "2020-06-04T01:15:32.348077Z",
+     "iopub.status.idle": "2020-06-04T01:15:32.350973Z",
+     "shell.execute_reply": "2020-06-04T01:15:32.350508Z"
     },
     "papermill": {
-     "duration": 0.029511,
-     "end_time": "2020-06-03T01:11:52.761174",
+     "duration": 0.02587,
+     "end_time": "2020-06-04T01:15:32.351109",
      "exception": false,
-     "start_time": "2020-06-03T01:11:52.731663",
+     "start_time": "2020-06-04T01:15:32.325239",
      "status": "completed"
     },
     "tags": [
@@ -176,16 +176,16 @@
    "execution_count": 5,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:52.814134Z",
-     "iopub.status.busy": "2020-06-03T01:11:52.813448Z",
-     "iopub.status.idle": "2020-06-03T01:11:52.820951Z",
-     "shell.execute_reply": "2020-06-03T01:11:52.820342Z"
+     "iopub.execute_input": "2020-06-04T01:15:32.399218Z",
+     "iopub.status.busy": "2020-06-04T01:15:32.398674Z",
+     "iopub.status.idle": "2020-06-04T01:15:32.403084Z",
+     "shell.execute_reply": "2020-06-04T01:15:32.403610Z"
     },
     "papermill": {
-     "duration": 0.038088,
-     "end_time": "2020-06-03T01:11:52.821065",
+     "duration": 0.032176,
+     "end_time": "2020-06-04T01:15:32.403727",
      "exception": false,
-     "start_time": "2020-06-03T01:11:52.782977",
+     "start_time": "2020-06-04T01:15:32.371551",
      "status": "completed"
     },
     "tags": [
@@ -207,7 +207,7 @@
     },
     {
      "data": {
-      "application/papermill.record/text/plain": "'2020-04-04'"
+      "application/papermill.record/text/plain": "'2020-04-05'"
      },
      "metadata": {
       "scrapbook": {
@@ -219,7 +219,7 @@
     },
     {
      "data": {
-      "application/papermill.record/text/plain": "'2020-06-03'"
+      "application/papermill.record/text/plain": "'2020-06-04'"
      },
      "metadata": {
       "scrapbook": {
@@ -251,16 +251,16 @@
    "execution_count": 6,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:11:52.874151Z",
-     "iopub.status.busy": "2020-06-03T01:11:52.873150Z",
-     "iopub.status.idle": "2020-06-03T01:12:41.576136Z",
-     "shell.execute_reply": "2020-06-03T01:12:41.575120Z"
+     "iopub.execute_input": "2020-06-04T01:15:32.452127Z",
+     "iopub.status.busy": "2020-06-04T01:15:32.451571Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.090642Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.091224Z"
     },
     "papermill": {
-     "duration": 48.729343,
-     "end_time": "2020-06-03T01:12:41.576256",
+     "duration": 50.667822,
+     "end_time": "2020-06-04T01:16:23.091361",
      "exception": false,
-     "start_time": "2020-06-03T01:11:52.846913",
+     "start_time": "2020-06-04T01:15:32.423539",
      "status": "completed"
     },
     "tags": [
@@ -282,13 +282,13 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Found 530 items, which will take 11 pages\n"
+      "Found 538 items, which will take 11 pages\n"
      ]
     },
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "116cdeba4e3a40d38c44da05c42b1d36",
+       "model_id": "21983e72b8d547d1ac16653dda937c3b",
        "version_major": 2,
        "version_minor": 0
       },
@@ -303,13 +303,13 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Found 469 items, which will take 10 pages\n"
+      "Found 474 items, which will take 10 pages\n"
      ]
     },
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "3a69c6c07b3f4b05a64bdde7476c1f9d",
+       "model_id": "e0c5383102f94a0c804b6e66d5c7e627",
        "version_major": 2,
        "version_minor": 0
       },
@@ -361,10 +361,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.027279,
-     "end_time": "2020-06-03T01:12:41.632527",
+     "duration": 0.028151,
+     "end_time": "2020-06-04T01:16:23.143085",
      "exception": false,
-     "start_time": "2020-06-03T01:12:41.605248",
+     "start_time": "2020-06-04T01:16:23.114934",
      "status": "completed"
     },
     "tags": [],
@@ -382,16 +382,16 @@
    "execution_count": 7,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:41.699921Z",
-     "iopub.status.busy": "2020-06-03T01:12:41.699271Z",
-     "iopub.status.idle": "2020-06-03T01:12:41.702809Z",
-     "shell.execute_reply": "2020-06-03T01:12:41.703430Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.197705Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.197138Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.201042Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.200456Z"
     },
     "papermill": {
-     "duration": 0.043081,
-     "end_time": "2020-06-03T01:12:41.703569",
+     "duration": 0.034449,
+     "end_time": "2020-06-04T01:16:23.201138",
      "exception": false,
-     "start_time": "2020-06-03T01:12:41.660488",
+     "start_time": "2020-06-04T01:16:23.166689",
      "status": "completed"
     },
     "tags": [
@@ -408,16 +408,16 @@
    "execution_count": 8,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:41.769836Z",
-     "iopub.status.busy": "2020-06-03T01:12:41.767712Z",
-     "iopub.status.idle": "2020-06-03T01:12:41.805096Z",
-     "shell.execute_reply": "2020-06-03T01:12:41.805756Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.256439Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.255469Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.289835Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.290776Z"
     },
     "papermill": {
-     "duration": 0.074013,
-     "end_time": "2020-06-03T01:12:41.805924",
+     "duration": 0.066415,
+     "end_time": "2020-06-04T01:16:23.290980",
      "exception": false,
-     "start_time": "2020-06-03T01:12:41.731911",
+     "start_time": "2020-06-04T01:16:23.224565",
      "status": "completed"
     },
     "tags": [
@@ -429,12 +429,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-c6c6458792bd47218d074b97dd3919de\"></div>\n",
+       "<div id=\"altair-viz-d5038221b4ee43e3bf54c5dce079f9b6\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-c6c6458792bd47218d074b97dd3919de\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-c6c6458792bd47218d074b97dd3919de\");\n",
+       "    if (outputDiv.id !== \"altair-viz-d5038221b4ee43e3bf54c5dce079f9b6\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-d5038221b4ee43e3bf54c5dce079f9b6\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -476,7 +476,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-6c8d93497885bb850bfa0a3906cd69a1\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"org\"}, \"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyter-book\", \"sphinx-book-theme\", \"cli\", \"MyST-NB\", \"quantecon-mini-example\", \"sphinx-panels\", \"MyST-Parser\", \"markdown-it-py\", \"sphinx-copybutton\", \"quantecon-example\", \"jupyter-cache\", \"meta\", \"myst-nb.example-project\", \"myst-parser.example-project\", \"sphinx-togglebutton\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"author\"}}, \"title\": \"Merged PRs in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-6c8d93497885bb850bfa0a3906cd69a1\": [{\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"author\": 59}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"author\": 54}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"author\": 27}, {\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"author\": 26}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"author\": 17}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"author\": 10}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"author\": 8}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"author\": 5}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"author\": 5}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-example\", \"author\": 4}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-cache\", \"author\": 2}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"author\": 2}, {\"org\": \"executablebooks\", \"repo\": \"myst-nb.example-project\", \"author\": 1}, {\"org\": \"executablebooks\", \"repo\": \"myst-parser.example-project\", \"author\": 1}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-togglebutton\", \"author\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-168120e50a5659f8fd19a6f055226d62\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"org\"}, \"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyter-book\", \"sphinx-book-theme\", \"cli\", \"MyST-NB\", \"quantecon-mini-example\", \"MyST-Parser\", \"sphinx-panels\", \"markdown-it-py\", \"sphinx-copybutton\", \"quantecon-example\", \"meta\", \"jupyter-cache\", \"myst-nb.example-project\", \"myst-parser.example-project\", \"sphinx-togglebutton\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"author\"}}, \"title\": \"Merged PRs in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-168120e50a5659f8fd19a6f055226d62\": [{\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"author\": 61}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"author\": 54}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"author\": 27}, {\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"author\": 26}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"author\": 17}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"author\": 10}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"author\": 10}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"author\": 5}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"author\": 5}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-example\", \"author\": 4}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"author\": 3}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-cache\", \"author\": 2}, {\"org\": \"executablebooks\", \"repo\": \"myst-nb.example-project\", \"author\": 1}, {\"org\": \"executablebooks\", \"repo\": \"myst-parser.example-project\", \"author\": 1}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-togglebutton\", \"author\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -501,10 +501,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.028018,
-     "end_time": "2020-06-03T01:12:41.864566",
+     "duration": 0.022301,
+     "end_time": "2020-06-04T01:16:23.335617",
      "exception": false,
-     "start_time": "2020-06-03T01:12:41.836548",
+     "start_time": "2020-06-04T01:16:23.313316",
      "status": "completed"
     },
     "tags": []
@@ -522,16 +522,16 @@
    "execution_count": 9,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:41.934376Z",
-     "iopub.status.busy": "2020-06-03T01:12:41.933671Z",
-     "iopub.status.idle": "2020-06-03T01:12:41.944406Z",
-     "shell.execute_reply": "2020-06-03T01:12:41.943732Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.398661Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.395147Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.406204Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.407310Z"
     },
     "papermill": {
-     "duration": 0.050945,
-     "end_time": "2020-06-03T01:12:41.944548",
+     "duration": 0.04799,
+     "end_time": "2020-06-04T01:16:23.407457",
      "exception": false,
-     "start_time": "2020-06-03T01:12:41.893603",
+     "start_time": "2020-06-04T01:16:23.359467",
      "status": "completed"
     },
     "tags": [
@@ -550,16 +550,16 @@
    "execution_count": 10,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.006133Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.005519Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.039663Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.040298Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.475020Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.462085Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.491037Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.490552Z"
     },
     "papermill": {
-     "duration": 0.067174,
-     "end_time": "2020-06-03T01:12:42.040437",
+     "duration": 0.060592,
+     "end_time": "2020-06-04T01:16:23.491138",
      "exception": false,
-     "start_time": "2020-06-03T01:12:41.973263",
+     "start_time": "2020-06-04T01:16:23.430546",
      "status": "completed"
     },
     "tags": [
@@ -571,12 +571,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-2d3690fd62b2498db702772876ba672d\"></div>\n",
+       "<div id=\"altair-viz-9e3c5acdeff843daac374b337ecdb408\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-2d3690fd62b2498db702772876ba672d\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-2d3690fd62b2498db702772876ba672d\");\n",
+       "    if (outputDiv.id !== \"altair-viz-9e3c5acdeff843daac374b337ecdb408\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-9e3c5acdeff843daac374b337ecdb408\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -618,7 +618,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-d90af9935e52fbb0953ebd19ddd9c4ad\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"authored\"}}, \"title\": \"PR authors for executablebooks in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-d90af9935e52fbb0953ebd19ddd9c4ad\": [{\"username\": \"choldgraf\", \"authored\": 130, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"chrisjsewell\", \"authored\": 20, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"najuzilu\", \"authored\": 18, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"mmcky\", \"authored\": 18, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"AakashGfude\", \"authored\": 6, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"jstac\", \"authored\": 6, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"amueller\", \"authored\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"rossbar\", \"authored\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"joergbrech\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"martinagvilas\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"consideRatio\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"jpivarski\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"Cyb3rWard0g\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"malvikasharan\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mgeier\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"huonw\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"nathancarter\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"peaceiris\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"phaustin\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"kyleniemeyer\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-1ce57cb0db2a12b19ed9030ce6497cfd\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"authored\"}}, \"title\": \"PR authors for executablebooks in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-1ce57cb0db2a12b19ed9030ce6497cfd\": [{\"username\": \"choldgraf\", \"authored\": 132, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"chrisjsewell\", \"authored\": 21, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"najuzilu\", \"authored\": 19, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"mmcky\", \"authored\": 18, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"AakashGfude\", \"authored\": 6, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"jstac\", \"authored\": 6, \"authorAssociation\": \"MEMBER\"}, {\"username\": \"amueller\", \"authored\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"rossbar\", \"authored\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"joergbrech\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"martinagvilas\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"consideRatio\", \"authored\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"dhermes\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"huonw\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"jpivarski\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"Cyb3rWard0g\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"kyleniemeyer\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"malvikasharan\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"mgeier\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"nathancarter\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"peaceiris\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"username\": \"phaustin\", \"authored\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -648,16 +648,16 @@
    "execution_count": 11,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.123708Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.123086Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.125770Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.126511Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.565136Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.564558Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.566789Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.567329Z"
     },
     "papermill": {
-     "duration": 0.056912,
-     "end_time": "2020-06-03T01:12:42.126652",
+     "duration": 0.05056,
+     "end_time": "2020-06-04T01:16:23.567460",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.069740",
+     "start_time": "2020-06-04T01:16:23.516900",
      "status": "completed"
     },
     "tags": [
@@ -669,12 +669,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-95c7d6cb07ab40ffade02eac7dfc60fa\"></div>\n",
+       "<div id=\"altair-viz-133a70d7cd5f45dbb2d53b048a128c68\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-95c7d6cb07ab40ffade02eac7dfc60fa\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-95c7d6cb07ab40ffade02eac7dfc60fa\");\n",
+       "    if (outputDiv.id !== \"altair-viz-133a70d7cd5f45dbb2d53b048a128c68\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-133a70d7cd5f45dbb2d53b048a128c68\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -716,7 +716,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-1780ca90d45b65fd06d9058c90d5a930\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"closed\"}}, \"title\": \"Merges for executablebooks in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-1780ca90d45b65fd06d9058c90d5a930\": [{\"repo\": \"MyST-NB\", \"username\": \"choldgraf\", \"closed\": 20}, {\"repo\": \"MyST-NB\", \"username\": \"chrisjsewell\", \"closed\": 6}, {\"repo\": \"MyST-Parser\", \"username\": \"choldgraf\", \"closed\": 6}, {\"repo\": \"MyST-Parser\", \"username\": \"chrisjsewell\", \"closed\": 2}, {\"repo\": \"cli\", \"username\": \"choldgraf\", \"closed\": 27}, {\"repo\": \"jupyter-book\", \"username\": \"choldgraf\", \"closed\": 59}, {\"repo\": \"jupyter-cache\", \"username\": \"choldgraf\", \"closed\": 1}, {\"repo\": \"jupyter-cache\", \"username\": \"chrisjsewell\", \"closed\": 1}, {\"repo\": \"markdown-it-py\", \"username\": \"choldgraf\", \"closed\": 2}, {\"repo\": \"markdown-it-py\", \"username\": \"chrisjsewell\", \"closed\": 3}, {\"repo\": \"meta\", \"username\": \"choldgraf\", \"closed\": 2}, {\"repo\": \"myst-nb.example-project\", \"username\": \"mmcky\", \"closed\": 1}, {\"repo\": \"myst-parser.example-project\", \"username\": \"mmcky\", \"closed\": 1}, {\"repo\": \"quantecon-example\", \"username\": \"choldgraf\", \"closed\": 1}, {\"repo\": \"quantecon-example\", \"username\": \"mmcky\", \"closed\": 1}, {\"repo\": \"quantecon-example\", \"username\": \"najuzilu\", \"closed\": 2}, {\"repo\": \"quantecon-mini-example\", \"username\": \"jstac\", \"closed\": 4}, {\"repo\": \"quantecon-mini-example\", \"username\": \"mmcky\", \"closed\": 12}, {\"repo\": \"quantecon-mini-example\", \"username\": \"najuzilu\", \"closed\": 1}, {\"repo\": \"sphinx-book-theme\", \"username\": \"choldgraf\", \"closed\": 53}, {\"repo\": \"sphinx-book-theme\", \"username\": \"najuzilu\", \"closed\": 1}, {\"repo\": \"sphinx-copybutton\", \"username\": \"choldgraf\", \"closed\": 5}, {\"repo\": \"sphinx-panels\", \"username\": \"choldgraf\", \"closed\": 1}, {\"repo\": \"sphinx-panels\", \"username\": \"chrisjsewell\", \"closed\": 9}, {\"repo\": \"sphinx-togglebutton\", \"username\": \"choldgraf\", \"closed\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-b4150c299dde5f4570556f4f6b8a98c9\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"username\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"closed\"}}, \"title\": \"Merges for executablebooks in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-b4150c299dde5f4570556f4f6b8a98c9\": [{\"repo\": \"MyST-NB\", \"username\": \"choldgraf\", \"closed\": 20}, {\"repo\": \"MyST-NB\", \"username\": \"chrisjsewell\", \"closed\": 6}, {\"repo\": \"MyST-Parser\", \"username\": \"choldgraf\", \"closed\": 7}, {\"repo\": \"MyST-Parser\", \"username\": \"chrisjsewell\", \"closed\": 3}, {\"repo\": \"cli\", \"username\": \"choldgraf\", \"closed\": 27}, {\"repo\": \"jupyter-book\", \"username\": \"choldgraf\", \"closed\": 61}, {\"repo\": \"jupyter-cache\", \"username\": \"choldgraf\", \"closed\": 1}, {\"repo\": \"jupyter-cache\", \"username\": \"chrisjsewell\", \"closed\": 1}, {\"repo\": \"markdown-it-py\", \"username\": \"choldgraf\", \"closed\": 2}, {\"repo\": \"markdown-it-py\", \"username\": \"chrisjsewell\", \"closed\": 3}, {\"repo\": \"meta\", \"username\": \"choldgraf\", \"closed\": 3}, {\"repo\": \"myst-nb.example-project\", \"username\": \"mmcky\", \"closed\": 1}, {\"repo\": \"myst-parser.example-project\", \"username\": \"mmcky\", \"closed\": 1}, {\"repo\": \"quantecon-example\", \"username\": \"choldgraf\", \"closed\": 1}, {\"repo\": \"quantecon-example\", \"username\": \"mmcky\", \"closed\": 1}, {\"repo\": \"quantecon-example\", \"username\": \"najuzilu\", \"closed\": 2}, {\"repo\": \"quantecon-mini-example\", \"username\": \"jstac\", \"closed\": 4}, {\"repo\": \"quantecon-mini-example\", \"username\": \"mmcky\", \"closed\": 12}, {\"repo\": \"quantecon-mini-example\", \"username\": \"najuzilu\", \"closed\": 1}, {\"repo\": \"sphinx-book-theme\", \"username\": \"choldgraf\", \"closed\": 53}, {\"repo\": \"sphinx-book-theme\", \"username\": \"najuzilu\", \"closed\": 1}, {\"repo\": \"sphinx-copybutton\", \"username\": \"choldgraf\", \"closed\": 5}, {\"repo\": \"sphinx-panels\", \"username\": \"choldgraf\", \"closed\": 1}, {\"repo\": \"sphinx-panels\", \"username\": \"chrisjsewell\", \"closed\": 9}, {\"repo\": \"sphinx-togglebutton\", \"username\": \"choldgraf\", \"closed\": 1}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -742,10 +742,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.027874,
-     "end_time": "2020-06-03T01:12:42.183841",
+     "duration": 0.023675,
+     "end_time": "2020-06-04T01:16:23.615198",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.155967",
+     "start_time": "2020-06-04T01:16:23.591523",
      "status": "completed"
     },
     "tags": []
@@ -762,16 +762,16 @@
    "execution_count": 12,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.249007Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.248365Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.256358Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.255724Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.677656Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.677115Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.680505Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.681041Z"
     },
     "papermill": {
-     "duration": 0.044706,
-     "end_time": "2020-06-03T01:12:42.256481",
+     "duration": 0.040897,
+     "end_time": "2020-06-04T01:16:23.681162",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.211775",
+     "start_time": "2020-06-04T01:16:23.640265",
      "status": "completed"
     },
     "tags": [
@@ -789,16 +789,16 @@
    "execution_count": 13,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.323592Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.322927Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.354176Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.354788Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.745044Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.744347Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.771008Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.770431Z"
     },
     "papermill": {
-     "duration": 0.068057,
-     "end_time": "2020-06-03T01:12:42.354924",
+     "duration": 0.065313,
+     "end_time": "2020-06-04T01:16:23.771105",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.286867",
+     "start_time": "2020-06-04T01:16:23.705792",
      "status": "completed"
     },
     "tags": [
@@ -810,12 +810,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-5b0d7b7baf5c4ad7bbc8d1244bb459ef\"></div>\n",
+       "<div id=\"altair-viz-a71df8fba3e2429896765e0f70226d83\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-5b0d7b7baf5c4ad7bbc8d1244bb459ef\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-5b0d7b7baf5c4ad7bbc8d1244bb459ef\");\n",
+       "    if (outputDiv.id !== \"altair-viz-a71df8fba3e2429896765e0f70226d83\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-a71df8fba3e2429896765e0f70226d83\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -857,7 +857,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-9f8e497e51d511cbc5eee1b0c3c9b49e\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyter-book\", \"MyST-NB\", \"MyST-Parser\", \"meta\", \"sphinx-book-theme\", \"sphinx-panels\", \"markdown-it-py\", \"jupyter-cache\", \"quantecon-mini-example\", \"sphinx-copybutton\", \"tcs_to_jb\", \"myst-nb.example-project\", \"quantecon-example\", \"rst2myst\", \"sphinx-togglebutton\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-9f8e497e51d511cbc5eee1b0c3c9b49e\": [{\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"number\": 21, \"org/repo\": \"executablebooks/MyST-NB\"}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"number\": 14, \"org/repo\": \"executablebooks/MyST-Parser\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"number\": 76, \"org/repo\": \"executablebooks/jupyter-book\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-cache\", \"number\": 3, \"org/repo\": \"executablebooks/jupyter-cache\"}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"number\": 4, \"org/repo\": \"executablebooks/markdown-it-py\"}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"number\": 11, \"org/repo\": \"executablebooks/meta\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-nb.example-project\", \"number\": 1, \"org/repo\": \"executablebooks/myst-nb.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-example\", \"number\": 1, \"org/repo\": \"executablebooks/quantecon-example\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"number\": 3, \"org/repo\": \"executablebooks/quantecon-mini-example\"}, {\"org\": \"executablebooks\", \"repo\": \"rst2myst\", \"number\": 1, \"org/repo\": \"executablebooks/rst2myst\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"number\": 11, \"org/repo\": \"executablebooks/sphinx-book-theme\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"number\": 3, \"org/repo\": \"executablebooks/sphinx-copybutton\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"number\": 7, \"org/repo\": \"executablebooks/sphinx-panels\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-togglebutton\", \"number\": 1, \"org/repo\": \"executablebooks/sphinx-togglebutton\"}, {\"org\": \"executablebooks\", \"repo\": \"tcs_to_jb\", \"number\": 3, \"org/repo\": \"executablebooks/tcs_to_jb\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-b3dabb85ea2167c2e90beb09093ed330\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyter-book\", \"MyST-NB\", \"MyST-Parser\", \"sphinx-book-theme\", \"meta\", \"sphinx-panels\", \"markdown-it-py\", \"quantecon-mini-example\", \"sphinx-copybutton\", \"tcs_to_jb\", \"jupyter-cache\", \"myst-nb.example-project\", \"quantecon-example\", \"rst2myst\", \"sphinx-togglebutton\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-b3dabb85ea2167c2e90beb09093ed330\": [{\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"number\": 21, \"org/repo\": \"executablebooks/MyST-NB\"}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"number\": 14, \"org/repo\": \"executablebooks/MyST-Parser\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"number\": 80, \"org/repo\": \"executablebooks/jupyter-book\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-cache\", \"number\": 2, \"org/repo\": \"executablebooks/jupyter-cache\"}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"number\": 4, \"org/repo\": \"executablebooks/markdown-it-py\"}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"number\": 10, \"org/repo\": \"executablebooks/meta\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-nb.example-project\", \"number\": 1, \"org/repo\": \"executablebooks/myst-nb.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-example\", \"number\": 1, \"org/repo\": \"executablebooks/quantecon-example\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"number\": 3, \"org/repo\": \"executablebooks/quantecon-mini-example\"}, {\"org\": \"executablebooks\", \"repo\": \"rst2myst\", \"number\": 1, \"org/repo\": \"executablebooks/rst2myst\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"number\": 11, \"org/repo\": \"executablebooks/sphinx-book-theme\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"number\": 3, \"org/repo\": \"executablebooks/sphinx-copybutton\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"number\": 7, \"org/repo\": \"executablebooks/sphinx-panels\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-togglebutton\", \"number\": 1, \"org/repo\": \"executablebooks/sphinx-togglebutton\"}, {\"org\": \"executablebooks\", \"repo\": \"tcs_to_jb\", \"number\": 3, \"org/repo\": \"executablebooks/tcs_to_jb\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -884,16 +884,16 @@
    "execution_count": 14,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.419534Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.418903Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.446954Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.446439Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.831835Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.831293Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.853614Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.854221Z"
     },
     "papermill": {
-     "duration": 0.063534,
-     "end_time": "2020-06-03T01:12:42.447055",
+     "duration": 0.057114,
+     "end_time": "2020-06-04T01:16:23.854359",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.383521",
+     "start_time": "2020-06-04T01:16:23.797245",
      "status": "completed"
     },
     "tags": [
@@ -905,12 +905,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-b7609099924d4a5f8cfb10393460b7aa\"></div>\n",
+       "<div id=\"altair-viz-56d52ddea837433c89f74f2e9d39b913\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-b7609099924d4a5f8cfb10393460b7aa\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-b7609099924d4a5f8cfb10393460b7aa\");\n",
+       "    if (outputDiv.id !== \"altair-viz-56d52ddea837433c89f74f2e9d39b913\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-56d52ddea837433c89f74f2e9d39b913\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -952,7 +952,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-c072a331b4c9d6132e05eeda0622dfaf\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyter-book\", \"cli\", \"sphinx-book-theme\", \"MyST-NB\", \"sphinx-panels\", \"MyST-Parser\", \"quantecon-mini-example\", \"sphinx-copybutton\", \"meta\", \"quantecon-example\", \"markdown-it-py\", \"jupyter-cache\", \"mistletoe\", \"myst-nb.example-project\", \"myst-parser.example-project\", \"tcs_to_jb\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-c072a331b4c9d6132e05eeda0622dfaf\": [{\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"number\": 13, \"org/repo\": \"executablebooks/MyST-NB\"}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"number\": 7, \"org/repo\": \"executablebooks/MyST-Parser\"}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"number\": 32, \"org/repo\": \"executablebooks/cli\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"number\": 109, \"org/repo\": \"executablebooks/jupyter-book\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-cache\", \"number\": 1, \"org/repo\": \"executablebooks/jupyter-cache\"}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"number\": 2, \"org/repo\": \"executablebooks/markdown-it-py\"}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"number\": 4, \"org/repo\": \"executablebooks/meta\"}, {\"org\": \"executablebooks\", \"repo\": \"mistletoe\", \"number\": 1, \"org/repo\": \"executablebooks/mistletoe\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-nb.example-project\", \"number\": 1, \"org/repo\": \"executablebooks/myst-nb.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-parser.example-project\", \"number\": 1, \"org/repo\": \"executablebooks/myst-parser.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-example\", \"number\": 4, \"org/repo\": \"executablebooks/quantecon-example\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"number\": 6, \"org/repo\": \"executablebooks/quantecon-mini-example\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"number\": 18, \"org/repo\": \"executablebooks/sphinx-book-theme\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"number\": 5, \"org/repo\": \"executablebooks/sphinx-copybutton\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"number\": 9, \"org/repo\": \"executablebooks/sphinx-panels\"}, {\"org\": \"executablebooks\", \"repo\": \"tcs_to_jb\", \"number\": 1, \"org/repo\": \"executablebooks/tcs_to_jb\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-abd3db08e60cffb89270c046183cafdd\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyter-book\", \"cli\", \"sphinx-book-theme\", \"MyST-NB\", \"sphinx-panels\", \"MyST-Parser\", \"quantecon-mini-example\", \"meta\", \"sphinx-copybutton\", \"quantecon-example\", \"markdown-it-py\", \"jupyter-cache\", \"mistletoe\", \"myst-nb.example-project\", \"myst-parser.example-project\", \"tcs_to_jb\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-abd3db08e60cffb89270c046183cafdd\": [{\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"number\": 12, \"org/repo\": \"executablebooks/MyST-NB\"}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"number\": 8, \"org/repo\": \"executablebooks/MyST-Parser\"}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"number\": 32, \"org/repo\": \"executablebooks/cli\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"number\": 109, \"org/repo\": \"executablebooks/jupyter-book\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-cache\", \"number\": 1, \"org/repo\": \"executablebooks/jupyter-cache\"}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"number\": 2, \"org/repo\": \"executablebooks/markdown-it-py\"}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"number\": 5, \"org/repo\": \"executablebooks/meta\"}, {\"org\": \"executablebooks\", \"repo\": \"mistletoe\", \"number\": 1, \"org/repo\": \"executablebooks/mistletoe\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-nb.example-project\", \"number\": 1, \"org/repo\": \"executablebooks/myst-nb.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-parser.example-project\", \"number\": 1, \"org/repo\": \"executablebooks/myst-parser.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-example\", \"number\": 3, \"org/repo\": \"executablebooks/quantecon-example\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"number\": 6, \"org/repo\": \"executablebooks/quantecon-mini-example\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"number\": 18, \"org/repo\": \"executablebooks/sphinx-book-theme\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"number\": 5, \"org/repo\": \"executablebooks/sphinx-copybutton\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"number\": 9, \"org/repo\": \"executablebooks/sphinx-panels\"}, {\"org\": \"executablebooks\", \"repo\": \"tcs_to_jb\", \"number\": 1, \"org/repo\": \"executablebooks/tcs_to_jb\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -979,16 +979,16 @@
    "execution_count": 15,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.515754Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.514874Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.528087Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.527440Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.923442Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.922716Z",
+     "iopub.status.idle": "2020-06-04T01:16:23.923959Z",
+     "shell.execute_reply": "2020-06-04T01:16:23.924511Z"
     },
     "papermill": {
-     "duration": 0.051448,
-     "end_time": "2020-06-03T01:12:42.528189",
+     "duration": 0.045418,
+     "end_time": "2020-06-04T01:16:23.924635",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.476741",
+     "start_time": "2020-06-04T01:16:23.879217",
      "status": "completed"
     },
     "tags": [
@@ -1009,16 +1009,16 @@
    "execution_count": 16,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.618158Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.595602Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.624124Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.623485Z"
+     "iopub.execute_input": "2020-06-04T01:16:23.987655Z",
+     "iopub.status.busy": "2020-06-04T01:16:23.987099Z",
+     "iopub.status.idle": "2020-06-04T01:16:24.009400Z",
+     "shell.execute_reply": "2020-06-04T01:16:24.009840Z"
     },
     "papermill": {
-     "duration": 0.067658,
-     "end_time": "2020-06-03T01:12:42.624231",
+     "duration": 0.058257,
+     "end_time": "2020-06-04T01:16:24.009968",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.556573",
+     "start_time": "2020-06-04T01:16:23.951711",
      "status": "completed"
     },
     "tags": [
@@ -1030,12 +1030,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-2cb1bb0125344732a147ca40f6fa2619\"></div>\n",
+       "<div id=\"altair-viz-c23cf9b86c814d6b85fd3e1a13c46c44\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-2cb1bb0125344732a147ca40f6fa2619\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-2cb1bb0125344732a147ca40f6fa2619\");\n",
+       "    if (outputDiv.id !== \"altair-viz-c23cf9b86c814d6b85fd3e1a13c46c44\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-c23cf9b86c814d6b85fd3e1a13c46c44\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1077,7 +1077,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-8cb7b1e2a899d7a42a688b80b8d1c8e2\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 60 days for executablebooks\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-8cb7b1e2a899d7a42a688b80b8d1c8e2\": [{\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"kind\": \"created\", \"count\": 21.0}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"kind\": \"created\", \"count\": 14.0}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"kind\": \"created\", \"count\": 76.0}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"kind\": \"created\", \"count\": 4.0}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"kind\": \"created\", \"count\": 11.0}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"kind\": \"created\", \"count\": 11.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"kind\": \"created\", \"count\": 7.0}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"kind\": \"created\", \"count\": 0.0}, {\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"kind\": \"closed\", \"count\": 13.0}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"kind\": \"closed\", \"count\": 7.0}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"kind\": \"closed\", \"count\": 109.0}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"kind\": \"closed\", \"count\": 4.0}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"kind\": \"closed\", \"count\": 6.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"kind\": \"closed\", \"count\": 18.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"kind\": \"closed\", \"count\": 5.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"kind\": \"closed\", \"count\": 9.0}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"kind\": \"closed\", \"count\": 32.0}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-ee15dba95dda641ad5899f059174e194\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 60 days for executablebooks\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-ee15dba95dda641ad5899f059174e194\": [{\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"kind\": \"created\", \"count\": 21.0}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"kind\": \"created\", \"count\": 14.0}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"kind\": \"created\", \"count\": 80.0}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"kind\": \"created\", \"count\": 4.0}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"kind\": \"created\", \"count\": 10.0}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"kind\": \"created\", \"count\": 11.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"kind\": \"created\", \"count\": 7.0}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"kind\": \"created\", \"count\": 0.0}, {\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"kind\": \"closed\", \"count\": 12.0}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"kind\": \"closed\", \"count\": 8.0}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"kind\": \"closed\", \"count\": 109.0}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"kind\": \"closed\", \"count\": 5.0}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"kind\": \"closed\", \"count\": 6.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"kind\": \"closed\", \"count\": 18.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"kind\": \"closed\", \"count\": 5.0}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"kind\": \"closed\", \"count\": 9.0}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"kind\": \"closed\", \"count\": 32.0}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1107,16 +1107,16 @@
    "execution_count": 17,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.699858Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.694662Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.701982Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.702556Z"
+     "iopub.execute_input": "2020-06-04T01:16:24.076224Z",
+     "iopub.status.busy": "2020-06-04T01:16:24.075679Z",
+     "iopub.status.idle": "2020-06-04T01:16:24.082018Z",
+     "shell.execute_reply": "2020-06-04T01:16:24.081449Z"
     },
     "papermill": {
-     "duration": 0.046186,
-     "end_time": "2020-06-03T01:12:42.702677",
+     "duration": 0.046818,
+     "end_time": "2020-06-04T01:16:24.082111",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.656491",
+     "start_time": "2020-06-04T01:16:24.035293",
      "status": "completed"
     },
     "tags": [
@@ -1138,16 +1138,16 @@
    "execution_count": 18,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.771449Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.770765Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.796669Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.796029Z"
+     "iopub.execute_input": "2020-06-04T01:16:24.149105Z",
+     "iopub.status.busy": "2020-06-04T01:16:24.148523Z",
+     "iopub.status.idle": "2020-06-04T01:16:24.170608Z",
+     "shell.execute_reply": "2020-06-04T01:16:24.170028Z"
     },
     "papermill": {
-     "duration": 0.065164,
-     "end_time": "2020-06-03T01:12:42.796841",
+     "duration": 0.061379,
+     "end_time": "2020-06-04T01:16:24.170711",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.731677",
+     "start_time": "2020-06-04T01:16:24.109332",
      "status": "completed"
     },
     "tags": [
@@ -1159,12 +1159,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-5c1edb31c3354c959c350e85cd5d099e\"></div>\n",
+       "<div id=\"altair-viz-8f14e2ff7a7d47d28587208d060923c9\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-5c1edb31c3354c959c350e85cd5d099e\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-5c1edb31c3354c959c350e85cd5d099e\");\n",
+       "    if (outputDiv.id !== \"altair-viz-8f14e2ff7a7d47d28587208d060923c9\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-8f14e2ff7a7d47d28587208d060923c9\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1206,7 +1206,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-7b30c4598f894a2a5d237a539f087748\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyter-book\", \"myst-parser.example-project\", \"cli\", \"jupyter-cache\", \"MyST-Parser\", \"MyST-NB\", \"sphinx-book-theme\", \"myst-nb.example-project\", \"meta\", \"tcs_to_jb\", \"quantecon-example\", \"markdown-it-py\", \"sphinx-panels\", \"quantecon-mini-example\", \"sphinx-copybutton\", \"mistletoe\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"time_open\", \"title\": \"Median Days Open\"}}, \"title\": \"Time to close for issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-7b30c4598f894a2a5d237a539f087748\": [{\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"time_open\": 5.235543981481482, \"org/repo\": \"executablebooks/MyST-NB\"}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"time_open\": 6.529189814814814, \"org/repo\": \"executablebooks/MyST-Parser\"}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"time_open\": 15.77849537037037, \"org/repo\": \"executablebooks/cli\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"time_open\": 100.06652777777778, \"org/repo\": \"executablebooks/jupyter-book\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-cache\", \"time_open\": 12.698761574074075, \"org/repo\": \"executablebooks/jupyter-cache\"}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"time_open\": 2.173611111111111, \"org/repo\": \"executablebooks/markdown-it-py\"}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"time_open\": 3.7270601851851852, \"org/repo\": \"executablebooks/meta\"}, {\"org\": \"executablebooks\", \"repo\": \"mistletoe\", \"time_open\": 0.02121527777777778, \"org/repo\": \"executablebooks/mistletoe\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-nb.example-project\", \"time_open\": 3.986597222222222, \"org/repo\": \"executablebooks/myst-nb.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-parser.example-project\", \"time_open\": 35.17601851851852, \"org/repo\": \"executablebooks/myst-parser.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-example\", \"time_open\": 2.8884143518518517, \"org/repo\": \"executablebooks/quantecon-example\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"time_open\": 1.6514583333333333, \"org/repo\": \"executablebooks/quantecon-mini-example\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"time_open\": 3.997326388888889, \"org/repo\": \"executablebooks/sphinx-book-theme\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"time_open\": 0.6873495370370372, \"org/repo\": \"executablebooks/sphinx-copybutton\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"time_open\": 1.9397569444444445, \"org/repo\": \"executablebooks/sphinx-panels\"}, {\"org\": \"executablebooks\", \"repo\": \"tcs_to_jb\", \"time_open\": 3.094849537037037, \"org/repo\": \"executablebooks/tcs_to_jb\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-67befc33139b01c894cd3991d954cac1\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"jupyter-book\", \"myst-parser.example-project\", \"cli\", \"jupyter-cache\", \"MyST-NB\", \"sphinx-book-theme\", \"myst-nb.example-project\", \"MyST-Parser\", \"tcs_to_jb\", \"quantecon-example\", \"markdown-it-py\", \"sphinx-panels\", \"quantecon-mini-example\", \"meta\", \"sphinx-copybutton\", \"mistletoe\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"time_open\", \"title\": \"Median Days Open\"}}, \"title\": \"Time to close for issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-67befc33139b01c894cd3991d954cac1\": [{\"org\": \"executablebooks\", \"repo\": \"MyST-NB\", \"time_open\": 4.498825231481481, \"org/repo\": \"executablebooks/MyST-NB\"}, {\"org\": \"executablebooks\", \"repo\": \"MyST-Parser\", \"time_open\": 3.8802256944444444, \"org/repo\": \"executablebooks/MyST-Parser\"}, {\"org\": \"executablebooks\", \"repo\": \"cli\", \"time_open\": 15.77849537037037, \"org/repo\": \"executablebooks/cli\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-book\", \"time_open\": 100.06652777777778, \"org/repo\": \"executablebooks/jupyter-book\"}, {\"org\": \"executablebooks\", \"repo\": \"jupyter-cache\", \"time_open\": 12.698761574074075, \"org/repo\": \"executablebooks/jupyter-cache\"}, {\"org\": \"executablebooks\", \"repo\": \"markdown-it-py\", \"time_open\": 2.173611111111111, \"org/repo\": \"executablebooks/markdown-it-py\"}, {\"org\": \"executablebooks\", \"repo\": \"meta\", \"time_open\": 1.3592245370370373, \"org/repo\": \"executablebooks/meta\"}, {\"org\": \"executablebooks\", \"repo\": \"mistletoe\", \"time_open\": 0.02121527777777778, \"org/repo\": \"executablebooks/mistletoe\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-nb.example-project\", \"time_open\": 3.986597222222222, \"org/repo\": \"executablebooks/myst-nb.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"myst-parser.example-project\", \"time_open\": 35.17601851851852, \"org/repo\": \"executablebooks/myst-parser.example-project\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-example\", \"time_open\": 2.717152777777778, \"org/repo\": \"executablebooks/quantecon-example\"}, {\"org\": \"executablebooks\", \"repo\": \"quantecon-mini-example\", \"time_open\": 1.6514583333333333, \"org/repo\": \"executablebooks/quantecon-mini-example\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-book-theme\", \"time_open\": 3.997326388888889, \"org/repo\": \"executablebooks/sphinx-book-theme\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-copybutton\", \"time_open\": 0.6873495370370372, \"org/repo\": \"executablebooks/sphinx-copybutton\"}, {\"org\": \"executablebooks\", \"repo\": \"sphinx-panels\", \"time_open\": 1.9397569444444445, \"org/repo\": \"executablebooks/sphinx-panels\"}, {\"org\": \"executablebooks\", \"repo\": \"tcs_to_jb\", \"time_open\": 3.094849537037037, \"org/repo\": \"executablebooks/tcs_to_jb\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1233,10 +1233,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.030628,
-     "end_time": "2020-06-03T01:12:42.858675",
+     "duration": 0.028034,
+     "end_time": "2020-06-04T01:16:24.224752",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.828047",
+     "start_time": "2020-06-04T01:16:24.196718",
      "status": "completed"
     },
     "tags": []
@@ -1254,16 +1254,16 @@
    "execution_count": 19,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:42.929455Z",
-     "iopub.status.busy": "2020-06-03T01:12:42.928793Z",
-     "iopub.status.idle": "2020-06-03T01:12:42.944987Z",
-     "shell.execute_reply": "2020-06-03T01:12:42.944274Z"
+     "iopub.execute_input": "2020-06-04T01:16:24.295661Z",
+     "iopub.status.busy": "2020-06-04T01:16:24.295100Z",
+     "iopub.status.idle": "2020-06-04T01:16:24.308713Z",
+     "shell.execute_reply": "2020-06-04T01:16:24.308090Z"
     },
     "papermill": {
-     "duration": 0.056357,
-     "end_time": "2020-06-03T01:12:42.945090",
+     "duration": 0.05389,
+     "end_time": "2020-06-04T01:16:24.308818",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.888733",
+     "start_time": "2020-06-04T01:16:24.254928",
      "status": "completed"
     },
     "tags": [
@@ -1287,16 +1287,16 @@
    "execution_count": 20,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:43.016007Z",
-     "iopub.status.busy": "2020-06-03T01:12:43.015346Z",
-     "iopub.status.idle": "2020-06-03T01:12:43.047705Z",
-     "shell.execute_reply": "2020-06-03T01:12:43.048401Z"
+     "iopub.execute_input": "2020-06-04T01:16:24.374218Z",
+     "iopub.status.busy": "2020-06-04T01:16:24.373657Z",
+     "iopub.status.idle": "2020-06-04T01:16:24.401684Z",
+     "shell.execute_reply": "2020-06-04T01:16:24.402228Z"
     },
     "papermill": {
-     "duration": 0.072097,
-     "end_time": "2020-06-03T01:12:43.048540",
+     "duration": 0.067305,
+     "end_time": "2020-06-04T01:16:24.402358",
      "exception": false,
-     "start_time": "2020-06-03T01:12:42.976443",
+     "start_time": "2020-06-04T01:16:24.335053",
      "status": "completed"
     },
     "tags": [
@@ -1308,12 +1308,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-d3a5c7a56da44c0a92088872db03326a\"></div>\n",
+       "<div id=\"altair-viz-041f2e5de9eb431bb34dcaa63d1cfd19\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-d3a5c7a56da44c0a92088872db03326a\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-d3a5c7a56da44c0a92088872db03326a\");\n",
+       "    if (outputDiv.id !== \"altair-viz-041f2e5de9eb431bb34dcaa63d1cfd19\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-041f2e5de9eb431bb34dcaa63d1cfd19\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1355,7 +1355,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for executablebooks in the last 60 days\"}], \"data\": {\"name\": \"data-2a876ce345f6967425d77b52884de428\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-2a876ce345f6967425d77b52884de428\": [{\"author\": \"choldgraf\", \"count\": 784, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"chrisjsewell\", \"count\": 234, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"mmcky\", \"count\": 161, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"najuzilu\", \"count\": 97, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"AakashGfude\", \"count\": 89, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"phaustin\", \"count\": 69, \"authorAssociation\": \"NONE\"}, {\"author\": \"jstac\", \"count\": 57, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"amueller\", \"count\": 39, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"akhmerov\", \"count\": 30, \"authorAssociation\": \"NONE\"}, {\"author\": \"rossbar\", \"count\": 26, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"kyleniemeyer\", \"count\": 25, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"martinagvilas\", \"count\": 14, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"asmeurer\", \"count\": 13, \"authorAssociation\": \"NONE\"}, {\"author\": \"joergbrech\", \"count\": 12, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"jorisvandenbossche\", \"count\": 10, \"authorAssociation\": \"NONE\"}, {\"author\": \"codecov-commenter\", \"count\": 9, \"authorAssociation\": \"NONE\"}, {\"author\": \"firasm\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"leilaicruz\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"emdupre\", \"count\": 7, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"dafriedman97\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"spring-haru\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"henryiii\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"certik\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"seanpue\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"DavidPowell\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"alexnakagawa\", \"count\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"nathancarter\", \"count\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"pauleveritt\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"asteppke\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"bmcfee\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"rowanc1\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"jpivarski\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"rsokl\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"davewhipp\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"andrewsanchez\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"consideRatio\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"ofajardo\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"prabhasyadav\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"mgeier\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"malvikasharan\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"miguelusque\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"svenkreiss\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"thomassargent30\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"0az\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"drscotthawley\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"JKasmire\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"NatalieThurlby\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"Racooneer\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"boazbk\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"filippo82\", \"count\": 3, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for executablebooks in the last 60 days\"}], \"data\": {\"name\": \"data-ad7e43dcd21dd5d90dca44aade189346\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-ad7e43dcd21dd5d90dca44aade189346\": [{\"author\": \"choldgraf\", \"count\": 797, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"chrisjsewell\", \"count\": 237, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"mmcky\", \"count\": 163, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"najuzilu\", \"count\": 97, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"AakashGfude\", \"count\": 88, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"phaustin\", \"count\": 69, \"authorAssociation\": \"NONE\"}, {\"author\": \"jstac\", \"count\": 55, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"amueller\", \"count\": 39, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"akhmerov\", \"count\": 30, \"authorAssociation\": \"NONE\"}, {\"author\": \"rossbar\", \"count\": 26, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"kyleniemeyer\", \"count\": 25, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"martinagvilas\", \"count\": 14, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"asmeurer\", \"count\": 13, \"authorAssociation\": \"NONE\"}, {\"author\": \"joergbrech\", \"count\": 12, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ofajardo\", \"count\": 10, \"authorAssociation\": \"NONE\"}, {\"author\": \"jorisvandenbossche\", \"count\": 10, \"authorAssociation\": \"NONE\"}, {\"author\": \"codecov-commenter\", \"count\": 9, \"authorAssociation\": \"NONE\"}, {\"author\": \"emdupre\", \"count\": 7, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"firasm\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"leilaicruz\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"certik\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"dafriedman97\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"DavidPowell\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"spring-haru\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"henryiii\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"Racooneer\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"seanpue\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"pauleveritt\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"bmcfee\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"asteppke\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"alexnakagawa\", \"count\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"nathancarter\", \"count\": 5, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"jpivarski\", \"count\": 4, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"andrewsanchez\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"davewhipp\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"consideRatio\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"rsokl\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"rowanc1\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"HTenkanen\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"mlncn\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"miguelusque\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"mgeier\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"malvikasharan\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"svenkreiss\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"thomassargent30\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"prabhasyadav\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"0az\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"NatalieThurlby\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"boazbk\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"bryeis\", \"count\": 3, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1387,10 +1387,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.029795,
-     "end_time": "2020-06-03T01:12:43.108833",
+     "duration": 0.027744,
+     "end_time": "2020-06-04T01:16:24.458681",
      "exception": false,
-     "start_time": "2020-06-03T01:12:43.079038",
+     "start_time": "2020-06-04T01:16:24.430937",
      "status": "completed"
     },
     "tags": []
@@ -1407,16 +1407,16 @@
    "execution_count": 21,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:43.182387Z",
-     "iopub.status.busy": "2020-06-03T01:12:43.181710Z",
-     "iopub.status.idle": "2020-06-03T01:12:43.751129Z",
-     "shell.execute_reply": "2020-06-03T01:12:43.751871Z"
+     "iopub.execute_input": "2020-06-04T01:16:24.525509Z",
+     "iopub.status.busy": "2020-06-04T01:16:24.524949Z",
+     "iopub.status.idle": "2020-06-04T01:16:24.992347Z",
+     "shell.execute_reply": "2020-06-04T01:16:24.991183Z"
     },
     "papermill": {
-     "duration": 0.610601,
-     "end_time": "2020-06-03T01:12:43.752050",
+     "duration": 0.506816,
+     "end_time": "2020-06-04T01:16:24.992468",
      "exception": false,
-     "start_time": "2020-06-03T01:12:43.141449",
+     "start_time": "2020-06-04T01:16:24.485652",
      "status": "completed"
     },
     "tags": [
@@ -1444,16 +1444,16 @@
    "execution_count": 22,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:43.837579Z",
-     "iopub.status.busy": "2020-06-03T01:12:43.829744Z",
-     "iopub.status.idle": "2020-06-03T01:12:43.854684Z",
-     "shell.execute_reply": "2020-06-03T01:12:43.855341Z"
+     "iopub.execute_input": "2020-06-04T01:16:25.082507Z",
+     "iopub.status.busy": "2020-06-04T01:16:25.081907Z",
+     "iopub.status.idle": "2020-06-04T01:16:25.086770Z",
+     "shell.execute_reply": "2020-06-04T01:16:25.086169Z"
     },
     "papermill": {
-     "duration": 0.068795,
-     "end_time": "2020-06-03T01:12:43.855591",
+     "duration": 0.065795,
+     "end_time": "2020-06-04T01:16:25.086876",
      "exception": false,
-     "start_time": "2020-06-03T01:12:43.786796",
+     "start_time": "2020-06-04T01:16:25.021081",
      "status": "completed"
     },
     "tags": [
@@ -1465,12 +1465,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-a182ed02b5aa412ba0af1af04ceeb3bf\"></div>\n",
+       "<div id=\"altair-viz-5e2e62c847384e8fbddc002fdbe86f44\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-a182ed02b5aa412ba0af1af04ceeb3bf\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-a182ed02b5aa412ba0af1af04ceeb3bf\");\n",
+       "    if (outputDiv.id !== \"altair-viz-5e2e62c847384e8fbddc002fdbe86f44\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-5e2e62c847384e8fbddc002fdbe86f44\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1512,7 +1512,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-8dca4dcb1f2bf48f3594363de16a6a35\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for executablebooks in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-8dca4dcb1f2bf48f3594363de16a6a35\": [{\"author\": \"choldgraf\", \"n_first_responses\": 244, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"chrisjsewell\", \"n_first_responses\": 64, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"mmcky\", \"n_first_responses\": 27, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"najuzilu\", \"n_first_responses\": 18, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jstac\", \"n_first_responses\": 15, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"AakashGfude\", \"n_first_responses\": 9, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"codecov-commenter\", \"n_first_responses\": 9, \"authorAssociation\": \"NONE\"}, {\"author\": \"phaustin\", \"n_first_responses\": 9, \"authorAssociation\": \"NONE\"}, {\"author\": \"emdupre\", \"n_first_responses\": 4, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"kyleniemeyer\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"amueller\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"akhmerov\", \"n_first_responses\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"psychemedia\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"gregcaporaso\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"rowanc1\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"jorisvandenbossche\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"jasmainak\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"martinagvilas\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"joergbrech\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"consideRatio\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"asmeurer\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"franconianmetal\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"oscarys\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"yuvipanda\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"thomassargent30\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"thammegowda\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"sebiegli\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"seanpue\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"MasterScrat\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"rossbar\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"NatalieThurlby\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"prabhasyadav\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Racooneer\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"peaceiris\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"pauleveritt\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"alejandroschuler\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"firasm\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mwcraig\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"mtiley\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mr2013\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"andrewsanchez\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"betatim\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"bmcfee\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"jpivarski\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"JKasmire\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"dafriedman97\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"huonw\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"henryiii\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"zugkraft\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-7d61b073f0a27b36d6f95bc7e5e2f22f\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for executablebooks in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-7d61b073f0a27b36d6f95bc7e5e2f22f\": [{\"author\": \"choldgraf\", \"n_first_responses\": 249, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"chrisjsewell\", \"n_first_responses\": 65, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"mmcky\", \"n_first_responses\": 27, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"najuzilu\", \"n_first_responses\": 18, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jstac\", \"n_first_responses\": 14, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"codecov-commenter\", \"n_first_responses\": 9, \"authorAssociation\": \"NONE\"}, {\"author\": \"AakashGfude\", \"n_first_responses\": 9, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"phaustin\", \"n_first_responses\": 9, \"authorAssociation\": \"NONE\"}, {\"author\": \"emdupre\", \"n_first_responses\": 4, \"authorAssociation\": \"COLLABORATOR\"}, {\"author\": \"akhmerov\", \"n_first_responses\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"amueller\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"kyleniemeyer\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"Racooneer\", \"n_first_responses\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"psychemedia\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"gregcaporaso\", \"n_first_responses\": 2, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"martinagvilas\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"rowanc1\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"jorisvandenbossche\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"jasmainak\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"joergbrech\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"consideRatio\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"asmeurer\", \"n_first_responses\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"franconianmetal\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"oscarys\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"yuvipanda\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"thomassargent30\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"thammegowda\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"sebiegli\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"seanpue\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"JKasmire\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"rossbar\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"MasterScrat\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"prabhasyadav\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"NatalieThurlby\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"peaceiris\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"pauleveritt\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"alejandroschuler\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"firasm\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mwcraig\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"mtiley\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mr2013\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"andrewsanchez\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"betatim\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"bmcfee\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"jpivarski\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"HTenkanen\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"dafriedman97\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"huonw\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"henryiii\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"zugkraft\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1542,10 +1542,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.033491,
-     "end_time": "2020-06-03T01:12:43.922822",
+     "duration": 0.028027,
+     "end_time": "2020-06-04T01:16:25.142532",
      "exception": false,
-     "start_time": "2020-06-03T01:12:43.889331",
+     "start_time": "2020-06-04T01:16:25.114505",
      "status": "completed"
     },
     "tags": [
@@ -1560,10 +1560,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.03202,
-     "end_time": "2020-06-03T01:12:43.988724",
+     "duration": 0.028073,
+     "end_time": "2020-06-04T01:16:25.200001",
      "exception": false,
-     "start_time": "2020-06-03T01:12:43.956704",
+     "start_time": "2020-06-04T01:16:25.171928",
      "status": "completed"
     },
     "tags": [
@@ -1582,16 +1582,16 @@
    "execution_count": 23,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:44.058890Z",
-     "iopub.status.busy": "2020-06-03T01:12:44.058288Z",
-     "iopub.status.idle": "2020-06-03T01:12:44.060240Z",
-     "shell.execute_reply": "2020-06-03T01:12:44.061024Z"
+     "iopub.execute_input": "2020-06-04T01:16:25.260224Z",
+     "iopub.status.busy": "2020-06-04T01:16:25.259645Z",
+     "iopub.status.idle": "2020-06-04T01:16:25.262504Z",
+     "shell.execute_reply": "2020-06-04T01:16:25.261922Z"
     },
     "papermill": {
-     "duration": 0.038752,
-     "end_time": "2020-06-03T01:12:44.061153",
+     "duration": 0.034434,
+     "end_time": "2020-06-04T01:16:25.262601",
      "exception": false,
-     "start_time": "2020-06-03T01:12:44.022401",
+     "start_time": "2020-06-04T01:16:25.228167",
      "status": "completed"
     },
     "tags": [
@@ -1645,10 +1645,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.0307,
-     "end_time": "2020-06-03T01:12:44.123357",
+     "duration": 0.028306,
+     "end_time": "2020-06-04T01:16:25.320027",
      "exception": false,
-     "start_time": "2020-06-03T01:12:44.092657",
+     "start_time": "2020-06-04T01:16:25.291721",
      "status": "completed"
     },
     "tags": [
@@ -1668,16 +1668,16 @@
    "execution_count": 24,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:44.192222Z",
-     "iopub.status.busy": "2020-06-03T01:12:44.191576Z",
-     "iopub.status.idle": "2020-06-03T01:12:44.194535Z",
-     "shell.execute_reply": "2020-06-03T01:12:44.193812Z"
+     "iopub.execute_input": "2020-06-04T01:16:25.380996Z",
+     "iopub.status.busy": "2020-06-04T01:16:25.380427Z",
+     "iopub.status.idle": "2020-06-04T01:16:25.382602Z",
+     "shell.execute_reply": "2020-06-04T01:16:25.383253Z"
     },
     "papermill": {
-     "duration": 0.038078,
-     "end_time": "2020-06-03T01:12:44.194637",
+     "duration": 0.035274,
+     "end_time": "2020-06-04T01:16:25.383392",
      "exception": false,
-     "start_time": "2020-06-03T01:12:44.156559",
+     "start_time": "2020-06-04T01:16:25.348118",
      "status": "completed"
     },
     "tags": [
@@ -1705,10 +1705,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.031396,
-     "end_time": "2020-06-03T01:12:44.256851",
+     "duration": 0.0287,
+     "end_time": "2020-06-04T01:16:25.441338",
      "exception": false,
-     "start_time": "2020-06-03T01:12:44.225455",
+     "start_time": "2020-06-04T01:16:25.412638",
      "status": "completed"
     },
     "tags": [
@@ -1727,16 +1727,16 @@
    "execution_count": 25,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:44.330574Z",
-     "iopub.status.busy": "2020-06-03T01:12:44.329777Z",
-     "iopub.status.idle": "2020-06-03T01:12:44.332076Z",
-     "shell.execute_reply": "2020-06-03T01:12:44.332668Z"
+     "iopub.execute_input": "2020-06-04T01:16:25.507225Z",
+     "iopub.status.busy": "2020-06-04T01:16:25.506671Z",
+     "iopub.status.idle": "2020-06-04T01:16:25.509041Z",
+     "shell.execute_reply": "2020-06-04T01:16:25.508461Z"
     },
     "papermill": {
-     "duration": 0.04086,
-     "end_time": "2020-06-03T01:12:44.332845",
+     "duration": 0.039296,
+     "end_time": "2020-06-04T01:16:25.509138",
      "exception": false,
-     "start_time": "2020-06-03T01:12:44.291985",
+     "start_time": "2020-06-04T01:16:25.469842",
      "status": "completed"
     },
     "tags": [
@@ -1761,16 +1761,16 @@
    "execution_count": 26,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-03T01:12:44.402945Z",
-     "iopub.status.busy": "2020-06-03T01:12:44.402362Z",
-     "iopub.status.idle": "2020-06-03T01:12:44.405556Z",
-     "shell.execute_reply": "2020-06-03T01:12:44.404731Z"
+     "iopub.execute_input": "2020-06-04T01:16:25.575047Z",
+     "iopub.status.busy": "2020-06-04T01:16:25.574477Z",
+     "iopub.status.idle": "2020-06-04T01:16:25.577442Z",
+     "shell.execute_reply": "2020-06-04T01:16:25.576861Z"
     },
     "papermill": {
-     "duration": 0.03911,
-     "end_time": "2020-06-03T01:12:44.405656",
+     "duration": 0.039125,
+     "end_time": "2020-06-04T01:16:25.577539",
      "exception": false,
-     "start_time": "2020-06-03T01:12:44.366546",
+     "start_time": "2020-06-04T01:16:25.538414",
      "status": "completed"
     },
     "tags": [
@@ -1833,8 +1833,8 @@
    "version": "3.7.7"
   },
   "papermill": {
-   "duration": 54.390817,
-   "end_time": "2020-06-03T01:12:44.549805",
+   "duration": 55.664854,
+   "end_time": "2020-06-04T01:16:25.717100",
    "environment_variables": {},
    "exception": null,
    "input_path": "./template.ipynb",
@@ -1843,13 +1843,13 @@
     "github_org": "executablebooks",
     "n_days": 60
    },
-   "start_time": "2020-06-03T01:11:50.158988",
+   "start_time": "2020-06-04T01:15:30.052246",
    "version": "2.1.1"
   },
   "widgets": {
    "application/vnd.jupyter.widget-state+json": {
     "state": {
-     "116cdeba4e3a40d38c44da05c42b1d36": {
+     "21983e72b8d547d1ac16653dda937c3b": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
       "model_name": "IntProgressModel",
@@ -1865,15 +1865,47 @@
        "bar_style": "success",
        "description": "Downloading:",
        "description_tooltip": null,
-       "layout": "IPY_MODEL_ba7364e2c3ee45a5a5018e0d4ed930ae",
+       "layout": "IPY_MODEL_eb8d53b3c62d45658c57d8c8400f8224",
        "max": 11,
        "min": 0,
        "orientation": "horizontal",
-       "style": "IPY_MODEL_dcca929349d24af48dac9daec822d114",
+       "style": "IPY_MODEL_c6d74341304c46db983935f1f6ef300f",
        "value": 11
       }
      },
-     "1c064a3b415f4b79be23eb9c6cdec316": {
+     "31ebc92834474d78ae6ae074a5bb2d0a": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "ProgressStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "ProgressStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
+      }
+     },
+     "c6d74341304c46db983935f1f6ef300f": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "ProgressStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "ProgressStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
+      }
+     },
+     "df094c3e980d46ffb78885e1d95d542c": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "1.2.0",
       "model_name": "LayoutModel",
@@ -1925,7 +1957,7 @@
        "width": null
       }
      },
-     "3a69c6c07b3f4b05a64bdde7476c1f9d": {
+     "e0c5383102f94a0c804b6e66d5c7e627": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
       "model_name": "IntProgressModel",
@@ -1941,15 +1973,15 @@
        "bar_style": "success",
        "description": "Downloading:",
        "description_tooltip": null,
-       "layout": "IPY_MODEL_1c064a3b415f4b79be23eb9c6cdec316",
+       "layout": "IPY_MODEL_df094c3e980d46ffb78885e1d95d542c",
        "max": 10,
        "min": 0,
        "orientation": "horizontal",
-       "style": "IPY_MODEL_c67a06f0ac72421f970aee1333901af7",
+       "style": "IPY_MODEL_31ebc92834474d78ae6ae074a5bb2d0a",
        "value": 10
       }
      },
-     "ba7364e2c3ee45a5a5018e0d4ed930ae": {
+     "eb8d53b3c62d45658c57d8c8400f8224": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "1.2.0",
       "model_name": "LayoutModel",
@@ -1999,38 +2031,6 @@
        "top": null,
        "visibility": null,
        "width": null
-      }
-     },
-     "c67a06f0ac72421f970aee1333901af7": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "1.5.0",
-      "model_name": "ProgressStyleModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "1.5.0",
-       "_model_name": "ProgressStyleModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "1.2.0",
-       "_view_name": "StyleView",
-       "bar_color": null,
-       "description_width": ""
-      }
-     },
-     "dcca929349d24af48dac9daec822d114": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "1.5.0",
-      "model_name": "ProgressStyleModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "1.5.0",
-       "_model_name": "ProgressStyleModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "1.2.0",
-       "_view_name": "StyleView",
-       "bar_color": null,
-       "description_width": ""
       }
      }
     },
