@@ -4,10 +4,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.020893,
-     "end_time": "2020-06-05T01:09:58.235860",
+     "duration": 0.022518,
+     "end_time": "2020-06-06T01:12:12.564255",
      "exception": false,
-     "start_time": "2020-06-05T01:09:58.214967",
+     "start_time": "2020-06-06T01:12:12.541737",
      "status": "completed"
     },
     "tags": []
@@ -23,16 +23,16 @@
    "execution_count": 1,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:09:58.284309Z",
-     "iopub.status.busy": "2020-06-05T01:09:58.283504Z",
-     "iopub.status.idle": "2020-06-05T01:09:59.706312Z",
-     "shell.execute_reply": "2020-06-05T01:09:59.705152Z"
+     "iopub.execute_input": "2020-06-06T01:12:12.615674Z",
+     "iopub.status.busy": "2020-06-06T01:12:12.615005Z",
+     "iopub.status.idle": "2020-06-06T01:12:13.859634Z",
+     "shell.execute_reply": "2020-06-06T01:12:13.859081Z"
     },
     "papermill": {
-     "duration": 1.448988,
-     "end_time": "2020-06-05T01:09:59.706435",
+     "duration": 1.272079,
+     "end_time": "2020-06-06T01:12:13.859743",
      "exception": false,
-     "start_time": "2020-06-05T01:09:58.257447",
+     "start_time": "2020-06-06T01:12:12.587664",
      "status": "completed"
     },
     "tags": [
@@ -66,16 +66,16 @@
    "execution_count": 2,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:09:59.770787Z",
-     "iopub.status.busy": "2020-06-05T01:09:59.769210Z",
-     "iopub.status.idle": "2020-06-05T01:09:59.771429Z",
-     "shell.execute_reply": "2020-06-05T01:09:59.772195Z"
+     "iopub.execute_input": "2020-06-06T01:12:13.905471Z",
+     "iopub.status.busy": "2020-06-06T01:12:13.904928Z",
+     "iopub.status.idle": "2020-06-06T01:12:13.907347Z",
+     "shell.execute_reply": "2020-06-06T01:12:13.906805Z"
     },
     "papermill": {
-     "duration": 0.039854,
-     "end_time": "2020-06-05T01:09:59.772345",
+     "duration": 0.028219,
+     "end_time": "2020-06-06T01:12:13.907453",
      "exception": false,
-     "start_time": "2020-06-05T01:09:59.732491",
+     "start_time": "2020-06-06T01:12:13.879234",
      "status": "completed"
     },
     "tags": [
@@ -117,16 +117,16 @@
    "execution_count": 3,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:09:59.821535Z",
-     "iopub.status.busy": "2020-06-05T01:09:59.820891Z",
-     "iopub.status.idle": "2020-06-05T01:09:59.823557Z",
-     "shell.execute_reply": "2020-06-05T01:09:59.822985Z"
+     "iopub.execute_input": "2020-06-06T01:12:13.945502Z",
+     "iopub.status.busy": "2020-06-06T01:12:13.944965Z",
+     "iopub.status.idle": "2020-06-06T01:12:13.947394Z",
+     "shell.execute_reply": "2020-06-06T01:12:13.946933Z"
     },
     "papermill": {
-     "duration": 0.029495,
-     "end_time": "2020-06-05T01:09:59.823661",
+     "duration": 0.022958,
+     "end_time": "2020-06-06T01:12:13.947500",
      "exception": false,
-     "start_time": "2020-06-05T01:09:59.794166",
+     "start_time": "2020-06-06T01:12:13.924542",
      "status": "completed"
     },
     "tags": [
@@ -147,16 +147,16 @@
    "execution_count": 4,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:09:59.873284Z",
-     "iopub.status.busy": "2020-06-05T01:09:59.872704Z",
-     "iopub.status.idle": "2020-06-05T01:09:59.875623Z",
-     "shell.execute_reply": "2020-06-05T01:09:59.875004Z"
+     "iopub.execute_input": "2020-06-06T01:12:13.985896Z",
+     "iopub.status.busy": "2020-06-06T01:12:13.985362Z",
+     "iopub.status.idle": "2020-06-06T01:12:13.987668Z",
+     "shell.execute_reply": "2020-06-06T01:12:13.987183Z"
     },
     "papermill": {
-     "duration": 0.029296,
-     "end_time": "2020-06-05T01:09:59.875716",
+     "duration": 0.022726,
+     "end_time": "2020-06-06T01:12:13.987753",
      "exception": false,
-     "start_time": "2020-06-05T01:09:59.846420",
+     "start_time": "2020-06-06T01:12:13.965027",
      "status": "completed"
     },
     "tags": [
@@ -176,16 +176,16 @@
    "execution_count": 5,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:09:59.926897Z",
-     "iopub.status.busy": "2020-06-05T01:09:59.926116Z",
-     "iopub.status.idle": "2020-06-05T01:09:59.931617Z",
-     "shell.execute_reply": "2020-06-05T01:09:59.932240Z"
+     "iopub.execute_input": "2020-06-06T01:12:14.034195Z",
+     "iopub.status.busy": "2020-06-06T01:12:14.033652Z",
+     "iopub.status.idle": "2020-06-06T01:12:14.038445Z",
+     "shell.execute_reply": "2020-06-06T01:12:14.038884Z"
     },
     "papermill": {
-     "duration": 0.035349,
-     "end_time": "2020-06-05T01:09:59.932395",
+     "duration": 0.030793,
+     "end_time": "2020-06-06T01:12:14.038994",
      "exception": false,
-     "start_time": "2020-06-05T01:09:59.897046",
+     "start_time": "2020-06-06T01:12:14.008201",
      "status": "completed"
     },
     "tags": [
@@ -207,7 +207,7 @@
     },
     {
      "data": {
-      "application/papermill.record/text/plain": "'2020-04-06'"
+      "application/papermill.record/text/plain": "'2020-04-07'"
      },
      "metadata": {
       "scrapbook": {
@@ -219,7 +219,7 @@
     },
     {
      "data": {
-      "application/papermill.record/text/plain": "'2020-06-05'"
+      "application/papermill.record/text/plain": "'2020-06-06'"
      },
      "metadata": {
       "scrapbook": {
@@ -251,16 +251,16 @@
    "execution_count": 6,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:09:59.993710Z",
-     "iopub.status.busy": "2020-06-05T01:09:59.993025Z",
-     "iopub.status.idle": "2020-06-05T01:10:12.576872Z",
-     "shell.execute_reply": "2020-06-05T01:10:12.576324Z"
+     "iopub.execute_input": "2020-06-06T01:12:14.087714Z",
+     "iopub.status.busy": "2020-06-06T01:12:14.087132Z",
+     "iopub.status.idle": "2020-06-06T01:12:25.636507Z",
+     "shell.execute_reply": "2020-06-06T01:12:25.635994Z"
     },
     "papermill": {
-     "duration": 12.620588,
-     "end_time": "2020-06-05T01:10:12.577014",
+     "duration": 11.577808,
+     "end_time": "2020-06-06T01:12:25.636608",
      "exception": false,
-     "start_time": "2020-06-05T01:09:59.956426",
+     "start_time": "2020-06-06T01:12:14.058800",
      "status": "completed"
     },
     "tags": [
@@ -282,18 +282,18 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Found 151 items, which will take 4 pages\n"
+      "Found 149 items, which will take 3 pages\n"
      ]
     },
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "968684075c8240a091ad59d1c553d833",
+       "model_id": "bfb96e3fdcb943c080b468789d5a8643",
        "version_major": 2,
        "version_minor": 0
       },
       "text/plain": [
-       "IntProgress(value=0, description='Downloading:', max=4)"
+       "IntProgress(value=0, description='Downloading:', max=3)"
       ]
      },
      "metadata": {},
@@ -303,13 +303,13 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Found 104 items, which will take 3 pages\n"
+      "Found 103 items, which will take 3 pages\n"
      ]
     },
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "d3d9a0b7e4ae4613a77f77d863b99ed1",
+       "model_id": "b15a1bcecdd54f8191fc812b35568741",
        "version_major": 2,
        "version_minor": 0
       },
@@ -361,10 +361,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.023936,
-     "end_time": "2020-06-05T01:10:12.628630",
+     "duration": 0.021014,
+     "end_time": "2020-06-06T01:12:25.679864",
      "exception": false,
-     "start_time": "2020-06-05T01:10:12.604694",
+     "start_time": "2020-06-06T01:12:25.658850",
      "status": "completed"
     },
     "tags": [],
@@ -382,16 +382,16 @@
    "execution_count": 7,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:12.690158Z",
-     "iopub.status.busy": "2020-06-05T01:10:12.689608Z",
-     "iopub.status.idle": "2020-06-05T01:10:12.693217Z",
-     "shell.execute_reply": "2020-06-05T01:10:12.694344Z"
+     "iopub.execute_input": "2020-06-06T01:12:25.728598Z",
+     "iopub.status.busy": "2020-06-06T01:12:25.728045Z",
+     "iopub.status.idle": "2020-06-06T01:12:25.731674Z",
+     "shell.execute_reply": "2020-06-06T01:12:25.731097Z"
     },
     "papermill": {
-     "duration": 0.038076,
-     "end_time": "2020-06-05T01:10:12.694485",
+     "duration": 0.031258,
+     "end_time": "2020-06-06T01:12:25.731756",
      "exception": false,
-     "start_time": "2020-06-05T01:10:12.656409",
+     "start_time": "2020-06-06T01:12:25.700498",
      "status": "completed"
     },
     "tags": [
@@ -408,16 +408,16 @@
    "execution_count": 8,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:12.755876Z",
-     "iopub.status.busy": "2020-06-05T01:10:12.755301Z",
-     "iopub.status.idle": "2020-06-05T01:10:12.789435Z",
-     "shell.execute_reply": "2020-06-05T01:10:12.790168Z"
+     "iopub.execute_input": "2020-06-06T01:12:25.802607Z",
+     "iopub.status.busy": "2020-06-06T01:12:25.793129Z",
+     "iopub.status.idle": "2020-06-06T01:12:25.817128Z",
+     "shell.execute_reply": "2020-06-06T01:12:25.817651Z"
     },
     "papermill": {
-     "duration": 0.070376,
-     "end_time": "2020-06-05T01:10:12.790311",
+     "duration": 0.065547,
+     "end_time": "2020-06-06T01:12:25.817758",
      "exception": false,
-     "start_time": "2020-06-05T01:10:12.719935",
+     "start_time": "2020-06-06T01:12:25.752211",
      "status": "completed"
     },
     "tags": [
@@ -429,12 +429,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-ceaabe1ca60049d0a65bc4c561ef2fae\"></div>\n",
+       "<div id=\"altair-viz-2d7da7a2768341528e1280eb7741b575\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-ceaabe1ca60049d0a65bc4c561ef2fae\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-ceaabe1ca60049d0a65bc4c561ef2fae\");\n",
+       "    if (outputDiv.id !== \"altair-viz-2d7da7a2768341528e1280eb7741b575\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-2d7da7a2768341528e1280eb7741b575\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -501,10 +501,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.02757,
-     "end_time": "2020-06-05T01:10:12.850490",
+     "duration": 0.02542,
+     "end_time": "2020-06-06T01:12:25.869220",
      "exception": false,
-     "start_time": "2020-06-05T01:10:12.822920",
+     "start_time": "2020-06-06T01:12:25.843800",
      "status": "completed"
     },
     "tags": []
@@ -522,16 +522,16 @@
    "execution_count": 9,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:12.920436Z",
-     "iopub.status.busy": "2020-06-05T01:10:12.919779Z",
-     "iopub.status.idle": "2020-06-05T01:10:12.925957Z",
-     "shell.execute_reply": "2020-06-05T01:10:12.926455Z"
+     "iopub.execute_input": "2020-06-06T01:12:25.935049Z",
+     "iopub.status.busy": "2020-06-06T01:12:25.934473Z",
+     "iopub.status.idle": "2020-06-06T01:12:25.936359Z",
+     "shell.execute_reply": "2020-06-06T01:12:25.936854Z"
     },
     "papermill": {
-     "duration": 0.049968,
-     "end_time": "2020-06-05T01:10:12.926605",
+     "duration": 0.043484,
+     "end_time": "2020-06-06T01:12:25.936992",
      "exception": false,
-     "start_time": "2020-06-05T01:10:12.876637",
+     "start_time": "2020-06-06T01:12:25.893508",
      "status": "completed"
     },
     "tags": [
@@ -550,16 +550,16 @@
    "execution_count": 10,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:12.997604Z",
-     "iopub.status.busy": "2020-06-05T01:10:12.996962Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.020854Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.019965Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.011968Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.011362Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.014703Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.014106Z"
     },
     "papermill": {
-     "duration": 0.06527,
-     "end_time": "2020-06-05T01:10:13.020998",
+     "duration": 0.053916,
+     "end_time": "2020-06-06T01:12:26.014793",
      "exception": false,
-     "start_time": "2020-06-05T01:10:12.955728",
+     "start_time": "2020-06-06T01:12:25.960877",
      "status": "completed"
     },
     "tags": [
@@ -571,12 +571,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-b478895378b944bbb97fa26052583d2f\"></div>\n",
+       "<div id=\"altair-viz-3c94b3e635424f448fd9b7a48205fb32\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-b478895378b944bbb97fa26052583d2f\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-b478895378b944bbb97fa26052583d2f\");\n",
+       "    if (outputDiv.id !== \"altair-viz-3c94b3e635424f448fd9b7a48205fb32\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-3c94b3e635424f448fd9b7a48205fb32\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -648,16 +648,16 @@
    "execution_count": 11,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.098397Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.097777Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.101556Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.100840Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.084727Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.084087Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.087237Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.086708Z"
     },
     "papermill": {
-     "duration": 0.05369,
-     "end_time": "2020-06-05T01:10:13.101662",
+     "duration": 0.049378,
+     "end_time": "2020-06-06T01:12:26.087340",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.047972",
+     "start_time": "2020-06-06T01:12:26.037962",
      "status": "completed"
     },
     "tags": [
@@ -669,12 +669,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-456d7a5c069646e889580983b1f71b7e\"></div>\n",
+       "<div id=\"altair-viz-1ddfa155755b48c6be6adb43c0a262d9\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-456d7a5c069646e889580983b1f71b7e\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-456d7a5c069646e889580983b1f71b7e\");\n",
+       "    if (outputDiv.id !== \"altair-viz-1ddfa155755b48c6be6adb43c0a262d9\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-1ddfa155755b48c6be6adb43c0a262d9\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -742,10 +742,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.030557,
-     "end_time": "2020-06-05T01:10:13.159755",
+     "duration": 0.024054,
+     "end_time": "2020-06-06T01:12:26.135896",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.129198",
+     "start_time": "2020-06-06T01:12:26.111842",
      "status": "completed"
     },
     "tags": []
@@ -762,16 +762,16 @@
    "execution_count": 12,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.229986Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.229403Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.231963Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.231265Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.196305Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.195705Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.198005Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.197428Z"
     },
     "papermill": {
-     "duration": 0.044022,
-     "end_time": "2020-06-05T01:10:13.232062",
+     "duration": 0.03808,
+     "end_time": "2020-06-06T01:12:26.198095",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.188040",
+     "start_time": "2020-06-06T01:12:26.160015",
      "status": "completed"
     },
     "tags": [
@@ -789,16 +789,16 @@
    "execution_count": 13,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.307125Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.306495Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.331280Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.330613Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.256849Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.256164Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.277116Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.276531Z"
     },
     "papermill": {
-     "duration": 0.069466,
-     "end_time": "2020-06-05T01:10:13.331426",
+     "duration": 0.054381,
+     "end_time": "2020-06-06T01:12:26.277208",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.261960",
+     "start_time": "2020-06-06T01:12:26.222827",
      "status": "completed"
     },
     "tags": [
@@ -810,12 +810,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-0bcc11affa884e8daf7b2739fc2a978a\"></div>\n",
+       "<div id=\"altair-viz-82dfd502857b49428a58aedc92506f1c\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-0bcc11affa884e8daf7b2739fc2a978a\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-0bcc11affa884e8daf7b2739fc2a978a\");\n",
+       "    if (outputDiv.id !== \"altair-viz-82dfd502857b49428a58aedc92506f1c\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-82dfd502857b49428a58aedc92506f1c\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -857,7 +857,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-a71ec137ac34135b13fd7f4508dbce02\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"ipywidgets\", \"ipyleaflet\", \"pythreejs\", \"jupyterlab-sidecar\", \"tutorial\", \"widget-cookiecutter\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-a71ec137ac34135b13fd7f4508dbce02\": [{\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"number\": 15, \"org/repo\": \"jupyter-widgets/ipyleaflet\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"number\": 28, \"org/repo\": \"jupyter-widgets/ipywidgets\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"jupyterlab-sidecar\", \"number\": 2, \"org/repo\": \"jupyter-widgets/jupyterlab-sidecar\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"number\": 3, \"org/repo\": \"jupyter-widgets/pythreejs\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"number\": 1, \"org/repo\": \"jupyter-widgets/tutorial\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"number\": 1, \"org/repo\": \"jupyter-widgets/widget-cookiecutter\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-96343825180d847b2e8a926070b9558b\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"ipywidgets\", \"ipyleaflet\", \"pythreejs\", \"jupyterlab-sidecar\", \"tutorial\", \"widget-cookiecutter\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues created in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-96343825180d847b2e8a926070b9558b\": [{\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"number\": 15, \"org/repo\": \"jupyter-widgets/ipyleaflet\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"number\": 27, \"org/repo\": \"jupyter-widgets/ipywidgets\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"jupyterlab-sidecar\", \"number\": 2, \"org/repo\": \"jupyter-widgets/jupyterlab-sidecar\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"number\": 3, \"org/repo\": \"jupyter-widgets/pythreejs\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"number\": 1, \"org/repo\": \"jupyter-widgets/tutorial\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"number\": 1, \"org/repo\": \"jupyter-widgets/widget-cookiecutter\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -884,16 +884,16 @@
    "execution_count": 14,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.419467Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.418822Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.423840Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.423241Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.341799Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.341267Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.351613Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.351030Z"
     },
     "papermill": {
-     "duration": 0.064189,
-     "end_time": "2020-06-05T01:10:13.423944",
+     "duration": 0.05072,
+     "end_time": "2020-06-06T01:12:26.351696",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.359755",
+     "start_time": "2020-06-06T01:12:26.300976",
      "status": "completed"
     },
     "tags": [
@@ -905,12 +905,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-f511405f6c56475c9437c5ab1c1bbb8b\"></div>\n",
+       "<div id=\"altair-viz-f8ea27ef518143d78b77ae20079502c4\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-f511405f6c56475c9437c5ab1c1bbb8b\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-f511405f6c56475c9437c5ab1c1bbb8b\");\n",
+       "    if (outputDiv.id !== \"altair-viz-f8ea27ef518143d78b77ae20079502c4\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-f8ea27ef518143d78b77ae20079502c4\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -952,7 +952,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-b2c755ae3ea53831ec60a884c4ef093e\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"ipyleaflet\", \"ipywidgets\", \"widget-ts-cookiecutter\", \"pythreejs\", \"tutorial\", \"widget-cookiecutter\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-b2c755ae3ea53831ec60a884c4ef093e\": [{\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"number\": 19, \"org/repo\": \"jupyter-widgets/ipyleaflet\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"number\": 17, \"org/repo\": \"jupyter-widgets/ipywidgets\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"number\": 3, \"org/repo\": \"jupyter-widgets/pythreejs\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"number\": 2, \"org/repo\": \"jupyter-widgets/tutorial\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"number\": 2, \"org/repo\": \"jupyter-widgets/widget-cookiecutter\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-ts-cookiecutter\", \"number\": 5, \"org/repo\": \"jupyter-widgets/widget-ts-cookiecutter\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-728660bbf477e780bf9f504898a3ef19\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"ipyleaflet\", \"ipywidgets\", \"widget-ts-cookiecutter\", \"pythreejs\", \"tutorial\", \"widget-cookiecutter\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"number\"}}, \"title\": \"Issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-728660bbf477e780bf9f504898a3ef19\": [{\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"number\": 19, \"org/repo\": \"jupyter-widgets/ipyleaflet\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"number\": 16, \"org/repo\": \"jupyter-widgets/ipywidgets\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"number\": 3, \"org/repo\": \"jupyter-widgets/pythreejs\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"number\": 2, \"org/repo\": \"jupyter-widgets/tutorial\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"number\": 2, \"org/repo\": \"jupyter-widgets/widget-cookiecutter\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-ts-cookiecutter\", \"number\": 5, \"org/repo\": \"jupyter-widgets/widget-ts-cookiecutter\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -979,16 +979,16 @@
    "execution_count": 15,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.510444Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.509761Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.511761Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.512691Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.424585Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.424050Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.425934Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.426456Z"
     },
     "papermill": {
-     "duration": 0.058325,
-     "end_time": "2020-06-05T01:10:13.512842",
+     "duration": 0.0497,
+     "end_time": "2020-06-06T01:12:26.426566",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.454517",
+     "start_time": "2020-06-06T01:12:26.376866",
      "status": "completed"
     },
     "tags": [
@@ -1009,16 +1009,16 @@
    "execution_count": 16,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.605280Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.604695Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.610039Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.609514Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.490498Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.489939Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.504064Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.503495Z"
     },
     "papermill": {
-     "duration": 0.068428,
-     "end_time": "2020-06-05T01:10:13.610161",
+     "duration": 0.053362,
+     "end_time": "2020-06-06T01:12:26.504151",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.541733",
+     "start_time": "2020-06-06T01:12:26.450789",
      "status": "completed"
     },
     "tags": [
@@ -1030,12 +1030,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-1c3ee185bdcd4291b7102c859aa3730c\"></div>\n",
+       "<div id=\"altair-viz-ee4edc105e124333be900e3a9dea3977\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-1c3ee185bdcd4291b7102c859aa3730c\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-1c3ee185bdcd4291b7102c859aa3730c\");\n",
+       "    if (outputDiv.id !== \"altair-viz-ee4edc105e124333be900e3a9dea3977\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-ee4edc105e124333be900e3a9dea3977\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1077,7 +1077,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-cffd939d73022304dff5a00cadf88ba3\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 60 days for jupyter-widgets\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-cffd939d73022304dff5a00cadf88ba3\": [{\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"kind\": \"created\", \"count\": 15.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"kind\": \"created\", \"count\": 28.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"jupyterlab-sidecar\", \"kind\": \"created\", \"count\": 2.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-ts-cookiecutter\", \"kind\": \"created\", \"count\": 0.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"kind\": \"closed\", \"count\": 19.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"kind\": \"closed\", \"count\": 17.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"jupyterlab-sidecar\", \"kind\": \"closed\", \"count\": 0.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-ts-cookiecutter\", \"kind\": \"closed\", \"count\": 5.0}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-bf28c7e5e026b9f1dd2fb2a7f85a859f\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"kind\"}, \"column\": {\"type\": \"nominal\", \"field\": \"repo\", \"header\": {\"labelFontSize\": 12, \"title\": \"Issue activity, last 60 days for jupyter-widgets\", \"titleFontSize\": 15}}, \"x\": {\"type\": \"nominal\", \"axis\": {\"labelFontSize\": 15, \"title\": \"\"}, \"field\": \"kind\"}, \"y\": {\"type\": \"quantitative\", \"axis\": {\"labelFontSize\": 12, \"titleFontSize\": 15}, \"field\": \"count\"}}, \"width\": 120, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-bf28c7e5e026b9f1dd2fb2a7f85a859f\": [{\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"kind\": \"created\", \"count\": 15.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"kind\": \"created\", \"count\": 27.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"jupyterlab-sidecar\", \"kind\": \"created\", \"count\": 2.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"kind\": \"created\", \"count\": 3.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"kind\": \"created\", \"count\": 1.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-ts-cookiecutter\", \"kind\": \"created\", \"count\": 0.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"kind\": \"closed\", \"count\": 19.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"kind\": \"closed\", \"count\": 16.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"jupyterlab-sidecar\", \"kind\": \"closed\", \"count\": 0.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"kind\": \"closed\", \"count\": 3.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"kind\": \"closed\", \"count\": 2.0}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-ts-cookiecutter\", \"kind\": \"closed\", \"count\": 5.0}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1107,16 +1107,16 @@
    "execution_count": 17,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.678864Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.678103Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.681023Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.680353Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.565250Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.564717Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.567245Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.566698Z"
     },
     "papermill": {
-     "duration": 0.043065,
-     "end_time": "2020-06-05T01:10:13.681106",
+     "duration": 0.036964,
+     "end_time": "2020-06-06T01:12:26.567328",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.638041",
+     "start_time": "2020-06-06T01:12:26.530364",
      "status": "completed"
     },
     "tags": [
@@ -1138,16 +1138,16 @@
    "execution_count": 18,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.743680Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.743100Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.768936Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.769529Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.641934Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.641373Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.643930Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.644377Z"
     },
     "papermill": {
-     "duration": 0.061918,
-     "end_time": "2020-06-05T01:10:13.769709",
+     "duration": 0.053215,
+     "end_time": "2020-06-06T01:12:26.644484",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.707791",
+     "start_time": "2020-06-06T01:12:26.591269",
      "status": "completed"
     },
     "tags": [
@@ -1159,12 +1159,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-5a3f7ef27bd54e29b11b28e9fb53b668\"></div>\n",
+       "<div id=\"altair-viz-dad80edbcb7440188155054c7ceadc7f\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-5a3f7ef27bd54e29b11b28e9fb53b668\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-5a3f7ef27bd54e29b11b28e9fb53b668\");\n",
+       "    if (outputDiv.id !== \"altair-viz-dad80edbcb7440188155054c7ceadc7f\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-dad80edbcb7440188155054c7ceadc7f\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1206,7 +1206,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-fa1aac349ddafab9539f5455eefba779\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"tutorial\", \"widget-ts-cookiecutter\", \"pythreejs\", \"widget-cookiecutter\", \"ipyleaflet\", \"ipywidgets\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"time_open\", \"title\": \"Median Days Open\"}}, \"title\": \"Time to close for issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-fa1aac349ddafab9539f5455eefba779\": [{\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"time_open\": 3.023842592592593, \"org/repo\": \"jupyter-widgets/ipyleaflet\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"time_open\": 1.1513541666666667, \"org/repo\": \"jupyter-widgets/ipywidgets\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"time_open\": 14.496157407407408, \"org/repo\": \"jupyter-widgets/pythreejs\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"time_open\": 171.29064814814814, \"org/repo\": \"jupyter-widgets/tutorial\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"time_open\": 3.2046006944444443, \"org/repo\": \"jupyter-widgets/widget-cookiecutter\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-ts-cookiecutter\", \"time_open\": 31.19509259259259, \"org/repo\": \"jupyter-widgets/widget-ts-cookiecutter\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-1cb0bbb7084207e216609573776e3a8f\"}, \"mark\": \"bar\", \"encoding\": {\"x\": {\"type\": \"nominal\", \"field\": \"repo\", \"sort\": [\"tutorial\", \"widget-ts-cookiecutter\", \"pythreejs\", \"widget-cookiecutter\", \"ipyleaflet\", \"ipywidgets\"]}, \"y\": {\"type\": \"quantitative\", \"field\": \"time_open\", \"title\": \"Median Days Open\"}}, \"title\": \"Time to close for issues closed in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-1cb0bbb7084207e216609573776e3a8f\": [{\"org\": \"jupyter-widgets\", \"repo\": \"ipyleaflet\", \"time_open\": 3.023842592592593, \"org/repo\": \"jupyter-widgets/ipyleaflet\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"ipywidgets\", \"time_open\": 1.2378993055555556, \"org/repo\": \"jupyter-widgets/ipywidgets\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"pythreejs\", \"time_open\": 14.496157407407408, \"org/repo\": \"jupyter-widgets/pythreejs\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"tutorial\", \"time_open\": 171.29064814814814, \"org/repo\": \"jupyter-widgets/tutorial\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-cookiecutter\", \"time_open\": 3.2046006944444443, \"org/repo\": \"jupyter-widgets/widget-cookiecutter\"}, {\"org\": \"jupyter-widgets\", \"repo\": \"widget-ts-cookiecutter\", \"time_open\": 31.19509259259259, \"org/repo\": \"jupyter-widgets/widget-ts-cookiecutter\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1233,10 +1233,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.033952,
-     "end_time": "2020-06-05T01:10:13.835088",
+     "duration": 0.02513,
+     "end_time": "2020-06-06T01:12:26.697297",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.801136",
+     "start_time": "2020-06-06T01:12:26.672167",
      "status": "completed"
     },
     "tags": []
@@ -1254,16 +1254,16 @@
    "execution_count": 19,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.906288Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.905589Z",
-     "iopub.status.idle": "2020-06-05T01:10:13.919525Z",
-     "shell.execute_reply": "2020-06-05T01:10:13.920231Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.756622Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.756044Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.766263Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.765795Z"
     },
     "papermill": {
-     "duration": 0.054497,
-     "end_time": "2020-06-05T01:10:13.920393",
+     "duration": 0.044518,
+     "end_time": "2020-06-06T01:12:26.766352",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.865896",
+     "start_time": "2020-06-06T01:12:26.721834",
      "status": "completed"
     },
     "tags": [
@@ -1287,16 +1287,16 @@
    "execution_count": 20,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:13.994082Z",
-     "iopub.status.busy": "2020-06-05T01:10:13.993496Z",
-     "iopub.status.idle": "2020-06-05T01:10:14.024229Z",
-     "shell.execute_reply": "2020-06-05T01:10:14.023456Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.847938Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.836213Z",
+     "iopub.status.idle": "2020-06-06T01:12:26.851273Z",
+     "shell.execute_reply": "2020-06-06T01:12:26.850679Z"
     },
     "papermill": {
-     "duration": 0.073347,
-     "end_time": "2020-06-05T01:10:14.024326",
+     "duration": 0.058572,
+     "end_time": "2020-06-06T01:12:26.851357",
      "exception": false,
-     "start_time": "2020-06-05T01:10:13.950979",
+     "start_time": "2020-06-06T01:12:26.792785",
      "status": "completed"
     },
     "tags": [
@@ -1308,12 +1308,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-e7143baaaee54c2ea821b7b740904200\"></div>\n",
+       "<div id=\"altair-viz-690d48b970654341823a2e7b8ee4ac14\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-e7143baaaee54c2ea821b7b740904200\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-e7143baaaee54c2ea821b7b740904200\");\n",
+       "    if (outputDiv.id !== \"altair-viz-690d48b970654341823a2e7b8ee4ac14\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-690d48b970654341823a2e7b8ee4ac14\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1355,7 +1355,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for jupyter-widgets in the last 60 days\"}], \"data\": {\"name\": \"data-a833c679978bd7f4ed752ba9ff917a90\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-a833c679978bd7f4ed752ba9ff917a90\": [{\"author\": \"martinRenou\", \"count\": 101, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jasongrout\", \"count\": 65, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"davidbrochart\", \"count\": 27, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"vidartf\", \"count\": 20, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"giswqs\", \"count\": 14, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"SylvainCorlay\", \"count\": 13, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"wlievens\", \"count\": 11, \"authorAssociation\": \"NONE\"}, {\"author\": \"ianhi\", \"count\": 11, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"sackh\", \"count\": 9, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"omanges\", \"count\": 7, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"bendichter\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"nvaytet\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"betolink\", \"count\": 6, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"jvail\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"Alexboiboi\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"maartenbreddels\", \"count\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"bernhard-42\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"matburnham\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"ae86208\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"SujPer\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"Boomer91\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"dependabot\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"deeplook\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"stefanmeili\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"gioxc88\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"d1runberg\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"unfassbarstephan\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"philippjfr\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"TomTom4\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"JamesMaxwellHarrison\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"kylebarron\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"mewcamo\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"limj0825\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"wendli01\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"stephaniegott\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"19bcs2405\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"yrouimi\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"byouness\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"anne-Matri\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"AlexanderJuestel\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"Nic30\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"doug-ol\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"dextersLabRat\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"dcabecinhas\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"UGuntupalli\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"danielfleischer\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"Dadatata-JZ\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"MitchellSmall\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"thomasaarholt\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"subhadipghorui\", \"count\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"hconcat\": [{\"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"count\"}}, \"title\": \"Top 50 commentors for jupyter-widgets in the last 60 days\"}], \"data\": {\"name\": \"data-f691e3eaf455e0f521b2bfe0e51ae8fe\"}, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-f691e3eaf455e0f521b2bfe0e51ae8fe\": [{\"author\": \"martinRenou\", \"count\": 101, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jasongrout\", \"count\": 60, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"davidbrochart\", \"count\": 27, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"vidartf\", \"count\": 19, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"SylvainCorlay\", \"count\": 14, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"giswqs\", \"count\": 14, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ianhi\", \"count\": 12, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"wlievens\", \"count\": 11, \"authorAssociation\": \"NONE\"}, {\"author\": \"sackh\", \"count\": 9, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"omanges\", \"count\": 7, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"bendichter\", \"count\": 7, \"authorAssociation\": \"NONE\"}, {\"author\": \"betolink\", \"count\": 6, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"nvaytet\", \"count\": 6, \"authorAssociation\": \"NONE\"}, {\"author\": \"jvail\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"maartenbreddels\", \"count\": 5, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"Alexboiboi\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"bernhard-42\", \"count\": 5, \"authorAssociation\": \"NONE\"}, {\"author\": \"SujPer\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"ae86208\", \"count\": 4, \"authorAssociation\": \"NONE\"}, {\"author\": \"Boomer91\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"d1runberg\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"stefanmeili\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"TomTom4\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"deeplook\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"dependabot\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"gioxc88\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"JamesMaxwellHarrison\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"unfassbarstephan\", \"count\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"philippjfr\", \"count\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"kylebarron\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"wendli01\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"limj0825\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"mewcamo\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"janfreyberg\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"stephaniegott\", \"count\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"19bcs2405\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"yrouimi\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"byouness\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"AlexanderJuestel\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"Nic30\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"UGuntupalli\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"doug-ol\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"dextersLabRat\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"dcabecinhas\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"danielfleischer\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"anne-Matri\", \"count\": 2, \"authorAssociation\": \"NONE\"}, {\"author\": \"shek2994\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"MitchellSmall\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"thomasaarholt\", \"count\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"subhadipghorui\", \"count\": 1, \"authorAssociation\": \"NONE\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1387,10 +1387,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.028933,
-     "end_time": "2020-06-05T01:10:14.088169",
+     "duration": 0.026968,
+     "end_time": "2020-06-06T01:12:26.903417",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.059236",
+     "start_time": "2020-06-06T01:12:26.876449",
      "status": "completed"
     },
     "tags": []
@@ -1407,16 +1407,16 @@
    "execution_count": 21,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:14.160389Z",
-     "iopub.status.busy": "2020-06-05T01:10:14.159812Z",
-     "iopub.status.idle": "2020-06-05T01:10:14.305811Z",
-     "shell.execute_reply": "2020-06-05T01:10:14.305154Z"
+     "iopub.execute_input": "2020-06-06T01:12:26.964911Z",
+     "iopub.status.busy": "2020-06-06T01:12:26.964350Z",
+     "iopub.status.idle": "2020-06-06T01:12:27.095573Z",
+     "shell.execute_reply": "2020-06-06T01:12:27.094940Z"
     },
     "papermill": {
-     "duration": 0.186053,
-     "end_time": "2020-06-05T01:10:14.305913",
+     "duration": 0.163327,
+     "end_time": "2020-06-06T01:12:27.095671",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.119860",
+     "start_time": "2020-06-06T01:12:26.932344",
      "status": "completed"
     },
     "tags": [
@@ -1444,16 +1444,16 @@
    "execution_count": 22,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:14.375890Z",
-     "iopub.status.busy": "2020-06-05T01:10:14.375283Z",
-     "iopub.status.idle": "2020-06-05T01:10:14.397281Z",
-     "shell.execute_reply": "2020-06-05T01:10:14.397843Z"
+     "iopub.execute_input": "2020-06-06T01:12:27.164528Z",
+     "iopub.status.busy": "2020-06-06T01:12:27.163822Z",
+     "iopub.status.idle": "2020-06-06T01:12:27.178201Z",
+     "shell.execute_reply": "2020-06-06T01:12:27.177644Z"
     },
     "papermill": {
-     "duration": 0.062952,
-     "end_time": "2020-06-05T01:10:14.397987",
+     "duration": 0.05616,
+     "end_time": "2020-06-06T01:12:27.178287",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.335035",
+     "start_time": "2020-06-06T01:12:27.122127",
      "status": "completed"
     },
     "tags": [
@@ -1465,12 +1465,12 @@
      "data": {
       "text/html": [
        "\n",
-       "<div id=\"altair-viz-ad342958d9d54c5f9889427ab411e6d0\"></div>\n",
+       "<div id=\"altair-viz-8b3af649dace43398116c1a6ee04bdaf\"></div>\n",
        "<script type=\"text/javascript\">\n",
        "  (function(spec, embedOpt){\n",
        "    let outputDiv = document.currentScript.previousElementSibling;\n",
-       "    if (outputDiv.id !== \"altair-viz-ad342958d9d54c5f9889427ab411e6d0\") {\n",
-       "      outputDiv = document.getElementById(\"altair-viz-ad342958d9d54c5f9889427ab411e6d0\");\n",
+       "    if (outputDiv.id !== \"altair-viz-8b3af649dace43398116c1a6ee04bdaf\") {\n",
+       "      outputDiv = document.getElementById(\"altair-viz-8b3af649dace43398116c1a6ee04bdaf\");\n",
        "    }\n",
        "    const paths = {\n",
        "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1512,7 +1512,7 @@
        "        .catch(showError)\n",
        "        .then(() => displayChart(vegaEmbed));\n",
        "    }\n",
-       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-7cf6ee5edbe88b2d53c0f28c6246be3f\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for jupyter-widgets in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-7cf6ee5edbe88b2d53c0f28c6246be3f\": [{\"author\": \"martinRenou\", \"n_first_responses\": 33, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jasongrout\", \"n_first_responses\": 16, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"vidartf\", \"n_first_responses\": 13, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"davidbrochart\", \"n_first_responses\": 10, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"SylvainCorlay\", \"n_first_responses\": 7, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"giswqs\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"dependabot\", \"n_first_responses\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"sackh\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"pbugnion\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"ianhi\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"joseberlines\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"19bcs2405\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"matburnham\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"mwcraig\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"philippjfr\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"thomasaarholt\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"omanges\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"gioxc88\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"gutama\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"8080labs\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"fabricebrito\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"e-dorigatti\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"deeplook\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"consideRatio\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"WestXu\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Nic30\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"MitchellSmall\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"JamesMaxwellHarrison\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Dadatata-JZ\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"AlexanderJuestel\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"wendli01\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}]}}, {\"mode\": \"vega-lite\"});\n",
+       "  })({\"config\": {\"axisLeft\": {\"labelFontSize\": 15}, \"axisBottom\": {\"labelFontSize\": 15}}, \"data\": {\"name\": \"data-9ddd3bcac91faaa27d85671d4a55f4b2\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"authorAssociation\", \"scale\": {\"domain\": [\"MEMBER\", \"CONTRIBUTOR\", \"COLLABORATOR\", \"NONE\"], \"range\": [\"rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)\", \"rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)\", \"rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)\", \"rgb(0.0, 100.3921568627451, 0.0)\"]}}, \"x\": {\"type\": \"nominal\", \"field\": \"author\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"n_first_responses\"}}, \"title\": \"Top 50 first responders for jupyter-widgets in the last 60 days\", \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-9ddd3bcac91faaa27d85671d4a55f4b2\": [{\"author\": \"martinRenou\", \"n_first_responses\": 33, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"jasongrout\", \"n_first_responses\": 15, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"vidartf\", \"n_first_responses\": 13, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"davidbrochart\", \"n_first_responses\": 10, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"SylvainCorlay\", \"n_first_responses\": 8, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"sackh\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"pbugnion\", \"n_first_responses\": 3, \"authorAssociation\": \"MEMBER\"}, {\"author\": \"dependabot\", \"n_first_responses\": 3, \"authorAssociation\": \"NONE\"}, {\"author\": \"giswqs\", \"n_first_responses\": 3, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"ianhi\", \"n_first_responses\": 2, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"19bcs2405\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"thomasaarholt\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"philippjfr\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"omanges\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"mwcraig\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"joseberlines\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"gioxc88\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"gutama\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"8080labs\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"fabricebrito\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"e-dorigatti\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"deeplook\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"consideRatio\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}, {\"author\": \"WestXu\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"Nic30\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"MitchellSmall\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"JamesMaxwellHarrison\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"AlexanderJuestel\", \"n_first_responses\": 1, \"authorAssociation\": \"NONE\"}, {\"author\": \"wendli01\", \"n_first_responses\": 1, \"authorAssociation\": \"CONTRIBUTOR\"}]}}, {\"mode\": \"vega-lite\"});\n",
        "</script>"
       ],
       "text/plain": [
@@ -1542,10 +1542,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.028482,
-     "end_time": "2020-06-05T01:10:14.457163",
+     "duration": 0.026345,
+     "end_time": "2020-06-06T01:12:27.232410",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.428681",
+     "start_time": "2020-06-06T01:12:27.206065",
      "status": "completed"
     },
     "tags": [
@@ -1560,10 +1560,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.028916,
-     "end_time": "2020-06-05T01:10:14.515547",
+     "duration": 0.025733,
+     "end_time": "2020-06-06T01:12:27.284555",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.486631",
+     "start_time": "2020-06-06T01:12:27.258822",
      "status": "completed"
     },
     "tags": [
@@ -1582,16 +1582,16 @@
    "execution_count": 23,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:14.584682Z",
-     "iopub.status.busy": "2020-06-05T01:10:14.583896Z",
-     "iopub.status.idle": "2020-06-05T01:10:14.586955Z",
-     "shell.execute_reply": "2020-06-05T01:10:14.586312Z"
+     "iopub.execute_input": "2020-06-06T01:12:27.342531Z",
+     "iopub.status.busy": "2020-06-06T01:12:27.341977Z",
+     "iopub.status.idle": "2020-06-06T01:12:27.343974Z",
+     "shell.execute_reply": "2020-06-06T01:12:27.344499Z"
     },
     "papermill": {
-     "duration": 0.039937,
-     "end_time": "2020-06-05T01:10:14.587056",
+     "duration": 0.032482,
+     "end_time": "2020-06-06T01:12:27.344603",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.547119",
+     "start_time": "2020-06-06T01:12:27.312121",
      "status": "completed"
     },
     "tags": [
@@ -1645,10 +1645,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.035989,
-     "end_time": "2020-06-05T01:10:14.654091",
+     "duration": 0.025965,
+     "end_time": "2020-06-06T01:12:27.396873",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.618102",
+     "start_time": "2020-06-06T01:12:27.370908",
      "status": "completed"
     },
     "tags": [
@@ -1668,16 +1668,16 @@
    "execution_count": 24,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:14.725356Z",
-     "iopub.status.busy": "2020-06-05T01:10:14.724611Z",
-     "iopub.status.idle": "2020-06-05T01:10:14.726832Z",
-     "shell.execute_reply": "2020-06-05T01:10:14.727282Z"
+     "iopub.execute_input": "2020-06-06T01:12:27.464660Z",
+     "iopub.status.busy": "2020-06-06T01:12:27.464075Z",
+     "iopub.status.idle": "2020-06-06T01:12:27.467467Z",
+     "shell.execute_reply": "2020-06-06T01:12:27.466985Z"
     },
     "papermill": {
-     "duration": 0.040836,
-     "end_time": "2020-06-05T01:10:14.727410",
+     "duration": 0.03932,
+     "end_time": "2020-06-06T01:12:27.467558",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.686574",
+     "start_time": "2020-06-06T01:12:27.428238",
      "status": "completed"
     },
     "tags": [
@@ -1705,10 +1705,10 @@
    "cell_type": "markdown",
    "metadata": {
     "papermill": {
-     "duration": 0.031224,
-     "end_time": "2020-06-05T01:10:14.788408",
+     "duration": 0.026153,
+     "end_time": "2020-06-06T01:12:27.521246",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.757184",
+     "start_time": "2020-06-06T01:12:27.495093",
      "status": "completed"
     },
     "tags": [
@@ -1727,16 +1727,16 @@
    "execution_count": 25,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:14.860490Z",
-     "iopub.status.busy": "2020-06-05T01:10:14.859803Z",
-     "iopub.status.idle": "2020-06-05T01:10:14.862300Z",
-     "shell.execute_reply": "2020-06-05T01:10:14.861660Z"
+     "iopub.execute_input": "2020-06-06T01:12:27.579681Z",
+     "iopub.status.busy": "2020-06-06T01:12:27.579119Z",
+     "iopub.status.idle": "2020-06-06T01:12:27.581048Z",
+     "shell.execute_reply": "2020-06-06T01:12:27.581478Z"
     },
     "papermill": {
-     "duration": 0.040467,
-     "end_time": "2020-06-05T01:10:14.862402",
+     "duration": 0.031598,
+     "end_time": "2020-06-06T01:12:27.581584",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.821935",
+     "start_time": "2020-06-06T01:12:27.549986",
      "status": "completed"
     },
     "tags": [
@@ -1761,16 +1761,16 @@
    "execution_count": 26,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-06-05T01:10:14.924889Z",
-     "iopub.status.busy": "2020-06-05T01:10:14.924246Z",
-     "iopub.status.idle": "2020-06-05T01:10:14.926235Z",
-     "shell.execute_reply": "2020-06-05T01:10:14.926746Z"
+     "iopub.execute_input": "2020-06-06T01:12:27.638808Z",
+     "iopub.status.busy": "2020-06-06T01:12:27.638184Z",
+     "iopub.status.idle": "2020-06-06T01:12:27.640678Z",
+     "shell.execute_reply": "2020-06-06T01:12:27.640080Z"
     },
     "papermill": {
-     "duration": 0.035223,
-     "end_time": "2020-06-05T01:10:14.926875",
+     "duration": 0.033011,
+     "end_time": "2020-06-06T01:12:27.640773",
      "exception": false,
-     "start_time": "2020-06-05T01:10:14.891652",
+     "start_time": "2020-06-06T01:12:27.607762",
      "status": "completed"
     },
     "tags": [
@@ -1833,8 +1833,8 @@
    "version": "3.7.7"
   },
   "papermill": {
-   "duration": 17.682014,
-   "end_time": "2020-06-05T01:10:15.070039",
+   "duration": 16.037259,
+   "end_time": "2020-06-06T01:12:27.778558",
    "environment_variables": {},
    "exception": null,
    "input_path": "./template.ipynb",
@@ -1843,65 +1843,13 @@
     "github_org": "jupyter-widgets",
     "n_days": 60
    },
-   "start_time": "2020-06-05T01:09:57.388025",
+   "start_time": "2020-06-06T01:12:11.741299",
    "version": "2.1.1"
   },
   "widgets": {
    "application/vnd.jupyter.widget-state+json": {
     "state": {
-     "5bf7668514474c099109c6bbf7a2f957": {
-      "model_module": "@jupyter-widgets/base",
-      "model_module_version": "1.2.0",
-      "model_name": "LayoutModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/base",
-       "_model_module_version": "1.2.0",
-       "_model_name": "LayoutModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "1.2.0",
-       "_view_name": "LayoutView",
-       "align_content": null,
-       "align_items": null,
-       "align_self": null,
-       "border": null,
-       "bottom": null,
-       "display": null,
-       "flex": null,
-       "flex_flow": null,
-       "grid_area": null,
-       "grid_auto_columns": null,
-       "grid_auto_flow": null,
-       "grid_auto_rows": null,
-       "grid_column": null,
-       "grid_gap": null,
-       "grid_row": null,
-       "grid_template_areas": null,
-       "grid_template_columns": null,
-       "grid_template_rows": null,
-       "height": null,
-       "justify_content": null,
-       "justify_items": null,
-       "left": null,
-       "margin": null,
-       "max_height": null,
-       "max_width": null,
-       "min_height": null,
-       "min_width": null,
-       "object_fit": null,
-       "object_position": null,
-       "order": null,
-       "overflow": null,
-       "overflow_x": null,
-       "overflow_y": null,
-       "padding": null,
-       "right": null,
-       "top": null,
-       "visibility": null,
-       "width": null
-      }
-     },
-     "7dfa613a68e44e5fb6d7b7efa0877d4b": {
+     "0d701162579a4303affff8327c60d8c0": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
       "model_name": "ProgressStyleModel",
@@ -1917,59 +1865,23 @@
        "description_width": ""
       }
      },
-     "81d9cfd415f748978f05beae86d6b691": {
-      "model_module": "@jupyter-widgets/base",
-      "model_module_version": "1.2.0",
-      "model_name": "LayoutModel",
+     "84e470d01e2f452a93f097e4dfbd0b95": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "model_name": "ProgressStyleModel",
       "state": {
-       "_model_module": "@jupyter-widgets/base",
-       "_model_module_version": "1.2.0",
-       "_model_name": "LayoutModel",
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "1.5.0",
+       "_model_name": "ProgressStyleModel",
        "_view_count": null,
        "_view_module": "@jupyter-widgets/base",
        "_view_module_version": "1.2.0",
-       "_view_name": "LayoutView",
-       "align_content": null,
-       "align_items": null,
-       "align_self": null,
-       "border": null,
-       "bottom": null,
-       "display": null,
-       "flex": null,
-       "flex_flow": null,
-       "grid_area": null,
-       "grid_auto_columns": null,
-       "grid_auto_flow": null,
-       "grid_auto_rows": null,
-       "grid_column": null,
-       "grid_gap": null,
-       "grid_row": null,
-       "grid_template_areas": null,
-       "grid_template_columns": null,
-       "grid_template_rows": null,
-       "height": null,
-       "justify_content": null,
-       "justify_items": null,
-       "left": null,
-       "margin": null,
-       "max_height": null,
-       "max_width": null,
-       "min_height": null,
-       "min_width": null,
-       "object_fit": null,
-       "object_position": null,
-       "order": null,
-       "overflow": null,
-       "overflow_x": null,
-       "overflow_y": null,
-       "padding": null,
-       "right": null,
-       "top": null,
-       "visibility": null,
-       "width": null
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
       }
      },
-     "968684075c8240a091ad59d1c553d833": {
+     "b15a1bcecdd54f8191fc812b35568741": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
       "model_name": "IntProgressModel",
@@ -1985,52 +1897,140 @@
        "bar_style": "success",
        "description": "Downloading:",
        "description_tooltip": null,
-       "layout": "IPY_MODEL_81d9cfd415f748978f05beae86d6b691",
-       "max": 4,
-       "min": 0,
-       "orientation": "horizontal",
-       "style": "IPY_MODEL_7dfa613a68e44e5fb6d7b7efa0877d4b",
-       "value": 4
-      }
-     },
-     "d3d9a0b7e4ae4613a77f77d863b99ed1": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "1.5.0",
-      "model_name": "IntProgressModel",
-      "state": {
-       "_dom_classes": [],
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "1.5.0",
-       "_model_name": "IntProgressModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/controls",
-       "_view_module_version": "1.5.0",
-       "_view_name": "ProgressView",
-       "bar_style": "success",
-       "description": "Downloading:",
-       "description_tooltip": null,
-       "layout": "IPY_MODEL_5bf7668514474c099109c6bbf7a2f957",
+       "layout": "IPY_MODEL_e3ee03e3fa974353813eb60169b7320d",
        "max": 3,
        "min": 0,
        "orientation": "horizontal",
-       "style": "IPY_MODEL_fa3a1a2e1e0a44ebb85af305268e0691",
+       "style": "IPY_MODEL_84e470d01e2f452a93f097e4dfbd0b95",
        "value": 3
       }
      },
-     "fa3a1a2e1e0a44ebb85af305268e0691": {
+     "bfb96e3fdcb943c080b468789d5a8643": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "1.5.0",
-      "model_name": "ProgressStyleModel",
+      "model_name": "IntProgressModel",
       "state": {
+       "_dom_classes": [],
        "_model_module": "@jupyter-widgets/controls",
        "_model_module_version": "1.5.0",
-       "_model_name": "ProgressStyleModel",
+       "_model_name": "IntProgressModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "1.5.0",
+       "_view_name": "ProgressView",
+       "bar_style": "success",
+       "description": "Downloading:",
+       "description_tooltip": null,
+       "layout": "IPY_MODEL_f7cda82432c5430ca6a9eb81a62be83c",
+       "max": 3,
+       "min": 0,
+       "orientation": "horizontal",
+       "style": "IPY_MODEL_0d701162579a4303affff8327c60d8c0",
+       "value": 3
+      }
+     },
+     "e3ee03e3fa974353813eb60169b7320d": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "1.2.0",
+       "_model_name": "LayoutModel",
        "_view_count": null,
        "_view_module": "@jupyter-widgets/base",
        "_view_module_version": "1.2.0",
-       "_view_name": "StyleView",
-       "bar_color": null,
-       "description_width": ""
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "overflow_x": null,
+       "overflow_y": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "f7cda82432c5430ca6a9eb81a62be83c": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "1.2.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "1.2.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "overflow_x": null,
+       "overflow_y": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
       }
      }
     },
