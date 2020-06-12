@@ -34,7 +34,15 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
+        jb toc monthly_update/book --add-titles
         jupyter-book build monthly_update/book
+
+    # Build the people book and move to the book sub-folder
+    - name: Build the people book
+      run: |
+        jb toc monthly_update/people --add-titles
+        jb build monthly_update/people
+        mv monthly_update/people/_build/html monthly_update/book/_build/html/people
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
