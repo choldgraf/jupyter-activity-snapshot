@@ -1,0 +1,962 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title> &#8212; Jupyter Monthly Activity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/mystnb.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="" href="jupyter.html" />
+    <link rel="prev" title="" href="jupyter-widgets.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Jupyter Monthly Activity</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="jupyter-widgets.html"></a>
+  </li>
+  <li class="active">
+    <a href=""></a>
+  </li>
+  <li class="">
+    <a href="jupyter.html"></a>
+  </li>
+  <li class="">
+    <a href="executablebooks.html"></a>
+  </li>
+  <li class="">
+    <a href="jupyterlab.html"></a>
+  </li>
+  <li class="">
+    <a href="ipython.html"></a>
+  </li>
+  <li class="">
+    <a href="jupyterhub.html"></a>
+  </li>
+  <li class="">
+    <a href="nteract.html"></a>
+  </li>
+</ul>
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="_sources/voila-dashboards.ipynb"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.ipynb</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Source interaction buttons -->
+        
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#merged-pull-requests" class="nav-link">Merged Pull requests</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#authoring-and-merging-stats-by-repository" class="nav-link">Authoring and merging stats by repository</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#issues" class="nav-link">Issues</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#commenters-across-repositories" class="nav-link">Commenters across repositories</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#first-responders" class="nav-link">First responders</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#recent-activity" class="nav-link">Recent activity</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#a-list-of-merged-prs-by-project" class="nav-link">A list of merged PRs by project</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#a-list-of-recent-issues" class="nav-link">A list of recent issues</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="id1">
+<h1><span class="pasted-text">voila-dashboards</span><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p><strong>Activity from <span class="pasted-inline"><code class="output text_plain docutils literal notranslate"><span class="pre">'2020-04-13'</span></code></span> to <span class="pasted-inline"><code class="output text_plain docutils literal notranslate"><span class="pre">'2020-06-12'</span></code></span></strong></p>
+<div class="section" id="merged-pull-requests">
+<h2>Merged Pull requests<a class="headerlink" href="#merged-pull-requests" title="Permalink to this headline">¶</a></h2>
+<p>Here’s an analysis of <strong>merged pull requests</strong> across each of the repositories in the Jupyter
+ecosystem.</p>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">prs_by_repo</span> <span class="o">=</span> <span class="n">merged</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;repo&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">count</span><span class="p">()[</span><span class="s1">&#39;author&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;author&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">prs_by_repo</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;Merged PRs in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;repo&#39;</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="n">prs_by_repo</span><span class="p">[</span><span class="s1">&#39;repo&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()),</span>
+    <span class="n">y</span><span class="o">=</span><span class="s1">&#39;author&#39;</span><span class="p">,</span>
+    <span class="n">color</span><span class="o">=</span><span class="s1">&#39;org&#39;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-18c4921b8b6a44cdbc560678e317ea3c"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-18c4921b8b6a44cdbc560678e317ea3c") {
+      outputDiv = document.getElementById("altair-viz-18c4921b8b6a44cdbc560678e317ea3c");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-9c27149b21c65fedbcd173c139ae19ff"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "org"}, "x": {"type": "nominal", "field": "repo", "sort": ["voila", "voila-gridstack", "voila-material", "voila-dashboards.github.io", "voila-vuetify"]}, "y": {"type": "quantitative", "field": "author"}}, "title": "Merged PRs in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-9c27149b21c65fedbcd173c139ae19ff": [{"org": "voila-dashboards", "repo": "voila", "author": 16}, {"org": "voila-dashboards", "repo": "voila-gridstack", "author": 6}, {"org": "voila-dashboards", "repo": "voila-material", "author": 4}, {"org": "voila-dashboards", "repo": "voila-dashboards.github.io", "author": 1}, {"org": "voila-dashboards", "repo": "voila-vuetify", "author": 1}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+<div class="section" id="authoring-and-merging-stats-by-repository">
+<h3>Authoring and merging stats by repository<a class="headerlink" href="#authoring-and-merging-stats-by-repository" title="Permalink to this headline">¶</a></h3>
+<p>Let’s see who has been doing most of the PR authoring and merging. The PR author is generally the
+person that implemented a change in the repository (code, documentation, etc). The PR merger is
+the person that “pressed the green button” and got the change into the main codebase.</p>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">charts</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">title</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;PR authors for </span><span class="si">{</span><span class="n">github_org</span><span class="si">}</span><span class="s2"> in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span>
+<span class="n">this_data</span> <span class="o">=</span> <span class="n">merged_by_repo</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;username&#39;</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;authored&#39;</span><span class="p">:</span> <span class="s1">&#39;sum&#39;</span><span class="p">,</span> <span class="s1">&#39;authorAssociation&#39;</span><span class="p">:</span> <span class="s1">&#39;first&#39;</span><span class="p">})</span>
+<span class="n">this_data</span> <span class="o">=</span> <span class="n">this_data</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;authored&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">ch</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">this_data</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="s1">&#39;username&#39;</span><span class="p">,</span>
+    <span class="n">y</span><span class="o">=</span><span class="s1">&#39;authored&#39;</span><span class="p">,</span>
+    <span class="n">color</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;authorAssociation&#39;</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="n">author_types</span><span class="p">,</span> <span class="nb">range</span><span class="o">=</span><span class="n">author_colors</span><span class="p">))</span>
+<span class="p">)</span>
+<span class="n">ch</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-1a058685b7344d9a85176e5177b5f21e"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-1a058685b7344d9a85176e5177b5f21e") {
+      outputDiv = document.getElementById("altair-viz-1a058685b7344d9a85176e5177b5f21e");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-d29f8eefd83a65b80268d10658cd93de"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "username"}, "y": {"type": "quantitative", "field": "authored"}}, "title": "PR authors for voila-dashboards in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-d29f8eefd83a65b80268d10658cd93de": [{"username": "maartenbreddels", "authored": 5, "authorAssociation": "MEMBER"}, {"username": "SylvainCorlay", "authored": 4, "authorAssociation": "MEMBER"}, {"username": "mariobuikhuizen", "authored": 4, "authorAssociation": "MEMBER"}, {"username": "martinRenou", "authored": 3, "authorAssociation": "MEMBER"}, {"username": "brichet", "authored": 2, "authorAssociation": "CONTRIBUTOR"}, {"username": "davidbrochart", "authored": 2, "authorAssociation": "MEMBER"}, {"username": "dependabot", "authored": 2, "authorAssociation": "CONTRIBUTOR"}, {"username": "jtpio", "authored": 2, "authorAssociation": "MEMBER"}, {"username": "madhur-tandon", "authored": 2, "authorAssociation": "CONTRIBUTOR"}, {"username": "thvasilo", "authored": 1, "authorAssociation": "NONE"}, {"username": "timkpaine", "authored": 1, "authorAssociation": "MEMBER"}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">charts</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">title</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Merges for </span><span class="si">{</span><span class="n">github_org</span><span class="si">}</span><span class="s2"> in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span>
+<span class="n">ch</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">closed_by_repo</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="s1">&#39;username&#39;</span><span class="p">,</span>
+    <span class="n">y</span><span class="o">=</span><span class="s1">&#39;closed&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="n">ch</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-447287a5a3ed4cfaaae235450f1877df"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-447287a5a3ed4cfaaae235450f1877df") {
+      outputDiv = document.getElementById("altair-viz-447287a5a3ed4cfaaae235450f1877df");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-aa32bc745eb1917e7897b234c79b2d97"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "username"}, "y": {"type": "quantitative", "field": "closed"}}, "title": "Merges for voila-dashboards in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-aa32bc745eb1917e7897b234c79b2d97": [{"repo": "voila", "username": "SylvainCorlay", "closed": 13}, {"repo": "voila", "username": "jtpio", "closed": 1}, {"repo": "voila", "username": "maartenbreddels", "closed": 2}, {"repo": "voila-dashboards.github.io", "username": "SylvainCorlay", "closed": 1}, {"repo": "voila-gridstack", "username": "SylvainCorlay", "closed": 6}, {"repo": "voila-material", "username": "martinRenou", "closed": 4}, {"repo": "voila-vuetify", "username": "mariobuikhuizen", "closed": 1}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+</div>
+</div>
+<div class="section" id="issues">
+<h2>Issues<a class="headerlink" href="#issues" title="Permalink to this headline">¶</a></h2>
+<p>Issues are <strong>conversations</strong> that happen on our GitHub repositories. Here’s an
+analysis of issues across the Jupyter organizations.</p>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">created_counts</span> <span class="o">=</span> <span class="n">created</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;repo&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">count</span><span class="p">()[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">created_counts</span><span class="p">[</span><span class="s1">&#39;org/repo&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">created_counts</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">:</span> <span class="n">a</span><span class="p">[</span><span class="s1">&#39;org&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">a</span><span class="p">[</span><span class="s1">&#39;repo&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">sorted_vals</span> <span class="o">=</span> <span class="n">created_counts</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">&#39;repo&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">created_counts</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;Issues created in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;repo&#39;</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Sort</span><span class="p">(</span><span class="n">sorted_vals</span><span class="o">.</span><span class="n">tolist</span><span class="p">())),</span>
+    <span class="n">y</span><span class="o">=</span><span class="s1">&#39;number&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-1ac5a879d12c4ee1b8314c8d8c787812"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-1ac5a879d12c4ee1b8314c8d8c787812") {
+      outputDiv = document.getElementById("altair-viz-1ac5a879d12c4ee1b8314c8d8c787812");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-937b3f9d5ba08acbc259334dcfcb922d"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["voila", "voila-material", "voila-vuetify", "voila-gridstack", "voila-reveal", "voila-template-cookiecutter"]}, "y": {"type": "quantitative", "field": "number"}}, "title": "Issues created in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-937b3f9d5ba08acbc259334dcfcb922d": [{"org": "voila-dashboards", "repo": "voila", "number": 25, "org/repo": "voila-dashboards/voila"}, {"org": "voila-dashboards", "repo": "voila-gridstack", "number": 1, "org/repo": "voila-dashboards/voila-gridstack"}, {"org": "voila-dashboards", "repo": "voila-material", "number": 2, "org/repo": "voila-dashboards/voila-material"}, {"org": "voila-dashboards", "repo": "voila-reveal", "number": 1, "org/repo": "voila-dashboards/voila-reveal"}, {"org": "voila-dashboards", "repo": "voila-template-cookiecutter", "number": 1, "org/repo": "voila-dashboards/voila-template-cookiecutter"}, {"org": "voila-dashboards", "repo": "voila-vuetify", "number": 2, "org/repo": "voila-dashboards/voila-vuetify"}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">closed_counts</span> <span class="o">=</span> <span class="n">closed</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;repo&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">count</span><span class="p">()[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">closed_counts</span><span class="p">[</span><span class="s1">&#39;org/repo&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">closed_counts</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">:</span> <span class="n">a</span><span class="p">[</span><span class="s1">&#39;org&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">a</span><span class="p">[</span><span class="s1">&#39;repo&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">sorted_vals</span> <span class="o">=</span> <span class="n">closed_counts</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;number&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">&#39;repo&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">closed_counts</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;Issues closed in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;repo&#39;</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Sort</span><span class="p">(</span><span class="n">sorted_vals</span><span class="o">.</span><span class="n">tolist</span><span class="p">())),</span>
+    <span class="n">y</span><span class="o">=</span><span class="s1">&#39;number&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-949ec7b2b8074092b55e0fcbec89416f"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-949ec7b2b8074092b55e0fcbec89416f") {
+      outputDiv = document.getElementById("altair-viz-949ec7b2b8074092b55e0fcbec89416f");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-1c47bcaf6c93d1f0f6b4489ea140abb9"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["voila", "voila-gridstack", "voila-material", "voila-vuetify"]}, "y": {"type": "quantitative", "field": "number"}}, "title": "Issues closed in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1c47bcaf6c93d1f0f6b4489ea140abb9": [{"org": "voila-dashboards", "repo": "voila", "number": 15, "org/repo": "voila-dashboards/voila"}, {"org": "voila-dashboards", "repo": "voila-gridstack", "number": 2, "org/repo": "voila-dashboards/voila-gridstack"}, {"org": "voila-dashboards", "repo": "voila-material", "number": 1, "org/repo": "voila-dashboards/voila-material"}, {"org": "voila-dashboards", "repo": "voila-vuetify", "number": 1, "org/repo": "voila-dashboards/voila-vuetify"}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">charts</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="c1"># Pick the top 10 repositories</span>
+<span class="n">top_repos</span> <span class="o">=</span> <span class="n">created_closed</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;repo&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;count&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">index</span>
+<span class="n">ch</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">created_closed</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s1">&#39;repo in @top_repos&#39;</span><span class="p">),</span> <span class="n">width</span><span class="o">=</span><span class="mi">120</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s2">&quot;kind&quot;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">labelFontSize</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)),</span> 
+    <span class="n">y</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;count&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">titleFontSize</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">12</span><span class="p">)),</span>
+    <span class="n">color</span><span class="o">=</span><span class="s1">&#39;kind&#39;</span><span class="p">,</span>
+    <span class="n">column</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s2">&quot;repo&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Header</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;Issue activity, last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days for </span><span class="si">{</span><span class="n">github_org</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">titleFontSize</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">labelFontSize</span><span class="o">=</span><span class="mi">12</span><span class="p">))</span>
+<span class="p">)</span>
+<span class="n">ch</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-bcbc93241a79489f9eeea83bbbc0720d"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-bcbc93241a79489f9eeea83bbbc0720d") {
+      outputDiv = document.getElementById("altair-viz-bcbc93241a79489f9eeea83bbbc0720d");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-ba37396b9f0e0cdbd8420015488d61b6"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "column": {"type": "nominal", "field": "repo", "header": {"labelFontSize": 12, "title": "Issue activity, last 60 days for voila-dashboards", "titleFontSize": 15}}, "x": {"type": "nominal", "axis": {"labelFontSize": 15, "title": ""}, "field": "kind"}, "y": {"type": "quantitative", "axis": {"labelFontSize": 12, "titleFontSize": 15}, "field": "count"}}, "width": 120, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-ba37396b9f0e0cdbd8420015488d61b6": [{"org": "voila-dashboards", "repo": "voila", "kind": "created", "count": 25.0}, {"org": "voila-dashboards", "repo": "voila-gridstack", "kind": "created", "count": 1.0}, {"org": "voila-dashboards", "repo": "voila-material", "kind": "created", "count": 2.0}, {"org": "voila-dashboards", "repo": "voila-reveal", "kind": "created", "count": 1.0}, {"org": "voila-dashboards", "repo": "voila-template-cookiecutter", "kind": "created", "count": 1.0}, {"org": "voila-dashboards", "repo": "voila-vuetify", "kind": "created", "count": 2.0}, {"org": "voila-dashboards", "repo": "voila", "kind": "closed", "count": 15.0}, {"org": "voila-dashboards", "repo": "voila-gridstack", "kind": "closed", "count": 2.0}, {"org": "voila-dashboards", "repo": "voila-material", "kind": "closed", "count": 1.0}, {"org": "voila-dashboards", "repo": "voila-reveal", "kind": "closed", "count": 0.0}, {"org": "voila-dashboards", "repo": "voila-template-cookiecutter", "kind": "closed", "count": 0.0}, {"org": "voila-dashboards", "repo": "voila-vuetify", "kind": "closed", "count": 1.0}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">time_open</span> <span class="o">=</span> <span class="n">closed</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;repo&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;time_open&#39;</span><span class="p">:</span> <span class="s1">&#39;median&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">time_open</span><span class="p">[</span><span class="s1">&#39;time_open&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">time_open</span><span class="p">[</span><span class="s1">&#39;time_open&#39;</span><span class="p">]</span> <span class="o">/</span> <span class="p">(</span><span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">24</span><span class="p">)</span>
+<span class="n">time_open</span><span class="p">[</span><span class="s1">&#39;org/repo&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">time_open</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">:</span> <span class="n">a</span><span class="p">[</span><span class="s1">&#39;org&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">a</span><span class="p">[</span><span class="s1">&#39;repo&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">sorted_vals</span> <span class="o">=</span> <span class="n">time_open</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;time_open&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">&#39;repo&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">time_open</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;Time to close for issues closed in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;repo&#39;</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Sort</span><span class="p">(</span><span class="n">sorted_vals</span><span class="o">.</span><span class="n">tolist</span><span class="p">())),</span>
+    <span class="n">y</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;time_open&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Median Days Open&quot;</span><span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-93ae24282f824a849c3348b47a66d72c"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-93ae24282f824a849c3348b47a66d72c") {
+      outputDiv = document.getElementById("altair-viz-93ae24282f824a849c3348b47a66d72c");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-15d292c1e3bdaf12db907695b132bf46"}, "mark": "bar", "encoding": {"x": {"type": "nominal", "field": "repo", "sort": ["voila-gridstack", "voila", "voila-vuetify", "voila-material"]}, "y": {"type": "quantitative", "field": "time_open", "title": "Median Days Open"}}, "title": "Time to close for issues closed in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-15d292c1e3bdaf12db907695b132bf46": [{"org": "voila-dashboards", "repo": "voila", "time_open": 14.92662037037037, "org/repo": "voila-dashboards/voila"}, {"org": "voila-dashboards", "repo": "voila-gridstack", "time_open": 110.1383449074074, "org/repo": "voila-dashboards/voila-gridstack"}, {"org": "voila-dashboards", "repo": "voila-material", "time_open": 0.23756944444444444, "org/repo": "voila-dashboards/voila-material"}, {"org": "voila-dashboards", "repo": "voila-vuetify", "time_open": 10.699525462962963, "org/repo": "voila-dashboards/voila-vuetify"}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+</div>
+<div class="section" id="commenters-across-repositories">
+<h2>Commenters across repositories<a class="headerlink" href="#commenters-across-repositories" title="Permalink to this headline">¶</a></h2>
+<p>These are commenters across all issues and pull requests in the last several days.
+These are colored by the commenter’s association with the organization. For information
+about what these associations mean, <a class="reference external" href="https://stackoverflow.com/a/28866914/1927102">see this StackOverflow post</a>.</p>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">n_plot</span> <span class="o">=</span> <span class="mi">50</span>
+<span class="n">charts</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="p">(</span><span class="n">iorg</span><span class="p">,</span> <span class="n">idata</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">commentors</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">])):</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Top </span><span class="si">{</span><span class="n">n_plot</span><span class="si">}</span><span class="s2"> commentors for </span><span class="si">{</span><span class="n">iorg</span><span class="si">}</span><span class="s2"> in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span>
+    <span class="n">idata</span> <span class="o">=</span> <span class="n">idata</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;author&#39;</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;count&#39;</span><span class="p">:</span> <span class="s1">&#39;sum&#39;</span><span class="p">,</span> <span class="s1">&#39;authorAssociation&#39;</span><span class="p">:</span> <span class="s1">&#39;first&#39;</span><span class="p">})</span>
+    <span class="n">idata</span> <span class="o">=</span> <span class="n">idata</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;count&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">n_plot</span><span class="p">)</span>
+    <span class="n">ch</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">idata</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">n_plot</span><span class="p">),</span> <span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+        <span class="n">x</span><span class="o">=</span><span class="s1">&#39;author&#39;</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="s1">&#39;count&#39;</span><span class="p">,</span>
+        <span class="n">color</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;authorAssociation&#39;</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="n">author_types</span><span class="p">,</span> <span class="nb">range</span><span class="o">=</span><span class="n">author_colors</span><span class="p">))</span>
+    <span class="p">)</span>
+    <span class="n">charts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ch</span><span class="p">)</span>
+<span class="n">alt</span><span class="o">.</span><span class="n">hconcat</span><span class="p">(</span><span class="o">*</span><span class="n">charts</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-ef36a0c12b944bd0872a89987d7a81c4"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-ef36a0c12b944bd0872a89987d7a81c4") {
+      outputDiv = document.getElementById("altair-viz-ef36a0c12b944bd0872a89987d7a81c4");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "hconcat": [{"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "author"}, "y": {"type": "quantitative", "field": "count"}}, "title": "Top 50 commentors for voila-dashboards in the last 60 days"}], "data": {"name": "data-0e18298cbb386152cba505bbcdca4ba3"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-0e18298cbb386152cba505bbcdca4ba3": [{"author": "jtpio", "count": 44, "authorAssociation": "MEMBER"}, {"author": "SylvainCorlay", "count": 42, "authorAssociation": "MEMBER"}, {"author": "davidbrochart", "count": 25, "authorAssociation": "MEMBER"}, {"author": "maartenbreddels", "count": 17, "authorAssociation": "MEMBER"}, {"author": "gbrault", "count": 16, "authorAssociation": "NONE"}, {"author": "martinRenou", "count": 14, "authorAssociation": "MEMBER"}, {"author": "prachi-tripathi", "count": 10, "authorAssociation": "NONE"}, {"author": "zerline", "count": 7, "authorAssociation": "NONE"}, {"author": "dmadeka", "count": 6, "authorAssociation": "NONE"}, {"author": "madhur-tandon", "count": 5, "authorAssociation": "CONTRIBUTOR"}, {"author": "fleimgruber", "count": 4, "authorAssociation": "NONE"}, {"author": "brichet", "count": 4, "authorAssociation": "CONTRIBUTOR"}, {"author": "vidartf", "count": 3, "authorAssociation": "CONTRIBUTOR"}, {"author": "stefanmeili", "count": 3, "authorAssociation": "NONE"}, {"author": "mariobuikhuizen", "count": 3, "authorAssociation": "MEMBER"}, {"author": "eromoe", "count": 3, "authorAssociation": "NONE"}, {"author": "timkpaine", "count": 2, "authorAssociation": "MEMBER"}, {"author": "Zsailer", "count": 2, "authorAssociation": "MEMBER"}, {"author": "TristanK27", "count": 2, "authorAssociation": "NONE"}, {"author": "btel", "count": 1, "authorAssociation": "COLLABORATOR"}, {"author": "omontue", "count": 1, "authorAssociation": "NONE"}, {"author": "French-Kriss", "count": 1, "authorAssociation": "NONE"}, {"author": "thvasilo", "count": 1, "authorAssociation": "NONE"}, {"author": "GeorgianaElena", "count": 1, "authorAssociation": "MEMBER"}, {"author": "sackh", "count": 1, "authorAssociation": "NONE"}, {"author": "roxit", "count": 1, "authorAssociation": "NONE"}, {"author": "MichaMucha", "count": 1, "authorAssociation": "NONE"}, {"author": "ned2", "count": 1, "authorAssociation": "NONE"}, {"author": "dou-du", "count": 1, "authorAssociation": "NONE"}, {"author": "Mistobaan", "count": 1, "authorAssociation": "NONE"}, {"author": "aadrian", "count": 1, "authorAssociation": "NONE"}, {"author": "aleave", "count": 1, "authorAssociation": "NONE"}, {"author": "artemisart", "count": 1, "authorAssociation": "NONE"}, {"author": "b060149ee", "count": 1, "authorAssociation": "NONE"}, {"author": "DougRzz", "count": 1, "authorAssociation": "NONE"}, {"author": "Alexboiboi", "count": 1, "authorAssociation": "NONE"}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+</div>
+<div class="section" id="first-responders">
+<h2>First responders<a class="headerlink" href="#first-responders" title="Permalink to this headline">¶</a></h2>
+<p>First responders are the first people to respond to a new issue in one of the repositories.
+The following plots show first responders for recently-created issues.</p>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">n_plot</span> <span class="o">=</span> <span class="mi">50</span>
+
+<span class="n">title</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Top </span><span class="si">{</span><span class="n">n_plot</span><span class="si">}</span><span class="s2"> first responders for </span><span class="si">{</span><span class="n">github_org</span><span class="si">}</span><span class="s2"> in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span>
+<span class="n">idata</span> <span class="o">=</span> <span class="n">first_responder_counts</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;author&#39;</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;n_first_responses&#39;</span><span class="p">:</span> <span class="s1">&#39;sum&#39;</span><span class="p">,</span> <span class="s1">&#39;authorAssociation&#39;</span><span class="p">:</span> <span class="s1">&#39;first&#39;</span><span class="p">})</span>
+<span class="n">idata</span> <span class="o">=</span> <span class="n">idata</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;n_first_responses&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">n_plot</span><span class="p">)</span>
+<span class="n">ch</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">idata</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">n_plot</span><span class="p">),</span> <span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="s1">&#39;author&#39;</span><span class="p">,</span>
+    <span class="n">y</span><span class="o">=</span><span class="s1">&#39;n_first_responses&#39;</span><span class="p">,</span>
+    <span class="n">color</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;authorAssociation&#39;</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="n">author_types</span><span class="p">,</span> <span class="nb">range</span><span class="o">=</span><span class="n">author_colors</span><span class="p">))</span>
+<span class="p">)</span>
+<span class="n">ch</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-ac4ff1a6dd184f1ea40a3e7715c7ed39"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-ac4ff1a6dd184f1ea40a3e7715c7ed39") {
+      outputDiv = document.getElementById("altair-viz-ac4ff1a6dd184f1ea40a3e7715c7ed39");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-d034f8ffb6bdf971ddf528bbd871b30e"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "authorAssociation", "scale": {"domain": ["MEMBER", "CONTRIBUTOR", "COLLABORATOR", "NONE"], "range": ["rgb(211.82745098039214, 211.82745098039214, 211.82745098039214)", "rgb(166.98562091503268, 229.89803921568628, 166.98562091503268)", "rgb(96.37647058823529, 192.75294117647059, 96.37647058823529)", "rgb(0.0, 100.3921568627451, 0.0)"]}}, "x": {"type": "nominal", "field": "author"}, "y": {"type": "quantitative", "field": "n_first_responses"}}, "title": "Top 50 first responders for voila-dashboards in the last 60 days", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-d034f8ffb6bdf971ddf528bbd871b30e": [{"author": "SylvainCorlay", "n_first_responses": 21, "authorAssociation": "MEMBER"}, {"author": "jtpio", "n_first_responses": 10, "authorAssociation": "MEMBER"}, {"author": "davidbrochart", "n_first_responses": 7, "authorAssociation": "MEMBER"}, {"author": "maartenbreddels", "n_first_responses": 7, "authorAssociation": "MEMBER"}, {"author": "martinRenou", "n_first_responses": 3, "authorAssociation": "MEMBER"}, {"author": "mariobuikhuizen", "n_first_responses": 3, "authorAssociation": "MEMBER"}, {"author": "vidartf", "n_first_responses": 2, "authorAssociation": "CONTRIBUTOR"}, {"author": "GeorgianaElena", "n_first_responses": 1, "authorAssociation": "MEMBER"}, {"author": "timkpaine", "n_first_responses": 1, "authorAssociation": "MEMBER"}, {"author": "stefanmeili", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "ned2", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "eromoe", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "gbrault", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "MichaMucha", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "choldgraf", "n_first_responses": 1, "authorAssociation": "CONTRIBUTOR"}, {"author": "b060149ee", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "aadrian", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "Zsailer", "n_first_responses": 1, "authorAssociation": "MEMBER"}, {"author": "TristanK27", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "Mistobaan", "n_first_responses": 1, "authorAssociation": "NONE"}, {"author": "zerline", "n_first_responses": 1, "authorAssociation": "NONE"}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+</div>
+<div class="section" id="recent-activity">
+<h2>Recent activity<a class="headerlink" href="#recent-activity" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="a-list-of-merged-prs-by-project">
+<h3>A list of merged PRs by project<a class="headerlink" href="#a-list-of-merged-prs-by-project" title="Permalink to this headline">¶</a></h3>
+<p>Below is a tabbed readout of recently-merged PRs. Check out the title to get an idea for what they
+implemented, and be sure to thank the PR author for their hard work!</p>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tabs</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Tab</span><span class="p">(</span><span class="n">children</span><span class="o">=</span><span class="p">[])</span>
+
+<span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="p">((</span><span class="n">org</span><span class="p">,</span> <span class="n">repo</span><span class="p">),</span> <span class="n">imerged</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">merged</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;repo in @use_repos&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;repo&#39;</span><span class="p">])):</span>
+    <span class="n">merged_by</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">pr_by</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">issue_md</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;#### Closed PRs for repo: [</span><span class="si">{</span><span class="n">org</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">repo</span><span class="si">}</span><span class="s2">](https://github.com/</span><span class="si">{</span><span class="n">github_org</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">repo</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+    <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;##### &quot;</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">ipr</span> <span class="ow">in</span> <span class="n">imerged</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+        <span class="n">user_name</span> <span class="o">=</span> <span class="n">ipr</span><span class="p">[</span><span class="s1">&#39;author&#39;</span><span class="p">]</span>
+        <span class="n">user_url</span> <span class="o">=</span> <span class="n">author_url</span><span class="p">(</span><span class="n">user_name</span><span class="p">)</span>
+        <span class="n">pr_number</span> <span class="o">=</span> <span class="n">ipr</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span>
+        <span class="n">pr_html</span> <span class="o">=</span> <span class="n">ipr</span><span class="p">[</span><span class="s1">&#39;url&#39;</span><span class="p">]</span>
+        <span class="n">pr_title</span> <span class="o">=</span> <span class="n">ipr</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">]</span>
+        <span class="n">pr_closedby</span> <span class="o">=</span> <span class="n">ipr</span><span class="p">[</span><span class="s1">&#39;mergedBy&#39;</span><span class="p">]</span>
+        <span class="n">pr_closedby_url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://github.com/</span><span class="si">{</span><span class="n">pr_closedby</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="k">if</span> <span class="n">user_name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">pr_by</span><span class="p">:</span>
+            <span class="n">pr_by</span><span class="p">[</span><span class="n">user_name</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">pr_by</span><span class="p">[</span><span class="n">user_name</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="k">if</span> <span class="n">pr_closedby</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">merged_by</span><span class="p">:</span>
+            <span class="n">merged_by</span><span class="p">[</span><span class="n">pr_closedby</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">merged_by</span><span class="p">[</span><span class="n">pr_closedby</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;* [(#</span><span class="si">{</span><span class="n">pr_number</span><span class="si">}</span><span class="s2">)](</span><span class="si">{</span><span class="n">pr_html</span><span class="si">}</span><span class="s2">): _</span><span class="si">{</span><span class="n">pr_title</span><span class="si">}</span><span class="s2">_ by **[@</span><span class="si">{</span><span class="n">user_name</span><span class="si">}</span><span class="s2">](</span><span class="si">{</span><span class="n">user_url</span><span class="si">}</span><span class="s2">)** merged by **[@</span><span class="si">{</span><span class="n">pr_closedby</span><span class="si">}</span><span class="s2">](</span><span class="si">{</span><span class="n">pr_closedby_url</span><span class="si">}</span><span class="s2">)**&quot;</span>
+        <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+    
+    <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="n">markdown_html</span> <span class="o">=</span> <span class="n">markdown</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">issue_md</span><span class="p">))</span>
+
+    <span class="n">children</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">tabs</span><span class="o">.</span><span class="n">children</span><span class="p">)</span>
+    <span class="n">children</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="n">markdown_html</span><span class="p">))</span>
+    <span class="n">tabs</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">children</span><span class="p">)</span>
+    <span class="n">tabs</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">ii</span><span class="p">,</span> <span class="n">repo</span><span class="p">)</span>
+<span class="n">tabs</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "55d6b897c8a14e48a7981a9ef4380f11", "version_major": 2, "version_minor": 0}
+</script></div>
+</div>
+</div>
+<div class="section" id="a-list-of-recent-issues">
+<h3>A list of recent issues<a class="headerlink" href="#a-list-of-recent-issues" title="Permalink to this headline">¶</a></h3>
+<p>Below is a list of issues with recent activity in each repository. If they seem of interest
+to you, click on their links and jump in to participate!</p>
+<div class="cell tag_hide_input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">n_plot</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">tabs</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Tab</span><span class="p">(</span><span class="n">children</span><span class="o">=</span><span class="p">[])</span>
+
+<span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="n">i_issues</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">comment_counts</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;repo in @use_repos&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;repo&#39;</span><span class="p">)):</span>
+    
+    <span class="n">issue_md</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;##### [</span><span class="si">{</span><span class="n">github_org</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">repo</span><span class="si">}</span><span class="s2">](https://github.com/</span><span class="si">{</span><span class="n">github_org</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">repo</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+
+    <span class="n">top_issues</span> <span class="o">=</span> <span class="n">i_issues</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;n_comments&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">n_plot</span><span class="p">)</span>
+    <span class="n">top_issue_list</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">issues</span><span class="p">,</span> <span class="n">top_issues</span><span class="p">,</span> <span class="n">left_on</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;repo&#39;</span><span class="p">,</span> <span class="s1">&#39;id&#39;</span><span class="p">],</span> <span class="n">right_on</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;org&#39;</span><span class="p">,</span> <span class="s1">&#39;repo&#39;</span><span class="p">,</span> <span class="s1">&#39;id&#39;</span><span class="p">])</span>
+    <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">issue</span> <span class="ow">in</span> <span class="n">top_issue_list</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;n_comments&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">n_plot</span><span class="p">)</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+        <span class="n">user_name</span> <span class="o">=</span> <span class="n">issue</span><span class="p">[</span><span class="s1">&#39;author&#39;</span><span class="p">]</span>
+        <span class="n">user_url</span> <span class="o">=</span> <span class="n">author_url</span><span class="p">(</span><span class="n">user_name</span><span class="p">)</span>
+        <span class="n">issue_number</span> <span class="o">=</span> <span class="n">issue</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span>
+        <span class="n">issue_html</span> <span class="o">=</span> <span class="n">issue</span><span class="p">[</span><span class="s1">&#39;url&#39;</span><span class="p">]</span>
+        <span class="n">issue_title</span> <span class="o">=</span> <span class="n">issue</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">]</span>
+
+        <span class="n">text</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;* [(#</span><span class="si">{</span><span class="n">issue_number</span><span class="si">}</span><span class="s2">)](</span><span class="si">{</span><span class="n">issue_html</span><span class="si">}</span><span class="s2">): _</span><span class="si">{</span><span class="n">issue_title</span><span class="si">}</span><span class="s2">_ by **[@</span><span class="si">{</span><span class="n">user_name</span><span class="si">}</span><span class="s2">](</span><span class="si">{</span><span class="n">user_url</span><span class="si">}</span><span class="s2">)**&quot;</span>
+        <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+
+    <span class="n">issue_md</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="n">md_html</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="n">markdown</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">issue_md</span><span class="p">)))</span>
+
+    <span class="n">children</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">tabs</span><span class="o">.</span><span class="n">children</span><span class="p">)</span>
+    <span class="n">children</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="n">markdown</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">issue_md</span><span class="p">))))</span>
+    <span class="n">tabs</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">children</span><span class="p">)</span>
+    <span class="n">tabs</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">ii</span><span class="p">,</span> <span class="n">repo</span><span class="p">)</span>
+    
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Here are the top </span><span class="si">{</span><span class="n">n_plot</span><span class="si">}</span><span class="s2"> active issues in each repository in the last </span><span class="si">{</span><span class="n">n_days</span><span class="si">}</span><span class="s2"> days&quot;</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">tabs</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;IPython.core.display.Markdown object&gt;
+</pre></div>
+</div>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "adce78e2afe24e20ba4c4f50f52f30c8", "version_major": 2, "version_minor": 0}
+</script></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"state": {"01634142dc1641fca84f269012100b46": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "03f2a424ef3c45419e918a0b6bedbf41": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_c6647839caf9443ca1f7f375c8441b18", "placeholder": "\u200b", "style": "IPY_MODEL_c88f0c23b9714c4097dec5dd140bbef4", "value": "<h4>Closed PRs for repo: <a href=\"https://github.com/voila-dashboards/voila\">voila-dashboards/voila</a></h4>\n<h5></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/622\">(#622)</a>: <em>Remove Python2-specific things</em> by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/621\">(#621)</a>: <em>refactor: move output widget to nbclient</em> by <strong><a href=\"https://github.com/maartenbreddels\">@maartenbreddels</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/610\">(#610)</a>: <em>Don't return resources</em> by <strong><a href=\"https://github.com/davidbrochart\">@davidbrochart</a></strong> merged by <strong><a href=\"https://github.com/maartenbreddels\">@maartenbreddels</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/608\">(#608)</a>: <em>Update js/package-lock.json</em> by <strong><a href=\"https://github.com/jtpio\">@jtpio</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/602\">(#602)</a>: <em>Update xeus-cling and xleaflet</em> by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/599\">(#599)</a>: <em>Fix enabling of server extension with classic notebook</em> by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/594\">(#594)</a>: <em>Docs: using nginx we do not want buffering</em> by <strong><a href=\"https://github.com/maartenbreddels\">@maartenbreddels</a></strong> merged by <strong><a href=\"https://github.com/jtpio\">@jtpio</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/593\">(#593)</a>: <em>feat: convert preview to a document widget extension</em> by <strong><a href=\"https://github.com/mariobuikhuizen\">@mariobuikhuizen</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/586\">(#586)</a>: <em>Small fix for user guide</em> by <strong><a href=\"https://github.com/thvasilo\">@thvasilo</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/585\">(#585)</a>: <em>Bump jquery from 3.4.1 to 3.5.0 in /js</em> by <strong><a href=\"https://github.com/dependabot\">@dependabot</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/584\">(#584)</a>: <em>feat: provide a way for templates to trigger a resize event</em> by <strong><a href=\"https://github.com/mariobuikhuizen\">@mariobuikhuizen</a></strong> merged by <strong><a href=\"https://github.com/maartenbreddels\">@maartenbreddels</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/558\">(#558)</a>: <em>Bump acorn from 6.1.1 to 6.4.1 in /js</em> by <strong><a href=\"https://github.com/dependabot\">@dependabot</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/557\">(#557)</a>: <em>Update links to jupyter-xeus and voila-dashboards orgs</em> by <strong><a href=\"https://github.com/jtpio\">@jtpio</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/541\">(#541)</a>: <em>Async cell execution</em> by <strong><a href=\"https://github.com/davidbrochart\">@davidbrochart</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/481\">(#481)</a>: <em>fixes #468 - bugfixes for libraries that use other phosphor libs present in JupyterLab</em> by <strong><a href=\"https://github.com/timkpaine\">@timkpaine</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/pull/208\">(#208)</a>: <em>Refactor template system</em> by <strong><a href=\"https://github.com/maartenbreddels\">@maartenbreddels</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n</ul>"}}, "0a12fb55bff24828b740992eee808d5a": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_5b5ca61523744f679f2d6e3ce269b7bf", "placeholder": "\u200b", "style": "IPY_MODEL_bc0d85870d5c45a0bbaca038a0b5f559", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila-gridstack\">voila-dashboards/voila-gridstack</a></h5>"}}, "0bf320cc504b4c6284b959e7f8e2f210": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "12d94bec7eb74551abde68c6f48cbc36": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "133b61c2f3154af980e2d0021d082893": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_8f531e8059904529acb6c877fa171b45", "placeholder": "\u200b", "style": "IPY_MODEL_1ddcd0f454de4c0cad2bfa453e858c6f", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila-material\">voila-dashboards/voila-material</a></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-material/issues/12\">(#12)</a>: <em>Ipywidgets not rendered</em> by <strong><a href=\"https://github.com/French-Kriss\">@French-Kriss</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-material/issues/11\">(#11)</a>: <em>Problem install the template locally by pip install -e .</em> by <strong><a href=\"https://github.com/dou-du\">@dou-du</a></strong></li>\n</ul>"}}, "183e349ea94b4bb9a0a9a7af9b7dcd4d": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "1ddcd0f454de4c0cad2bfa453e858c6f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "1ebf7e254c344fb889274d5a22ff3df6": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_e9f7ef3e5ef84fc58f2703af59ad49ab", "placeholder": "\u200b", "style": "IPY_MODEL_ea82be20838542a1b5b82e868e9b4aaa", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila-reveal\">voila-dashboards/voila-reveal</a></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-reveal/issues/7\">(#7)</a>: <em>Document mechanism for how to change slide type</em> by <strong><a href=\"https://github.com/ned2\">@ned2</a></strong></li>\n</ul>"}}, "27136ce055a74dbe91c1771003141868": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "2cd79433679c472a9cad069e440a925d": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "2dc9053d06374c3aa3f587729bc87f78": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "IntProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "IntProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "Downloading:", "description_tooltip": null, "layout": "IPY_MODEL_f524feaa28e7499286711df4d81cc885", "max": 2, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_183e349ea94b4bb9a0a9a7af9b7dcd4d", "value": 2}}, "32c9d9818c90416db3a565fba5d7ae7f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_27136ce055a74dbe91c1771003141868", "placeholder": "\u200b", "style": "IPY_MODEL_4b9e6483882b40cc9ea8f025500f7f7e", "value": "<h4>Closed PRs for repo: <a href=\"https://github.com/voila-dashboards/voila-material\">voila-dashboards/voila-material</a></h4>\n<h5></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-material/pull/17\">(#17)</a>: <em>Binder: Use latest release instead of master</em> by <strong><a href=\"https://github.com/martinRenou\">@martinRenou</a></strong> merged by <strong><a href=\"https://github.com/martinRenou\">@martinRenou</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-material/pull/15\">(#15)</a>: <em>Move images</em> by <strong><a href=\"https://github.com/martinRenou\">@martinRenou</a></strong> merged by <strong><a href=\"https://github.com/martinRenou\">@martinRenou</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-material/pull/13\">(#13)</a>: <em>Workarounds for the Select/Dropdown/RadioButtons widgets</em> by <strong><a href=\"https://github.com/martinRenou\">@martinRenou</a></strong> merged by <strong><a href=\"https://github.com/martinRenou\">@martinRenou</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-material/pull/8\">(#8)</a>: <em>convert to nbconvert and voila compatible template</em> by <strong><a href=\"https://github.com/maartenbreddels\">@maartenbreddels</a></strong> merged by <strong><a href=\"https://github.com/martinRenou\">@martinRenou</a></strong></li>\n</ul>"}}, "38bd6aa418b840758c3d44035c93e4db": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "3fb54ffe536c49aaa9ee4168a5d2afe1": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "43b810f6ce7c4d2ba08ed0193442fb41": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "497f750158f04060981c7da93550d9d6": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "4b9e6483882b40cc9ea8f025500f7f7e": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "4f7683db2e234075af3cf1ddb2794622": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "54724e8ccbc847ffb4efbf8f8693e90b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_bc0b1538546243cb8f05f7f43c3e7ab4", "placeholder": "\u200b", "style": "IPY_MODEL_db9c8391fdd04a248d165f4b5fb452de", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila\">voila-dashboards/voila</a></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila/issues/627\">(#627)</a>: <em>Custom Widget results are not shown on voila dashboard.</em> by <strong><a href=\"https://github.com/sackh\">@sackh</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/issues/603\">(#603)</a>: <em>Voila drop down widget not working</em> by <strong><a href=\"https://github.com/prachi-tripathi\">@prachi-tripathi</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/issues/607\">(#607)</a>: <em>Sage combinat widgets &amp; voila</em> by <strong><a href=\"https://github.com/zerline\">@zerline</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/issues/615\">(#615)</a>: <em>Widgets not defined</em> by <strong><a href=\"https://github.com/dmadeka\">@dmadeka</a></strong></li>\n</ul>"}}, "55d6b897c8a14e48a7981a9ef4380f11": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "TabModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "TabModel", "_titles": {"0": "voila", "1": "voila-gridstack", "2": "voila-material", "3": "voila-vuetify"}, "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "TabView", "box_style": "", "children": ["IPY_MODEL_03f2a424ef3c45419e918a0b6bedbf41", "IPY_MODEL_84d7711dedfb46799a95b710dcb320e6", "IPY_MODEL_32c9d9818c90416db3a565fba5d7ae7f", "IPY_MODEL_618e4a7432824ff285496dff0d34f4f5"], "layout": "IPY_MODEL_0bf320cc504b4c6284b959e7f8e2f210", "selected_index": 0}}, "56fdb618a6b8453386eb1ac72c79bcbe": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "5b5ca61523744f679f2d6e3ce269b7bf": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "618e4a7432824ff285496dff0d34f4f5": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_12d94bec7eb74551abde68c6f48cbc36", "placeholder": "\u200b", "style": "IPY_MODEL_3fb54ffe536c49aaa9ee4168a5d2afe1", "value": "<h4>Closed PRs for repo: <a href=\"https://github.com/voila-dashboards/voila-vuetify\">voila-dashboards/voila-vuetify</a></h4>\n<h5></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-vuetify/pull/34\">(#34)</a>: <em>Support for ipyvuetify &gt;= 1.4.0 and set theme from URL</em> by <strong><a href=\"https://github.com/mariobuikhuizen\">@mariobuikhuizen</a></strong> merged by <strong><a href=\"https://github.com/mariobuikhuizen\">@mariobuikhuizen</a></strong></li>\n</ul>"}}, "62ece696e502442d8350369d0bb4a708": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "6591d49453e14f4e8da9f1b606a09e6c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "77be9bb30aa24d19990f55439329deb4": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "7bdb06779b4845378358f92f9f44af9b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_975f73d55aa84be687d83d5e30382d92", "placeholder": "\u200b", "style": "IPY_MODEL_38bd6aa418b840758c3d44035c93e4db", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila-vuetify\">voila-dashboards/voila-vuetify</a></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-vuetify/issues/36\">(#36)</a>: <em>Failed to work with plotly</em> by <strong><a href=\"https://github.com/eromoe\">@eromoe</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-vuetify/issues/35\">(#35)</a>: <em>How do I make a button trigger draw function and show result in vuetify ?</em> by <strong><a href=\"https://github.com/eromoe\">@eromoe</a></strong></li>\n</ul>"}}, "7ef34d1aeb724b589ed233f8cc3c5feb": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "80f73a8cfd8c4614a6b8148c9cce91ce": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_4f7683db2e234075af3cf1ddb2794622", "placeholder": "\u200b", "style": "IPY_MODEL_fa199de066e4444392c249c89f55962e", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila\">voila-dashboards/voila</a></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila/issues/627\">(#627)</a>: <em>Custom Widget results are not shown on voila dashboard.</em> by <strong><a href=\"https://github.com/sackh\">@sackh</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/issues/603\">(#603)</a>: <em>Voila drop down widget not working</em> by <strong><a href=\"https://github.com/prachi-tripathi\">@prachi-tripathi</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/issues/607\">(#607)</a>: <em>Sage combinat widgets &amp; voila</em> by <strong><a href=\"https://github.com/zerline\">@zerline</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila/issues/615\">(#615)</a>: <em>Widgets not defined</em> by <strong><a href=\"https://github.com/dmadeka\">@dmadeka</a></strong></li>\n</ul>"}}, "84d7711dedfb46799a95b710dcb320e6": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_56fdb618a6b8453386eb1ac72c79bcbe", "placeholder": "\u200b", "style": "IPY_MODEL_01634142dc1641fca84f269012100b46", "value": "<h4>Closed PRs for repo: <a href=\"https://github.com/voila-dashboards/voila-gridstack\">voila-dashboards/voila-gridstack</a></h4>\n<h5></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-gridstack/pull/43\">(#43)</a>: <em>Fix overlap for Drag Handle</em> by <strong><a href=\"https://github.com/madhur-tandon\">@madhur-tandon</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-gridstack/pull/42\">(#42)</a>: <em>Fix CSS to make UI more appealing</em> by <strong><a href=\"https://github.com/madhur-tandon\">@madhur-tandon</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-gridstack/pull/41\">(#41)</a>: <em>Refactor template take3</em> by <strong><a href=\"https://github.com/maartenbreddels\">@maartenbreddels</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-gridstack/pull/38\">(#38)</a>: <em>jupyter extension for grid persistence</em> by <strong><a href=\"https://github.com/brichet\">@brichet</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-gridstack/pull/37\">(#37)</a>: <em>feat: make inspection of the config possible</em> by <strong><a href=\"https://github.com/mariobuikhuizen\">@mariobuikhuizen</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-gridstack/pull/33\">(#33)</a>: <em>Fix #31 : add scroll when body overflows</em> by <strong><a href=\"https://github.com/brichet\">@brichet</a></strong> merged by <strong><a href=\"https://github.com/SylvainCorlay\">@SylvainCorlay</a></strong></li>\n</ul>"}}, "88a95b5f32aa46c7a5a4a09a7b97172c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_2cd79433679c472a9cad069e440a925d", "placeholder": "\u200b", "style": "IPY_MODEL_7ef34d1aeb724b589ed233f8cc3c5feb", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila-reveal\">voila-dashboards/voila-reveal</a></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-reveal/issues/7\">(#7)</a>: <em>Document mechanism for how to change slide type</em> by <strong><a href=\"https://github.com/ned2\">@ned2</a></strong></li>\n</ul>"}}, "8f531e8059904529acb6c877fa171b45": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "90f5f82779f74c3c8e1a5e58721ebd16": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_b45bc1070cc9442f92db2317c1eb4f7b", "placeholder": "\u200b", "style": "IPY_MODEL_43b810f6ce7c4d2ba08ed0193442fb41", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila-material\">voila-dashboards/voila-material</a></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-material/issues/12\">(#12)</a>: <em>Ipywidgets not rendered</em> by <strong><a href=\"https://github.com/French-Kriss\">@French-Kriss</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-material/issues/11\">(#11)</a>: <em>Problem install the template locally by pip install -e .</em> by <strong><a href=\"https://github.com/dou-du\">@dou-du</a></strong></li>\n</ul>"}}, "975f73d55aa84be687d83d5e30382d92": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "adce78e2afe24e20ba4c4f50f52f30c8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "TabModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "TabModel", "_titles": {"0": "voila", "1": "voila-gridstack", "2": "voila-material", "3": "voila-reveal", "4": "voila-vuetify"}, "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "TabView", "box_style": "", "children": ["IPY_MODEL_80f73a8cfd8c4614a6b8148c9cce91ce", "IPY_MODEL_0a12fb55bff24828b740992eee808d5a", "IPY_MODEL_133b61c2f3154af980e2d0021d082893", "IPY_MODEL_88a95b5f32aa46c7a5a4a09a7b97172c", "IPY_MODEL_7bdb06779b4845378358f92f9f44af9b"], "layout": "IPY_MODEL_e243a288cc5d41b49d257a34d5567cbd", "selected_index": 0}}, "b45bc1070cc9442f92db2317c1eb4f7b": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "ba2948b526da452b9d5b9223a7f94a8d": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "IntProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "IntProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "Downloading:", "description_tooltip": null, "layout": "IPY_MODEL_62ece696e502442d8350369d0bb4a708", "max": 2, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_6591d49453e14f4e8da9f1b606a09e6c", "value": 2}}, "ba338f8934c2442085d7733c9d2eea22": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_c9fc46e55f994a9ebefa0bf6215cefd5", "placeholder": "\u200b", "style": "IPY_MODEL_f7addc382d5f47348daec3a763e170da", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila-gridstack\">voila-dashboards/voila-gridstack</a></h5>"}}, "bc0b1538546243cb8f05f7f43c3e7ab4": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "bc0d85870d5c45a0bbaca038a0b5f559": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "c6647839caf9443ca1f7f375c8441b18": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "c88f0c23b9714c4097dec5dd140bbef4": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "c9fc46e55f994a9ebefa0bf6215cefd5": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "db9c8391fdd04a248d165f4b5fb452de": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "e243a288cc5d41b49d257a34d5567cbd": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "e9f7ef3e5ef84fc58f2703af59ad49ab": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "ea82be20838542a1b5b82e868e9b4aaa": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "eaa7f9d881ea4f14b6cf267c874c60fe": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_497f750158f04060981c7da93550d9d6", "placeholder": "\u200b", "style": "IPY_MODEL_77be9bb30aa24d19990f55439329deb4", "value": "<h5><a href=\"https://github.com/voila-dashboards/voila-vuetify\">voila-dashboards/voila-vuetify</a></h5>\n<ul>\n<li><a href=\"https://github.com/voila-dashboards/voila-vuetify/issues/36\">(#36)</a>: <em>Failed to work with plotly</em> by <strong><a href=\"https://github.com/eromoe\">@eromoe</a></strong></li>\n<li><a href=\"https://github.com/voila-dashboards/voila-vuetify/issues/35\">(#35)</a>: <em>How do I make a button trigger draw function and show result in vuetify ?</em> by <strong><a href=\"https://github.com/eromoe\">@eromoe</a></strong></li>\n</ul>"}}, "f524feaa28e7499286711df4d81cc885": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "f7addc382d5f47348daec3a763e170da": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "fa199de066e4444392c249c89f55962e": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}}, "version_major": 2, "version_minor": 0}
+</script>
+
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="jupyter-widgets.html" title="previous page"></a>
+    <a class='right-next' id="next-link" href="jupyter.html" title="next page"></a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>
