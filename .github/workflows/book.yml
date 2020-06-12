@@ -34,7 +34,6 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book toc monthly_update/book
         jupyter-book build monthly_update/book
 
     # Push the book's HTML to github-pages

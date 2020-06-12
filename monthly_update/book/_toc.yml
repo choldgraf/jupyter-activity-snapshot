@@ -1,13 +1,18 @@
 file: index
-title: Book
 sections:
+- file: executablebooks
+  title: Executable Books
 - file: ipython
-  title: Ipython
+  title: IPython
 - file: jupyter-widgets
-  title: Jupyter-widgets
+  title: Jupyter Widgets
 - file: jupyter
   title: Jupyter
 - file: jupyterhub
-  title: Jupyterhub
+  title: JupyterHub
 - file: jupyterlab
-  title: Jupyterlab
+  title: JupyterLab
+- file: nteract
+  title: nteract
+- file: voila-dashboards
+  title: Voila
