@@ -38,7 +38,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Report for yuvipanda" href="yuvipanda.html" />
+    <link rel="next" title="Report for choldgraf" href="choldgraf.html" />
     <link rel="prev" title="Jupyter people" href="index.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -92,6 +92,26 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="choldgraf.html">
+   Report for choldgraf
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="choldgraf.html#repository-summaries">
+   Repository summaries
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="choldgraf.html#by-repository-over-time">
+   By repository over time
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="choldgraf.html#by-type-over-time">
+   By type over time
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="yuvipanda.html">
    Report for yuvipanda
   </a>
@@ -128,26 +148,6 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="consideRatio.html#by-type-over-time">
-   By type over time
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="choldgraf.html">
-   Report for choldgraf
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="choldgraf.html#repository-summaries">
-   Repository summaries
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="choldgraf.html#by-repository-over-time">
-   By repository over time
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="choldgraf.html#by-type-over-time">
    By type over time
   </a>
  </li>
@@ -297,12 +297,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-5da4907a23034b12af265c868d645cd5"></div>
+<div id="altair-viz-10e9530ba69642328ed419a4e69bb004"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-5da4907a23034b12af265c868d645cd5") {
-      outputDiv = document.getElementById("altair-viz-5da4907a23034b12af265c868d645cd5");
+    if (outputDiv.id !== "altair-viz-10e9530ba69642328ed419a4e69bb004") {
+      outputDiv = document.getElementById("altair-viz-10e9530ba69642328ed419a4e69bb004");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -344,7 +344,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "hconcat": [{"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "kind"}, "x": {"type": "nominal", "field": "repo"}, "y": {"type": "quantitative", "field": "count"}}, "title": "Activity per repository", "width": 600}, {"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "kind"}, "x": {"type": "nominal", "field": "repo"}, "y": {"type": "quantitative", "field": "logcount"}}, "title": "Log activity per repository", "width": 600}], "data": {"name": "data-8fc0aeea2bd9e10af8a4669fd9783b7d"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-8fc0aeea2bd9e10af8a4669fd9783b7d": [{"repo": ".github", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": ".github", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "dockerspawner", "kind": "comments", "count": 6, "logcount": 1.791759469228055}, {"repo": "dockerspawner", "kind": "prs", "count": 6, "logcount": 1.791759469228055}, {"repo": "jupyter", "kind": "comments", "count": 7, "logcount": 1.9459101490553132}, {"repo": "jupyter", "kind": "prs", "count": 4, "logcount": 1.3862943611198906}, {"repo": "jupyterhub", "kind": "comments", "count": 8, "logcount": 2.0794415416798357}, {"repo": "jupyterhub", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "jupyterhub", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "mybinder.org-deploy", "kind": "comments", "count": 3, "logcount": 1.0986122886681098}, {"repo": "nbgitpuller", "kind": "comments", "count": 9, "logcount": 2.1972245773362196}, {"repo": "nbgitpuller", "kind": "prs", "count": 4, "logcount": 1.3862943611198906}, {"repo": "oauthenticator", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": "team-compass", "kind": "comments", "count": 3, "logcount": 1.0986122886681098}, {"repo": "team-compass", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "the-littlest-jupyterhub", "kind": "comments", "count": 9, "logcount": 2.1972245773362196}, {"repo": "the-littlest-jupyterhub", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "the-littlest-jupyterhub", "kind": "prs", "count": 5, "logcount": 1.6094379124341003}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "hconcat": [{"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "kind"}, "x": {"type": "nominal", "field": "repo"}, "y": {"type": "quantitative", "field": "count"}}, "title": "Activity per repository", "width": 600}, {"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "kind"}, "x": {"type": "nominal", "field": "repo"}, "y": {"type": "quantitative", "field": "logcount"}}, "title": "Log activity per repository", "width": 600}], "data": {"name": "data-99cab4d3d147cc91074977257fcdf757"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-99cab4d3d147cc91074977257fcdf757": [{"repo": ".github", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": ".github", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "dockerspawner", "kind": "comments", "count": 7, "logcount": 1.9459101490553132}, {"repo": "dockerspawner", "kind": "prs", "count": 6, "logcount": 1.791759469228055}, {"repo": "jupyter", "kind": "comments", "count": 7, "logcount": 1.9459101490553132}, {"repo": "jupyter", "kind": "prs", "count": 4, "logcount": 1.3862943611198906}, {"repo": "jupyterhub", "kind": "comments", "count": 8, "logcount": 2.0794415416798357}, {"repo": "jupyterhub", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "jupyterhub", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "mybinder.org-deploy", "kind": "comments", "count": 3, "logcount": 1.0986122886681098}, {"repo": "nbgitpuller", "kind": "comments", "count": 9, "logcount": 2.1972245773362196}, {"repo": "nbgitpuller", "kind": "prs", "count": 4, "logcount": 1.3862943611198906}, {"repo": "oauthenticator", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": "team-compass", "kind": "comments", "count": 3, "logcount": 1.0986122886681098}, {"repo": "team-compass", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "the-littlest-jupyterhub", "kind": "comments", "count": 9, "logcount": 2.1972245773362196}, {"repo": "the-littlest-jupyterhub", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "the-littlest-jupyterhub", "kind": "prs", "count": 5, "logcount": 1.6094379124341003}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="cell tag_hide_input docutils container">
@@ -360,12 +360,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-bc6530b276a74f42b45e884ebc87089a"></div>
+<div id="altair-viz-0c89c8f17ed148c7982a7d2111766129"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-bc6530b276a74f42b45e884ebc87089a") {
-      outputDiv = document.getElementById("altair-viz-bc6530b276a74f42b45e884ebc87089a");
+    if (outputDiv.id !== "altair-viz-0c89c8f17ed148c7982a7d2111766129") {
+      outputDiv = document.getElementById("altair-viz-0c89c8f17ed148c7982a7d2111766129");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -407,7 +407,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-54099787e99841552bf67016d7233a74"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "org"}, "x": {"type": "nominal", "field": "org"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-54099787e99841552bf67016d7233a74": [{"org": "jupyter", "kind": "comments", "count": 7}, {"org": "jupyter", "kind": "prs", "count": 4}, {"org": "jupyterhub", "kind": "comments", "count": 40}, {"org": "jupyterhub", "kind": "issues", "count": 3}, {"org": "jupyterhub", "kind": "prs", "count": 18}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-ef90e060852050577c0dc51885038362"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "org"}, "x": {"type": "nominal", "field": "org"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-ef90e060852050577c0dc51885038362": [{"org": "jupyter", "kind": "comments", "count": 7}, {"org": "jupyter", "kind": "prs", "count": 4}, {"org": "jupyterhub", "kind": "comments", "count": 41}, {"org": "jupyterhub", "kind": "issues", "count": 3}, {"org": "jupyterhub", "kind": "prs", "count": 18}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -438,12 +438,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-35135c4867ba491d86b471b877cc9e04"></div>
+<div id="altair-viz-2c03720c2ef741f18da534f1eb01e33c"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-35135c4867ba491d86b471b877cc9e04") {
-      outputDiv = document.getElementById("altair-viz-35135c4867ba491d86b471b877cc9e04");
+    if (outputDiv.id !== "altair-viz-2c03720c2ef741f18da534f1eb01e33c") {
+      outputDiv = document.getElementById("altair-viz-2c03720c2ef741f18da534f1eb01e33c");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -485,7 +485,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "layer": [{"data": {"name": "data-8917832ce79082301adac18dc9c834f6"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "repo"}, "tooltip": {"type": "nominal", "field": "repo"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}, {"data": {"name": "data-d32e80b214a797ff66bb099455930bf5"}, "mark": {"type": "line", "color": "black"}, "encoding": {"x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}], "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-8917832ce79082301adac18dc9c834f6": [{"repo": ".github", "createdAt": "2020-06-21T00:00:00", "count": 1}, {"repo": "dockerspawner", "createdAt": "2020-06-21T00:00:00", "count": 2}, {"repo": "dockerspawner", "createdAt": "2020-06-28T00:00:00", "count": 1}, {"repo": "dockerspawner", "createdAt": "2020-07-05T00:00:00", "count": 2}, {"repo": "dockerspawner", "createdAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "dockerspawner", "createdAt": "2020-07-19T00:00:00", "count": 1}, {"repo": "jupyter", "createdAt": "2020-06-14T00:00:00", "count": 2}, {"repo": "jupyter", "createdAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "jupyter", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "jupyter", "createdAt": "2020-07-05T00:00:00", "count": 3}, {"repo": "jupyter", "createdAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "jupyter", "createdAt": "2020-07-19T00:00:00", "count": 2}, {"repo": "jupyterhub", "createdAt": "2020-06-21T00:00:00", "count": 6}, {"repo": "jupyterhub", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "jupyterhub", "createdAt": "2020-07-19T00:00:00", "count": 1}, {"repo": "mybinder.org-deploy", "createdAt": "2020-07-19T00:00:00", "count": 1}, {"repo": "mybinder.org-deploy", "createdAt": "2020-07-26T00:00:00", "count": 2}, {"repo": "nbgitpuller", "createdAt": "2020-06-28T00:00:00", "count": 2}, {"repo": "nbgitpuller", "createdAt": "2020-07-05T00:00:00", "count": 3}, {"repo": "nbgitpuller", "createdAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "nbgitpuller", "createdAt": "2020-07-19T00:00:00", "count": 3}, {"repo": "nbgitpuller", "createdAt": "2020-07-26T00:00:00", "count": 0}, {"repo": "nbgitpuller", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "oauthenticator", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-06-14T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-07-26T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-06-14T00:00:00", "count": 3}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-07-05T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-07-26T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-08-02T00:00:00", "count": 3}], "data-d32e80b214a797ff66bb099455930bf5": [{"createdAt": "2020-06-14T00:00:00", "count": 6}, {"createdAt": "2020-06-21T00:00:00", "count": 9}, {"createdAt": "2020-06-28T00:00:00", "count": 3}, {"createdAt": "2020-07-05T00:00:00", "count": 9}, {"createdAt": "2020-07-12T00:00:00", "count": 3}, {"createdAt": "2020-07-19T00:00:00", "count": 8}, {"createdAt": "2020-07-26T00:00:00", "count": 4}, {"createdAt": "2020-08-02T00:00:00", "count": 5}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "layer": [{"data": {"name": "data-b022981221d5481d88618f903bdf79d9"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "repo"}, "tooltip": {"type": "nominal", "field": "repo"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}, {"data": {"name": "data-77a8b688779a9fa02748845a76ada86a"}, "mark": {"type": "line", "color": "black"}, "encoding": {"x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}], "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-b022981221d5481d88618f903bdf79d9": [{"repo": ".github", "createdAt": "2020-06-21T00:00:00", "count": 1}, {"repo": "dockerspawner", "createdAt": "2020-06-21T00:00:00", "count": 2}, {"repo": "dockerspawner", "createdAt": "2020-06-28T00:00:00", "count": 1}, {"repo": "dockerspawner", "createdAt": "2020-07-05T00:00:00", "count": 2}, {"repo": "dockerspawner", "createdAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "dockerspawner", "createdAt": "2020-07-19T00:00:00", "count": 1}, {"repo": "dockerspawner", "createdAt": "2020-07-26T00:00:00", "count": 0}, {"repo": "dockerspawner", "createdAt": "2020-08-02T00:00:00", "count": 0}, {"repo": "dockerspawner", "createdAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "jupyter", "createdAt": "2020-06-14T00:00:00", "count": 2}, {"repo": "jupyter", "createdAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "jupyter", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "jupyter", "createdAt": "2020-07-05T00:00:00", "count": 3}, {"repo": "jupyter", "createdAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "jupyter", "createdAt": "2020-07-19T00:00:00", "count": 2}, {"repo": "jupyterhub", "createdAt": "2020-06-21T00:00:00", "count": 6}, {"repo": "jupyterhub", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "jupyterhub", "createdAt": "2020-07-19T00:00:00", "count": 1}, {"repo": "mybinder.org-deploy", "createdAt": "2020-07-19T00:00:00", "count": 1}, {"repo": "mybinder.org-deploy", "createdAt": "2020-07-26T00:00:00", "count": 2}, {"repo": "nbgitpuller", "createdAt": "2020-06-28T00:00:00", "count": 2}, {"repo": "nbgitpuller", "createdAt": "2020-07-05T00:00:00", "count": 3}, {"repo": "nbgitpuller", "createdAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "nbgitpuller", "createdAt": "2020-07-19T00:00:00", "count": 3}, {"repo": "nbgitpuller", "createdAt": "2020-07-26T00:00:00", "count": 0}, {"repo": "nbgitpuller", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "oauthenticator", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-06-14T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-07-26T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-06-14T00:00:00", "count": 3}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-07-05T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-07-26T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-08-02T00:00:00", "count": 3}], "data-77a8b688779a9fa02748845a76ada86a": [{"createdAt": "2020-06-14T00:00:00", "count": 6}, {"createdAt": "2020-06-21T00:00:00", "count": 9}, {"createdAt": "2020-06-28T00:00:00", "count": 3}, {"createdAt": "2020-07-05T00:00:00", "count": 9}, {"createdAt": "2020-07-12T00:00:00", "count": 3}, {"createdAt": "2020-07-19T00:00:00", "count": 8}, {"createdAt": "2020-07-26T00:00:00", "count": 4}, {"createdAt": "2020-08-02T00:00:00", "count": 5}, {"createdAt": "2020-08-09T00:00:00", "count": 1}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -515,12 +515,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-3824aaf1ab064a988f676be1ad01f62f"></div>
+<div id="altair-viz-50a784f87d094d8ba7f4d63448a62ebe"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-3824aaf1ab064a988f676be1ad01f62f") {
-      outputDiv = document.getElementById("altair-viz-3824aaf1ab064a988f676be1ad01f62f");
+    if (outputDiv.id !== "altair-viz-50a784f87d094d8ba7f4d63448a62ebe") {
+      outputDiv = document.getElementById("altair-viz-50a784f87d094d8ba7f4d63448a62ebe");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -581,12 +581,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-bfa6e74ad52a4bb382ba7e5c98033cc1"></div>
+<div id="altair-viz-ddf7494ea16a4f71a37770f872e9c421"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-bfa6e74ad52a4bb382ba7e5c98033cc1") {
-      outputDiv = document.getElementById("altair-viz-bfa6e74ad52a4bb382ba7e5c98033cc1");
+    if (outputDiv.id !== "altair-viz-ddf7494ea16a4f71a37770f872e9c421") {
+      outputDiv = document.getElementById("altair-viz-ddf7494ea16a4f71a37770f872e9c421");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -628,7 +628,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-e694600186ce35e280295e6519c9764c"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "repo"}, "tooltip": {"type": "nominal", "field": "repo"}, "x": {"type": "temporal", "field": "closedAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-e694600186ce35e280295e6519c9764c": [{"repo": ".github", "closedAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "dockerspawner", "closedAt": "2020-06-21T00:00:00", "count": 1}, {"repo": "dockerspawner", "closedAt": "2020-06-28T00:00:00", "count": 2}, {"repo": "dockerspawner", "closedAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "dockerspawner", "closedAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "dockerspawner", "closedAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "dockerspawner", "closedAt": "2020-07-26T00:00:00", "count": 1}, {"repo": "jupyterhub", "closedAt": "2020-06-14T00:00:00", "count": 1}, {"repo": "jupyterhub", "closedAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "nbgitpuller", "closedAt": "2020-07-19T00:00:00", "count": 1}, {"repo": "oauthenticator", "closedAt": "2020-06-21T00:00:00", "count": 1}, {"repo": "oauthenticator", "closedAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-07-26T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-06-28T00:00:00", "count": 2}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-07-26T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-08-02T00:00:00", "count": 4}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-48460c9382ddba249352d783bff81f47"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "repo"}, "tooltip": {"type": "nominal", "field": "repo"}, "x": {"type": "temporal", "field": "closedAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-48460c9382ddba249352d783bff81f47": [{"repo": ".github", "closedAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "dockerspawner", "closedAt": "2020-06-21T00:00:00", "count": 1}, {"repo": "dockerspawner", "closedAt": "2020-06-28T00:00:00", "count": 2}, {"repo": "dockerspawner", "closedAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "dockerspawner", "closedAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "dockerspawner", "closedAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "dockerspawner", "closedAt": "2020-07-26T00:00:00", "count": 1}, {"repo": "dockerspawner", "closedAt": "2020-08-02T00:00:00", "count": 0}, {"repo": "dockerspawner", "closedAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "jupyterhub", "closedAt": "2020-06-14T00:00:00", "count": 1}, {"repo": "jupyterhub", "closedAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "jupyterhub", "closedAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-07-26T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-08-02T00:00:00", "count": 0}, {"repo": "jupyterhub", "closedAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "nbgitpuller", "closedAt": "2020-07-19T00:00:00", "count": 1}, {"repo": "oauthenticator", "closedAt": "2020-06-21T00:00:00", "count": 1}, {"repo": "oauthenticator", "closedAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-07-12T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-07-26T00:00:00", "count": 0}, {"repo": "oauthenticator", "closedAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-06-28T00:00:00", "count": 2}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-07-05T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-07-12T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-07-19T00:00:00", "count": 0}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-07-26T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "closedAt": "2020-08-02T00:00:00", "count": 4}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -647,12 +647,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-20632d9f5ce84f968c9a815bf70d7771"></div>
+<div id="altair-viz-893a17856e19440c801df7c65bb5b42e"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-20632d9f5ce84f968c9a815bf70d7771") {
-      outputDiv = document.getElementById("altair-viz-20632d9f5ce84f968c9a815bf70d7771");
+    if (outputDiv.id !== "altair-viz-893a17856e19440c801df7c65bb5b42e") {
+      outputDiv = document.getElementById("altair-viz-893a17856e19440c801df7c65bb5b42e");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -694,7 +694,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-7cdf7da1ca1faf83ec55d815cdd489e4"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "kind"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-7cdf7da1ca1faf83ec55d815cdd489e4": [{"createdAt": "2020-05-31T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-06-07T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-06-14T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-06-21T00:00:00", "kind": "prs", "count": 3.0}, {"createdAt": "2020-06-28T00:00:00", "kind": "prs", "count": 5.0}, {"createdAt": "2020-07-05T00:00:00", "kind": "prs", "count": 4.0}, {"createdAt": "2020-07-12T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-07-19T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-07-26T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-08-02T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-08-09T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-05-31T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-07T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-14T00:00:00", "kind": "comments", "count": 6.0}, {"createdAt": "2020-06-21T00:00:00", "kind": "comments", "count": 9.0}, {"createdAt": "2020-06-28T00:00:00", "kind": "comments", "count": 3.0}, {"createdAt": "2020-07-05T00:00:00", "kind": "comments", "count": 9.0}, {"createdAt": "2020-07-12T00:00:00", "kind": "comments", "count": 3.0}, {"createdAt": "2020-07-19T00:00:00", "kind": "comments", "count": 8.0}, {"createdAt": "2020-07-26T00:00:00", "kind": "comments", "count": 4.0}, {"createdAt": "2020-08-02T00:00:00", "kind": "comments", "count": 5.0}, {"createdAt": "2020-08-09T00:00:00", "kind": "comments", "count": null}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-0429af7d942dc18de8041c0ab1fa1432"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "kind"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-0429af7d942dc18de8041c0ab1fa1432": [{"createdAt": "2020-05-31T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-06-07T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-06-14T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-06-21T00:00:00", "kind": "prs", "count": 3.0}, {"createdAt": "2020-06-28T00:00:00", "kind": "prs", "count": 5.0}, {"createdAt": "2020-07-05T00:00:00", "kind": "prs", "count": 4.0}, {"createdAt": "2020-07-12T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-07-19T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-07-26T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-08-02T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-08-09T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-05-31T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-07T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-14T00:00:00", "kind": "comments", "count": 6.0}, {"createdAt": "2020-06-21T00:00:00", "kind": "comments", "count": 9.0}, {"createdAt": "2020-06-28T00:00:00", "kind": "comments", "count": 3.0}, {"createdAt": "2020-07-05T00:00:00", "kind": "comments", "count": 9.0}, {"createdAt": "2020-07-12T00:00:00", "kind": "comments", "count": 3.0}, {"createdAt": "2020-07-19T00:00:00", "kind": "comments", "count": 8.0}, {"createdAt": "2020-07-26T00:00:00", "kind": "comments", "count": 4.0}, {"createdAt": "2020-08-02T00:00:00", "kind": "comments", "count": 5.0}, {"createdAt": "2020-08-09T00:00:00", "kind": "comments", "count": 1.0}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -728,7 +728,7 @@
     <div class='prev-next-bottom'>
         
     <a class='left-prev' id="prev-link" href="index.html" title="previous page">Jupyter people</a>
-    <a class='right-next' id="next-link" href="yuvipanda.html" title="next page">Report for yuvipanda</a>
+    <a class='right-next' id="next-link" href="choldgraf.html" title="next page">Report for choldgraf</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
