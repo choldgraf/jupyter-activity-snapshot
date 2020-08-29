@@ -78,6 +78,7 @@ main.bd-content {
         // Math equations
         span.eqno {
             float: right;
+            margin: 1em 0em;
             font-size: 1.2em;
         }
 
@@ -119,7 +120,38 @@ main.bd-content {
             }
 
             span {
-                font-size: .9rem;
+                font-size: .9em;
+            }
+        }
+
+        // Admonitions
+        div.alert {
+            padding-bottom: .75em;  // Overriding an override
+
+            p:last-child {
+                margin-bottom: 0;
+            }
+
+            p.admonition-title {
+                margin-bottom: .2em;
+                font-weight: bold;
+
+                &:before {
+                    font-family: "Font Awesome 5 Free";
+                    margin-right: 0.5em;
+                    font-weight: 900;
+                    content: "\f05a";  /* info-circle */
+                }
+            }
+
+            &.alert-warning, &.alert-danger {
+                p.admonition-title:before {
+                    content: "\f071";
+                }
+            }
+
+            &.alert-primary p.admonition-title:before {
+                content: "\f06a" /* exclamation-circle */
             }
         }
 
@@ -146,13 +178,9 @@ main.bd-content {
 
         // Tables from sphinx-tabs
 
-        div.sphinx-tabs > div.sphinx-menu {
-            padding: 0;
-        }
-
-        div.sphinx-tabs > div.sphinx-menu > a.item {
+        div.sphinx-tabs > div.menu > a.item {
             width: auto;
-            margin: 0px 0px -1px 0px;
+            margin: 0;
         }
 
         // Footnotes and Citations
@@ -167,13 +195,15 @@ main.bd-content {
         }
 
         .footnote-reference, a.bibtex.internal {
-            font-size: 1em;
+            font-size: .8em;
+            vertical-align: top;
         }
 
         dl.footnote {
 
             span.fn-backref {
-                font-size: 1em;
+                font-size: .8em;
+                vertical-align: top;
                 padding-left:.1em;
             }
 
@@ -214,16 +244,6 @@ div.cell {
             overflow-y: auto;
         }
     }
-}
-
-// Extension over-rides
-// Toggle-button overrides
-.toggle.admonition button.toggle-button {
-    top: 0.5em !important;
-}
-
-button.toggle-button-hidden:before {
-    bottom: 0.2em !important;
 }
 
 // Margin and content-sidebar rules
@@ -319,21 +339,6 @@ div.highlight {
     background: none;
 }
 
-// Thebelab over-rides
-.thebelab-cell {
-    border: none !important;
-}
-
-button.thebe-launch-button {
-    height: 2.5em;
-    font-size: 1em;
-}
-
-// toc directive styles
-div.tableofcontents-wrapper p.caption {
-    font-weight: 600 !important;
-    margin-bottom: 0em !important;
-}
 
 /*********************************************
 * Top Bar *
@@ -361,15 +366,10 @@ div.tableofcontents-wrapper p.caption {
             margin: 0 .1em;
             background-color: white;
             color: $non-content-grey;
+            font-size: 1.4em;
             border: none;
             padding-top: .1rem;
             padding-bottom: .1rem;
-            font-size: 1.4em;
-
-            i.fab {
-                vertical-align: baseline;
-                line-height: 1;
-            }
         }
 
         // buttons float right
@@ -400,15 +400,9 @@ div.dropdown-buttons-trigger {
     div.dropdown-buttons {
         display: none;
         position: absolute;
-        max-width: 130px;
+        max-width: 120px;
         margin-top: .2em;
         z-index: 1000;
-
-        &.sourcebuttons .topbarbtn i {
-            padding-right: 6px;
-            margin-left: -5px;
-            font-size: .9em !important;
-        }
 
         button.topbarbtn {
             padding-top: .35rem;
@@ -599,6 +593,10 @@ button.topbarbtn img {
         background: #c1c1c1;
     }
 
+    @media (min-width: $breakpoint-md) {
+        opacity: 0.6;
+    }
+
     // Hide the scrollbar until hover on wide screens
     @media (min-width: $breakpoint-lg) {
         &:not(:hover) {
@@ -612,6 +610,10 @@ button.topbarbtn img {
               background: #FFFFFF;
             }
         }
+    }
+
+    &:hover {
+        opacity: 1;
     }
 
     h1.site-logo {
@@ -636,8 +638,11 @@ button.topbarbtn img {
     }
 
     // Captions
-    p.caption {
-        margin-top: 1.25em;
+    li + li.navbar-special {
+        margin-top: 1em;
+    }
+
+    p.margin-caption {
         margin-bottom: 0;
         font-size: 1.2em;
     }
@@ -647,13 +652,6 @@ button.topbarbtn img {
         font-size: .8em;
         margin-left: 0.3em;
     }
-}
-
-.toc-h1, .toc-h2, .toc-h3, .toc-h4 {
-    > a {
-        font-size: 0.9em;
-    }
-    font-size: 1em;
 }
 
 .site-navigation, .site-navigation.collapsing {
@@ -677,11 +675,6 @@ button.topbarbtn img {
 
         &.collapsing {
             height: 0px !important;
-        }
-
-        // If we're only a single page, sidebar should hide at narrow widths.
-        &.single-page {
-            display: none;
         }
     }
 }
@@ -725,45 +718,26 @@ nav.bd-links {
     margin-left: 0px;
     max-height: none !important;
 
-    p.caption {
-        font-size: 0.9em;
-        text-transform: uppercase;
-        font-weight: bold;
-
-        &:first-child {
-            margin-top: 0;
-        }
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    li {
+    ul.nav li {
         width: 100%;
     }
 
-    li.toctree-l1, li.toctree-l2, li.toctree-l3, li.toctree-l4, li.toctree-l5  {
-        > a {
-            font-size: 0.9em;
-        }
-        font-size: 1em;
+    ul.sidenav_l1 > li {
+        font-size: 1.2em
     }
 
-    > ul.nav {
-        // Make sure the first items don't have any padding
-        padding-left: 0;
+    ul.sidenav_l2  {
+        font-size: .8em
+    }
 
-        // Subsequent items should have padding
-        ul {
-            // Only left padding
-            padding: 0 0 0 1rem;
-        }
+    ul.nav > li > a {
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
 
-        // Links don't have the horizontal padding, uls do
-        a {
-            padding: .25rem 0 !important;
-        }
+    ul.nav ul {
+        padding-left: 1rem !important;
+        padding-right: 0rem !important;
     }
 }
 
@@ -780,6 +754,47 @@ nav.bd-links {
 *********************************************/
 .prev-next-bottom {
     height: 3em;
+}
+
+
+// Thebelab buttons
+.thebelab-cell {
+    // To ensure that thebelab cells are always the top of the Z-stack
+    position: relative;
+    z-index: 999;
+
+    // Remove styling since we use our own
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+.thebelab-button {
+    z-index: 999;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    margin: 0px 1px;
+    border-radius: 0.12em;
+    box-sizing:  border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #dddddd;
+    border: 0.05em solid white;
+    color: #000000;
+}
+
+.thebelab-button:hover{
+    border: 0.05em solid black;
+    background-color: #fcfcfc;
+}
+
+
+div.jp-OutputArea-output {
+    padding: 5px;
 }
 
 @import 'print';
