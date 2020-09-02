@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
@@ -174,6 +175,10 @@
 
  <!-- To handle the deprecated key -->
 
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
 </div>
 
 
@@ -224,6 +229,28 @@
                     class="fas fa-expand"></i></button></a>
 
         <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/GeorgianaElena.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <a class="colab-button" href="https://colab.research.google.com/github/executablebooks/jupyter-book/blob/master/GeorgianaElena.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+                title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
+                    src="_static/images/logo_colab.png"
+                    alt="Interact on Colab">Colab</button></a>
+        
+        
+    </div>
+</div>
 
     </div>
 
@@ -294,12 +321,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-3c82894d48674221a47e33b5cb34c8fb"></div>
+<div id="altair-viz-a691e525566f4676b57f3e606ca3d2ca"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-3c82894d48674221a47e33b5cb34c8fb") {
-      outputDiv = document.getElementById("altair-viz-3c82894d48674221a47e33b5cb34c8fb");
+    if (outputDiv.id !== "altair-viz-a691e525566f4676b57f3e606ca3d2ca") {
+      outputDiv = document.getElementById("altair-viz-a691e525566f4676b57f3e606ca3d2ca");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -357,12 +384,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-8377413e9c6a4f4aa483886d9b4e568b"></div>
+<div id="altair-viz-54355361d0a742df82d83b27562933d4"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-8377413e9c6a4f4aa483886d9b4e568b") {
-      outputDiv = document.getElementById("altair-viz-8377413e9c6a4f4aa483886d9b4e568b");
+    if (outputDiv.id !== "altair-viz-54355361d0a742df82d83b27562933d4") {
+      outputDiv = document.getElementById("altair-viz-54355361d0a742df82d83b27562933d4");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -435,12 +462,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-61d4c4119ad44c07a7c44d4f81f051ad"></div>
+<div id="altair-viz-1457bedaf00546419660b4600aa34384"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-61d4c4119ad44c07a7c44d4f81f051ad") {
-      outputDiv = document.getElementById("altair-viz-61d4c4119ad44c07a7c44d4f81f051ad");
+    if (outputDiv.id !== "altair-viz-1457bedaf00546419660b4600aa34384") {
+      outputDiv = document.getElementById("altair-viz-1457bedaf00546419660b4600aa34384");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -512,12 +539,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-bebdf6dd0af049ec87fd85c43826b36a"></div>
+<div id="altair-viz-00b36f503d55461daf52bda910942139"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-bebdf6dd0af049ec87fd85c43826b36a") {
-      outputDiv = document.getElementById("altair-viz-bebdf6dd0af049ec87fd85c43826b36a");
+    if (outputDiv.id !== "altair-viz-00b36f503d55461daf52bda910942139") {
+      outputDiv = document.getElementById("altair-viz-00b36f503d55461daf52bda910942139");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -578,12 +605,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-2ea502f6b13b43b383490bbbdf0667c0"></div>
+<div id="altair-viz-ede72d57401a4d2c974851d134e50632"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-2ea502f6b13b43b383490bbbdf0667c0") {
-      outputDiv = document.getElementById("altair-viz-2ea502f6b13b43b383490bbbdf0667c0");
+    if (outputDiv.id !== "altair-viz-ede72d57401a4d2c974851d134e50632") {
+      outputDiv = document.getElementById("altair-viz-ede72d57401a4d2c974851d134e50632");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -644,12 +671,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-cece9f73773b438d9f888ac1e8ab2acd"></div>
+<div id="altair-viz-2f2abf4aa27842139600336e6ba2d14c"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-cece9f73773b438d9f888ac1e8ab2acd") {
-      outputDiv = document.getElementById("altair-viz-cece9f73773b438d9f888ac1e8ab2acd");
+    if (outputDiv.id !== "altair-viz-2f2abf4aa27842139600336e6ba2d14c") {
+      outputDiv = document.getElementById("altair-viz-2f2abf4aa27842139600336e6ba2d14c");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
