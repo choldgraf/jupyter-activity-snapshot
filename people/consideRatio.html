@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 
 <html>
@@ -7,9 +6,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Report for consideRatio &#8212; Jupyter People</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="_static/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    
+  <link rel="stylesheet" href="_static/css/index.d431a4ee1c1efae0e38bdfebc22debff.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.bfb7730f9caf2ec0b46a44615585038c.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
@@ -17,6 +33,9 @@
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.30270b6e4c972e43c488.js">
+
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
@@ -25,8 +44,8 @@
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/sphinx-book-theme.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -39,8 +58,8 @@
     <link rel="next" title="Report for yuvipanda" href="yuvipanda.html" />
     <link rel="prev" title="Jupyter people" href="index.html" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="docsearch:language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
 
 
 
@@ -256,19 +275,55 @@
 
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
+        
         <div class="tocsection onthispage pt-5 pb-3">
             <i class="fas fa-list"></i> Contents
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#load-data">
-   Load data
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Report for consideRatio
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#load-data">
+     Load data
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#repository-summaries">
+   Repository summaries
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#by-repository-over-time">
+   By repository over time
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comments">
+     Comments
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#prs">
+     PRs
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#by-type-over-time">
+   By type over time
   </a>
  </li>
 </ul>
 
         </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -321,12 +376,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-b1baf2ad647a4fbcbf9ad4ff57adbb73"></div>
+<div id="altair-viz-aebd732674dd4d7a9e22e15af2fa3a2b"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-b1baf2ad647a4fbcbf9ad4ff57adbb73") {
-      outputDiv = document.getElementById("altair-viz-b1baf2ad647a4fbcbf9ad4ff57adbb73");
+    if (outputDiv.id !== "altair-viz-aebd732674dd4d7a9e22e15af2fa3a2b") {
+      outputDiv = document.getElementById("altair-viz-aebd732674dd4d7a9e22e15af2fa3a2b");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -368,7 +423,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "hconcat": [{"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "kind"}, "x": {"type": "nominal", "field": "repo"}, "y": {"type": "quantitative", "field": "count"}}, "title": "Activity per repository", "width": 600}, {"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "kind"}, "x": {"type": "nominal", "field": "repo"}, "y": {"type": "quantitative", "field": "logcount"}}, "title": "Log activity per repository", "width": 600}], "data": {"name": "data-411d94a76705acf95f5ed5cc44b00548"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-411d94a76705acf95f5ed5cc44b00548": [{"repo": "binderhub", "kind": "comments", "count": 4, "logcount": 1.3862943611198906}, {"repo": "binderhub", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "configurable-http-proxy", "kind": "comments", "count": 3, "logcount": 1.0986122886681098}, {"repo": "configurable-http-proxy", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "jupyter-book", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "jupyter-book", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "jupyterhub", "kind": "comments", "count": 11, "logcount": 2.3978952727983707}, {"repo": "jupyterhub", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "jupyterhub", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "kubespawner", "kind": "comments", "count": 12, "logcount": 2.4849066497880004}, {"repo": "kubespawner", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "kubespawner", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "mybinder.org-deploy", "kind": "comments", "count": 9, "logcount": 2.1972245773362196}, {"repo": "nbgitpuller", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": "nbgitpuller", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "oauthenticator", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": "repo2docker", "kind": "comments", "count": 2, "logcount": 0.6931471805599453}, {"repo": "repo2docker", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "repo2docker-action", "kind": "comments", "count": 3, "logcount": 1.0986122886681098}, {"repo": "sphinx-book-theme", "kind": "comments", "count": 2, "logcount": 0.6931471805599453}, {"repo": "sphinx-book-theme", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "team-compass", "kind": "comments", "count": 6, "logcount": 1.791759469228055}, {"repo": "team-compass", "kind": "issues", "count": 3, "logcount": 1.0986122886681098}, {"repo": "the-littlest-jupyterhub", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": "zero-to-jupyterhub-k8s", "kind": "comments", "count": 60, "logcount": 4.0943445622221}, {"repo": "zero-to-jupyterhub-k8s", "kind": "issues", "count": 6, "logcount": 1.791759469228055}, {"repo": "zero-to-jupyterhub-k8s", "kind": "prs", "count": 13, "logcount": 2.5649493574615367}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "hconcat": [{"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "kind"}, "x": {"type": "nominal", "field": "repo"}, "y": {"type": "quantitative", "field": "count"}}, "title": "Activity per repository", "width": 600}, {"mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "kind"}, "x": {"type": "nominal", "field": "repo"}, "y": {"type": "quantitative", "field": "logcount"}}, "title": "Log activity per repository", "width": 600}], "data": {"name": "data-ed78ed122f45f5addea443fc9fe4676f"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-ed78ed122f45f5addea443fc9fe4676f": [{"repo": "binderhub", "kind": "comments", "count": 5, "logcount": 1.6094379124341003}, {"repo": "binderhub", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "configurable-http-proxy", "kind": "comments", "count": 3, "logcount": 1.0986122886681098}, {"repo": "configurable-http-proxy", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "jupyter-book", "kind": "comments", "count": 2, "logcount": 0.6931471805599453}, {"repo": "jupyter-book", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "jupyter-book", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "jupyterhub", "kind": "comments", "count": 11, "logcount": 2.3978952727983707}, {"repo": "jupyterhub", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "jupyterhub", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "kubespawner", "kind": "comments", "count": 12, "logcount": 2.4849066497880004}, {"repo": "kubespawner", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "kubespawner", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "mybinder.org-deploy", "kind": "comments", "count": 9, "logcount": 2.1972245773362196}, {"repo": "nbgitpuller", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": "nbgitpuller", "kind": "prs", "count": 2, "logcount": 0.6931471805599453}, {"repo": "oauthenticator", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": "repo2docker", "kind": "comments", "count": 2, "logcount": 0.6931471805599453}, {"repo": "repo2docker", "kind": "prs", "count": 1, "logcount": 0.0}, {"repo": "repo2docker-action", "kind": "comments", "count": 3, "logcount": 1.0986122886681098}, {"repo": "sphinx-book-theme", "kind": "comments", "count": 2, "logcount": 0.6931471805599453}, {"repo": "sphinx-book-theme", "kind": "issues", "count": 1, "logcount": 0.0}, {"repo": "team-compass", "kind": "comments", "count": 6, "logcount": 1.791759469228055}, {"repo": "team-compass", "kind": "issues", "count": 3, "logcount": 1.0986122886681098}, {"repo": "the-littlest-jupyterhub", "kind": "comments", "count": 1, "logcount": 0.0}, {"repo": "zero-to-jupyterhub-k8s", "kind": "comments", "count": 59, "logcount": 4.07753744390572}, {"repo": "zero-to-jupyterhub-k8s", "kind": "issues", "count": 6, "logcount": 1.791759469228055}, {"repo": "zero-to-jupyterhub-k8s", "kind": "prs", "count": 13, "logcount": 2.5649493574615367}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="cell tag_hide_input docutils container">
@@ -384,12 +439,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-1e686a0d2f784c96bdab90fa49e6d857"></div>
+<div id="altair-viz-5fe06fa283bf41c9a91cf8ccfbffb8f0"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-1e686a0d2f784c96bdab90fa49e6d857") {
-      outputDiv = document.getElementById("altair-viz-1e686a0d2f784c96bdab90fa49e6d857");
+    if (outputDiv.id !== "altair-viz-5fe06fa283bf41c9a91cf8ccfbffb8f0") {
+      outputDiv = document.getElementById("altair-viz-5fe06fa283bf41c9a91cf8ccfbffb8f0");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -431,7 +486,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-2db3c97e98a351c6664cbe4141675bd6"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "org"}, "x": {"type": "nominal", "field": "org"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-2db3c97e98a351c6664cbe4141675bd6": [{"org": "executablebooks", "kind": "comments", "count": 2}, {"org": "executablebooks", "kind": "issues", "count": 2}, {"org": "executablebooks", "kind": "prs", "count": 1}, {"org": "jupyterhub", "kind": "comments", "count": 113}, {"org": "jupyterhub", "kind": "issues", "count": 11}, {"org": "jupyterhub", "kind": "prs", "count": 22}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-8f13fbcef74b10e1acf2bad4a1116891"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "kind"}, "tooltip": {"type": "nominal", "field": "org"}, "x": {"type": "nominal", "field": "org"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-8f13fbcef74b10e1acf2bad4a1116891": [{"org": "executablebooks", "kind": "comments", "count": 4}, {"org": "executablebooks", "kind": "issues", "count": 2}, {"org": "executablebooks", "kind": "prs", "count": 2}, {"org": "jupyterhub", "kind": "comments", "count": 113}, {"org": "jupyterhub", "kind": "issues", "count": 11}, {"org": "jupyterhub", "kind": "prs", "count": 22}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -462,12 +517,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-8e21b028cefe4ac99b98d76ecb08b31c"></div>
+<div id="altair-viz-0575dbd443f741198fb621f2423d8b98"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-8e21b028cefe4ac99b98d76ecb08b31c") {
-      outputDiv = document.getElementById("altair-viz-8e21b028cefe4ac99b98d76ecb08b31c");
+    if (outputDiv.id !== "altair-viz-0575dbd443f741198fb621f2423d8b98") {
+      outputDiv = document.getElementById("altair-viz-0575dbd443f741198fb621f2423d8b98");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -509,7 +564,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "layer": [{"data": {"name": "data-f050808981d902d53b1a82130ac67252"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "repo"}, "tooltip": {"type": "nominal", "field": "repo"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}, {"data": {"name": "data-1dc1dee47b2d45ea030b6e72183c19f0"}, "mark": {"type": "line", "color": "black"}, "encoding": {"x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}], "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-f050808981d902d53b1a82130ac67252": [{"repo": "binderhub", "createdAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "binderhub", "createdAt": "2020-08-16T00:00:00", "count": 0}, {"repo": "binderhub", "createdAt": "2020-08-23T00:00:00", "count": 2}, {"repo": "binderhub", "createdAt": "2020-08-30T00:00:00", "count": 0}, {"repo": "binderhub", "createdAt": "2020-09-06T00:00:00", "count": 0}, {"repo": "binderhub", "createdAt": "2020-09-13T00:00:00", "count": 1}, {"repo": "configurable-http-proxy", "createdAt": "2020-08-30T00:00:00", "count": 1}, {"repo": "configurable-http-proxy", "createdAt": "2020-09-06T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-09-13T00:00:00", "count": 2}, {"repo": "jupyterhub", "createdAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "jupyterhub", "createdAt": "2020-08-16T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-08-23T00:00:00", "count": 9}, {"repo": "jupyterhub", "createdAt": "2020-08-30T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-09-06T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-09-13T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-09-20T00:00:00", "count": 1}, {"repo": "kubespawner", "createdAt": "2020-08-30T00:00:00", "count": 1}, {"repo": "kubespawner", "createdAt": "2020-09-06T00:00:00", "count": 7}, {"repo": "kubespawner", "createdAt": "2020-09-13T00:00:00", "count": 3}, {"repo": "kubespawner", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "kubespawner", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "mybinder.org-deploy", "createdAt": "2020-09-13T00:00:00", "count": 4}, {"repo": "mybinder.org-deploy", "createdAt": "2020-09-20T00:00:00", "count": 4}, {"repo": "mybinder.org-deploy", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "nbgitpuller", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "oauthenticator", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "repo2docker", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "repo2docker", "createdAt": "2020-09-13T00:00:00", "count": 0}, {"repo": "repo2docker", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "repo2docker", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "repo2docker-action", "createdAt": "2020-08-02T00:00:00", "count": 3}, {"repo": "sphinx-book-theme", "createdAt": "2020-09-27T00:00:00", "count": 2}, {"repo": "team-compass", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-08-16T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-08-23T00:00:00", "count": 2}, {"repo": "team-compass", "createdAt": "2020-08-30T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-09-13T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-09T00:00:00", "count": 0}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-16T00:00:00", "count": 0}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-23T00:00:00", "count": 6}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-30T00:00:00", "count": 4}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-06T00:00:00", "count": 21}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-13T00:00:00", "count": 9}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-20T00:00:00", "count": 5}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-27T00:00:00", "count": 14}], "data-1dc1dee47b2d45ea030b6e72183c19f0": [{"createdAt": "2020-08-02T00:00:00", "count": 6}, {"createdAt": "2020-08-09T00:00:00", "count": 3}, {"createdAt": "2020-08-16T00:00:00", "count": 0}, {"createdAt": "2020-08-23T00:00:00", "count": 19}, {"createdAt": "2020-08-30T00:00:00", "count": 6}, {"createdAt": "2020-09-06T00:00:00", "count": 32}, {"createdAt": "2020-09-13T00:00:00", "count": 19}, {"createdAt": "2020-09-20T00:00:00", "count": 10}, {"createdAt": "2020-09-27T00:00:00", "count": 20}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "layer": [{"data": {"name": "data-06fe0b03881d251d42423706127227cd"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "repo"}, "tooltip": {"type": "nominal", "field": "repo"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}, {"data": {"name": "data-41f84aa836033156dba8de943542d343"}, "mark": {"type": "line", "color": "black"}, "encoding": {"x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}], "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-06fe0b03881d251d42423706127227cd": [{"repo": "binderhub", "createdAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "binderhub", "createdAt": "2020-08-16T00:00:00", "count": 0}, {"repo": "binderhub", "createdAt": "2020-08-23T00:00:00", "count": 2}, {"repo": "binderhub", "createdAt": "2020-08-30T00:00:00", "count": 0}, {"repo": "binderhub", "createdAt": "2020-09-06T00:00:00", "count": 0}, {"repo": "binderhub", "createdAt": "2020-09-13T00:00:00", "count": 1}, {"repo": "binderhub", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "binderhub", "createdAt": "2020-09-27T00:00:00", "count": 0}, {"repo": "binderhub", "createdAt": "2020-10-04T00:00:00", "count": 1}, {"repo": "configurable-http-proxy", "createdAt": "2020-08-30T00:00:00", "count": 1}, {"repo": "configurable-http-proxy", "createdAt": "2020-09-06T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-09-13T00:00:00", "count": 2}, {"repo": "jupyter-book", "createdAt": "2020-10-04T00:00:00", "count": 2}, {"repo": "jupyterhub", "createdAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "jupyterhub", "createdAt": "2020-08-16T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-08-23T00:00:00", "count": 9}, {"repo": "jupyterhub", "createdAt": "2020-08-30T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-09-06T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-09-13T00:00:00", "count": 0}, {"repo": "jupyterhub", "createdAt": "2020-09-20T00:00:00", "count": 1}, {"repo": "kubespawner", "createdAt": "2020-08-30T00:00:00", "count": 1}, {"repo": "kubespawner", "createdAt": "2020-09-06T00:00:00", "count": 7}, {"repo": "kubespawner", "createdAt": "2020-09-13T00:00:00", "count": 3}, {"repo": "kubespawner", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "kubespawner", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "mybinder.org-deploy", "createdAt": "2020-09-13T00:00:00", "count": 4}, {"repo": "mybinder.org-deploy", "createdAt": "2020-09-20T00:00:00", "count": 4}, {"repo": "mybinder.org-deploy", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "nbgitpuller", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "oauthenticator", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "repo2docker", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "repo2docker", "createdAt": "2020-09-13T00:00:00", "count": 0}, {"repo": "repo2docker", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "repo2docker", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "repo2docker-action", "createdAt": "2020-08-02T00:00:00", "count": 3}, {"repo": "sphinx-book-theme", "createdAt": "2020-09-27T00:00:00", "count": 2}, {"repo": "team-compass", "createdAt": "2020-08-02T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-08-09T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-08-16T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-08-23T00:00:00", "count": 2}, {"repo": "team-compass", "createdAt": "2020-08-30T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "team-compass", "createdAt": "2020-09-13T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "team-compass", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "the-littlest-jupyterhub", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-23T00:00:00", "count": 6}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-30T00:00:00", "count": 4}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-06T00:00:00", "count": 21}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-13T00:00:00", "count": 9}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-20T00:00:00", "count": 5}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-27T00:00:00", "count": 14}], "data-41f84aa836033156dba8de943542d343": [{"createdAt": "2020-08-02T00:00:00", "count": 5}, {"createdAt": "2020-08-09T00:00:00", "count": 3}, {"createdAt": "2020-08-16T00:00:00", "count": 0}, {"createdAt": "2020-08-23T00:00:00", "count": 19}, {"createdAt": "2020-08-30T00:00:00", "count": 6}, {"createdAt": "2020-09-06T00:00:00", "count": 32}, {"createdAt": "2020-09-13T00:00:00", "count": 19}, {"createdAt": "2020-09-20T00:00:00", "count": 10}, {"createdAt": "2020-09-27T00:00:00", "count": 20}, {"createdAt": "2020-10-04T00:00:00", "count": 3}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -539,12 +594,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-b59f51f8d33941bbbb9f957f67c98302"></div>
+<div id="altair-viz-05718ee792f6433b9bd5143418635b33"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-b59f51f8d33941bbbb9f957f67c98302") {
-      outputDiv = document.getElementById("altair-viz-b59f51f8d33941bbbb9f957f67c98302");
+    if (outputDiv.id !== "altair-viz-05718ee792f6433b9bd5143418635b33") {
+      outputDiv = document.getElementById("altair-viz-05718ee792f6433b9bd5143418635b33");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -586,7 +641,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "layer": [{"data": {"name": "data-60b53fcab468caedf787e3273d014195"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "repo"}, "tooltip": {"type": "nominal", "field": "repo"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}, {"data": {"name": "data-fcac1a937ba7f2573383a98bf7ea20a9"}, "mark": {"type": "line", "color": "black"}, "encoding": {"x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}], "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-60b53fcab468caedf787e3273d014195": [{"repo": "binderhub", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "configurable-http-proxy", "createdAt": "2020-05-31T00:00:00", "count": 1}, {"repo": "configurable-http-proxy", "createdAt": "2020-06-07T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-06-14T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-07-05T00:00:00", "count": 1}, {"repo": "jupyter-book", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "jupyterhub", "createdAt": "2020-08-23T00:00:00", "count": 1}, {"repo": "kubespawner", "createdAt": "2020-09-06T00:00:00", "count": 2}, {"repo": "nbgitpuller", "createdAt": "2020-08-02T00:00:00", "count": 2}, {"repo": "repo2docker", "createdAt": "2019-06-23T00:00:00", "count": 1}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-30T00:00:00", "count": 2}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-06T00:00:00", "count": 7}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-13T00:00:00", "count": 1}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-27T00:00:00", "count": 3}], "data-fcac1a937ba7f2573383a98bf7ea20a9": [{"createdAt": "2019-06-23T00:00:00", "count": 1}, {"createdAt": "2020-05-31T00:00:00", "count": 1}, {"createdAt": "2020-06-07T00:00:00", "count": 0}, {"createdAt": "2020-06-14T00:00:00", "count": 0}, {"createdAt": "2020-06-21T00:00:00", "count": 0}, {"createdAt": "2020-06-28T00:00:00", "count": 0}, {"createdAt": "2020-07-05T00:00:00", "count": 1}, {"createdAt": "2020-08-02T00:00:00", "count": 2}, {"createdAt": "2020-08-23T00:00:00", "count": 1}, {"createdAt": "2020-08-30T00:00:00", "count": 2}, {"createdAt": "2020-09-06T00:00:00", "count": 10}, {"createdAt": "2020-09-13T00:00:00", "count": 1}, {"createdAt": "2020-09-20T00:00:00", "count": 0}, {"createdAt": "2020-09-27T00:00:00", "count": 4}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "layer": [{"data": {"name": "data-f131bc0636d8acc8c0a2559427d17185"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "repo"}, "tooltip": {"type": "nominal", "field": "repo"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}, {"data": {"name": "data-4216045b8f68b9a95b287a6f5ad88afb"}, "mark": {"type": "line", "color": "black"}, "encoding": {"x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600}], "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-f131bc0636d8acc8c0a2559427d17185": [{"repo": "binderhub", "createdAt": "2020-09-06T00:00:00", "count": 1}, {"repo": "configurable-http-proxy", "createdAt": "2020-05-31T00:00:00", "count": 1}, {"repo": "configurable-http-proxy", "createdAt": "2020-06-07T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-06-14T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-06-21T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-06-28T00:00:00", "count": 0}, {"repo": "configurable-http-proxy", "createdAt": "2020-07-05T00:00:00", "count": 1}, {"repo": "jupyter-book", "createdAt": "2020-09-27T00:00:00", "count": 1}, {"repo": "jupyter-book", "createdAt": "2020-10-04T00:00:00", "count": 1}, {"repo": "jupyterhub", "createdAt": "2020-08-23T00:00:00", "count": 1}, {"repo": "kubespawner", "createdAt": "2020-09-06T00:00:00", "count": 2}, {"repo": "nbgitpuller", "createdAt": "2020-08-02T00:00:00", "count": 2}, {"repo": "repo2docker", "createdAt": "2019-06-23T00:00:00", "count": 1}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-08-30T00:00:00", "count": 2}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-06T00:00:00", "count": 7}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-13T00:00:00", "count": 1}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-20T00:00:00", "count": 0}, {"repo": "zero-to-jupyterhub-k8s", "createdAt": "2020-09-27T00:00:00", "count": 3}], "data-4216045b8f68b9a95b287a6f5ad88afb": [{"createdAt": "2019-06-23T00:00:00", "count": 1}, {"createdAt": "2020-05-31T00:00:00", "count": 1}, {"createdAt": "2020-06-07T00:00:00", "count": 0}, {"createdAt": "2020-06-14T00:00:00", "count": 0}, {"createdAt": "2020-06-21T00:00:00", "count": 0}, {"createdAt": "2020-06-28T00:00:00", "count": 0}, {"createdAt": "2020-07-05T00:00:00", "count": 1}, {"createdAt": "2020-08-02T00:00:00", "count": 2}, {"createdAt": "2020-08-23T00:00:00", "count": 1}, {"createdAt": "2020-08-30T00:00:00", "count": 2}, {"createdAt": "2020-09-06T00:00:00", "count": 10}, {"createdAt": "2020-09-13T00:00:00", "count": 1}, {"createdAt": "2020-09-20T00:00:00", "count": 0}, {"createdAt": "2020-09-27T00:00:00", "count": 4}, {"createdAt": "2020-10-04T00:00:00", "count": 1}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="cell tag_hide_input docutils container">
@@ -605,12 +660,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-2be2da85374644c4bbd08016ce7cc558"></div>
+<div id="altair-viz-fd0858d07dcc458ca19f8da9dedffa30"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-2be2da85374644c4bbd08016ce7cc558") {
-      outputDiv = document.getElementById("altair-viz-2be2da85374644c4bbd08016ce7cc558");
+    if (outputDiv.id !== "altair-viz-fd0858d07dcc458ca19f8da9dedffa30") {
+      outputDiv = document.getElementById("altair-viz-fd0858d07dcc458ca19f8da9dedffa30");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -671,12 +726,12 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-51d9da9c41b646e38a2364e6ae4cedf5"></div>
+<div id="altair-viz-e9b4030126f84c51a86ef8655fa6ffa7"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-51d9da9c41b646e38a2364e6ae4cedf5") {
-      outputDiv = document.getElementById("altair-viz-51d9da9c41b646e38a2364e6ae4cedf5");
+    if (outputDiv.id !== "altair-viz-e9b4030126f84c51a86ef8655fa6ffa7") {
+      outputDiv = document.getElementById("altair-viz-e9b4030126f84c51a86ef8655fa6ffa7");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -718,7 +773,7 @@
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-16ac540d9e2fac8d21095b79e40bb517"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "kind"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-16ac540d9e2fac8d21095b79e40bb517": [{"createdAt": "2019-06-23T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2019-06-30T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-07-07T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-07-14T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-07-21T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-07-28T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-08-04T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-08-11T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-08-18T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-08-25T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-01T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-08T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-15T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-22T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-29T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-10-06T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-10-13T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-10-20T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-10-27T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-11-03T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-11-10T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-11-17T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-11-24T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-01T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-08T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-15T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-22T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-29T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-01-05T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-01-12T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-01-19T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-01-26T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-02-02T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-02-09T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-02-16T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-02-23T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-01T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-08T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-15T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-22T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-29T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-04-05T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-04-12T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-04-19T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-04-26T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-03T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-10T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-17T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-24T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-31T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-06-07T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-06-14T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-06-21T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-06-28T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-07-05T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-07-12T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-07-19T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-07-26T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-08-02T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-08-09T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-08-16T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-08-23T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-08-30T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-09-06T00:00:00", "kind": "prs", "count": 10.0}, {"createdAt": "2020-09-13T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-09-20T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-09-27T00:00:00", "kind": "prs", "count": 4.0}, {"createdAt": "2019-06-23T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-06-30T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-07-07T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-07-14T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-07-21T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-07-28T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-08-04T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-08-11T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-08-18T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-08-25T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-01T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-08T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-15T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-22T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-29T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-10-06T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-10-13T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-10-20T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-10-27T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-11-03T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-11-10T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-11-17T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-11-24T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-01T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-08T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-15T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-22T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-29T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-01-05T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-01-12T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-01-19T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-01-26T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-02-02T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-02-09T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-02-16T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-02-23T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-01T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-08T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-15T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-22T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-29T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-04-05T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-04-12T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-04-19T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-04-26T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-03T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-10T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-17T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-24T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-31T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-07T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-14T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-21T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-28T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-07-05T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-07-12T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-07-19T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-07-26T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-08-02T00:00:00", "kind": "comments", "count": 6.0}, {"createdAt": "2020-08-09T00:00:00", "kind": "comments", "count": 3.0}, {"createdAt": "2020-08-16T00:00:00", "kind": "comments", "count": 0.0}, {"createdAt": "2020-08-23T00:00:00", "kind": "comments", "count": 19.0}, {"createdAt": "2020-08-30T00:00:00", "kind": "comments", "count": 6.0}, {"createdAt": "2020-09-06T00:00:00", "kind": "comments", "count": 32.0}, {"createdAt": "2020-09-13T00:00:00", "kind": "comments", "count": 19.0}, {"createdAt": "2020-09-20T00:00:00", "kind": "comments", "count": 10.0}, {"createdAt": "2020-09-27T00:00:00", "kind": "comments", "count": 20.0}]}}, {"mode": "vega-lite"});
+  })({"config": {"axisLeft": {"labelFontSize": 15}, "axisBottom": {"labelFontSize": 15}}, "data": {"name": "data-7fd9bff843cd998ba73dec94b1bd9722"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "kind"}, "x": {"type": "temporal", "field": "createdAt"}, "y": {"type": "quantitative", "field": "count"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-7fd9bff843cd998ba73dec94b1bd9722": [{"createdAt": "2019-06-23T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2019-06-30T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-07-07T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-07-14T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-07-21T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-07-28T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-08-04T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-08-11T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-08-18T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-08-25T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-01T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-08T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-15T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-22T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-09-29T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-10-06T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-10-13T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-10-20T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-10-27T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-11-03T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-11-10T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-11-17T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-11-24T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-01T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-08T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-15T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-22T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2019-12-29T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-01-05T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-01-12T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-01-19T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-01-26T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-02-02T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-02-09T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-02-16T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-02-23T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-01T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-08T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-15T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-22T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-03-29T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-04-05T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-04-12T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-04-19T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-04-26T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-03T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-10T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-17T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-24T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-05-31T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-06-07T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-06-14T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-06-21T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-06-28T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-07-05T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-07-12T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-07-19T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-07-26T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-08-02T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-08-09T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-08-16T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-08-23T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-08-30T00:00:00", "kind": "prs", "count": 2.0}, {"createdAt": "2020-09-06T00:00:00", "kind": "prs", "count": 10.0}, {"createdAt": "2020-09-13T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2020-09-20T00:00:00", "kind": "prs", "count": 0.0}, {"createdAt": "2020-09-27T00:00:00", "kind": "prs", "count": 4.0}, {"createdAt": "2020-10-04T00:00:00", "kind": "prs", "count": 1.0}, {"createdAt": "2019-06-23T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-06-30T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-07-07T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-07-14T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-07-21T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-07-28T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-08-04T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-08-11T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-08-18T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-08-25T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-01T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-08T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-15T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-22T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-09-29T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-10-06T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-10-13T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-10-20T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-10-27T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-11-03T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-11-10T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-11-17T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-11-24T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-01T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-08T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-15T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-22T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2019-12-29T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-01-05T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-01-12T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-01-19T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-01-26T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-02-02T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-02-09T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-02-16T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-02-23T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-01T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-08T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-15T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-22T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-03-29T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-04-05T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-04-12T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-04-19T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-04-26T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-03T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-10T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-17T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-24T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-05-31T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-07T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-14T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-21T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-06-28T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-07-05T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-07-12T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-07-19T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-07-26T00:00:00", "kind": "comments", "count": null}, {"createdAt": "2020-08-02T00:00:00", "kind": "comments", "count": 5.0}, {"createdAt": "2020-08-09T00:00:00", "kind": "comments", "count": 3.0}, {"createdAt": "2020-08-16T00:00:00", "kind": "comments", "count": 0.0}, {"createdAt": "2020-08-23T00:00:00", "kind": "comments", "count": 19.0}, {"createdAt": "2020-08-30T00:00:00", "kind": "comments", "count": 6.0}, {"createdAt": "2020-09-06T00:00:00", "kind": "comments", "count": 32.0}, {"createdAt": "2020-09-13T00:00:00", "kind": "comments", "count": 19.0}, {"createdAt": "2020-09-20T00:00:00", "kind": "comments", "count": 10.0}, {"createdAt": "2020-09-27T00:00:00", "kind": "comments", "count": 20.0}, {"createdAt": "2020-10-04T00:00:00", "kind": "comments", "count": 3.0}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 </div>
@@ -771,7 +826,10 @@
       </div>
     </div>
 
-    <script src="_static/js/index.js"></script>
+    
+  <script src="_static/js/index.30270b6e4c972e43c488.js"></script>
+
+
     
   </body>
 </html>
