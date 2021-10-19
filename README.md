@@ -1,15 +1,16 @@
 # Jupyter Community Activity
 
-## NBViewer links
+This is a collection of Jupyter Notebooks that are **templatized** and meant to be run with [the papermill library](https://github.com/nteract/papermill).
+It is automatically run each day via a CRON job on GitHub actions, and generates a website with reports for various communities in the Jupyter ecosystem at https://predictablynoisy.com/jupyter-activity-snapshot/.
 
-**[Click here to view a list of reports](https://nbviewer.jupyter.org/github/choldgraf/jupyter-activity-snapshot/blob/master/reports/)**
+## Structure of this repository
 
-This repository is an experiment in collecting and visualizing recent activity
-in the Jupyter communities. It covers several different GitHub organizations, as well
-as the [Jupyter Community Forum](https://discourse.jupyter.org).
+- **`monthly_update/run_template.ipynb`** - a "controller" notebook that manages the execution and report generation of template notebooks. Start here.
+- **`monthly_update/templates`** - contains template notebooks that generate reports about activity over a few months of time (by default, 3 months).
+- **`monthly_updates/data/`** - GitHub activity data that is stored as a part of executing notebook data "fetch" operations. This data is then re-used by report notebooks.
+- **`monthly_updates/generated/`** - Outputs from running papermill on the template notebooks, this is bundled up in a Jupyter Book for display purposes.
 
-All analyses and visualizations are created with Jupyter Notebooks, and generated
-as "reports" using [the papermill library](https://github.com/nteract/papermill).
+Other folders are out of date, and left-over from prototyping different kinds of reports. Feel free to look at them for inspiration but don't expect them to work!
 
 ## Viewing the reports
 

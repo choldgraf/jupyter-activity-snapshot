@@ -1,0 +1,19 @@
+root: index
+entries:
+- file: executablebooks
+  title: Executablebooks
+- file: ipython
+  title: Ipython
+- file: jupyter
+  title: Jupyter
+- file: jupyter-widgets
+  title: Jupyter-widgets
+- file: jupyterhub
+  title: Jupyterhub
+- file: jupyterlab
+  title: Jupyterlab
+- file: nteract
+  title: Nteract
+- file: voila-dashboards
+  title: Voila-dashboards
+
