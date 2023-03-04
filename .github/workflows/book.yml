@@ -25,6 +25,7 @@ jobs:
       run: |
         pip install -r requirements.txt
 
+    # Generate the pages that the book will use
     - name: Generate book pages with latest data
       run: |
         papermill --cwd monthly_update monthly_update/run_template.ipynb -
