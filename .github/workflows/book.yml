@@ -44,6 +44,11 @@ jobs:
         jb build monthly_update/generated/people
         mv monthly_update/generated/people/_build/html monthly_update/generated/book/_build/html/people
 
+    # Password protect the people pages since this is more sensitive information
+    - uses: actions/setup-node@v3
+    - run: npm install -g staticrypt
+    - run: find monthly_update/generated/book/_build/html/people -type f -name "*.html" -exec staticrypt {} ${{ secrets.MY_PASSWORD }} -o {} \;
+
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.5.9

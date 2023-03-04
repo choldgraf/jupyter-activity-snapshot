@@ -1,6 +1,6 @@
+# Use in the analyses
 git+https://github.com/executablebooks/github-activity.git
 python-dateutil
-jupyter-book
 seaborn
 pandas
 numpy
@@ -8,4 +8,8 @@ altair
 markdown
 ipywidgets
 matplotlib
+
+# Infrastructure for running stuff
+jupyterlab
 papermill
+jupyter-book
