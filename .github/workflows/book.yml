@@ -4,9 +4,10 @@ name: deploy-book
 on:
   push:
     branches:
-    - master
+    - main
   schedule:
     - cron:  '0 1 * * *'
+  workflow_dispatch:
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
