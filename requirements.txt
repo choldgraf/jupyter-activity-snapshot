@@ -1,5 +1,4 @@
 # Use in the analyses
-git+https://github.com/executablebooks/github-activity.git
 python-dateutil
 seaborn
 pandas
@@ -8,6 +7,7 @@ altair
 markdown
 ipywidgets
 matplotlib
+pooch
 
 # Infrastructure for running stuff
 jupyterlab
